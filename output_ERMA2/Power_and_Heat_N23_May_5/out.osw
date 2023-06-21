@@ -1,0 +1,181 @@
+{
+   "completed_at" : "20230612T002704Z",
+   "completed_status" : "Success",
+   "current_step" : 2,
+   "file_paths" : 
+   [
+      "/Users/cbianchi/Documents/GitHub/example_workflow/output_ERMA2/Power_and_Heat_N23_May_5/generated_files",
+      "./files",
+      "./weather",
+      "../../files",
+      "../../weather",
+      "./"
+   ],
+   "hash" : "0FCDAE8A",
+   "measure_paths" : 
+   [
+      "/Users/cbianchi/Documents/GitHub/example_workflow/measures"
+   ],
+   "seed_file" : "Power_and_Heat_N23_May_5.osm",
+   "started_at" : "20230612T002701Z",
+   "steps" : 
+   [
+      {
+         "arguments" : 
+         {
+            "otg_date" : "May 5",
+            "otg_hr" : "2",
+            "otg_len" : "5",
+            "outage_type" : "Power and Heat"
+         },
+         "measure_dir_name" : "set_power_and_heat_off",
+         "result" : 
+         {
+            "completed_at" : "20230612T002702Z",
+            "measure_class_name" : "SetPowerAndHeatOff",
+            "measure_display_name" : "Set Power and Heat off",
+            "measure_name" : "set_power_and_heat_off",
+            "measure_taxonomy" : "Whole Building.Whole Building Schedules",
+            "measure_type" : "ModelMeasure",
+            "measure_uid" : "0ac8dac6-7ee2-4ae7-aee0-f5cabdfe3a82",
+            "measure_version_id" : "55370018-4ff7-47f0-8c33-81b9a97a5a4b",
+            "measure_version_modified" : "20230529T194808Z",
+            "measure_xml_checksum" : "25215CE1",
+            "started_at" : "20230612T002702Z",
+            "stderr" : "",
+            "stdout" : "",
+            "step_errors" : [],
+            "step_files" : [],
+            "step_final_condition" : "A power outage has been added, starting on May 5 at hour 2 and lasting for 5 hours.",
+            "step_info" : 
+            [
+               "Modified the schedule 'ZoneWarehouseOfficeStoryGroundPSZACmaxOASch'.",
+               "Modified the schedule 'Zone Warehouse Office  - Story Ground PSZ-AC Occ Sch'.",
+               "Modified the schedule 'ZoneWarehouseFineStoryGroundPSZACmaxOASch'.",
+               "Modified the schedule 'Building Hours of Operation NonResidential'.",
+               "Modified the schedule 'Warehouse Office Infil Schedule'.",
+               "Modified the schedule 'Warehouse Fine Infil Schedule'.",
+               "Modified the schedule 'OfficeSmall HTGSETP_SCH_NO_OPTIMUM'.",
+               "Modified the schedule 'Warehouse BLDG_LIGHT_OFFICE_SCH_2010'.",
+               "Modified the schedule 'Warehouse Bldg Equip'.",
+               "Modified the schedule 'Warehouse BLDG_LIGHT_STORAGE_SCH'.",
+               "Modified the schedule 'OfficeSmall BLDG_LIGHT_SCH_2010'.",
+               "Modified the schedule 'OfficeSmall Exterior_lighting_schedule_b'.",
+               "Modified the schedule 'OfficeSmall BLDG_EQUIP_SCH_2010'.",
+               "Modified the schedule 'Clothing Schedule'.",
+               "Modified the schedule 'OfficeSmall CLGSETP_SCH_NO_OPTIMUM'.",
+               "Modified the schedule 'Work Efficiency Schedule'.",
+               "Modified the schedule 'Warehouse Office_Plug_SCH'.",
+               "Modified the schedule 'Service Water Loop Temp - 140F'.",
+               "Modified the schedule 'Zone Warehouse Fine  - Story Ground PSZ-AC Occ Sch'.",
+               "Modified the schedule 'Warehouse Bulk Infil Schedule'.",
+               "Modified the schedule 'OfficeSmall ACTIVITY_SCH'.",
+               "Modified the schedule 'OfficeSmall Exterior_lighting_schedule_a'.",
+               "Modified the schedule 'OfficeSmall BLDG_OCC_SCH'.",
+               "Modified the schedule 'Air Velocity Schedule'.",
+               "Modified the availability schedule for 'Zone Warehouse Fine  - Story Ground PSZ-AC Unitary AC'.",
+               "Modified the availability schedule for 'Zone Warehouse Fine  - Story Ground PSZ-AC Unitary AC'.",
+               "Modified the availability schedule for 'Zone Warehouse Office  - Story Ground PSZ-AC Unitary AC'.",
+               "Modified the availability schedule for 'Zone Warehouse Office  - Story Ground PSZ-AC Unitary AC'.",
+               "Found electric baseboard in Zone Warehouse Bulk  - Story Ground.",
+               "Modified the availability schedule for 'Zone Warehouse Bulk  - Story Ground Electric Baseboard'.",
+               "Modified the schedule 'lighting_interior'.",
+               "Modified the schedule 'lighting_exterior'.",
+               "Modified the schedule 'lighting_garage'.",
+               "Modified the schedule 'lighting_exterior_holiday'.",
+               "Modified the schedule 'cooking_range'.",
+               "Modified the schedule 'dishwasher'.",
+               "Modified the schedule 'dishwasher_power'.",
+               "Modified the schedule 'clothes_washer'.",
+               "Modified the schedule 'clothes_washer_power'.",
+               "Modified the schedule 'clothes_dryer'.",
+               "Modified the schedule 'clothes_dryer_exhaust'.",
+               "Modified the schedule 'baths'.",
+               "Modified the schedule 'showers'.",
+               "Modified the schedule 'sinks'.",
+               "Modified the schedule 'ceiling_fan'.",
+               "Modified the schedule 'plug_loads'.",
+               "Modified the schedule 'plug_loads_vehicle'.",
+               "Modified the schedule 'plug_loads_well_pump'.",
+               "Modified the schedule 'fuel_loads_grill'.",
+               "Modified the schedule 'fuel_loads_lighting'.",
+               "Modified the schedule 'fuel_loads_fireplace'."
+            ],
+            "step_result" : "Success",
+            "step_values" : 
+            [
+               {
+                  "name" : "otg_date",
+                  "value" : "May 5"
+               },
+               {
+                  "name" : "otg_hr",
+                  "value" : 2
+               },
+               {
+                  "name" : "otg_len",
+                  "value" : 5
+               },
+               {
+                  "name" : "outage_type",
+                  "value" : "Power and Heat"
+               }
+            ],
+            "step_warnings" : []
+         }
+      },
+      {
+         "arguments" : 
+         {
+            "key_value" : "*",
+            "reporting_frequency" : "hourly",
+            "variable_name" : "Zone Mean Air Temperature"
+         },
+         "measure_dir_name" : "AddOutputVariable",
+         "result" : 
+         {
+            "completed_at" : "20230612T002702Z",
+            "measure_class_name" : "AddOutputVariable",
+            "measure_display_name" : "AddOutputVariable",
+            "measure_name" : "add_output_variable",
+            "measure_taxonomy" : "Reporting.QAQC",
+            "measure_type" : "ModelMeasure",
+            "measure_uid" : "2a058afb-e349-49ae-a4bf-2c56a42b4352",
+            "measure_version_id" : "b38027ec-5a67-46d2-959d-76fe29e9ff93",
+            "measure_version_modified" : "20180726T200322Z",
+            "measure_xml_checksum" : "0CA4D54C",
+            "started_at" : "20230612T002702Z",
+            "stderr" : "",
+            "stdout" : "",
+            "step_errors" : [],
+            "step_files" : [],
+            "step_final_condition" : "The model finished with 20 output variable objects.",
+            "step_info" : 
+            [
+               "Adding output variable for Zone Mean Air Temperature reporting hourly.",
+               "Key value for variable is *."
+            ],
+            "step_initial_condition" : "The model started with 19 output variable objects.",
+            "step_result" : "Success",
+            "step_values" : 
+            [
+               {
+                  "name" : "variable_name",
+                  "value" : "Zone Mean Air Temperature"
+               },
+               {
+                  "name" : "reporting_frequency",
+                  "value" : "hourly"
+               },
+               {
+                  "name" : "key_value",
+                  "value" : "*"
+               }
+            ],
+            "step_warnings" : []
+         }
+      }
+   ],
+   "updated_at" : "20230612T002704Z",
+   "weather_file" : "/Users/cbianchi/Documents/GitHub/example_workflow/Kodiak_Airport_703500_TMY3.epw"
+}

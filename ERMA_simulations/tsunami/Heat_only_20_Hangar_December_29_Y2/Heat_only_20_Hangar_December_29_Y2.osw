@@ -1,0 +1,59 @@
+{
+   "hash" : "26628984",
+   "measure_paths" : 
+   [
+      "/Users/cbianchi/Documents/GitHub/example_workflow/measures"
+   ],
+   "seed_file" : "Heat_only_20_Hangar_December_29_Y2.osm",
+   "steps" : 
+   [
+      {
+         "arguments" : 
+         {
+            "otg_date" : "January 1",
+            "otg_hr" : "0",
+            "otg_len" : "264",
+            "outage_type" : "Heat only"
+         },
+         "measure_dir_name" : "set_power_and_heat_off"
+      },
+      {
+         "arguments" : 
+         {
+            "key_value" : "*",
+            "reporting_frequency" : "hourly",
+            "variable_name" : "Zone Mean Air Temperature"
+         },
+         "measure_dir_name" : "AddOutputVariable"
+      },
+      {
+         "arguments" : 
+         {
+            "key_value" : "*",
+            "reporting_frequency" : "hourly",
+            "variable_name" : "Zone Operative Temperature"
+         },
+         "measure_dir_name" : "AddOutputVariable"
+      },
+      {
+         "arguments" : 
+         {
+            "key_value" : "*",
+            "reporting_frequency" : "hourly",
+            "variable_name" : "Zone Thermal Comfort Fanger Model PMV"
+         },
+         "measure_dir_name" : "AddOutputVariable"
+      },
+      {
+         "arguments" : 
+         {
+            "key_value" : "*",
+            "reporting_frequency" : "hourly",
+            "variable_name" : "Zone Thermal Comfort Fanger Model PPD"
+         },
+         "measure_dir_name" : "AddOutputVariable"
+      }
+   ],
+   "updated_at" : "20230621T181004Z",
+   "weather_file" : "/Users/cbianchi/Documents/GitHub/example_workflow/Kodiak_Airport_703500_TMY3.epw"
+}

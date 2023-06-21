@@ -1,0 +1,22 @@
+{
+   "completed_at" : "20230621T154059Z",
+   "completed_status" : "Fail",
+   "created_at" : "20230301T020554Z",
+   "current_step" : 0,
+   "eplusout_err" : "Program Version,EnergyPlus, Version 23.1.0-87ed9199d4, YMD=2023.06.21 09:40,\n   ** Severe  ** <root>[People][Office WholeBuilding - Md Office People] - Missing required property 'activity_level_schedule_name'.\n   **  Fatal  ** Errors occurred on processing input file. Preceding condition(s) cause termination.\n   ...Summary of Errors that led to program termination:\n   ..... Reference severe error count=1\n   ..... Last severe error=<root>[People][Office WholeBuilding - Md Office People] - Missing required property 'activity_level_schedule_name'.\n   ************* Warning:  Node connection errors not checked - most system input has not been read (see previous warning).\n   ************* Fatal error -- final processing.  Program exited before simulations began.  See previous error messages.\n   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.\n   ************* EnergyPlus Sizing Error Summary. During Sizing: 0 Warning; 0 Severe Errors.\n   ************* EnergyPlus Terminated--Fatal Error Detected. 0 Warning; 1 Severe Errors; Elapsed Time=00hr 00min  0.12sec\n",
+   "file_paths" : 
+   [
+      "/private/var/folders/cj/vhw1_9g1151dh76sjlgdyq19k7f3h5/T/osmodel-1687362036-70/resources/generated_files",
+      "./files",
+      "./weather",
+      "../../files",
+      "../../weather",
+      "./"
+   ],
+   "hash" : "3AE03726",
+   "seed_file" : "../in.osm",
+   "started_at" : "20230621T154057Z",
+   "steps" : [],
+   "updated_at" : "20230621T154059Z",
+   "weather_file" : "Kodiak_Airport_703500_TMY3.epw"
+}

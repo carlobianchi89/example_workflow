@@ -1,0 +1,7 @@
+{
+   "created_at" : "20230301T020554Z",
+   "seed_file" : "../in.osm",
+   "steps" : [],
+   "updated_at" : "20230621T154059Z",
+   "weather_file" : "Kodiak_Airport_703500_TMY3.epw"
+}

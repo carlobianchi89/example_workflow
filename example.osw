@@ -1,12 +1,6 @@
 {
-	"weather_file": "srrl_2013_amy.epw",
+	"weather_file": "/Users/cbianchi/Documents/GitHub/example_workflow/Kodiak_Airport_703500_TMY3.epw",
 	"seed_file": "seb.osm",
 	"steps": [
-		{
-			"measure_dir_name": "IncreaseRoofRValue",
-			"arguments": {
-				"r_value": 45
-			}
-		}
 	]
 }

@@ -1,0 +1,128 @@
+{
+   "completed_at" : "20230621T154628Z",
+   "completed_status" : "Fail",
+   "created_at" : "20230531T230652Z",
+   "current_step" : 2,
+   "file_paths" : 
+   [
+      "/private/var/folders/cj/vhw1_9g1151dh76sjlgdyq19k7f3h5/T/osmodel-1687362283-71/resources/generated_files",
+      "./files",
+      "./weather",
+      "../../files",
+      "../../weather",
+      "./"
+   ],
+   "hash" : "DB3DE05B",
+   "seed_file" : "../in.osm",
+   "started_at" : "20230621T154626Z",
+   "steps" : 
+   [
+      {
+         "arguments" : 
+         {
+            "reporting_frequency" : "hourly"
+         },
+         "description" : "This measure adds an meter at the requested reporting frequency.",
+         "measure_dir_name" : "AddMeter",
+         "modeler_description" : "The measure just passes in the string and does not validate that it is a proper meter name. It is up to the user to know this or to look at the .mdd file from a previous simulation run.",
+         "name" : "Add Meter",
+         "result" : 
+         {
+            "completed_at" : "20230621T154626Z",
+            "measure_class_name" : "AddMeter",
+            "measure_display_name" : "Add Meter",
+            "measure_name" : "add_meter",
+            "measure_taxonomy" : "Reporting.QAQC",
+            "measure_type" : "ModelMeasure",
+            "measure_uid" : "ad4015f2-6d1d-4bb2-84b1-db47bc67a5b2",
+            "measure_version_id" : "7277df8b-7dde-47b1-b612-ea07008988d1",
+            "measure_version_modified" : "20210406T220254Z",
+            "measure_xml_checksum" : "0CA4D54C",
+            "started_at" : "20230621T154626Z",
+            "stderr" : "",
+            "stdout" : "",
+            "step_errors" : [],
+            "step_files" : [],
+            "step_final_condition" : "The model finished with 3 meter objects.",
+            "step_info" : 
+            [
+               "Changing reporting frequency of existing meter to hourly."
+            ],
+            "step_initial_condition" : "The model started with 3 meter objects.",
+            "step_result" : "Success",
+            "step_values" : 
+            [
+               {
+                  "name" : "meter_name",
+                  "value" : "Electricity:Facility"
+               },
+               {
+                  "name" : "reporting_frequency",
+                  "value" : "hourly"
+               }
+            ],
+            "step_warnings" : 
+            [
+               "A meter named Electricity:Facility already exists. One will not be added to the model."
+            ]
+         }
+      },
+      {
+         "arguments" : 
+         {
+            "otg_date" : "December 31",
+            "otg_hr" : 1,
+            "otg_len" : 24
+         },
+         "description" : "This measures allows building power outages to be modeled. The user specifies the start time of the outage and the duration of the outage. During an outage, all energy consumption is set to 0, although occupants are still simulated in the home.",
+         "measure_dir_name" : "set_power_and_heat_off",
+         "modeler_description" : "This measure zeroes out the schedule for anything that consumes energy for the duration of the power outage.",
+         "name" : "Set Power and Heat off",
+         "result" : 
+         {
+            "completed_at" : "20230621T154628Z",
+            "measure_class_name" : "SetPowerAndHeatOff",
+            "measure_display_name" : "Set Power and Heat off",
+            "measure_name" : "set_power_and_heat_off",
+            "measure_taxonomy" : "Whole Building.Whole Building Schedules",
+            "measure_type" : "ModelMeasure",
+            "measure_uid" : "0ac8dac6-7ee2-4ae7-aee0-f5cabdfe3a82",
+            "measure_version_id" : "e9f4b652-e357-4f0a-8d64-b115990ae143",
+            "measure_version_modified" : "20230531T232859Z",
+            "measure_xml_checksum" : "25215CE1",
+            "started_at" : "20230621T154628Z",
+            "stderr" : "",
+            "stdout" : "",
+            "step_errors" : 
+            [
+               "Outage period ends after the run period ends."
+            ],
+            "step_files" : [],
+            "step_info" : [],
+            "step_result" : "Fail",
+            "step_values" : 
+            [
+               {
+                  "name" : "otg_date",
+                  "value" : "December 31"
+               },
+               {
+                  "name" : "otg_hr",
+                  "value" : 1
+               },
+               {
+                  "name" : "otg_len",
+                  "value" : 24
+               },
+               {
+                  "name" : "outage_type",
+                  "value" : "Power and Heat"
+               }
+            ],
+            "step_warnings" : []
+         }
+      }
+   ],
+   "updated_at" : "20230621T154628Z",
+   "weather_file" : "Kodiak_Airport_703500_TMY3.epw"
+}

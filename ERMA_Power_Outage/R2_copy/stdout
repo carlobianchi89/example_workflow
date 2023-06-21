@@ -1,0 +1,54 @@
+... relying on the Topolys gem
+... relying on the OSlg gem
+... relying on the OSut gem
+... relying on the TBD gem
+[10:48:46.313182 WARN] Not modeling core and perimeter zones for some portion of the model.
+[10:48:47.042957 WARN] Set Pipe:Indoor ambient temp schedules to 67.3F to avoid E+ issue 9650, remove once fixed.
+"/Applications/OpenStudioApplication-1.6.0-rc1/bin/openstudio" run -w "/private/var/folders/cj/vhw1_9g1151dh76sjlgdyq19k7f3h5/T/osmodel-1685638045-3/resources/run/001_create_typical_building_from_model 1/SR1/in.osw"
+[10:48:55.698385 WARN] [openstudio.standards.Model] For Office WholeBuilding - Sm Office People, Air Velocity Schedule is not setup as parametric schedule. It has 2 sources.
+[10:48:55.698442 WARN] [openstudio.standards.Model] For , Building Hours of Operation NonResidential is not setup as parametric schedule. It has 4 sources.
+[10:48:55.698463 WARN] [openstudio.standards.Model] For Schedule Rule 3, Clothing Schedule is not setup as parametric schedule. It has 3 sources.
+[10:48:55.698489 WARN] [openstudio.standards.Model] For Office WholeBuilding - Sm Office 2 - DOE Ref 1980-2004 Service Water Use Def 0.01gpm, Fraction Latent - 0.05 is not setup as parametric schedule. It has 2 sources.
+[10:48:55.698503 WARN] [openstudio.standards.Model] For Office WholeBuilding - Sm Office 2 - DOE Ref 1980-2004 Service Water Use Def 0.01gpm, Fraction Sensible - 0.2 is not setup as parametric schedule. It has 2 sources.
+[10:48:55.698527 WARN] [openstudio.standards.Model] For Office WholeBuilding - Sm Office 2 - DOE Ref 1980-2004 Service Water Use Def 0.01gpm, Mixed Water At Faucet Temp - 140F is not setup as parametric schedule. It has 2 sources.
+[10:48:55.698556 WARN] [openstudio.standards.Model] For Office Shared Service Water Loop Pipe 80.69696400732786ft, Office Shared Service Water Loop Piping Air Velocity - 0.67mph is not setup as parametric schedule. It has 1 sources.
+[10:48:55.698578 WARN] [openstudio.standards.Model] For Schedule Rule 1, OfficeLarge INFIL_SCH_PNNL is not setup as parametric schedule. It has 2 sources.
+[10:48:55.698600 WARN] [openstudio.standards.Model] For Schedule Rule 7, OfficeSmall BLDG_EQUIP_SCH_2013 is not setup as parametric schedule. It has 2 sources.
+[10:48:55.698611 WARN] [openstudio.standards.Model] For Schedule Rule 5, OfficeSmall BLDG_LIGHT_SCH_2013 is not setup as parametric schedule. It has 2 sources.
+[10:48:55.698629 WARN] [openstudio.standards.Model] For Schedule Rule 4, OfficeSmall BLDG_OCC_SCH is not setup as parametric schedule. It has 1 sources.
+[10:48:55.698659 WARN] [openstudio.standards.Model] For Schedule Rule 12, OfficeSmall CLGSETP_SCH_NO_OPTIMUM is not setup as parametric schedule. It has 1 sources.
+[10:48:55.698670 WARN] [openstudio.standards.Model] For NonDimming Exterior Lights Def, OfficeSmall Exterior_lighting_schedule_a is not setup as parametric schedule. It has 1 sources.
+[10:48:55.698690 WARN] [openstudio.standards.Model] For Occ Sensing Exterior Lights Def, OfficeSmall Exterior_lighting_schedule_b is not setup as parametric schedule. It has 1 sources.
+[10:48:55.698702 WARN] [openstudio.standards.Model] For Schedule Rule 11, OfficeSmall HTGSETP_SCH_NO_OPTIMUM is not setup as parametric schedule. It has 1 sources.
+[10:48:55.698729 WARN] [openstudio.standards.Model] For Schedule Rule 13, OfficeSmall HVACOperationSchd is not setup as parametric schedule. It has 1 sources.
+[10:48:55.698741 WARN] [openstudio.standards.Model] For Schedule Rule 15, OfficeSmall INFIL_Door_Opening_SCH_2013 is not setup as parametric schedule. It has 1 sources.
+[10:48:55.698763 WARN] [openstudio.standards.Model] For Schedule Rule 9, OfficeSmall INFIL_QUARTER_ON_SCH is not setup as parametric schedule. It has 2 sources.
+[10:48:55.698775 WARN] [openstudio.standards.Model] For Schedule Rule 14, OfficeSmall MinOA_MotorizedDamper_Sched is not setup as parametric schedule. It has 1 sources.
+[10:48:55.698797 WARN] [openstudio.standards.Model] For Service hot water setpoint manager, Service Water Loop Temp - 140F is not setup as parametric schedule. It has 4 sources.
+[10:48:55.698833 WARN] [openstudio.standards.ScheduleRuleset] Pre-interpolated processed hash for Small Office Bldg Equip Default has one or more out of order conflicts:
+[10:48:55.698892 WARN] [openstudio.standards.Model] For Office Attic Schedule Set, Small Office Infil Quarter On is not setup as parametric schedule. It has 5 sources.
+[10:48:55.698916 WARN] [openstudio.standards.Model] For 40gal NaturalGas Water Heater - 1kBtu/hr, Water Heater Ambient Temp Schedule - 70.0f is not setup as parametric schedule. It has 1 sources.
+[10:48:55.698928 WARN] [openstudio.standards.Model] For Office WholeBuilding - Sm Office People, Work Efficiency Schedule is not setup as parametric schedule. It has 2 sources.
+[10:48:55.699043 WARN] [openstudio.energyplus.SqlFile] Using EnergyPlusVersion version 23.1.0 which should have 'Year' field, but it's always zero
+[10:48:55.699074 WARN] [openstudio.model.Model] The run completed but had the following severe errors: WaterHeater:Mixed = 40GAL ELECTRICITY WATER HEATER - 40KBTU/HR 1.0 THERM EFF:  Ambient Temperature Zone not found =
+[10:48:55.699107 WARN] [openstudio.standards.AirLoopHVAC] Damper positions not modified for DOE Ref Pre-1980 or DOE Ref 1980-2004 vintages.
+[10:48:55.699387 WARN] [openstudio.standards.Model] Find object search criteria returned 2 results, the first one will be returned. Called from :/ruby/2.7.0/gems/openstudio-standards-0.3.1.rc1/lib/openstudio-standards/standards/Standards.CoilCoolingDXSingleSpeed.rb:194:in `coil_cooling_dx_single_speed_apply_efficiency_and_curves'. 
+ Search criteria: 
+ {"template"=>"DOE Ref 1980-2004", "cooling_type"=>"AirCooled", "subcategory"=>"Single Package"}, capacity = 32586.967806580884 
+  All results: 
+ {"template"=>"DOE Ref 1980-2004", "cooling_type"=>"AirCooled", "heating_type"=>"All Other", "subcategory"=>"Single Package", "minimum_capacity"=>0.0, "maximum_capacity"=>64999.0, "start_date"=>"1919-09-09T00:00:00+00:00", "end_date"=>"2999-09-09T00:00:00+00:00", "minimum_seasonal_energy_efficiency_ratio"=>9.7, "minimum_energy_efficiency_ratio"=>nil, "minimum_integrated_part_load_value"=>nil, "minimum_integrated_energy_efficiency_ratio"=>nil, "ptac_eer_coefficient_1"=>nil, "ptac_eer_coefficient_2"=>nil, "minimum_scop"=>nil, "cool_cap_ft"=>"DOE Ref DX Clg Coil Cool-Cap-fT", "cool_cap_fflow"=>"DOE Ref DX Clg Coil Cool-CAP-fFlow", "cool_eir_ft"=>"DOE Ref DX Clg Coil Cool-EIR-fT", "cool_eir_fflow"=>"DOE Ref DX Clg Coil Cool-EIR-fFlow", "cool_plf_fplr"=>"DOE Ref DX Clg Coil Cool-PLF-fPLR", "notes"=>"From 90.1-1989"}
+{"template"=>"DOE Ref 1980-2004", "cooling_type"=>"AirCooled", "heating_type"=>"Electric Resistance or None", "subcategory"=>"Single Package", "minimum_capacity"=>0.0, "maximum_capacity"=>64999.0, "start_date"=>"1919-09-09T00:00:00+00:00", "end_date"=>"2999-09-09T00:00:00+00:00", "minimum_seasonal_energy_efficiency_ratio"=>9.7, "minimum_energy_efficiency_ratio"=>nil, "minimum_integrated_part_load_value"=>nil, "minimum_integrated_energy_efficiency_ratio"=>nil, "ptac_eer_coefficient_1"=>nil, "ptac_eer_coefficient_2"=>nil, "minimum_scop"=>nil, "cool_cap_ft"=>"DOE Ref DX Clg Coil Cool-Cap-fT", "cool_cap_fflow"=>"DOE Ref DX Clg Coil Cool-CAP-fFlow", "cool_eir_ft"=>"DOE Ref DX Clg Coil Cool-EIR-fT", "cool_eir_fflow"=>"DOE Ref DX Clg Coil Cool-EIR-fFlow", "cool_plf_fplr"=>"DOE Ref DX Clg Coil Cool-PLF-fPLR", "notes"=>"From 90.1-1989"}
+[10:48:55.699422 WARN] [openstudio.standards.Model] Find object search criteria returned 2 results, the first one will be returned. Called from :/ruby/2.7.0/gems/openstudio-standards-0.3.1.rc1/lib/openstudio-standards/standards/Standards.CoilCoolingDXSingleSpeed.rb:63:in `coil_cooling_dx_single_speed_standard_minimum_cop'. 
+ Search criteria: 
+ {"template"=>"DOE Ref 1980-2004", "cooling_type"=>"AirCooled", "subcategory"=>"Single Package"}, capacity = 32586.967806580884 
+  All results: 
+ {"template"=>"DOE Ref 1980-2004", "cooling_type"=>"AirCooled", "heating_type"=>"All Other", "subcategory"=>"Single Package", "minimum_capacity"=>0.0, "maximum_capacity"=>64999.0, "start_date"=>"1919-09-09T00:00:00+00:00", "end_date"=>"2999-09-09T00:00:00+00:00", "minimum_seasonal_energy_efficiency_ratio"=>9.7, "minimum_energy_efficiency_ratio"=>nil, "minimum_integrated_part_load_value"=>nil, "minimum_integrated_energy_efficiency_ratio"=>nil, "ptac_eer_coefficient_1"=>nil, "ptac_eer_coefficient_2"=>nil, "minimum_scop"=>nil, "cool_cap_ft"=>"DOE Ref DX Clg Coil Cool-Cap-fT", "cool_cap_fflow"=>"DOE Ref DX Clg Coil Cool-CAP-fFlow", "cool_eir_ft"=>"DOE Ref DX Clg Coil Cool-EIR-fT", "cool_eir_fflow"=>"DOE Ref DX Clg Coil Cool-EIR-fFlow", "cool_plf_fplr"=>"DOE Ref DX Clg Coil Cool-PLF-fPLR", "notes"=>"From 90.1-1989"}
+{"template"=>"DOE Ref 1980-2004", "cooling_type"=>"AirCooled", "heating_type"=>"Electric Resistance or None", "subcategory"=>"Single Package", "minimum_capacity"=>0.0, "maximum_capacity"=>64999.0, "start_date"=>"1919-09-09T00:00:00+00:00", "end_date"=>"2999-09-09T00:00:00+00:00", "minimum_seasonal_energy_efficiency_ratio"=>9.7, "minimum_energy_efficiency_ratio"=>nil, "minimum_integrated_part_load_value"=>nil, "minimum_integrated_energy_efficiency_ratio"=>nil, "ptac_eer_coefficient_1"=>nil, "ptac_eer_coefficient_2"=>nil, "minimum_scop"=>nil, "cool_cap_ft"=>"DOE Ref DX Clg Coil Cool-Cap-fT", "cool_cap_fflow"=>"DOE Ref DX Clg Coil Cool-CAP-fFlow", "cool_eir_ft"=>"DOE Ref DX Clg Coil Cool-EIR-fT", "cool_eir_fflow"=>"DOE Ref DX Clg Coil Cool-EIR-fFlow", "cool_plf_fplr"=>"DOE Ref DX Clg Coil Cool-PLF-fPLR", "notes"=>"From 90.1-1989"}
+[utilities.geometry.join] <1> Union has inner loops
+[utilities.geometry.join] <1> Union has inner loops
+[utilities.geometry.join] <1> Union has inner loops
+[utilities.geometry.joinAll] <1> Could not join all connected components
+[utilities.geometry.join] <1> Union has inner loops
+[utilities.geometry.join] <1> Union has inner loops
+[utilities.geometry.join] <1> Union has inner loops
+[utilities.geometry.joinAll] <1> Could not join all connected components

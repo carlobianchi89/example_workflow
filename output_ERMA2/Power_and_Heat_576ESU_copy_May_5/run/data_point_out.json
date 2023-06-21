@@ -1,0 +1,15 @@
+{
+  "SetPowerAndHeatOff": {
+    "otg_date": "May 5",
+    "otg_hr": 2,
+    "otg_len": 5,
+    "outage_type": "Power and Heat",
+    "applicable": true
+  },
+  "AddOutputVariable": {
+    "variable_name": "Zone Mean Air Temperature",
+    "reporting_frequency": "hourly",
+    "key_value": "*",
+    "applicable": true
+  }
+}

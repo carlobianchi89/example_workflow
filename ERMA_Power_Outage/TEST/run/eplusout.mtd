@@ -1,0 +1,864 @@
+
+ Meters for 8,ZONE1 OFFICE WAREHOUSE OFFICE LIGHTS:Lights Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ZONE1 OFFICE ZN [J]
+  OnMeter=Electricity:SpaceType:WAREHOUSE OFFICE [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:ZONE1 OFFICE ZN [J]
+  OnMeter=InteriorLights:Electricity:SpaceType:WAREHOUSE OFFICE [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+  OnMeter=General:InteriorLights:Electricity:Zone:ZONE1 OFFICE ZN [J]
+  OnMeter=General:InteriorLights:Electricity:SpaceType:WAREHOUSE OFFICE [J]
+
+ Meters for 129,ZONE2 FINE STORAGE WAREHOUSE FINE LIGHTS:Lights Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ZONE2 FINE STORAGE ZN [J]
+  OnMeter=Electricity:SpaceType:WAREHOUSE FINE [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:ZONE2 FINE STORAGE ZN [J]
+  OnMeter=InteriorLights:Electricity:SpaceType:WAREHOUSE FINE [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+  OnMeter=General:InteriorLights:Electricity:Zone:ZONE2 FINE STORAGE ZN [J]
+  OnMeter=General:InteriorLights:Electricity:SpaceType:WAREHOUSE FINE [J]
+
+ Meters for 202,ZONE3 BULK STORAGE WAREHOUSE BULK LIGHTS:Lights Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ZONE3 BULK STORAGE ZN [J]
+  OnMeter=Electricity:SpaceType:WAREHOUSE BULK [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:ZONE3 BULK STORAGE ZN [J]
+  OnMeter=InteriorLights:Electricity:SpaceType:WAREHOUSE BULK [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+  OnMeter=General:InteriorLights:Electricity:Zone:ZONE3 BULK STORAGE ZN [J]
+  OnMeter=General:InteriorLights:Electricity:SpaceType:WAREHOUSE BULK [J]
+
+ Meters for 275,ZONE1 OFFICE WAREHOUSE OFFICE ELEC EQUIP:Electric Equipment Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ZONE1 OFFICE ZN [J]
+  OnMeter=Electricity:SpaceType:WAREHOUSE OFFICE [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:ZONE1 OFFICE ZN [J]
+  OnMeter=InteriorEquipment:Electricity:SpaceType:WAREHOUSE OFFICE [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+  OnMeter=General:InteriorEquipment:Electricity:Zone:ZONE1 OFFICE ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity:SpaceType:WAREHOUSE OFFICE [J]
+
+ Meters for 348,ZONE3 BULK STORAGE WAREHOUSE BULK ELEC EQUIP:Electric Equipment Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ZONE3 BULK STORAGE ZN [J]
+  OnMeter=Electricity:SpaceType:WAREHOUSE BULK [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:ZONE3 BULK STORAGE ZN [J]
+  OnMeter=InteriorEquipment:Electricity:SpaceType:WAREHOUSE BULK [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+  OnMeter=General:InteriorEquipment:Electricity:Zone:ZONE3 BULK STORAGE ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity:SpaceType:WAREHOUSE BULK [J]
+
+ Meters for 397,ZONE3 BULK STORAGE ZN:Zone Ventilation Fan Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ZONE3 BULK STORAGE ZN [J]
+  OnMeter=Fans:Electricity [J]
+  OnMeter=Fans:Electricity:Zone:ZONE3 BULK STORAGE ZN [J]
+  OnMeter=Ventilation (simple):Fans:Electricity [J]
+  OnMeter=Ventilation (simple):Fans:Electricity:Zone:ZONE3 BULK STORAGE ZN [J]
+
+ Meters for 446,ZONE1 OFFICE ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ZONE1 OFFICE ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:ZONE1 OFFICE ZN [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+  OnMeter=General:Heating:EnergyTransfer:Zone:ZONE1 OFFICE ZN [J]
+
+ Meters for 531,ZONE1 OFFICE ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ZONE1 OFFICE ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:ZONE1 OFFICE ZN [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+  OnMeter=General:Cooling:EnergyTransfer:Zone:ZONE1 OFFICE ZN [J]
+
+ Meters for 582,ZONE2 FINE STORAGE ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ZONE2 FINE STORAGE ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:ZONE2 FINE STORAGE ZN [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+  OnMeter=General:Heating:EnergyTransfer:Zone:ZONE2 FINE STORAGE ZN [J]
+
+ Meters for 619,ZONE2 FINE STORAGE ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ZONE2 FINE STORAGE ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:ZONE2 FINE STORAGE ZN [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+  OnMeter=General:Cooling:EnergyTransfer:Zone:ZONE2 FINE STORAGE ZN [J]
+
+ Meters for 646,ZONE3 BULK STORAGE ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ZONE3 BULK STORAGE ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:ZONE3 BULK STORAGE ZN [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+  OnMeter=General:Heating:EnergyTransfer:Zone:ZONE3 BULK STORAGE ZN [J]
+
+ Meters for 683,ZONE3 BULK STORAGE ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ZONE3 BULK STORAGE ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:ZONE3 BULK STORAGE ZN [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+  OnMeter=General:Cooling:EnergyTransfer:Zone:ZONE3 BULK STORAGE ZN [J]
+
+ Meters for 710,MAIN WUC 0.13GPM AT 140F:Water Use Connections Plant Hot Water Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:Plant [J]
+  OnMeter=WaterSystems:PlantLoopHeatingDemand [J]
+  OnMeter=General:WaterSystems:PlantLoopHeatingDemand [J]
+
+ Meters for 759,Whole Building:Facility Total Purchased Electricity Energy [J]
+  OnMeter=ElectricityPurchased:Facility [J]
+  OnMeter=ElectricityPurchased:Plant [J]
+  OnMeter=Cogeneration:ElectricityPurchased [J]
+  OnMeter=General:Cogeneration:ElectricityPurchased [J]
+
+ Meters for 808,Whole Building:Facility Total Surplus Electricity Energy [J]
+  OnMeter=ElectricitySurplusSold:Facility [J]
+  OnMeter=ElectricitySurplusSold:Plant [J]
+  OnMeter=Cogeneration:ElectricitySurplusSold [J]
+  OnMeter=General:Cogeneration:ElectricitySurplusSold [J]
+
+ Meters for 857,Whole Building:Facility Net Purchased Electricity Energy [J]
+  OnMeter=ElectricityNet:Facility [J]
+  OnMeter=ElectricityNet:Plant [J]
+  OnMeter=Cogeneration:ElectricityNet [J]
+  OnMeter=General:Cogeneration:ElectricityNet [J]
+
+ Meters for 906,ZONE3 BULK STORAGE ZN UNITHEATER FAN:Fan Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Fans:Electricity [J]
+  OnMeter=General:Fans:Electricity [J]
+
+ Meters for 931,ZONE1 OFFICE ZN HVAC_1 FAN:Fan Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Fans:Electricity [J]
+  OnMeter=General:Fans:Electricity [J]
+
+ Meters for 932,ZONE2 FINE STORAGE ZN HVAC_2 FAN:Fan Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Fans:Electricity [J]
+  OnMeter=General:Fans:Electricity [J]
+
+ Meters for 933,ZONE1 OFFICE ZN HVAC_1 NO HEAT:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 958,ZONE1 OFFICE ZN HVAC_1 NO HEAT:Heating Coil Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Heating:Electricity [J]
+  OnMeter=General:Heating:Electricity [J]
+
+ Meters for 983,ZONE2 FINE STORAGE ZN HVAC_2 NO HEAT:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 984,ZONE2 FINE STORAGE ZN HVAC_2 NO HEAT:Heating Coil Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Heating:Electricity [J]
+  OnMeter=General:Heating:Electricity [J]
+
+ Meters for 985,ZONE3 BULK STORAGE ZN UNITHEATER GAS HTG COIL 164KBTU/HR 0.8 THERMAL EFF:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 986,ZONE3 BULK STORAGE ZN UNITHEATER GAS HTG COIL 164KBTU/HR 0.8 THERMAL EFF:Heating Coil NaturalGas Energy [J]
+  OnMeter=NaturalGas:Facility [J]
+  OnMeter=NaturalGas:HVAC [J]
+  OnMeter=Heating:NaturalGas [J]
+  OnMeter=General:Heating:NaturalGas [J]
+
+ Meters for 1035,ZONE3 BULK STORAGE ZN UNITHEATER GAS HTG COIL 164KBTU/HR 0.8 THERMAL EFF:Heating Coil Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Heating:Electricity [J]
+  OnMeter=General:Heating:Electricity [J]
+
+ Meters for 1036,ZONE3 BULK STORAGE ZN UNITHEATER GAS HTG COIL 164KBTU/HR 0.8 THERMAL EFF:Heating Coil Ancillary NaturalGas Energy [J]
+  OnMeter=NaturalGas:Facility [J]
+  OnMeter=NaturalGas:HVAC [J]
+  OnMeter=Heating:NaturalGas [J]
+  OnMeter=General:Heating:NaturalGas [J]
+
+ Meters for 1037,ZONE1 OFFICE ZN HVAC_1 GAS HTG COIL 146KBTU/HR 0.8 THERMAL EFF:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 1038,ZONE1 OFFICE ZN HVAC_1 GAS HTG COIL 146KBTU/HR 0.8 THERMAL EFF:Heating Coil NaturalGas Energy [J]
+  OnMeter=NaturalGas:Facility [J]
+  OnMeter=NaturalGas:HVAC [J]
+  OnMeter=Heating:NaturalGas [J]
+  OnMeter=General:Heating:NaturalGas [J]
+
+ Meters for 1039,ZONE1 OFFICE ZN HVAC_1 GAS HTG COIL 146KBTU/HR 0.8 THERMAL EFF:Heating Coil Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Heating:Electricity [J]
+  OnMeter=General:Heating:Electricity [J]
+
+ Meters for 1040,ZONE1 OFFICE ZN HVAC_1 GAS HTG COIL 146KBTU/HR 0.8 THERMAL EFF:Heating Coil Ancillary NaturalGas Energy [J]
+  OnMeter=NaturalGas:Facility [J]
+  OnMeter=NaturalGas:HVAC [J]
+  OnMeter=Heating:NaturalGas [J]
+  OnMeter=General:Heating:NaturalGas [J]
+
+ Meters for 1041,ZONE2 FINE STORAGE ZN HVAC_2 GAS HTG COIL 463KBTU/HR 0.8 THERMAL EFF:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 1042,ZONE2 FINE STORAGE ZN HVAC_2 GAS HTG COIL 463KBTU/HR 0.8 THERMAL EFF:Heating Coil NaturalGas Energy [J]
+  OnMeter=NaturalGas:Facility [J]
+  OnMeter=NaturalGas:HVAC [J]
+  OnMeter=Heating:NaturalGas [J]
+  OnMeter=General:Heating:NaturalGas [J]
+
+ Meters for 1043,ZONE2 FINE STORAGE ZN HVAC_2 GAS HTG COIL 463KBTU/HR 0.8 THERMAL EFF:Heating Coil Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Heating:Electricity [J]
+  OnMeter=General:Heating:Electricity [J]
+
+ Meters for 1044,ZONE2 FINE STORAGE ZN HVAC_2 GAS HTG COIL 463KBTU/HR 0.8 THERMAL EFF:Heating Coil Ancillary NaturalGas Energy [J]
+  OnMeter=NaturalGas:Facility [J]
+  OnMeter=NaturalGas:HVAC [J]
+  OnMeter=Heating:NaturalGas [J]
+  OnMeter=General:Heating:NaturalGas [J]
+
+ Meters for 1045,ZONE1 OFFICE ZN HVAC_1 UNITARY AC:Unitary System Cooling Ancillary Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Cooling:Electricity [J]
+  OnMeter=General:Cooling:Electricity [J]
+
+ Meters for 1070,ZONE1 OFFICE ZN HVAC_1 UNITARY AC:Unitary System Heating Ancillary Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Heating:Electricity [J]
+  OnMeter=General:Heating:Electricity [J]
+
+ Meters for 1071,ZONE2 FINE STORAGE ZN HVAC_2 UNITARY AC:Unitary System Cooling Ancillary Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Cooling:Electricity [J]
+  OnMeter=General:Cooling:Electricity [J]
+
+ Meters for 1072,ZONE2 FINE STORAGE ZN HVAC_2 UNITARY AC:Unitary System Heating Ancillary Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Heating:Electricity [J]
+  OnMeter=General:Heating:Electricity [J]
+
+ Meters for 1073,ZONE1 OFFICE ZN HVAC_1 2SPD DX AC CLG COIL 73KBTU/HR 11.0EER:Cooling Coil Total Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=CoolingCoils:EnergyTransfer [J]
+
+ Meters for 1086,ZONE1 OFFICE ZN HVAC_1 2SPD DX AC CLG COIL 73KBTU/HR 11.0EER:Cooling Coil Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Cooling:Electricity [J]
+  OnMeter=General:Cooling:Electricity [J]
+
+ Meters for 1087,ZONE2 FINE STORAGE ZN HVAC_2 2SPD DX AC CLG COIL 246KBTU/HR 9.8EER:Cooling Coil Total Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=CoolingCoils:EnergyTransfer [J]
+
+ Meters for 1088,ZONE2 FINE STORAGE ZN HVAC_2 2SPD DX AC CLG COIL 246KBTU/HR 9.8EER:Cooling Coil Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Cooling:Electricity [J]
+  OnMeter=General:Cooling:Electricity [J]
+
+ Meters for 1089,NONDIMMING EXTERIOR LIGHTS DEF:Exterior Lights Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=ExteriorLights:Electricity [J]
+  OnMeter=General:ExteriorLights:Electricity [J]
+
+ Meters for 1114,OCC SENSING EXTERIOR LIGHTS DEF:Exterior Lights Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=ExteriorLights:Electricity [J]
+  OnMeter=General:ExteriorLights:Electricity [J]
+
+ Meters for 1115,MAIN SERVICE WATER USE 0.13GPM AT 140F:Water Use Equipment Total Volume [m3]
+  OnMeter=Water:Facility [m3]
+  OnMeter=Water:Plant [m3]
+  OnMeter=WaterSystems:Water [m3]
+  OnMeter=General:WaterSystems:Water [m3]
+
+ Meters for 1164,MAIN SERVICE WATER USE 0.13GPM AT 140F:Water Use Equipment Mains Water Volume [m3]
+  OnMeter=MainsWater:Facility [m3]
+  OnMeter=MainsWater:Plant [m3]
+  OnMeter=WaterSystems:MainsWater [m3]
+  OnMeter=General:WaterSystems:MainsWater [m3]
+
+ Meters for 1213,MAIN SERVICE WATER USE 0.13GPM AT 140F:Water Use Equipment Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Plant [J]
+  OnMeter=WaterSystems:EnergyTransfer [J]
+  OnMeter=General:WaterSystems:EnergyTransfer [J]
+
+ Meters for 1250,20GAL ELECTRICITY WATER HEATER - 21KBTU/HR 1.0 THERM EFF:Water Heater Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:Plant [J]
+  OnMeter=WaterSystems:PlantLoopHeatingDemand [J]
+  OnMeter=General:WaterSystems:PlantLoopHeatingDemand [J]
+
+ Meters for 1251,20GAL ELECTRICITY WATER HEATER - 21KBTU/HR 1.0 THERM EFF:Water Heater Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=WaterSystems:Electricity [J]
+  OnMeter=General:WaterSystems:Electricity [J]
+
+ Meters for 1288,20GAL ELECTRICITY WATER HEATER - 21KBTU/HR 1.0 THERM EFF:Water Heater Off Cycle Parasitic Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=WaterSystems:Electricity [J]
+  OnMeter=General:WaterSystems:Electricity [J]
+
+ Meters for 1289,20GAL ELECTRICITY WATER HEATER - 21KBTU/HR 1.0 THERM EFF:Water Heater On Cycle Parasitic Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=WaterSystems:Electricity [J]
+  OnMeter=General:WaterSystems:Electricity [J]
+
+ Meters for 1290,20GAL ELECTRICITY WATER HEATER - 21KBTU/HR 1.0 THERM EFF:Water Heater Water Volume [m3]
+  OnMeter=Water:Facility [m3]
+  OnMeter=Water:Plant [m3]
+  OnMeter=WaterSystems:Water [m3]
+  OnMeter=General:WaterSystems:Water [m3]
+
+ Meters for 1291,20GAL ELECTRICITY WATER HEATER - 21KBTU/HR 1.0 THERM EFF:Water Heater Mains Water Volume [m3]
+  OnMeter=MainsWater:Facility [m3]
+  OnMeter=MainsWater:Plant [m3]
+  OnMeter=WaterSystems:MainsWater [m3]
+  OnMeter=General:WaterSystems:MainsWater [m3]
+
+ Meters for 1292,MAIN SERVICE WATER LOOP WATER MAINS PRESSURE DRIVEN:Pump Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=Pumps:Electricity [J]
+  OnMeter=General:Pumps:Electricity [J]
+
+ Meters for 1317,Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 1342,Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 1343,Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ For Meter=Electricity:Facility [J], ResourceType=Electricity, contents are:
+  ZONE1 OFFICE WAREHOUSE OFFICE LIGHTS:Lights Electricity Energy
+  ZONE2 FINE STORAGE WAREHOUSE FINE LIGHTS:Lights Electricity Energy
+  ZONE3 BULK STORAGE WAREHOUSE BULK LIGHTS:Lights Electricity Energy
+  ZONE1 OFFICE WAREHOUSE OFFICE ELEC EQUIP:Electric Equipment Electricity Energy
+  ZONE3 BULK STORAGE WAREHOUSE BULK ELEC EQUIP:Electric Equipment Electricity Energy
+  ZONE3 BULK STORAGE ZN:Zone Ventilation Fan Electricity Energy
+  ZONE3 BULK STORAGE ZN UNITHEATER FAN:Fan Electricity Energy
+  ZONE1 OFFICE ZN HVAC_1 FAN:Fan Electricity Energy
+  ZONE2 FINE STORAGE ZN HVAC_2 FAN:Fan Electricity Energy
+  ZONE1 OFFICE ZN HVAC_1 NO HEAT:Heating Coil Electricity Energy
+  ZONE2 FINE STORAGE ZN HVAC_2 NO HEAT:Heating Coil Electricity Energy
+  ZONE3 BULK STORAGE ZN UNITHEATER GAS HTG COIL 164KBTU/HR 0.8 THERMAL EFF:Heating Coil Electricity Energy
+  ZONE1 OFFICE ZN HVAC_1 GAS HTG COIL 146KBTU/HR 0.8 THERMAL EFF:Heating Coil Electricity Energy
+  ZONE2 FINE STORAGE ZN HVAC_2 GAS HTG COIL 463KBTU/HR 0.8 THERMAL EFF:Heating Coil Electricity Energy
+  ZONE1 OFFICE ZN HVAC_1 UNITARY AC:Unitary System Cooling Ancillary Electricity Energy
+  ZONE1 OFFICE ZN HVAC_1 UNITARY AC:Unitary System Heating Ancillary Electricity Energy
+  ZONE2 FINE STORAGE ZN HVAC_2 UNITARY AC:Unitary System Cooling Ancillary Electricity Energy
+  ZONE2 FINE STORAGE ZN HVAC_2 UNITARY AC:Unitary System Heating Ancillary Electricity Energy
+  ZONE1 OFFICE ZN HVAC_1 2SPD DX AC CLG COIL 73KBTU/HR 11.0EER:Cooling Coil Electricity Energy
+  ZONE2 FINE STORAGE ZN HVAC_2 2SPD DX AC CLG COIL 246KBTU/HR 9.8EER:Cooling Coil Electricity Energy
+  NONDIMMING EXTERIOR LIGHTS DEF:Exterior Lights Electricity Energy
+  OCC SENSING EXTERIOR LIGHTS DEF:Exterior Lights Electricity Energy
+  20GAL ELECTRICITY WATER HEATER - 21KBTU/HR 1.0 THERM EFF:Water Heater Electricity Energy
+  20GAL ELECTRICITY WATER HEATER - 21KBTU/HR 1.0 THERM EFF:Water Heater Off Cycle Parasitic Electricity Energy
+  20GAL ELECTRICITY WATER HEATER - 21KBTU/HR 1.0 THERM EFF:Water Heater On Cycle Parasitic Electricity Energy
+  MAIN SERVICE WATER LOOP WATER MAINS PRESSURE DRIVEN:Pump Electricity Energy
+
+ For Meter=Electricity:Building [J], ResourceType=Electricity, Group=Building, contents are:
+  ZONE1 OFFICE WAREHOUSE OFFICE LIGHTS:Lights Electricity Energy
+  ZONE2 FINE STORAGE WAREHOUSE FINE LIGHTS:Lights Electricity Energy
+  ZONE3 BULK STORAGE WAREHOUSE BULK LIGHTS:Lights Electricity Energy
+  ZONE1 OFFICE WAREHOUSE OFFICE ELEC EQUIP:Electric Equipment Electricity Energy
+  ZONE3 BULK STORAGE WAREHOUSE BULK ELEC EQUIP:Electric Equipment Electricity Energy
+  ZONE3 BULK STORAGE ZN:Zone Ventilation Fan Electricity Energy
+
+ For Meter=Electricity:Zone:ZONE1 OFFICE ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  ZONE1 OFFICE WAREHOUSE OFFICE LIGHTS:Lights Electricity Energy
+  ZONE1 OFFICE WAREHOUSE OFFICE ELEC EQUIP:Electric Equipment Electricity Energy
+
+ For Meter=Electricity:SpaceType:WAREHOUSE OFFICE [J], ResourceType=Electricity, Group=SpaceType, contents are:
+  ZONE1 OFFICE WAREHOUSE OFFICE LIGHTS:Lights Electricity Energy
+  ZONE1 OFFICE WAREHOUSE OFFICE ELEC EQUIP:Electric Equipment Electricity Energy
+
+ For Meter=InteriorLights:Electricity [J], ResourceType=Electricity, EndUse=InteriorLights, contents are:
+  ZONE1 OFFICE WAREHOUSE OFFICE LIGHTS:Lights Electricity Energy
+  ZONE2 FINE STORAGE WAREHOUSE FINE LIGHTS:Lights Electricity Energy
+  ZONE3 BULK STORAGE WAREHOUSE BULK LIGHTS:Lights Electricity Energy
+
+ For Meter=InteriorLights:Electricity:Zone:ZONE1 OFFICE ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  ZONE1 OFFICE WAREHOUSE OFFICE LIGHTS:Lights Electricity Energy
+
+ For Meter=InteriorLights:Electricity:SpaceType:WAREHOUSE OFFICE [J], ResourceType=Electricity, EndUse=InteriorLights, Group=SpaceType, contents are:
+  ZONE1 OFFICE WAREHOUSE OFFICE LIGHTS:Lights Electricity Energy
+
+ For Meter=General:InteriorLights:Electricity [J], ResourceType=Electricity, EndUse=InteriorLights, contents are:
+  ZONE1 OFFICE WAREHOUSE OFFICE LIGHTS:Lights Electricity Energy
+  ZONE2 FINE STORAGE WAREHOUSE FINE LIGHTS:Lights Electricity Energy
+  ZONE3 BULK STORAGE WAREHOUSE BULK LIGHTS:Lights Electricity Energy
+
+ For Meter=General:InteriorLights:Electricity:Zone:ZONE1 OFFICE ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  ZONE1 OFFICE WAREHOUSE OFFICE LIGHTS:Lights Electricity Energy
+
+ For Meter=General:InteriorLights:Electricity:SpaceType:WAREHOUSE OFFICE [J], ResourceType=Electricity, EndUse=InteriorLights, Group=SpaceType, contents are:
+  ZONE1 OFFICE WAREHOUSE OFFICE LIGHTS:Lights Electricity Energy
+
+ For Meter=Electricity:Zone:ZONE2 FINE STORAGE ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  ZONE2 FINE STORAGE WAREHOUSE FINE LIGHTS:Lights Electricity Energy
+
+ For Meter=Electricity:SpaceType:WAREHOUSE FINE [J], ResourceType=Electricity, Group=SpaceType, contents are:
+  ZONE2 FINE STORAGE WAREHOUSE FINE LIGHTS:Lights Electricity Energy
+
+ For Meter=InteriorLights:Electricity:Zone:ZONE2 FINE STORAGE ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  ZONE2 FINE STORAGE WAREHOUSE FINE LIGHTS:Lights Electricity Energy
+
+ For Meter=InteriorLights:Electricity:SpaceType:WAREHOUSE FINE [J], ResourceType=Electricity, EndUse=InteriorLights, Group=SpaceType, contents are:
+  ZONE2 FINE STORAGE WAREHOUSE FINE LIGHTS:Lights Electricity Energy
+
+ For Meter=General:InteriorLights:Electricity:Zone:ZONE2 FINE STORAGE ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  ZONE2 FINE STORAGE WAREHOUSE FINE LIGHTS:Lights Electricity Energy
+
+ For Meter=General:InteriorLights:Electricity:SpaceType:WAREHOUSE FINE [J], ResourceType=Electricity, EndUse=InteriorLights, Group=SpaceType, contents are:
+  ZONE2 FINE STORAGE WAREHOUSE FINE LIGHTS:Lights Electricity Energy
+
+ For Meter=Electricity:Zone:ZONE3 BULK STORAGE ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  ZONE3 BULK STORAGE WAREHOUSE BULK LIGHTS:Lights Electricity Energy
+  ZONE3 BULK STORAGE WAREHOUSE BULK ELEC EQUIP:Electric Equipment Electricity Energy
+  ZONE3 BULK STORAGE ZN:Zone Ventilation Fan Electricity Energy
+
+ For Meter=Electricity:SpaceType:WAREHOUSE BULK [J], ResourceType=Electricity, Group=SpaceType, contents are:
+  ZONE3 BULK STORAGE WAREHOUSE BULK LIGHTS:Lights Electricity Energy
+  ZONE3 BULK STORAGE WAREHOUSE BULK ELEC EQUIP:Electric Equipment Electricity Energy
+
+ For Meter=InteriorLights:Electricity:Zone:ZONE3 BULK STORAGE ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  ZONE3 BULK STORAGE WAREHOUSE BULK LIGHTS:Lights Electricity Energy
+
+ For Meter=InteriorLights:Electricity:SpaceType:WAREHOUSE BULK [J], ResourceType=Electricity, EndUse=InteriorLights, Group=SpaceType, contents are:
+  ZONE3 BULK STORAGE WAREHOUSE BULK LIGHTS:Lights Electricity Energy
+
+ For Meter=General:InteriorLights:Electricity:Zone:ZONE3 BULK STORAGE ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  ZONE3 BULK STORAGE WAREHOUSE BULK LIGHTS:Lights Electricity Energy
+
+ For Meter=General:InteriorLights:Electricity:SpaceType:WAREHOUSE BULK [J], ResourceType=Electricity, EndUse=InteriorLights, Group=SpaceType, contents are:
+  ZONE3 BULK STORAGE WAREHOUSE BULK LIGHTS:Lights Electricity Energy
+
+ For Meter=InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  ZONE1 OFFICE WAREHOUSE OFFICE ELEC EQUIP:Electric Equipment Electricity Energy
+  ZONE3 BULK STORAGE WAREHOUSE BULK ELEC EQUIP:Electric Equipment Electricity Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:ZONE1 OFFICE ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  ZONE1 OFFICE WAREHOUSE OFFICE ELEC EQUIP:Electric Equipment Electricity Energy
+
+ For Meter=InteriorEquipment:Electricity:SpaceType:WAREHOUSE OFFICE [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=SpaceType, contents are:
+  ZONE1 OFFICE WAREHOUSE OFFICE ELEC EQUIP:Electric Equipment Electricity Energy
+
+ For Meter=General:InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  ZONE1 OFFICE WAREHOUSE OFFICE ELEC EQUIP:Electric Equipment Electricity Energy
+  ZONE3 BULK STORAGE WAREHOUSE BULK ELEC EQUIP:Electric Equipment Electricity Energy
+
+ For Meter=General:InteriorEquipment:Electricity:Zone:ZONE1 OFFICE ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  ZONE1 OFFICE WAREHOUSE OFFICE ELEC EQUIP:Electric Equipment Electricity Energy
+
+ For Meter=General:InteriorEquipment:Electricity:SpaceType:WAREHOUSE OFFICE [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=SpaceType, contents are:
+  ZONE1 OFFICE WAREHOUSE OFFICE ELEC EQUIP:Electric Equipment Electricity Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:ZONE3 BULK STORAGE ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  ZONE3 BULK STORAGE WAREHOUSE BULK ELEC EQUIP:Electric Equipment Electricity Energy
+
+ For Meter=InteriorEquipment:Electricity:SpaceType:WAREHOUSE BULK [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=SpaceType, contents are:
+  ZONE3 BULK STORAGE WAREHOUSE BULK ELEC EQUIP:Electric Equipment Electricity Energy
+
+ For Meter=General:InteriorEquipment:Electricity:Zone:ZONE3 BULK STORAGE ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  ZONE3 BULK STORAGE WAREHOUSE BULK ELEC EQUIP:Electric Equipment Electricity Energy
+
+ For Meter=General:InteriorEquipment:Electricity:SpaceType:WAREHOUSE BULK [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=SpaceType, contents are:
+  ZONE3 BULK STORAGE WAREHOUSE BULK ELEC EQUIP:Electric Equipment Electricity Energy
+
+ For Meter=Fans:Electricity [J], ResourceType=Electricity, EndUse=Fans, contents are:
+  ZONE3 BULK STORAGE ZN:Zone Ventilation Fan Electricity Energy
+  ZONE3 BULK STORAGE ZN UNITHEATER FAN:Fan Electricity Energy
+  ZONE1 OFFICE ZN HVAC_1 FAN:Fan Electricity Energy
+  ZONE2 FINE STORAGE ZN HVAC_2 FAN:Fan Electricity Energy
+
+ For Meter=Fans:Electricity:Zone:ZONE3 BULK STORAGE ZN [J], ResourceType=Electricity, EndUse=Fans, Group=Zone, contents are:
+  ZONE3 BULK STORAGE ZN:Zone Ventilation Fan Electricity Energy
+
+ For Meter=Ventilation (simple):Fans:Electricity [J], ResourceType=Electricity, EndUse=Fans, contents are:
+  ZONE3 BULK STORAGE ZN:Zone Ventilation Fan Electricity Energy
+
+ For Meter=Ventilation (simple):Fans:Electricity:Zone:ZONE3 BULK STORAGE ZN [J], ResourceType=Electricity, EndUse=Fans, Group=Zone, contents are:
+  ZONE3 BULK STORAGE ZN:Zone Ventilation Fan Electricity Energy
+
+ For Meter=EnergyTransfer:Facility [J], ResourceType=EnergyTransfer, contents are:
+  ZONE1 OFFICE ZN:Zone Air System Sensible Heating Energy
+  ZONE1 OFFICE ZN:Zone Air System Sensible Cooling Energy
+  ZONE2 FINE STORAGE ZN:Zone Air System Sensible Heating Energy
+  ZONE2 FINE STORAGE ZN:Zone Air System Sensible Cooling Energy
+  ZONE3 BULK STORAGE ZN:Zone Air System Sensible Heating Energy
+  ZONE3 BULK STORAGE ZN:Zone Air System Sensible Cooling Energy
+  ZONE1 OFFICE ZN HVAC_1 NO HEAT:Heating Coil Heating Energy
+  ZONE2 FINE STORAGE ZN HVAC_2 NO HEAT:Heating Coil Heating Energy
+  ZONE3 BULK STORAGE ZN UNITHEATER GAS HTG COIL 164KBTU/HR 0.8 THERMAL EFF:Heating Coil Heating Energy
+  ZONE1 OFFICE ZN HVAC_1 GAS HTG COIL 146KBTU/HR 0.8 THERMAL EFF:Heating Coil Heating Energy
+  ZONE2 FINE STORAGE ZN HVAC_2 GAS HTG COIL 463KBTU/HR 0.8 THERMAL EFF:Heating Coil Heating Energy
+  ZONE1 OFFICE ZN HVAC_1 2SPD DX AC CLG COIL 73KBTU/HR 11.0EER:Cooling Coil Total Cooling Energy
+  ZONE2 FINE STORAGE ZN HVAC_2 2SPD DX AC CLG COIL 246KBTU/HR 9.8EER:Cooling Coil Total Cooling Energy
+  MAIN SERVICE WATER USE 0.13GPM AT 140F:Water Use Equipment Heating Energy
+
+ For Meter=EnergyTransfer:Building [J], ResourceType=EnergyTransfer, Group=Building, contents are:
+  ZONE1 OFFICE ZN:Zone Air System Sensible Heating Energy
+  ZONE1 OFFICE ZN:Zone Air System Sensible Cooling Energy
+  ZONE2 FINE STORAGE ZN:Zone Air System Sensible Heating Energy
+  ZONE2 FINE STORAGE ZN:Zone Air System Sensible Cooling Energy
+  ZONE3 BULK STORAGE ZN:Zone Air System Sensible Heating Energy
+  ZONE3 BULK STORAGE ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:ZONE1 OFFICE ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  ZONE1 OFFICE ZN:Zone Air System Sensible Heating Energy
+  ZONE1 OFFICE ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Heating, contents are:
+  ZONE1 OFFICE ZN:Zone Air System Sensible Heating Energy
+  ZONE2 FINE STORAGE ZN:Zone Air System Sensible Heating Energy
+  ZONE3 BULK STORAGE ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:ZONE1 OFFICE ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ZONE1 OFFICE ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=General:Heating:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Heating, contents are:
+  ZONE1 OFFICE ZN:Zone Air System Sensible Heating Energy
+  ZONE2 FINE STORAGE ZN:Zone Air System Sensible Heating Energy
+  ZONE3 BULK STORAGE ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=General:Heating:EnergyTransfer:Zone:ZONE1 OFFICE ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ZONE1 OFFICE ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Cooling, contents are:
+  ZONE1 OFFICE ZN:Zone Air System Sensible Cooling Energy
+  ZONE2 FINE STORAGE ZN:Zone Air System Sensible Cooling Energy
+  ZONE3 BULK STORAGE ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:ZONE1 OFFICE ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ZONE1 OFFICE ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=General:Cooling:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Cooling, contents are:
+  ZONE1 OFFICE ZN:Zone Air System Sensible Cooling Energy
+  ZONE2 FINE STORAGE ZN:Zone Air System Sensible Cooling Energy
+  ZONE3 BULK STORAGE ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=General:Cooling:EnergyTransfer:Zone:ZONE1 OFFICE ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ZONE1 OFFICE ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:ZONE2 FINE STORAGE ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  ZONE2 FINE STORAGE ZN:Zone Air System Sensible Heating Energy
+  ZONE2 FINE STORAGE ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:ZONE2 FINE STORAGE ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ZONE2 FINE STORAGE ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=General:Heating:EnergyTransfer:Zone:ZONE2 FINE STORAGE ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ZONE2 FINE STORAGE ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:ZONE2 FINE STORAGE ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ZONE2 FINE STORAGE ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=General:Cooling:EnergyTransfer:Zone:ZONE2 FINE STORAGE ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ZONE2 FINE STORAGE ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:ZONE3 BULK STORAGE ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  ZONE3 BULK STORAGE ZN:Zone Air System Sensible Heating Energy
+  ZONE3 BULK STORAGE ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:ZONE3 BULK STORAGE ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ZONE3 BULK STORAGE ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=General:Heating:EnergyTransfer:Zone:ZONE3 BULK STORAGE ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ZONE3 BULK STORAGE ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:ZONE3 BULK STORAGE ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ZONE3 BULK STORAGE ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=General:Cooling:EnergyTransfer:Zone:ZONE3 BULK STORAGE ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ZONE3 BULK STORAGE ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=PlantLoopHeatingDemand:Facility [J], ResourceType=PlantLoopHeatingDemand, contents are:
+  MAIN WUC 0.13GPM AT 140F:Water Use Connections Plant Hot Water Energy
+  20GAL ELECTRICITY WATER HEATER - 21KBTU/HR 1.0 THERM EFF:Water Heater Source Side Heat Transfer Energy
+
+ For Meter=PlantLoopHeatingDemand:Plant [J], ResourceType=PlantLoopHeatingDemand, Group=Plant, contents are:
+  MAIN WUC 0.13GPM AT 140F:Water Use Connections Plant Hot Water Energy
+  20GAL ELECTRICITY WATER HEATER - 21KBTU/HR 1.0 THERM EFF:Water Heater Source Side Heat Transfer Energy
+
+ For Meter=WaterSystems:PlantLoopHeatingDemand [J], ResourceType=PlantLoopHeatingDemand, EndUse=WaterSystems, contents are:
+  MAIN WUC 0.13GPM AT 140F:Water Use Connections Plant Hot Water Energy
+  20GAL ELECTRICITY WATER HEATER - 21KBTU/HR 1.0 THERM EFF:Water Heater Source Side Heat Transfer Energy
+
+ For Meter=General:WaterSystems:PlantLoopHeatingDemand [J], ResourceType=PlantLoopHeatingDemand, EndUse=WaterSystems, contents are:
+  MAIN WUC 0.13GPM AT 140F:Water Use Connections Plant Hot Water Energy
+  20GAL ELECTRICITY WATER HEATER - 21KBTU/HR 1.0 THERM EFF:Water Heater Source Side Heat Transfer Energy
+
+ For Meter=ElectricityPurchased:Facility [J], ResourceType=ElectricityPurchased, contents are:
+  Whole Building:Facility Total Purchased Electricity Energy
+
+ For Meter=ElectricityPurchased:Plant [J], ResourceType=ElectricityPurchased, Group=Plant, contents are:
+  Whole Building:Facility Total Purchased Electricity Energy
+
+ For Meter=Cogeneration:ElectricityPurchased [J], ResourceType=ElectricityPurchased, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Purchased Electricity Energy
+
+ For Meter=General:Cogeneration:ElectricityPurchased [J], ResourceType=ElectricityPurchased, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Purchased Electricity Energy
+
+ For Meter=ElectricitySurplusSold:Facility [J], ResourceType=ElectricitySurplusSold, contents are:
+  Whole Building:Facility Total Surplus Electricity Energy
+
+ For Meter=ElectricitySurplusSold:Plant [J], ResourceType=ElectricitySurplusSold, Group=Plant, contents are:
+  Whole Building:Facility Total Surplus Electricity Energy
+
+ For Meter=Cogeneration:ElectricitySurplusSold [J], ResourceType=ElectricitySurplusSold, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Surplus Electricity Energy
+
+ For Meter=General:Cogeneration:ElectricitySurplusSold [J], ResourceType=ElectricitySurplusSold, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Surplus Electricity Energy
+
+ For Meter=ElectricityNet:Facility [J], ResourceType=ElectricityNet, contents are:
+  Whole Building:Facility Net Purchased Electricity Energy
+
+ For Meter=ElectricityNet:Plant [J], ResourceType=ElectricityNet, Group=Plant, contents are:
+  Whole Building:Facility Net Purchased Electricity Energy
+
+ For Meter=Cogeneration:ElectricityNet [J], ResourceType=ElectricityNet, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Net Purchased Electricity Energy
+
+ For Meter=General:Cogeneration:ElectricityNet [J], ResourceType=ElectricityNet, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Net Purchased Electricity Energy
+
+ For Meter=Electricity:HVAC [J], ResourceType=Electricity, Group=HVAC, contents are:
+  ZONE3 BULK STORAGE ZN UNITHEATER FAN:Fan Electricity Energy
+  ZONE1 OFFICE ZN HVAC_1 FAN:Fan Electricity Energy
+  ZONE2 FINE STORAGE ZN HVAC_2 FAN:Fan Electricity Energy
+  ZONE1 OFFICE ZN HVAC_1 NO HEAT:Heating Coil Electricity Energy
+  ZONE2 FINE STORAGE ZN HVAC_2 NO HEAT:Heating Coil Electricity Energy
+  ZONE3 BULK STORAGE ZN UNITHEATER GAS HTG COIL 164KBTU/HR 0.8 THERMAL EFF:Heating Coil Electricity Energy
+  ZONE1 OFFICE ZN HVAC_1 GAS HTG COIL 146KBTU/HR 0.8 THERMAL EFF:Heating Coil Electricity Energy
+  ZONE2 FINE STORAGE ZN HVAC_2 GAS HTG COIL 463KBTU/HR 0.8 THERMAL EFF:Heating Coil Electricity Energy
+  ZONE1 OFFICE ZN HVAC_1 UNITARY AC:Unitary System Cooling Ancillary Electricity Energy
+  ZONE1 OFFICE ZN HVAC_1 UNITARY AC:Unitary System Heating Ancillary Electricity Energy
+  ZONE2 FINE STORAGE ZN HVAC_2 UNITARY AC:Unitary System Cooling Ancillary Electricity Energy
+  ZONE2 FINE STORAGE ZN HVAC_2 UNITARY AC:Unitary System Heating Ancillary Electricity Energy
+  ZONE1 OFFICE ZN HVAC_1 2SPD DX AC CLG COIL 73KBTU/HR 11.0EER:Cooling Coil Electricity Energy
+  ZONE2 FINE STORAGE ZN HVAC_2 2SPD DX AC CLG COIL 246KBTU/HR 9.8EER:Cooling Coil Electricity Energy
+
+ For Meter=General:Fans:Electricity [J], ResourceType=Electricity, EndUse=Fans, contents are:
+  ZONE3 BULK STORAGE ZN UNITHEATER FAN:Fan Electricity Energy
+  ZONE1 OFFICE ZN HVAC_1 FAN:Fan Electricity Energy
+  ZONE2 FINE STORAGE ZN HVAC_2 FAN:Fan Electricity Energy
+
+ For Meter=EnergyTransfer:HVAC [J], ResourceType=EnergyTransfer, Group=HVAC, contents are:
+  ZONE1 OFFICE ZN HVAC_1 NO HEAT:Heating Coil Heating Energy
+  ZONE2 FINE STORAGE ZN HVAC_2 NO HEAT:Heating Coil Heating Energy
+  ZONE3 BULK STORAGE ZN UNITHEATER GAS HTG COIL 164KBTU/HR 0.8 THERMAL EFF:Heating Coil Heating Energy
+  ZONE1 OFFICE ZN HVAC_1 GAS HTG COIL 146KBTU/HR 0.8 THERMAL EFF:Heating Coil Heating Energy
+  ZONE2 FINE STORAGE ZN HVAC_2 GAS HTG COIL 463KBTU/HR 0.8 THERMAL EFF:Heating Coil Heating Energy
+  ZONE1 OFFICE ZN HVAC_1 2SPD DX AC CLG COIL 73KBTU/HR 11.0EER:Cooling Coil Total Cooling Energy
+  ZONE2 FINE STORAGE ZN HVAC_2 2SPD DX AC CLG COIL 246KBTU/HR 9.8EER:Cooling Coil Total Cooling Energy
+
+ For Meter=HeatingCoils:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=HeatingCoils, contents are:
+  ZONE1 OFFICE ZN HVAC_1 NO HEAT:Heating Coil Heating Energy
+  ZONE2 FINE STORAGE ZN HVAC_2 NO HEAT:Heating Coil Heating Energy
+  ZONE3 BULK STORAGE ZN UNITHEATER GAS HTG COIL 164KBTU/HR 0.8 THERMAL EFF:Heating Coil Heating Energy
+  ZONE1 OFFICE ZN HVAC_1 GAS HTG COIL 146KBTU/HR 0.8 THERMAL EFF:Heating Coil Heating Energy
+  ZONE2 FINE STORAGE ZN HVAC_2 GAS HTG COIL 463KBTU/HR 0.8 THERMAL EFF:Heating Coil Heating Energy
+
+ For Meter=Heating:Electricity [J], ResourceType=Electricity, EndUse=Heating, contents are:
+  ZONE1 OFFICE ZN HVAC_1 NO HEAT:Heating Coil Electricity Energy
+  ZONE2 FINE STORAGE ZN HVAC_2 NO HEAT:Heating Coil Electricity Energy
+  ZONE3 BULK STORAGE ZN UNITHEATER GAS HTG COIL 164KBTU/HR 0.8 THERMAL EFF:Heating Coil Electricity Energy
+  ZONE1 OFFICE ZN HVAC_1 GAS HTG COIL 146KBTU/HR 0.8 THERMAL EFF:Heating Coil Electricity Energy
+  ZONE2 FINE STORAGE ZN HVAC_2 GAS HTG COIL 463KBTU/HR 0.8 THERMAL EFF:Heating Coil Electricity Energy
+  ZONE1 OFFICE ZN HVAC_1 UNITARY AC:Unitary System Heating Ancillary Electricity Energy
+  ZONE2 FINE STORAGE ZN HVAC_2 UNITARY AC:Unitary System Heating Ancillary Electricity Energy
+
+ For Meter=General:Heating:Electricity [J], ResourceType=Electricity, EndUse=Heating, contents are:
+  ZONE1 OFFICE ZN HVAC_1 NO HEAT:Heating Coil Electricity Energy
+  ZONE2 FINE STORAGE ZN HVAC_2 NO HEAT:Heating Coil Electricity Energy
+  ZONE3 BULK STORAGE ZN UNITHEATER GAS HTG COIL 164KBTU/HR 0.8 THERMAL EFF:Heating Coil Electricity Energy
+  ZONE1 OFFICE ZN HVAC_1 GAS HTG COIL 146KBTU/HR 0.8 THERMAL EFF:Heating Coil Electricity Energy
+  ZONE2 FINE STORAGE ZN HVAC_2 GAS HTG COIL 463KBTU/HR 0.8 THERMAL EFF:Heating Coil Electricity Energy
+  ZONE1 OFFICE ZN HVAC_1 UNITARY AC:Unitary System Heating Ancillary Electricity Energy
+  ZONE2 FINE STORAGE ZN HVAC_2 UNITARY AC:Unitary System Heating Ancillary Electricity Energy
+
+ For Meter=NaturalGas:Facility [J], ResourceType=NaturalGas, contents are:
+  ZONE3 BULK STORAGE ZN UNITHEATER GAS HTG COIL 164KBTU/HR 0.8 THERMAL EFF:Heating Coil NaturalGas Energy
+  ZONE3 BULK STORAGE ZN UNITHEATER GAS HTG COIL 164KBTU/HR 0.8 THERMAL EFF:Heating Coil Ancillary NaturalGas Energy
+  ZONE1 OFFICE ZN HVAC_1 GAS HTG COIL 146KBTU/HR 0.8 THERMAL EFF:Heating Coil NaturalGas Energy
+  ZONE1 OFFICE ZN HVAC_1 GAS HTG COIL 146KBTU/HR 0.8 THERMAL EFF:Heating Coil Ancillary NaturalGas Energy
+  ZONE2 FINE STORAGE ZN HVAC_2 GAS HTG COIL 463KBTU/HR 0.8 THERMAL EFF:Heating Coil NaturalGas Energy
+  ZONE2 FINE STORAGE ZN HVAC_2 GAS HTG COIL 463KBTU/HR 0.8 THERMAL EFF:Heating Coil Ancillary NaturalGas Energy
+
+ For Meter=NaturalGas:HVAC [J], ResourceType=NaturalGas, Group=HVAC, contents are:
+  ZONE3 BULK STORAGE ZN UNITHEATER GAS HTG COIL 164KBTU/HR 0.8 THERMAL EFF:Heating Coil NaturalGas Energy
+  ZONE3 BULK STORAGE ZN UNITHEATER GAS HTG COIL 164KBTU/HR 0.8 THERMAL EFF:Heating Coil Ancillary NaturalGas Energy
+  ZONE1 OFFICE ZN HVAC_1 GAS HTG COIL 146KBTU/HR 0.8 THERMAL EFF:Heating Coil NaturalGas Energy
+  ZONE1 OFFICE ZN HVAC_1 GAS HTG COIL 146KBTU/HR 0.8 THERMAL EFF:Heating Coil Ancillary NaturalGas Energy
+  ZONE2 FINE STORAGE ZN HVAC_2 GAS HTG COIL 463KBTU/HR 0.8 THERMAL EFF:Heating Coil NaturalGas Energy
+  ZONE2 FINE STORAGE ZN HVAC_2 GAS HTG COIL 463KBTU/HR 0.8 THERMAL EFF:Heating Coil Ancillary NaturalGas Energy
+
+ For Meter=Heating:NaturalGas [J], ResourceType=NaturalGas, EndUse=Heating, contents are:
+  ZONE3 BULK STORAGE ZN UNITHEATER GAS HTG COIL 164KBTU/HR 0.8 THERMAL EFF:Heating Coil NaturalGas Energy
+  ZONE3 BULK STORAGE ZN UNITHEATER GAS HTG COIL 164KBTU/HR 0.8 THERMAL EFF:Heating Coil Ancillary NaturalGas Energy
+  ZONE1 OFFICE ZN HVAC_1 GAS HTG COIL 146KBTU/HR 0.8 THERMAL EFF:Heating Coil NaturalGas Energy
+  ZONE1 OFFICE ZN HVAC_1 GAS HTG COIL 146KBTU/HR 0.8 THERMAL EFF:Heating Coil Ancillary NaturalGas Energy
+  ZONE2 FINE STORAGE ZN HVAC_2 GAS HTG COIL 463KBTU/HR 0.8 THERMAL EFF:Heating Coil NaturalGas Energy
+  ZONE2 FINE STORAGE ZN HVAC_2 GAS HTG COIL 463KBTU/HR 0.8 THERMAL EFF:Heating Coil Ancillary NaturalGas Energy
+
+ For Meter=General:Heating:NaturalGas [J], ResourceType=NaturalGas, EndUse=Heating, contents are:
+  ZONE3 BULK STORAGE ZN UNITHEATER GAS HTG COIL 164KBTU/HR 0.8 THERMAL EFF:Heating Coil NaturalGas Energy
+  ZONE3 BULK STORAGE ZN UNITHEATER GAS HTG COIL 164KBTU/HR 0.8 THERMAL EFF:Heating Coil Ancillary NaturalGas Energy
+  ZONE1 OFFICE ZN HVAC_1 GAS HTG COIL 146KBTU/HR 0.8 THERMAL EFF:Heating Coil NaturalGas Energy
+  ZONE1 OFFICE ZN HVAC_1 GAS HTG COIL 146KBTU/HR 0.8 THERMAL EFF:Heating Coil Ancillary NaturalGas Energy
+  ZONE2 FINE STORAGE ZN HVAC_2 GAS HTG COIL 463KBTU/HR 0.8 THERMAL EFF:Heating Coil NaturalGas Energy
+  ZONE2 FINE STORAGE ZN HVAC_2 GAS HTG COIL 463KBTU/HR 0.8 THERMAL EFF:Heating Coil Ancillary NaturalGas Energy
+
+ For Meter=Cooling:Electricity [J], ResourceType=Electricity, EndUse=Cooling, contents are:
+  ZONE1 OFFICE ZN HVAC_1 UNITARY AC:Unitary System Cooling Ancillary Electricity Energy
+  ZONE2 FINE STORAGE ZN HVAC_2 UNITARY AC:Unitary System Cooling Ancillary Electricity Energy
+  ZONE1 OFFICE ZN HVAC_1 2SPD DX AC CLG COIL 73KBTU/HR 11.0EER:Cooling Coil Electricity Energy
+  ZONE2 FINE STORAGE ZN HVAC_2 2SPD DX AC CLG COIL 246KBTU/HR 9.8EER:Cooling Coil Electricity Energy
+
+ For Meter=General:Cooling:Electricity [J], ResourceType=Electricity, EndUse=Cooling, contents are:
+  ZONE1 OFFICE ZN HVAC_1 UNITARY AC:Unitary System Cooling Ancillary Electricity Energy
+  ZONE2 FINE STORAGE ZN HVAC_2 UNITARY AC:Unitary System Cooling Ancillary Electricity Energy
+  ZONE1 OFFICE ZN HVAC_1 2SPD DX AC CLG COIL 73KBTU/HR 11.0EER:Cooling Coil Electricity Energy
+  ZONE2 FINE STORAGE ZN HVAC_2 2SPD DX AC CLG COIL 246KBTU/HR 9.8EER:Cooling Coil Electricity Energy
+
+ For Meter=CoolingCoils:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=CoolingCoils, contents are:
+  ZONE1 OFFICE ZN HVAC_1 2SPD DX AC CLG COIL 73KBTU/HR 11.0EER:Cooling Coil Total Cooling Energy
+  ZONE2 FINE STORAGE ZN HVAC_2 2SPD DX AC CLG COIL 246KBTU/HR 9.8EER:Cooling Coil Total Cooling Energy
+
+ For Meter=ExteriorLights:Electricity [J], ResourceType=Electricity, EndUse=ExteriorLights, contents are:
+  NONDIMMING EXTERIOR LIGHTS DEF:Exterior Lights Electricity Energy
+  OCC SENSING EXTERIOR LIGHTS DEF:Exterior Lights Electricity Energy
+
+ For Meter=General:ExteriorLights:Electricity [J], ResourceType=Electricity, EndUse=ExteriorLights, contents are:
+  NONDIMMING EXTERIOR LIGHTS DEF:Exterior Lights Electricity Energy
+  OCC SENSING EXTERIOR LIGHTS DEF:Exterior Lights Electricity Energy
+
+ For Meter=Water:Facility [m3], ResourceType=Water, contents are:
+  MAIN SERVICE WATER USE 0.13GPM AT 140F:Water Use Equipment Total Volume
+  20GAL ELECTRICITY WATER HEATER - 21KBTU/HR 1.0 THERM EFF:Water Heater Water Volume
+
+ For Meter=Water:Plant [m3], ResourceType=Water, Group=Plant, contents are:
+  MAIN SERVICE WATER USE 0.13GPM AT 140F:Water Use Equipment Total Volume
+  20GAL ELECTRICITY WATER HEATER - 21KBTU/HR 1.0 THERM EFF:Water Heater Water Volume
+
+ For Meter=WaterSystems:Water [m3], ResourceType=Water, EndUse=WaterSystems, contents are:
+  MAIN SERVICE WATER USE 0.13GPM AT 140F:Water Use Equipment Total Volume
+  20GAL ELECTRICITY WATER HEATER - 21KBTU/HR 1.0 THERM EFF:Water Heater Water Volume
+
+ For Meter=General:WaterSystems:Water [m3], ResourceType=Water, EndUse=WaterSystems, contents are:
+  MAIN SERVICE WATER USE 0.13GPM AT 140F:Water Use Equipment Total Volume
+  20GAL ELECTRICITY WATER HEATER - 21KBTU/HR 1.0 THERM EFF:Water Heater Water Volume
+
+ For Meter=MainsWater:Facility [m3], ResourceType=MainsWater, contents are:
+  MAIN SERVICE WATER USE 0.13GPM AT 140F:Water Use Equipment Mains Water Volume
+  20GAL ELECTRICITY WATER HEATER - 21KBTU/HR 1.0 THERM EFF:Water Heater Mains Water Volume
+
+ For Meter=MainsWater:Plant [m3], ResourceType=MainsWater, Group=Plant, contents are:
+  MAIN SERVICE WATER USE 0.13GPM AT 140F:Water Use Equipment Mains Water Volume
+  20GAL ELECTRICITY WATER HEATER - 21KBTU/HR 1.0 THERM EFF:Water Heater Mains Water Volume
+
+ For Meter=WaterSystems:MainsWater [m3], ResourceType=MainsWater, EndUse=WaterSystems, contents are:
+  MAIN SERVICE WATER USE 0.13GPM AT 140F:Water Use Equipment Mains Water Volume
+  20GAL ELECTRICITY WATER HEATER - 21KBTU/HR 1.0 THERM EFF:Water Heater Mains Water Volume
+
+ For Meter=General:WaterSystems:MainsWater [m3], ResourceType=MainsWater, EndUse=WaterSystems, contents are:
+  MAIN SERVICE WATER USE 0.13GPM AT 140F:Water Use Equipment Mains Water Volume
+  20GAL ELECTRICITY WATER HEATER - 21KBTU/HR 1.0 THERM EFF:Water Heater Mains Water Volume
+
+ For Meter=EnergyTransfer:Plant [J], ResourceType=EnergyTransfer, Group=Plant, contents are:
+  MAIN SERVICE WATER USE 0.13GPM AT 140F:Water Use Equipment Heating Energy
+
+ For Meter=WaterSystems:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=WaterSystems, contents are:
+  MAIN SERVICE WATER USE 0.13GPM AT 140F:Water Use Equipment Heating Energy
+
+ For Meter=General:WaterSystems:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=WaterSystems, contents are:
+  MAIN SERVICE WATER USE 0.13GPM AT 140F:Water Use Equipment Heating Energy
+
+ For Meter=Electricity:Plant [J], ResourceType=Electricity, Group=Plant, contents are:
+  20GAL ELECTRICITY WATER HEATER - 21KBTU/HR 1.0 THERM EFF:Water Heater Electricity Energy
+  20GAL ELECTRICITY WATER HEATER - 21KBTU/HR 1.0 THERM EFF:Water Heater Off Cycle Parasitic Electricity Energy
+  20GAL ELECTRICITY WATER HEATER - 21KBTU/HR 1.0 THERM EFF:Water Heater On Cycle Parasitic Electricity Energy
+  MAIN SERVICE WATER LOOP WATER MAINS PRESSURE DRIVEN:Pump Electricity Energy
+
+ For Meter=WaterSystems:Electricity [J], ResourceType=Electricity, EndUse=WaterSystems, contents are:
+  20GAL ELECTRICITY WATER HEATER - 21KBTU/HR 1.0 THERM EFF:Water Heater Electricity Energy
+  20GAL ELECTRICITY WATER HEATER - 21KBTU/HR 1.0 THERM EFF:Water Heater Off Cycle Parasitic Electricity Energy
+  20GAL ELECTRICITY WATER HEATER - 21KBTU/HR 1.0 THERM EFF:Water Heater On Cycle Parasitic Electricity Energy
+
+ For Meter=General:WaterSystems:Electricity [J], ResourceType=Electricity, EndUse=WaterSystems, contents are:
+  20GAL ELECTRICITY WATER HEATER - 21KBTU/HR 1.0 THERM EFF:Water Heater Electricity Energy
+  20GAL ELECTRICITY WATER HEATER - 21KBTU/HR 1.0 THERM EFF:Water Heater Off Cycle Parasitic Electricity Energy
+  20GAL ELECTRICITY WATER HEATER - 21KBTU/HR 1.0 THERM EFF:Water Heater On Cycle Parasitic Electricity Energy
+
+ For Meter=Pumps:Electricity [J], ResourceType=Electricity, EndUse=Pumps, contents are:
+  MAIN SERVICE WATER LOOP WATER MAINS PRESSURE DRIVEN:Pump Electricity Energy
+
+ For Meter=General:Pumps:Electricity [J], ResourceType=Electricity, EndUse=Pumps, contents are:
+  MAIN SERVICE WATER LOOP WATER MAINS PRESSURE DRIVEN:Pump Electricity Energy
+
+ For Meter=Carbon Equivalent:Facility [kg], ResourceType=Carbon Equivalent, contents are:
+  Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass
+
+ For Meter=CarbonEquivalentEmissions:Carbon Equivalent [kg], ResourceType=Carbon Equivalent, EndUse=CarbonEquivalentEmissions, contents are:
+  Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass

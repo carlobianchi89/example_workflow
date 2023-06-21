@@ -5,7 +5,7 @@ cli = OpenStudio::getOpenStudioCLI
 
 # Setup a directory for all of the output
 output_dir_name = 'output'
-FileUtils.rm_rf(output_dir_name) 
+FileUtils.rm_rf(output_dir_name)
 FileUtils.mkdir(output_dir_name)
 
 # The osw defines the measures to run
@@ -17,7 +17,7 @@ osw = OpenStudio::WorkflowJSON.new('example.osw')
 osw.addMeasurePath("#{osw.absoluteRootDir}/measures")
 
 # This example uses the built in OpenStudio example model, because it is convenient,
-# but model files could be globbed from a directory and loaded. 
+# but model files could be globbed from a directory and loaded.
 model = OpenStudio::Model::exampleModel()
 #model = OpenStudio::Model::Model.load('files/seb.osm').get
 
@@ -36,5 +36,3 @@ model_names.each do |name|
   # Run the workflow using the OpenStudio cli
   `#{cli} run -w #{new_osw_path}`
 end
-
-

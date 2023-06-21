@@ -1,0 +1,151 @@
+[09:17:56.946270 WARN] A meter named Electricity:Facility already exists. One will not be added to the model.
+DST
+71
+309
+Small Office Bldg Equip
+----- Small Office Bldg Equip
+Small Office HtgSetp
+----- Small Office HtgSetp
+Office Shared Service Water Loop Piping Air Velocity - 0.67mph
+----- Office Shared Service Water Loop Piping Air Velocity - 0.67mph
+Small Office Activity
+Water Heater Ambient Temp Schedule - 70.0f
+----- Water Heater Ambient Temp Schedule - 70.0f
+Small Office Bldg Occ
+Zone Office WholeBuilding - Sm Office 2  - Story Ground PSZ-AC Occ Sch
+----- Zone Office WholeBuilding - Sm Office 2  - Story Ground PSZ-AC Occ Sch
+OfficeSmall Exterior_lighting_schedule_a
+----- OfficeSmall Exterior_lighting_schedule_a
+Fraction Latent - 0.05
+----- Fraction Latent - 0.05
+Mixed Water At Faucet Temp - 140F
+----- Mixed Water At Faucet Temp - 140F
+OfficeSmall Exterior_lighting_schedule_b
+----- OfficeSmall Exterior_lighting_schedule_b
+Building Hours of Operation NonResidential
+----- Building Hours of Operation NonResidential
+OfficeSmall BLDG_SWH_SCH
+----- OfficeSmall BLDG_SWH_SCH
+Small Office Infil Quarter On
+----- Small Office Infil Quarter On
+Service Water Loop Temp - 140F
+----- Service Water Loop Temp - 140F
+Work Efficiency Schedule
+----- Work Efficiency Schedule
+Small Office ClgSetp
+----- Small Office ClgSetp
+Office Bldg Light
+----- Office Bldg Light
+Air Velocity Schedule
+----- Air Velocity Schedule
+Fraction Sensible - 0.2
+----- Fraction Sensible - 0.2
+Clothing Schedule
+----- Clothing Schedule
+AAAAA
+152
+71
+3623
+3624
+***************
+6/0 0:00
+6/0 23:00
+***************
+Small Office Bldg Equip
+Small Office Bldg Equip
+***********
+Small Office Bldg Equip
+Small Office Bldg Equip
+***********
+OS:AirLoopHVAC:UnitarySystem,
+  {8fd59544-0dc2-434f-9a0a-fa30ba4a9744}, !- Handle
+  Zone Office WholeBuilding - Sm Office 2  - Story Ground PSZ-AC Unitary AC, !- Name
+  Load,                                   !- Control Type
+  {0dd227ae-7029-4446-b443-b6ff6cf45e34}, !- Controlling Zone or Thermostat Location
+  None,                                   !- Dehumidification Control Type
+  {2200450b-527b-4e5b-9911-63d7b634112a}, !- Availability Schedule Name
+  {7b706c33-2a5d-4877-884c-84c22d535fe3}, !- Air Inlet Node Name
+  {3d25a05b-dd82-4ead-9fc9-d85c680d66fa}, !- Air Outlet Node Name
+  {9eb0c485-332c-4bc9-ab66-cbb9cb0a6297}, !- Supply Fan Name
+  DrawThrough,                            !- Fan Placement
+  {0a4d2929-01b9-41d9-960b-4b57c21e86c2}, !- Supply Air Fan Operating Mode Schedule Name
+  {666b6764-4394-4b79-9dc5-1b7fed48ea72}, !- Heating Coil Name
+  1,                                      !- DX Heating Coil Sizing Ratio
+  {bf984a71-92e2-4fde-86ad-e437d7d8c89c}, !- Cooling Coil Name
+  No,                                     !- Use DOAS DX Cooling Coil
+  2,                                      !- DOAS DX Cooling Coil Leaving Minimum Air Temperature {C}
+  SensibleOnlyLoadControl,                !- Latent Load Control
+  {bf9b9a80-fc75-4ed1-9645-0054198a1236}, !- Supplemental Heating Coil Name
+  ,                                       !- Supply Air Flow Rate Method During Cooling Operation
+  Autosize,                               !- Supply Air Flow Rate During Cooling Operation {m3/s}
+  ,                                       !- Supply Air Flow Rate Per Floor Area During Cooling Operation {m3/s-m2}
+  ,                                       !- Fraction of Autosized Design Cooling Supply Air Flow Rate
+  ,                                       !- Design Supply Air Flow Rate Per Unit of Capacity During Cooling Operation {m3/s-W}
+  ,                                       !- Supply Air Flow Rate Method During Heating Operation
+  Autosize,                               !- Supply Air Flow Rate During Heating Operation {m3/s}
+  ,                                       !- Supply Air Flow Rate Per Floor Area during Heating Operation {m3/s-m2}
+  ,                                       !- Fraction of Autosized Design Heating Supply Air Flow Rate
+  ,                                       !- Design Supply Air Flow Rate Per Unit of Capacity During Heating Operation {m3/s-W}
+  ,                                       !- Supply Air Flow Rate Method When No Cooling or Heating is Required
+  Autosize,                               !- Supply Air Flow Rate When No Cooling or Heating is Required {m3/s}
+  ,                                       !- Supply Air Flow Rate Per Floor Area When No Cooling or Heating is Required {m3/s-m2}
+  ,                                       !- Fraction of Autosized Design Cooling Supply Air Flow Rate When No Cooling or Heating is Required
+  ,                                       !- Fraction of Autosized Design Heating Supply Air Flow Rate When No Cooling or Heating is Required
+  ,                                       !- Design Supply Air Flow Rate Per Unit of Capacity During Cooling Operation When No Cooling or Heating is Required {m3/s-W}
+  ,                                       !- Design Supply Air Flow Rate Per Unit of Capacity During Heating Operation When No Cooling or Heating is Required {m3/s-W}
+  80,                                     !- Maximum Supply Air Temperature {C}
+  21,                                     !- Maximum Outdoor Dry-Bulb Temperature for Supplemental Heater Operation {C}
+  ,                                       !- Outdoor Dry-Bulb Temperature Sensor Node Name
+  2.5,                                    !- Maximum Cycling Rate {cycles/hr}
+  60,                                     !- Heat Pump Time Constant {s}
+  0.01,                                   !- Fraction of On-Cycle Power Use
+  60,                                     !- Heat Pump Fan Delay Time {s}
+  0,                                      !- Ancilliary On-Cycle Electric Power {W}
+  0;                                      !- Ancilliary Off-Cycle Electric Power {W}
+
+OS:AirLoopHVAC:UnitarySystem,
+  {8fd59544-0dc2-434f-9a0a-fa30ba4a9744}, !- Handle
+  Zone Office WholeBuilding - Sm Office 2  - Story Ground PSZ-AC Unitary AC, !- Name
+  Load,                                   !- Control Type
+  {0dd227ae-7029-4446-b443-b6ff6cf45e34}, !- Controlling Zone or Thermostat Location
+  None,                                   !- Dehumidification Control Type
+  {97276834-e3af-4d51-af76-43f986d1817a}, !- Availability Schedule Name
+  {7b706c33-2a5d-4877-884c-84c22d535fe3}, !- Air Inlet Node Name
+  {3d25a05b-dd82-4ead-9fc9-d85c680d66fa}, !- Air Outlet Node Name
+  {9eb0c485-332c-4bc9-ab66-cbb9cb0a6297}, !- Supply Fan Name
+  DrawThrough,                            !- Fan Placement
+  {0a4d2929-01b9-41d9-960b-4b57c21e86c2}, !- Supply Air Fan Operating Mode Schedule Name
+  {666b6764-4394-4b79-9dc5-1b7fed48ea72}, !- Heating Coil Name
+  1,                                      !- DX Heating Coil Sizing Ratio
+  {bf984a71-92e2-4fde-86ad-e437d7d8c89c}, !- Cooling Coil Name
+  No,                                     !- Use DOAS DX Cooling Coil
+  2,                                      !- DOAS DX Cooling Coil Leaving Minimum Air Temperature {C}
+  SensibleOnlyLoadControl,                !- Latent Load Control
+  {bf9b9a80-fc75-4ed1-9645-0054198a1236}, !- Supplemental Heating Coil Name
+  ,                                       !- Supply Air Flow Rate Method During Cooling Operation
+  Autosize,                               !- Supply Air Flow Rate During Cooling Operation {m3/s}
+  ,                                       !- Supply Air Flow Rate Per Floor Area During Cooling Operation {m3/s-m2}
+  ,                                       !- Fraction of Autosized Design Cooling Supply Air Flow Rate
+  ,                                       !- Design Supply Air Flow Rate Per Unit of Capacity During Cooling Operation {m3/s-W}
+  ,                                       !- Supply Air Flow Rate Method During Heating Operation
+  Autosize,                               !- Supply Air Flow Rate During Heating Operation {m3/s}
+  ,                                       !- Supply Air Flow Rate Per Floor Area during Heating Operation {m3/s-m2}
+  ,                                       !- Fraction of Autosized Design Heating Supply Air Flow Rate
+  ,                                       !- Design Supply Air Flow Rate Per Unit of Capacity During Heating Operation {m3/s-W}
+  ,                                       !- Supply Air Flow Rate Method When No Cooling or Heating is Required
+  Autosize,                               !- Supply Air Flow Rate When No Cooling or Heating is Required {m3/s}
+  ,                                       !- Supply Air Flow Rate Per Floor Area When No Cooling or Heating is Required {m3/s-m2}
+  ,                                       !- Fraction of Autosized Design Cooling Supply Air Flow Rate When No Cooling or Heating is Required
+  ,                                       !- Fraction of Autosized Design Heating Supply Air Flow Rate When No Cooling or Heating is Required
+  ,                                       !- Design Supply Air Flow Rate Per Unit of Capacity During Cooling Operation When No Cooling or Heating is Required {m3/s-W}
+  ,                                       !- Design Supply Air Flow Rate Per Unit of Capacity During Heating Operation When No Cooling or Heating is Required {m3/s-W}
+  80,                                     !- Maximum Supply Air Temperature {C}
+  21,                                     !- Maximum Outdoor Dry-Bulb Temperature for Supplemental Heater Operation {C}
+  ,                                       !- Outdoor Dry-Bulb Temperature Sensor Node Name
+  2.5,                                    !- Maximum Cycling Rate {cycles/hr}
+  60,                                     !- Heat Pump Time Constant {s}
+  0.01,                                   !- Fraction of On-Cycle Power Use
+  60,                                     !- Heat Pump Fan Delay Time {s}
+  0,                                      !- Ancilliary On-Cycle Electric Power {W}
+  0;                                      !- Ancilliary Off-Cycle Electric Power {W}
+

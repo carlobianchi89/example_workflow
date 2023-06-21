@@ -1,0 +1,7 @@
+{
+   "created_at" : "20230426T223549Z",
+   "seed_file" : "../Test.osm",
+   "steps" : [],
+   "updated_at" : "20230426T223603Z",
+   "weather_file" : "USA_AK_Kodiak.703500_2020.epw"
+}

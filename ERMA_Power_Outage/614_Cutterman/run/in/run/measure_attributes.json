@@ -1,0 +1,7 @@
+{
+  "AddMeter": {
+    "meter_name": "Electricity:Facility",
+    "reporting_frequency": "monthly",
+    "applicable": true
+  }
+}

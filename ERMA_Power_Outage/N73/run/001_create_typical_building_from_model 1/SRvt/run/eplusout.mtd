@@ -1,0 +1,1222 @@
+
+ Meters for 7,NONDIMMING EXTERIOR LIGHTS DEF:Exterior Lights Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=ExteriorLights:Electricity [J]
+  OnMeter=General:ExteriorLights:Electricity [J]
+
+ Meters for 44,OCC SENSING EXTERIOR LIGHTS DEF:Exterior Lights Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=ExteriorLights:Electricity [J]
+  OnMeter=General:ExteriorLights:Electricity [J]
+
+ Meters for 45,OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND [J]
+  OnMeter=Electricity:SpaceType:OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND [J]
+  OnMeter=InteriorLights:Electricity:SpaceType:OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+  OnMeter=General:InteriorLights:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND [J]
+  OnMeter=General:InteriorLights:Electricity:SpaceType:OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 [J]
+
+ Meters for 154,OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND [J]
+  OnMeter=Electricity:SpaceType:OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND [J]
+  OnMeter=InteriorLights:Electricity:SpaceType:OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+  OnMeter=General:InteriorLights:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND [J]
+  OnMeter=General:InteriorLights:Electricity:SpaceType:OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 [J]
+
+ Meters for 191,OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND [J]
+  OnMeter=Electricity:SpaceType:OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND [J]
+  OnMeter=InteriorLights:Electricity:SpaceType:OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+  OnMeter=General:InteriorLights:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND [J]
+  OnMeter=General:InteriorLights:Electricity:SpaceType:OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 [J]
+
+ Meters for 228,OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND [J]
+  OnMeter=Electricity:SpaceType:OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND [J]
+  OnMeter=InteriorLights:Electricity:SpaceType:OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+  OnMeter=General:InteriorLights:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND [J]
+  OnMeter=General:InteriorLights:Electricity:SpaceType:OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 [J]
+
+ Meters for 265,OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND [J]
+  OnMeter=Electricity:SpaceType:OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND [J]
+  OnMeter=InteriorLights:Electricity:SpaceType:OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+  OnMeter=General:InteriorLights:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND [J]
+  OnMeter=General:InteriorLights:Electricity:SpaceType:OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 [J]
+
+ Meters for 302,OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND [J]
+  OnMeter=Electricity:SpaceType:OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND [J]
+  OnMeter=InteriorLights:Electricity:SpaceType:OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+  OnMeter=General:InteriorLights:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND [J]
+  OnMeter=General:InteriorLights:Electricity:SpaceType:OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 [J]
+
+ Meters for 339,OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND [J]
+  OnMeter=Electricity:SpaceType:OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND [J]
+  OnMeter=InteriorLights:Electricity:SpaceType:OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+  OnMeter=General:InteriorLights:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND [J]
+  OnMeter=General:InteriorLights:Electricity:SpaceType:OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 [J]
+
+ Meters for 376,OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND [J]
+  OnMeter=Electricity:SpaceType:OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND [J]
+  OnMeter=InteriorLights:Electricity:SpaceType:OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+  OnMeter=General:InteriorLights:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND [J]
+  OnMeter=General:InteriorLights:Electricity:SpaceType:OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 [J]
+
+ Meters for 413,OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND [J]
+  OnMeter=Electricity:SpaceType:OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND [J]
+  OnMeter=InteriorLights:Electricity:SpaceType:OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+  OnMeter=General:InteriorLights:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND [J]
+  OnMeter=General:InteriorLights:Electricity:SpaceType:OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 [J]
+
+ Meters for 450,OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND [J]
+  OnMeter=Electricity:SpaceType:OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND [J]
+  OnMeter=InteriorEquipment:Electricity:SpaceType:OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+  OnMeter=General:InteriorEquipment:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND [J]
+  OnMeter=General:InteriorEquipment:Electricity:SpaceType:OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 [J]
+
+ Meters for 523,OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND [J]
+  OnMeter=Electricity:SpaceType:OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND [J]
+  OnMeter=InteriorEquipment:Electricity:SpaceType:OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+  OnMeter=General:InteriorEquipment:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND [J]
+  OnMeter=General:InteriorEquipment:Electricity:SpaceType:OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 [J]
+
+ Meters for 548,OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND [J]
+  OnMeter=Electricity:SpaceType:OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND [J]
+  OnMeter=InteriorEquipment:Electricity:SpaceType:OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+  OnMeter=General:InteriorEquipment:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND [J]
+  OnMeter=General:InteriorEquipment:Electricity:SpaceType:OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 [J]
+
+ Meters for 573,OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND [J]
+  OnMeter=Electricity:SpaceType:OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND [J]
+  OnMeter=InteriorEquipment:Electricity:SpaceType:OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+  OnMeter=General:InteriorEquipment:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND [J]
+  OnMeter=General:InteriorEquipment:Electricity:SpaceType:OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 [J]
+
+ Meters for 598,OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND [J]
+  OnMeter=Electricity:SpaceType:OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND [J]
+  OnMeter=InteriorEquipment:Electricity:SpaceType:OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+  OnMeter=General:InteriorEquipment:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND [J]
+  OnMeter=General:InteriorEquipment:Electricity:SpaceType:OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 [J]
+
+ Meters for 623,OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND [J]
+  OnMeter=Electricity:SpaceType:OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND [J]
+  OnMeter=InteriorEquipment:Electricity:SpaceType:OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+  OnMeter=General:InteriorEquipment:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND [J]
+  OnMeter=General:InteriorEquipment:Electricity:SpaceType:OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 [J]
+
+ Meters for 648,OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND [J]
+  OnMeter=Electricity:SpaceType:OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND [J]
+  OnMeter=InteriorEquipment:Electricity:SpaceType:OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+  OnMeter=General:InteriorEquipment:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND [J]
+  OnMeter=General:InteriorEquipment:Electricity:SpaceType:OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 [J]
+
+ Meters for 673,OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND [J]
+  OnMeter=Electricity:SpaceType:OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND [J]
+  OnMeter=InteriorEquipment:Electricity:SpaceType:OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+  OnMeter=General:InteriorEquipment:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND [J]
+  OnMeter=General:InteriorEquipment:Electricity:SpaceType:OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 [J]
+
+ Meters for 698,OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND [J]
+  OnMeter=Electricity:SpaceType:OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND [J]
+  OnMeter=InteriorEquipment:Electricity:SpaceType:OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+  OnMeter=General:InteriorEquipment:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND [J]
+  OnMeter=General:InteriorEquipment:Electricity:SpaceType:OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 [J]
+
+ Meters for 723,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+  OnMeter=General:Heating:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND [J]
+
+ Meters for 808,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+  OnMeter=General:Cooling:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND [J]
+
+ Meters for 857,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+  OnMeter=General:Heating:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND [J]
+
+ Meters for 894,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+  OnMeter=General:Cooling:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND [J]
+
+ Meters for 919,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+  OnMeter=General:Heating:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND [J]
+
+ Meters for 956,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+  OnMeter=General:Cooling:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND [J]
+
+ Meters for 981,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+  OnMeter=General:Heating:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND [J]
+
+ Meters for 1018,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+  OnMeter=General:Cooling:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND [J]
+
+ Meters for 1043,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+  OnMeter=General:Heating:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND [J]
+
+ Meters for 1080,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+  OnMeter=General:Cooling:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND [J]
+
+ Meters for 1105,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+  OnMeter=General:Heating:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND [J]
+
+ Meters for 1142,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+  OnMeter=General:Cooling:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND [J]
+
+ Meters for 1167,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+  OnMeter=General:Heating:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND [J]
+
+ Meters for 1204,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+  OnMeter=General:Cooling:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND [J]
+
+ Meters for 1229,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+  OnMeter=General:Heating:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND [J]
+
+ Meters for 1266,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+  OnMeter=General:Cooling:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND [J]
+
+ Meters for 1291,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+  OnMeter=General:Heating:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND [J]
+
+ Meters for 1328,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+  OnMeter=General:Cooling:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND [J]
+
+ Meters for 1353,OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 WUC 0.09GPM AT 140F:Water Use Connections Plant Hot Water Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:Plant [J]
+  OnMeter=WaterSystems:PlantLoopHeatingDemand [J]
+  OnMeter=General:WaterSystems:PlantLoopHeatingDemand [J]
+
+ Meters for 1402,Whole Building:Facility Total Purchased Electricity Energy [J]
+  OnMeter=ElectricityPurchased:Facility [J]
+  OnMeter=ElectricityPurchased:Plant [J]
+  OnMeter=Cogeneration:ElectricityPurchased [J]
+  OnMeter=General:Cogeneration:ElectricityPurchased [J]
+
+ Meters for 1451,Whole Building:Facility Total Surplus Electricity Energy [J]
+  OnMeter=ElectricitySurplusSold:Facility [J]
+  OnMeter=ElectricitySurplusSold:Plant [J]
+  OnMeter=Cogeneration:ElectricitySurplusSold [J]
+  OnMeter=General:Cogeneration:ElectricitySurplusSold [J]
+
+ Meters for 1500,Whole Building:Facility Net Purchased Electricity Energy [J]
+  OnMeter=ElectricityNet:Facility [J]
+  OnMeter=ElectricityNet:Plant [J]
+  OnMeter=Cogeneration:ElectricityNet [J]
+  OnMeter=General:Cogeneration:ElectricityNet [J]
+
+ Meters for 1549,OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 SERVICE WATER USE 0.09GPM AT 140F:Water Use Equipment Total Volume [m3]
+  OnMeter=Water:Facility [m3]
+  OnMeter=Water:Plant [m3]
+  OnMeter=WaterSystems:Water [m3]
+  OnMeter=General:WaterSystems:Water [m3]
+
+ Meters for 1598,OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 SERVICE WATER USE 0.09GPM AT 140F:Water Use Equipment Mains Water Volume [m3]
+  OnMeter=MainsWater:Facility [m3]
+  OnMeter=MainsWater:Plant [m3]
+  OnMeter=WaterSystems:MainsWater [m3]
+  OnMeter=General:WaterSystems:MainsWater [m3]
+
+ Meters for 1647,OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 SERVICE WATER USE 0.09GPM AT 140F:Water Use Equipment Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Plant [J]
+  OnMeter=WaterSystems:EnergyTransfer [J]
+  OnMeter=General:WaterSystems:EnergyTransfer [J]
+
+ Meters for 1684,40GAL ELECTRICITY WATER HEATER - 40KBTU/HR 1.0 THERM EFF:Water Heater Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:Plant [J]
+  OnMeter=WaterSystems:PlantLoopHeatingDemand [J]
+  OnMeter=General:WaterSystems:PlantLoopHeatingDemand [J]
+
+ Meters for 1685,40GAL ELECTRICITY WATER HEATER - 40KBTU/HR 1.0 THERM EFF:Water Heater Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=WaterSystems:Electricity [J]
+  OnMeter=General:WaterSystems:Electricity [J]
+
+ Meters for 1722,40GAL ELECTRICITY WATER HEATER - 40KBTU/HR 1.0 THERM EFF:Water Heater Off Cycle Parasitic Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=WaterSystems:Electricity [J]
+  OnMeter=General:WaterSystems:Electricity [J]
+
+ Meters for 1723,40GAL ELECTRICITY WATER HEATER - 40KBTU/HR 1.0 THERM EFF:Water Heater On Cycle Parasitic Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=WaterSystems:Electricity [J]
+  OnMeter=General:WaterSystems:Electricity [J]
+
+ Meters for 1724,40GAL ELECTRICITY WATER HEATER - 40KBTU/HR 1.0 THERM EFF:Water Heater Water Volume [m3]
+  OnMeter=Water:Facility [m3]
+  OnMeter=Water:Plant [m3]
+  OnMeter=WaterSystems:Water [m3]
+  OnMeter=General:WaterSystems:Water [m3]
+
+ Meters for 1725,40GAL ELECTRICITY WATER HEATER - 40KBTU/HR 1.0 THERM EFF:Water Heater Mains Water Volume [m3]
+  OnMeter=MainsWater:Facility [m3]
+  OnMeter=MainsWater:Plant [m3]
+  OnMeter=WaterSystems:MainsWater [m3]
+  OnMeter=General:WaterSystems:MainsWater [m3]
+
+ Meters for 1726,40GAL NATURALGAS WATER HEATER - 6KBTU/HR:Water Heater Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:Plant [J]
+  OnMeter=WaterSystems:PlantLoopHeatingDemand [J]
+  OnMeter=General:WaterSystems:PlantLoopHeatingDemand [J]
+
+ Meters for 1727,40GAL NATURALGAS WATER HEATER - 6KBTU/HR:Water Heater NaturalGas Energy [J]
+  OnMeter=NaturalGas:Facility [J]
+  OnMeter=NaturalGas:Plant [J]
+  OnMeter=WaterSystems:NaturalGas [J]
+  OnMeter=General:WaterSystems:NaturalGas [J]
+
+ Meters for 1776,40GAL NATURALGAS WATER HEATER - 6KBTU/HR:Water Heater Off Cycle Parasitic NaturalGas Energy [J]
+  OnMeter=NaturalGas:Facility [J]
+  OnMeter=NaturalGas:Plant [J]
+  OnMeter=WaterSystems:NaturalGas [J]
+  OnMeter=General:WaterSystems:NaturalGas [J]
+
+ Meters for 1777,40GAL NATURALGAS WATER HEATER - 6KBTU/HR:Water Heater On Cycle Parasitic NaturalGas Energy [J]
+  OnMeter=NaturalGas:Facility [J]
+  OnMeter=NaturalGas:Plant [J]
+  OnMeter=WaterSystems:NaturalGas [J]
+  OnMeter=General:WaterSystems:NaturalGas [J]
+
+ Meters for 1778,40GAL NATURALGAS WATER HEATER - 6KBTU/HR:Water Heater Water Volume [m3]
+  OnMeter=Water:Facility [m3]
+  OnMeter=Water:Plant [m3]
+  OnMeter=WaterSystems:Water [m3]
+  OnMeter=General:WaterSystems:Water [m3]
+
+ Meters for 1779,40GAL NATURALGAS WATER HEATER - 6KBTU/HR:Water Heater Mains Water Volume [m3]
+  OnMeter=MainsWater:Facility [m3]
+  OnMeter=MainsWater:Plant [m3]
+  OnMeter=WaterSystems:MainsWater [m3]
+  OnMeter=General:WaterSystems:MainsWater [m3]
+
+ Meters for 1780,MAIN SERVICE WATER LOOP WATER MAINS PRESSURE DRIVEN:Pump Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=Pumps:Electricity [J]
+  OnMeter=General:Pumps:Electricity [J]
+
+ Meters for 1805,OFFICE SHARED SERVICE WATER LOOP CIRCULATOR PUMP:Pump Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=Pumps:Electricity [J]
+  OnMeter=General:Pumps:Electricity [J]
+
+ Meters for 1806,Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 1831,Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 1832,Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ For Meter=Electricity:Facility [J], ResourceType=Electricity, contents are:
+  NONDIMMING EXTERIOR LIGHTS DEF:Exterior Lights Electricity Energy
+  OCC SENSING EXTERIOR LIGHTS DEF:Exterior Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+  40GAL ELECTRICITY WATER HEATER - 40KBTU/HR 1.0 THERM EFF:Water Heater Electricity Energy
+  40GAL ELECTRICITY WATER HEATER - 40KBTU/HR 1.0 THERM EFF:Water Heater Off Cycle Parasitic Electricity Energy
+  40GAL ELECTRICITY WATER HEATER - 40KBTU/HR 1.0 THERM EFF:Water Heater On Cycle Parasitic Electricity Energy
+  MAIN SERVICE WATER LOOP WATER MAINS PRESSURE DRIVEN:Pump Electricity Energy
+  OFFICE SHARED SERVICE WATER LOOP CIRCULATOR PUMP:Pump Electricity Energy
+
+ For Meter=ExteriorLights:Electricity [J], ResourceType=Electricity, EndUse=ExteriorLights, contents are:
+  NONDIMMING EXTERIOR LIGHTS DEF:Exterior Lights Electricity Energy
+  OCC SENSING EXTERIOR LIGHTS DEF:Exterior Lights Electricity Energy
+
+ For Meter=General:ExteriorLights:Electricity [J], ResourceType=Electricity, EndUse=ExteriorLights, contents are:
+  NONDIMMING EXTERIOR LIGHTS DEF:Exterior Lights Electricity Energy
+  OCC SENSING EXTERIOR LIGHTS DEF:Exterior Lights Electricity Energy
+
+ For Meter=Electricity:Building [J], ResourceType=Electricity, Group=Building, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+
+ For Meter=Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND [J], ResourceType=Electricity, Group=Zone, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+
+ For Meter=Electricity:SpaceType:OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 [J], ResourceType=Electricity, Group=SpaceType, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+
+ For Meter=InteriorLights:Electricity [J], ResourceType=Electricity, EndUse=InteriorLights, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+
+ For Meter=InteriorLights:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+
+ For Meter=InteriorLights:Electricity:SpaceType:OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 [J], ResourceType=Electricity, EndUse=InteriorLights, Group=SpaceType, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+
+ For Meter=General:InteriorLights:Electricity [J], ResourceType=Electricity, EndUse=InteriorLights, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+
+ For Meter=General:InteriorLights:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+
+ For Meter=General:InteriorLights:Electricity:SpaceType:OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 [J], ResourceType=Electricity, EndUse=InteriorLights, Group=SpaceType, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+
+ For Meter=Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND [J], ResourceType=Electricity, Group=Zone, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+
+ For Meter=InteriorLights:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+
+ For Meter=General:InteriorLights:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+
+ For Meter=Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND [J], ResourceType=Electricity, Group=Zone, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+
+ For Meter=InteriorLights:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+
+ For Meter=General:InteriorLights:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+
+ For Meter=Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND [J], ResourceType=Electricity, Group=Zone, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+
+ For Meter=InteriorLights:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+
+ For Meter=General:InteriorLights:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+
+ For Meter=Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND [J], ResourceType=Electricity, Group=Zone, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+
+ For Meter=InteriorLights:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+
+ For Meter=General:InteriorLights:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+
+ For Meter=Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND [J], ResourceType=Electricity, Group=Zone, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+
+ For Meter=InteriorLights:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+
+ For Meter=General:InteriorLights:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+
+ For Meter=Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND [J], ResourceType=Electricity, Group=Zone, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+
+ For Meter=InteriorLights:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+
+ For Meter=General:InteriorLights:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+
+ For Meter=Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND [J], ResourceType=Electricity, Group=Zone, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+
+ For Meter=InteriorLights:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+
+ For Meter=General:InteriorLights:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+
+ For Meter=Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND [J], ResourceType=Electricity, Group=Zone, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+
+ For Meter=InteriorLights:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+
+ For Meter=General:InteriorLights:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS:Lights Electricity Energy
+
+ For Meter=InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+
+ For Meter=InteriorEquipment:Electricity:SpaceType:OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=SpaceType, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+
+ For Meter=General:InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+
+ For Meter=General:InteriorEquipment:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+
+ For Meter=General:InteriorEquipment:Electricity:SpaceType:OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=SpaceType, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+
+ For Meter=General:InteriorEquipment:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+
+ For Meter=General:InteriorEquipment:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+
+ For Meter=General:InteriorEquipment:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+
+ For Meter=General:InteriorEquipment:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+
+ For Meter=General:InteriorEquipment:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+
+ For Meter=General:InteriorEquipment:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+
+ For Meter=General:InteriorEquipment:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+
+ For Meter=General:InteriorEquipment:Electricity:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP:Electric Equipment Electricity Energy
+
+ For Meter=EnergyTransfer:Facility [J], ResourceType=EnergyTransfer, contents are:
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND:Zone Air System Sensible Heating Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND:Zone Air System Sensible Cooling Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND:Zone Air System Sensible Heating Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND:Zone Air System Sensible Cooling Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND:Zone Air System Sensible Heating Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND:Zone Air System Sensible Cooling Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND:Zone Air System Sensible Heating Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND:Zone Air System Sensible Cooling Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND:Zone Air System Sensible Heating Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND:Zone Air System Sensible Cooling Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND:Zone Air System Sensible Heating Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND:Zone Air System Sensible Cooling Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND:Zone Air System Sensible Heating Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND:Zone Air System Sensible Cooling Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND:Zone Air System Sensible Heating Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND:Zone Air System Sensible Cooling Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND:Zone Air System Sensible Heating Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND:Zone Air System Sensible Cooling Energy
+  OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 SERVICE WATER USE 0.09GPM AT 140F:Water Use Equipment Heating Energy
+
+ For Meter=EnergyTransfer:Building [J], ResourceType=EnergyTransfer, Group=Building, contents are:
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND:Zone Air System Sensible Heating Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND:Zone Air System Sensible Cooling Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND:Zone Air System Sensible Heating Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND:Zone Air System Sensible Cooling Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND:Zone Air System Sensible Heating Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND:Zone Air System Sensible Cooling Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND:Zone Air System Sensible Heating Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND:Zone Air System Sensible Cooling Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND:Zone Air System Sensible Heating Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND:Zone Air System Sensible Cooling Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND:Zone Air System Sensible Heating Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND:Zone Air System Sensible Cooling Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND:Zone Air System Sensible Heating Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND:Zone Air System Sensible Cooling Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND:Zone Air System Sensible Heating Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND:Zone Air System Sensible Cooling Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND:Zone Air System Sensible Heating Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND:Zone Air System Sensible Heating Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Heating, contents are:
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND:Zone Air System Sensible Heating Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND:Zone Air System Sensible Heating Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND:Zone Air System Sensible Heating Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND:Zone Air System Sensible Heating Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND:Zone Air System Sensible Heating Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND:Zone Air System Sensible Heating Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND:Zone Air System Sensible Heating Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND:Zone Air System Sensible Heating Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND:Zone Air System Sensible Heating Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND:Zone Air System Sensible Heating Energy
+
+ For Meter=General:Heating:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Heating, contents are:
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND:Zone Air System Sensible Heating Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND:Zone Air System Sensible Heating Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND:Zone Air System Sensible Heating Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND:Zone Air System Sensible Heating Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND:Zone Air System Sensible Heating Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND:Zone Air System Sensible Heating Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND:Zone Air System Sensible Heating Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND:Zone Air System Sensible Heating Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND:Zone Air System Sensible Heating Energy
+
+ For Meter=General:Heating:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Cooling, contents are:
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND:Zone Air System Sensible Cooling Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND:Zone Air System Sensible Cooling Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND:Zone Air System Sensible Cooling Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND:Zone Air System Sensible Cooling Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND:Zone Air System Sensible Cooling Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND:Zone Air System Sensible Cooling Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND:Zone Air System Sensible Cooling Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND:Zone Air System Sensible Cooling Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND:Zone Air System Sensible Cooling Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND:Zone Air System Sensible Cooling Energy
+
+ For Meter=General:Cooling:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Cooling, contents are:
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND:Zone Air System Sensible Cooling Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND:Zone Air System Sensible Cooling Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND:Zone Air System Sensible Cooling Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND:Zone Air System Sensible Cooling Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND:Zone Air System Sensible Cooling Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND:Zone Air System Sensible Cooling Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND:Zone Air System Sensible Cooling Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND:Zone Air System Sensible Cooling Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND:Zone Air System Sensible Cooling Energy
+
+ For Meter=General:Cooling:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND:Zone Air System Sensible Heating Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND:Zone Air System Sensible Heating Energy
+
+ For Meter=General:Heating:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND:Zone Air System Sensible Cooling Energy
+
+ For Meter=General:Cooling:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND:Zone Air System Sensible Heating Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND:Zone Air System Sensible Heating Energy
+
+ For Meter=General:Heating:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND:Zone Air System Sensible Cooling Energy
+
+ For Meter=General:Cooling:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND:Zone Air System Sensible Heating Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND:Zone Air System Sensible Heating Energy
+
+ For Meter=General:Heating:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND:Zone Air System Sensible Cooling Energy
+
+ For Meter=General:Cooling:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND:Zone Air System Sensible Heating Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND:Zone Air System Sensible Heating Energy
+
+ For Meter=General:Heating:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND:Zone Air System Sensible Cooling Energy
+
+ For Meter=General:Cooling:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND:Zone Air System Sensible Heating Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND:Zone Air System Sensible Heating Energy
+
+ For Meter=General:Heating:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND:Zone Air System Sensible Cooling Energy
+
+ For Meter=General:Cooling:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND:Zone Air System Sensible Heating Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND:Zone Air System Sensible Heating Energy
+
+ For Meter=General:Heating:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND:Zone Air System Sensible Cooling Energy
+
+ For Meter=General:Cooling:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND:Zone Air System Sensible Heating Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND:Zone Air System Sensible Heating Energy
+
+ For Meter=General:Heating:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND:Zone Air System Sensible Cooling Energy
+
+ For Meter=General:Cooling:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND:Zone Air System Sensible Heating Energy
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND:Zone Air System Sensible Heating Energy
+
+ For Meter=General:Heating:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND:Zone Air System Sensible Cooling Energy
+
+ For Meter=General:Cooling:EnergyTransfer:Zone:ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND:Zone Air System Sensible Cooling Energy
+
+ For Meter=PlantLoopHeatingDemand:Facility [J], ResourceType=PlantLoopHeatingDemand, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 WUC 0.09GPM AT 140F:Water Use Connections Plant Hot Water Energy
+  40GAL ELECTRICITY WATER HEATER - 40KBTU/HR 1.0 THERM EFF:Water Heater Source Side Heat Transfer Energy
+  40GAL NATURALGAS WATER HEATER - 6KBTU/HR:Water Heater Source Side Heat Transfer Energy
+
+ For Meter=PlantLoopHeatingDemand:Plant [J], ResourceType=PlantLoopHeatingDemand, Group=Plant, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 WUC 0.09GPM AT 140F:Water Use Connections Plant Hot Water Energy
+  40GAL ELECTRICITY WATER HEATER - 40KBTU/HR 1.0 THERM EFF:Water Heater Source Side Heat Transfer Energy
+  40GAL NATURALGAS WATER HEATER - 6KBTU/HR:Water Heater Source Side Heat Transfer Energy
+
+ For Meter=WaterSystems:PlantLoopHeatingDemand [J], ResourceType=PlantLoopHeatingDemand, EndUse=WaterSystems, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 WUC 0.09GPM AT 140F:Water Use Connections Plant Hot Water Energy
+  40GAL ELECTRICITY WATER HEATER - 40KBTU/HR 1.0 THERM EFF:Water Heater Source Side Heat Transfer Energy
+  40GAL NATURALGAS WATER HEATER - 6KBTU/HR:Water Heater Source Side Heat Transfer Energy
+
+ For Meter=General:WaterSystems:PlantLoopHeatingDemand [J], ResourceType=PlantLoopHeatingDemand, EndUse=WaterSystems, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 WUC 0.09GPM AT 140F:Water Use Connections Plant Hot Water Energy
+  40GAL ELECTRICITY WATER HEATER - 40KBTU/HR 1.0 THERM EFF:Water Heater Source Side Heat Transfer Energy
+  40GAL NATURALGAS WATER HEATER - 6KBTU/HR:Water Heater Source Side Heat Transfer Energy
+
+ For Meter=ElectricityPurchased:Facility [J], ResourceType=ElectricityPurchased, contents are:
+  Whole Building:Facility Total Purchased Electricity Energy
+
+ For Meter=ElectricityPurchased:Plant [J], ResourceType=ElectricityPurchased, Group=Plant, contents are:
+  Whole Building:Facility Total Purchased Electricity Energy
+
+ For Meter=Cogeneration:ElectricityPurchased [J], ResourceType=ElectricityPurchased, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Purchased Electricity Energy
+
+ For Meter=General:Cogeneration:ElectricityPurchased [J], ResourceType=ElectricityPurchased, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Purchased Electricity Energy
+
+ For Meter=ElectricitySurplusSold:Facility [J], ResourceType=ElectricitySurplusSold, contents are:
+  Whole Building:Facility Total Surplus Electricity Energy
+
+ For Meter=ElectricitySurplusSold:Plant [J], ResourceType=ElectricitySurplusSold, Group=Plant, contents are:
+  Whole Building:Facility Total Surplus Electricity Energy
+
+ For Meter=Cogeneration:ElectricitySurplusSold [J], ResourceType=ElectricitySurplusSold, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Surplus Electricity Energy
+
+ For Meter=General:Cogeneration:ElectricitySurplusSold [J], ResourceType=ElectricitySurplusSold, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Surplus Electricity Energy
+
+ For Meter=ElectricityNet:Facility [J], ResourceType=ElectricityNet, contents are:
+  Whole Building:Facility Net Purchased Electricity Energy
+
+ For Meter=ElectricityNet:Plant [J], ResourceType=ElectricityNet, Group=Plant, contents are:
+  Whole Building:Facility Net Purchased Electricity Energy
+
+ For Meter=Cogeneration:ElectricityNet [J], ResourceType=ElectricityNet, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Net Purchased Electricity Energy
+
+ For Meter=General:Cogeneration:ElectricityNet [J], ResourceType=ElectricityNet, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Net Purchased Electricity Energy
+
+ For Meter=Water:Facility [m3], ResourceType=Water, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 SERVICE WATER USE 0.09GPM AT 140F:Water Use Equipment Total Volume
+  40GAL ELECTRICITY WATER HEATER - 40KBTU/HR 1.0 THERM EFF:Water Heater Water Volume
+  40GAL NATURALGAS WATER HEATER - 6KBTU/HR:Water Heater Water Volume
+
+ For Meter=Water:Plant [m3], ResourceType=Water, Group=Plant, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 SERVICE WATER USE 0.09GPM AT 140F:Water Use Equipment Total Volume
+  40GAL ELECTRICITY WATER HEATER - 40KBTU/HR 1.0 THERM EFF:Water Heater Water Volume
+  40GAL NATURALGAS WATER HEATER - 6KBTU/HR:Water Heater Water Volume
+
+ For Meter=WaterSystems:Water [m3], ResourceType=Water, EndUse=WaterSystems, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 SERVICE WATER USE 0.09GPM AT 140F:Water Use Equipment Total Volume
+  40GAL ELECTRICITY WATER HEATER - 40KBTU/HR 1.0 THERM EFF:Water Heater Water Volume
+  40GAL NATURALGAS WATER HEATER - 6KBTU/HR:Water Heater Water Volume
+
+ For Meter=General:WaterSystems:Water [m3], ResourceType=Water, EndUse=WaterSystems, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 SERVICE WATER USE 0.09GPM AT 140F:Water Use Equipment Total Volume
+  40GAL ELECTRICITY WATER HEATER - 40KBTU/HR 1.0 THERM EFF:Water Heater Water Volume
+  40GAL NATURALGAS WATER HEATER - 6KBTU/HR:Water Heater Water Volume
+
+ For Meter=MainsWater:Facility [m3], ResourceType=MainsWater, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 SERVICE WATER USE 0.09GPM AT 140F:Water Use Equipment Mains Water Volume
+  40GAL ELECTRICITY WATER HEATER - 40KBTU/HR 1.0 THERM EFF:Water Heater Mains Water Volume
+  40GAL NATURALGAS WATER HEATER - 6KBTU/HR:Water Heater Mains Water Volume
+
+ For Meter=MainsWater:Plant [m3], ResourceType=MainsWater, Group=Plant, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 SERVICE WATER USE 0.09GPM AT 140F:Water Use Equipment Mains Water Volume
+  40GAL ELECTRICITY WATER HEATER - 40KBTU/HR 1.0 THERM EFF:Water Heater Mains Water Volume
+  40GAL NATURALGAS WATER HEATER - 6KBTU/HR:Water Heater Mains Water Volume
+
+ For Meter=WaterSystems:MainsWater [m3], ResourceType=MainsWater, EndUse=WaterSystems, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 SERVICE WATER USE 0.09GPM AT 140F:Water Use Equipment Mains Water Volume
+  40GAL ELECTRICITY WATER HEATER - 40KBTU/HR 1.0 THERM EFF:Water Heater Mains Water Volume
+  40GAL NATURALGAS WATER HEATER - 6KBTU/HR:Water Heater Mains Water Volume
+
+ For Meter=General:WaterSystems:MainsWater [m3], ResourceType=MainsWater, EndUse=WaterSystems, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 SERVICE WATER USE 0.09GPM AT 140F:Water Use Equipment Mains Water Volume
+  40GAL ELECTRICITY WATER HEATER - 40KBTU/HR 1.0 THERM EFF:Water Heater Mains Water Volume
+  40GAL NATURALGAS WATER HEATER - 6KBTU/HR:Water Heater Mains Water Volume
+
+ For Meter=EnergyTransfer:Plant [J], ResourceType=EnergyTransfer, Group=Plant, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 SERVICE WATER USE 0.09GPM AT 140F:Water Use Equipment Heating Energy
+
+ For Meter=WaterSystems:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=WaterSystems, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 SERVICE WATER USE 0.09GPM AT 140F:Water Use Equipment Heating Energy
+
+ For Meter=General:WaterSystems:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=WaterSystems, contents are:
+  OFFICE WHOLEBUILDING - SM OFFICE 2 - 90.1-2010 SERVICE WATER USE 0.09GPM AT 140F:Water Use Equipment Heating Energy
+
+ For Meter=Electricity:Plant [J], ResourceType=Electricity, Group=Plant, contents are:
+  40GAL ELECTRICITY WATER HEATER - 40KBTU/HR 1.0 THERM EFF:Water Heater Electricity Energy
+  40GAL ELECTRICITY WATER HEATER - 40KBTU/HR 1.0 THERM EFF:Water Heater Off Cycle Parasitic Electricity Energy
+  40GAL ELECTRICITY WATER HEATER - 40KBTU/HR 1.0 THERM EFF:Water Heater On Cycle Parasitic Electricity Energy
+  MAIN SERVICE WATER LOOP WATER MAINS PRESSURE DRIVEN:Pump Electricity Energy
+  OFFICE SHARED SERVICE WATER LOOP CIRCULATOR PUMP:Pump Electricity Energy
+
+ For Meter=WaterSystems:Electricity [J], ResourceType=Electricity, EndUse=WaterSystems, contents are:
+  40GAL ELECTRICITY WATER HEATER - 40KBTU/HR 1.0 THERM EFF:Water Heater Electricity Energy
+  40GAL ELECTRICITY WATER HEATER - 40KBTU/HR 1.0 THERM EFF:Water Heater Off Cycle Parasitic Electricity Energy
+  40GAL ELECTRICITY WATER HEATER - 40KBTU/HR 1.0 THERM EFF:Water Heater On Cycle Parasitic Electricity Energy
+
+ For Meter=General:WaterSystems:Electricity [J], ResourceType=Electricity, EndUse=WaterSystems, contents are:
+  40GAL ELECTRICITY WATER HEATER - 40KBTU/HR 1.0 THERM EFF:Water Heater Electricity Energy
+  40GAL ELECTRICITY WATER HEATER - 40KBTU/HR 1.0 THERM EFF:Water Heater Off Cycle Parasitic Electricity Energy
+  40GAL ELECTRICITY WATER HEATER - 40KBTU/HR 1.0 THERM EFF:Water Heater On Cycle Parasitic Electricity Energy
+
+ For Meter=NaturalGas:Facility [J], ResourceType=NaturalGas, contents are:
+  40GAL NATURALGAS WATER HEATER - 6KBTU/HR:Water Heater NaturalGas Energy
+  40GAL NATURALGAS WATER HEATER - 6KBTU/HR:Water Heater Off Cycle Parasitic NaturalGas Energy
+  40GAL NATURALGAS WATER HEATER - 6KBTU/HR:Water Heater On Cycle Parasitic NaturalGas Energy
+
+ For Meter=NaturalGas:Plant [J], ResourceType=NaturalGas, Group=Plant, contents are:
+  40GAL NATURALGAS WATER HEATER - 6KBTU/HR:Water Heater NaturalGas Energy
+  40GAL NATURALGAS WATER HEATER - 6KBTU/HR:Water Heater Off Cycle Parasitic NaturalGas Energy
+  40GAL NATURALGAS WATER HEATER - 6KBTU/HR:Water Heater On Cycle Parasitic NaturalGas Energy
+
+ For Meter=WaterSystems:NaturalGas [J], ResourceType=NaturalGas, EndUse=WaterSystems, contents are:
+  40GAL NATURALGAS WATER HEATER - 6KBTU/HR:Water Heater NaturalGas Energy
+  40GAL NATURALGAS WATER HEATER - 6KBTU/HR:Water Heater Off Cycle Parasitic NaturalGas Energy
+  40GAL NATURALGAS WATER HEATER - 6KBTU/HR:Water Heater On Cycle Parasitic NaturalGas Energy
+
+ For Meter=General:WaterSystems:NaturalGas [J], ResourceType=NaturalGas, EndUse=WaterSystems, contents are:
+  40GAL NATURALGAS WATER HEATER - 6KBTU/HR:Water Heater NaturalGas Energy
+  40GAL NATURALGAS WATER HEATER - 6KBTU/HR:Water Heater Off Cycle Parasitic NaturalGas Energy
+  40GAL NATURALGAS WATER HEATER - 6KBTU/HR:Water Heater On Cycle Parasitic NaturalGas Energy
+
+ For Meter=Pumps:Electricity [J], ResourceType=Electricity, EndUse=Pumps, contents are:
+  MAIN SERVICE WATER LOOP WATER MAINS PRESSURE DRIVEN:Pump Electricity Energy
+  OFFICE SHARED SERVICE WATER LOOP CIRCULATOR PUMP:Pump Electricity Energy
+
+ For Meter=General:Pumps:Electricity [J], ResourceType=Electricity, EndUse=Pumps, contents are:
+  MAIN SERVICE WATER LOOP WATER MAINS PRESSURE DRIVEN:Pump Electricity Energy
+  OFFICE SHARED SERVICE WATER LOOP CIRCULATOR PUMP:Pump Electricity Energy
+
+ For Meter=Carbon Equivalent:Facility [kg], ResourceType=Carbon Equivalent, contents are:
+  Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass
+
+ For Meter=CarbonEquivalentEmissions:Carbon Equivalent [kg], ResourceType=Carbon Equivalent, EndUse=CarbonEquivalentEmissions, contents are:
+  Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass

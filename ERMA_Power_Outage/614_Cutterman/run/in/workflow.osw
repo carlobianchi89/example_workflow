@@ -1,0 +1,19 @@
+{
+   "created_at" : "20230403T210409Z",
+   "seed_file" : "../in.osm",
+   "steps" : 
+   [
+      {
+         "arguments" : 
+         {
+            "reporting_frequency" : "monthly"
+         },
+         "description" : "This measure adds an meter at the requested reporting frequency.",
+         "measure_dir_name" : "AddMeter",
+         "modeler_description" : "The measure just passes in the string and does not validate that it is a proper meter name. It is up to the user to know this or to look at the .mdd file from a previous simulation run.",
+         "name" : "AddMeter"
+      }
+   ],
+   "updated_at" : "20230621T152724Z",
+   "weather_file" : "Kodiak_Airport_703500_TMY3.epw"
+}

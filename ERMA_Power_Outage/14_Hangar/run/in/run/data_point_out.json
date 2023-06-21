@@ -1,0 +1,19 @@
+{
+  "AddMeter": {
+    "meter_name": "Electricity:Facility",
+    "reporting_frequency": "monthly",
+    "applicable": true
+  },
+  "Set Power and Heat off": {
+    "otg_date": "June 1",
+    "otg_hr": 0,
+    "otg_len": 24,
+    "outage_type": "Power and Heat",
+    "applicable": true
+  },
+  "AddMeter 1": {
+    "meter_name": "Electricity:Facility",
+    "reporting_frequency": "hourly",
+    "applicable": true
+  }
+}

@@ -1,0 +1,505 @@
+{
+   "completed_at" : "20230301T014304Z",
+   "completed_status" : "Fail",
+   "created_at" : "20230206T223851Z",
+   "current_step" : 2,
+   "file_paths" : 
+   [
+      "/private/var/folders/cj/vhw1_9g1151dh76sjlgdyq19k7f3h5/T/osmodel-1677634768-1/resources/generated_files",
+      "./files",
+      "./weather",
+      "../../files",
+      "../../weather",
+      "./"
+   ],
+   "hash" : "FD128E1E",
+   "seed_file" : "../576ESU.osm",
+   "started_at" : "20230301T014023Z",
+   "steps" : 
+   [
+      {
+         "arguments" : 
+         {
+            "bldg_type_a" : "MediumOffice",
+            "climate_zone" : "ASHRAE 169-2013-8A",
+            "floor_height" : 26,
+            "ns_to_ew_ratio" : 1.5,
+            "num_stories_above_grade" : 2,
+            "template" : "90.1-2016",
+            "total_bldg_floor_area" : 8320,
+            "wwr" : 0.14999999999999999
+         },
+         "description" : "Creates one or more rectangular building elements based on space type ratios of selected mix of building types, along with user arguments that describe the desired geometry characteristics.",
+         "measure_dir_name" : "create_bar_from_building_type_ratios",
+         "modeler_description" : "The building floor area can be described as a footprint size or as a total building area. The shape can be described by its aspect ratio or can be defined as a set width. Because this measure contains both DOE and DEER inputs, care needs to be taken to choose a template compatable with the selected building types. See readme document for additional guidance.",
+         "name" : "Create Bar From Building Type Ratios",
+         "result" : 
+         {
+            "completed_at" : "20230301T014033Z",
+            "measure_class_name" : "CreateBarFromBuildingTypeRatios",
+            "measure_display_name" : "Create Bar From Building Type Ratios",
+            "measure_name" : "create_bar_from_building_type_ratios",
+            "measure_taxonomy" : "Envelope.Form",
+            "measure_type" : "ModelMeasure",
+            "measure_uid" : "6e3a14f8-c3c7-4e03-bc51-bef8a52e1a05",
+            "measure_version_id" : "284657fc-3c1a-44b5-a173-4c83ed184791",
+            "measure_version_modified" : "20220706T134207Z",
+            "measure_xml_checksum" : "2AF3A68E",
+            "started_at" : "20230301T014032Z",
+            "stderr" : "",
+            "stdout" : "",
+            "step_errors" : [],
+            "step_files" : [],
+            "step_final_condition" : "The building finished with 18 spaces.",
+            "step_info" : 
+            [
+               "0.0 value for minimum perimeter multiplier will be replaced with smart default for MediumOffice of 1.0.",
+               "Removed 374 non resource objects from the model.",
+               "Creating Space Types for MediumOffice.",
+               "Making bar with length of 79 ft and width of 53 ft",
+               "Intersecting and matching surfaces in model, this will create additional geometry.",
+               "Created bar envelope with floor area of 8,320 ft^2."
+            ],
+            "step_initial_condition" : "The building started with 6 spaces.",
+            "step_result" : "Success",
+            "step_values" : 
+            [
+               {
+                  "name" : "bldg_type_a",
+                  "value" : "MediumOffice"
+               },
+               {
+                  "name" : "bldg_subtype_a",
+                  "value" : "NA"
+               },
+               {
+                  "name" : "bldg_type_a_num_units",
+                  "value" : 1
+               },
+               {
+                  "name" : "bldg_type_b",
+                  "value" : "SmallOffice"
+               },
+               {
+                  "name" : "bldg_subtype_b",
+                  "value" : "NA"
+               },
+               {
+                  "name" : "bldg_type_b_fract_bldg_area",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "bldg_type_b_num_units",
+                  "value" : 1
+               },
+               {
+                  "name" : "bldg_type_c",
+                  "value" : "SmallOffice"
+               },
+               {
+                  "name" : "bldg_subtype_c",
+                  "value" : "NA"
+               },
+               {
+                  "name" : "bldg_type_c_fract_bldg_area",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "bldg_type_c_num_units",
+                  "value" : 1
+               },
+               {
+                  "name" : "bldg_type_d",
+                  "value" : "SmallOffice"
+               },
+               {
+                  "name" : "bldg_subtype_d",
+                  "value" : "NA"
+               },
+               {
+                  "name" : "bldg_type_d_fract_bldg_area",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "bldg_type_d_num_units",
+                  "value" : 1
+               },
+               {
+                  "name" : "single_floor_area",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "total_bldg_floor_area",
+                  "value" : 8320.0
+               },
+               {
+                  "name" : "floor_height",
+                  "value" : 26.0
+               },
+               {
+                  "name" : "custom_height_bar",
+                  "value" : true
+               },
+               {
+                  "name" : "num_stories_above_grade",
+                  "value" : 2.0
+               },
+               {
+                  "name" : "num_stories_below_grade",
+                  "value" : 0
+               },
+               {
+                  "name" : "building_rotation",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "template",
+                  "value" : "90.1-2016"
+               },
+               {
+                  "name" : "ns_to_ew_ratio",
+                  "value" : 1.5
+               },
+               {
+                  "name" : "perim_mult",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "bar_sep_dist_mult",
+                  "value" : 10.0
+               },
+               {
+                  "name" : "wwr",
+                  "value" : 0.14999999999999999
+               },
+               {
+                  "name" : "party_wall_fraction",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "party_wall_stories_north",
+                  "value" : 0
+               },
+               {
+                  "name" : "party_wall_stories_south",
+                  "value" : 0
+               },
+               {
+                  "name" : "party_wall_stories_east",
+                  "value" : 0
+               },
+               {
+                  "name" : "party_wall_stories_west",
+                  "value" : 0
+               },
+               {
+                  "name" : "neighbor_height_method",
+                  "value" : "Absolute"
+               },
+               {
+                  "name" : "building_height_relative_to_neighbors",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "neighbor_height_north",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "neighbor_height_south",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "neighbor_height_east",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "neighbor_height_west",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "neighbor_offset_north",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "neighbor_offset_south",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "neighbor_offset_east",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "neighbor_offset_west",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "bottom_story_ground_exposed_floor",
+                  "value" : true
+               },
+               {
+                  "name" : "top_story_exterior_exposed_roof",
+                  "value" : true
+               },
+               {
+                  "name" : "story_multiplier",
+                  "value" : "Basements Ground Mid Top"
+               },
+               {
+                  "name" : "make_mid_story_surfaces_adiabatic",
+                  "value" : false
+               },
+               {
+                  "name" : "bar_division_method",
+                  "value" : "Multiple Space Types - Individual Stories Sliced"
+               },
+               {
+                  "name" : "double_loaded_corridor",
+                  "value" : "Primary Space Type"
+               },
+               {
+                  "name" : "space_type_sort_logic",
+                  "value" : "Building Type > Size"
+               },
+               {
+                  "name" : "use_upstream_args",
+                  "value" : true
+               },
+               {
+                  "name" : "climate_zone",
+                  "value" : "ASHRAE 169-2013-8A"
+               },
+               {
+                  "name" : "wall_area_ip",
+                  "units" : "ft^2",
+                  "value" : 13692.23624297119
+               },
+               {
+                  "name" : "ns_wall_area_ip",
+                  "units" : "ft^2",
+                  "value" : 8215.3417457827236
+               },
+               {
+                  "name" : "ew_wall_area_ip",
+                  "units" : "ft^2",
+                  "value" : 5476.8944971884666
+               },
+               {
+                  "name" : "floor_area_to_perim_ratio",
+                  "value" : 4.8154541617587876
+               },
+               {
+                  "name" : "bar_width",
+                  "units" : "ft",
+                  "value" : 52.662447088350667
+               }
+            ],
+            "step_warnings" : []
+         }
+      },
+      {
+         "arguments" : 
+         {
+            "add_elevators" : false,
+            "add_exterior_lights" : false,
+            "add_refrigeration" : false,
+            "climate_zone" : "ASHRAE 169-2013-8A",
+            "exterior_lighting_zone" : "0 - Undeveloped Areas Parks",
+            "htg_src" : "DistrictHeating",
+            "kitchen_makeup" : "None",
+            "modify_wkdy_op_hrs" : true,
+            "onsite_parking_fraction" : 0,
+            "system_type" : "PSZ-AC with gas coil",
+            "template" : "90.1-2016",
+            "wall_construction_type" : "Mass",
+            "wkdy_op_hrs_duration" : 24,
+            "wkdy_op_hrs_start_time" : 24,
+            "wknd_op_hrs_duration" : 0,
+            "wknd_op_hrs_start_time" : 0
+         },
+         "description" : "Takes a model with space and stub space types, and assigns constructions, schedules, internal loads, hvac, and other loads such as exterior lights and service water heating.",
+         "measure_dir_name" : "create_typical_building_from_model 1",
+         "modeler_description" : "It is important that the template argument chosen for this measure is in line with the building types for the stub space types of the model passed in.",
+         "name" : "Create Typical Building from Model",
+         "result" : 
+         {
+            "completed_at" : "20230301T014302Z",
+            "measure_class_name" : "CreateTypicalBuildingFromModel",
+            "measure_display_name" : "Create Typical Building from Model",
+            "measure_name" : "create_typical_building_from_model",
+            "measure_taxonomy" : "Whole Building.Space Types",
+            "measure_type" : "ModelMeasure",
+            "measure_uid" : "339a2e3a-273c-4494-bb50-bfe586a0647c",
+            "measure_version_id" : "3a5df9be-08ca-4108-af82-2e1aaa539a88",
+            "measure_version_modified" : "20220913T124426Z",
+            "measure_xml_checksum" : "EE13F09F",
+            "started_at" : "20230301T014033Z",
+            "stderr" : "",
+            "stdout" : "",
+            "step_errors" : 
+            [
+               "comparison of Float with nil failed\n\t:/ruby/2.7.0/gems/openstudio-standards-0.3.0/lib/openstudio-standards/prototypes/ashrae_90_1/ashrae_90_1_2016/ashrae_90_1_2016.PumpVariableSpeed.rb:138:in `>'\n\t:/ruby/2.7.0/gems/openstudio-standards-0.3.0/lib/openstudio-standards/prototypes/ashrae_90_1/ashrae_90_1_2016/ashrae_90_1_2016.PumpVariableSpeed.rb:138:in `pump_variable_speed_get_control_type'\n\t:/ruby/2.7.0/gems/openstudio-standards-0.3.0/lib/openstudio-standards/prototypes/common/objects/Prototype.PumpVariableSpeed.rb:31:in `pump_variable_speed_control_type'\n\t:/ruby/2.7.0/gems/openstudio-standards-0.3.0/lib/openstudio-standards/prototypes/common/objects/Prototype.Model.rb:1787:in `block in model_apply_prototype_hvac_assumptions'\n\t:/ruby/2.7.0/gems/openstudio-standards-0.3.0/lib/openstudio-standards/prototypes/common/objects/Prototype.Model.rb:1787:in `each'\n\t:/ruby/2.7.0/gems/openstudio-standards-0.3.0/lib/openstudio-standards/prototypes/common/objects/Prototype.Model.rb:1787:in `model_apply_prototype_hvac_assumptions'\n\t/private/var/folders/cj/vhw1_9g1151dh76sjlgdyq19k7f3h5/T/osmodel-1677634768-1/resources/measures/create_typical_building_from_model 1/resources/os_lib_model_generation.rb:3182:in `typical_building_from_model'\n\t/private/var/folders/cj/vhw1_9g1151dh76sjlgdyq19k7f3h5/T/osmodel-1677634768-1/resources/measures/create_typical_building_from_model 1/measure.rb:491:in `run'\n\t:/ruby/2.7.0/gems/openstudio-workflow-2.3.1/lib/openstudio/workflow/util/measure.rb:517:in `apply_measure'\n\t:/ruby/2.7.0/gems/openstudio-workflow-2.3.1/lib/openstudio/workflow/util/measure.rb:114:in `block in apply_measures'\n\t:/ruby/2.7.0/gems/openstudio-workflow-2.3.1/lib/openstudio/workflow/util/measure.rb:67:in `each_index'\n\t:/ruby/2.7.0/gems/openstudio-workflow-2.3.1/lib/openstudio/workflow/util/measure.rb:67:in `apply_measures'\n\t:/ruby/2.7.0/gems/openstudio-workflow-2.3.1/lib/openstudio/workflow/jobs/run_os_measures.rb:70:in `perform'\n\t:/ruby/2.7.0/gems/openstudio-workflow-2.3.1/lib/openstudio/workflow/run.rb:291:in `step'\n\t:/ruby/2.7.0/gems/openstudio-workflow-2.3.1/lib/openstudio/workflow/run.rb:233:in `run'\n\t:/openstudio_cli.rb:1184:in `execute'\n\t:/openstudio_cli.rb:814:in `execute'\n\t:/openstudio_cli.rb:1983:in `<main>'\n\teval:188:in `eval'\n\teval:188:in `require_embedded_absolute'\n\teval:173:in `block in require_embedded'\n\teval:167:in `each'\n\teval:167:in `require_embedded'\n\teval:126:in `require'\n\teval:3:in `<main>'"
+            ],
+            "step_files" : [],
+            "step_info" : 
+            [
+               "Replacing argument named climate_zone from current measure with a value of ASHRAE 169-2013-8A from Create Bar From Building Type Ratios.",
+               "Replacing argument named template from current measure with a value of 90.1-2016 from Create Bar From Building Type Ratios.",
+               "Weekday start time of  plus duration of 24.0 is more than 24 hrs, hours of operation overlap midnight.",
+               "Using climate zone ASHRAE 169-2013-8A from user arguments",
+               "Adding loads to space type named Office Attic - 90.1-2016",
+               "Adding loads to space type named Office WholeBuilding - Md Office - 90.1-2016",
+               "Adding loads to space type named Office WholeBuilding - Sm Office - 90.1-2016",
+               "Using climate zone ASHRAE 169-2013-8A from user arguments",
+               "Set FC factor constructions for slab and below grade walls.",
+               "Adding default construction set named 90.1-2016 - Office - ASHRAE 169-2013-8A",
+               "Exterior wall construction type Mass is the default for this building type.",
+               "Adding Office Shared Service Water Loop to the building. It has 1 water use connections.",
+               "Assigning Office WholeBuilding - Md Office - 90.1-2016 Thermostat to thermal zones with Office WholeBuilding - Md Office - 90.1-2016 assigned.",
+               "Assigning Office WholeBuilding - Sm Office - 90.1-2016 Thermostat to thermal zones with Office WholeBuilding - Sm Office - 90.1-2016 assigned.",
+               "Updated 11 schedules with new hours of operation."
+            ],
+            "step_initial_condition" : "The building started with 794 objects.",
+            "step_result" : "Fail",
+            "step_values" : 
+            [
+               {
+                  "name" : "template",
+                  "value" : "90.1-2016"
+               },
+               {
+                  "name" : "system_type",
+                  "value" : "PSZ-AC with gas coil"
+               },
+               {
+                  "name" : "hvac_delivery_type",
+                  "value" : "Forced Air"
+               },
+               {
+                  "name" : "htg_src",
+                  "value" : "DistrictHeating"
+               },
+               {
+                  "name" : "clg_src",
+                  "value" : "Electricity"
+               },
+               {
+                  "name" : "swh_src",
+                  "value" : "Inferred"
+               },
+               {
+                  "name" : "kitchen_makeup",
+                  "value" : "None"
+               },
+               {
+                  "name" : "exterior_lighting_zone",
+                  "value" : "0 - Undeveloped Areas Parks"
+               },
+               {
+                  "name" : "add_constructions",
+                  "value" : true
+               },
+               {
+                  "name" : "wall_construction_type",
+                  "value" : "Mass"
+               },
+               {
+                  "name" : "add_space_type_loads",
+                  "value" : true
+               },
+               {
+                  "name" : "add_elevators",
+                  "value" : false
+               },
+               {
+                  "name" : "add_internal_mass",
+                  "value" : true
+               },
+               {
+                  "name" : "add_exterior_lights",
+                  "value" : false
+               },
+               {
+                  "name" : "onsite_parking_fraction",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "add_exhaust",
+                  "value" : true
+               },
+               {
+                  "name" : "add_swh",
+                  "value" : true
+               },
+               {
+                  "name" : "add_thermostat",
+                  "value" : true
+               },
+               {
+                  "name" : "add_hvac",
+                  "value" : true
+               },
+               {
+                  "name" : "add_refrigeration",
+                  "value" : false
+               },
+               {
+                  "name" : "modify_wkdy_op_hrs",
+                  "value" : true
+               },
+               {
+                  "name" : "wkdy_op_hrs_start_time",
+                  "value" : 24.0
+               },
+               {
+                  "name" : "wkdy_op_hrs_duration",
+                  "value" : 24.0
+               },
+               {
+                  "name" : "modify_wknd_op_hrs",
+                  "value" : false
+               },
+               {
+                  "name" : "wknd_op_hrs_start_time",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "wknd_op_hrs_duration",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "unmet_hours_tolerance",
+                  "value" : 1.0
+               },
+               {
+                  "name" : "remove_objects",
+                  "value" : true
+               },
+               {
+                  "name" : "use_upstream_args",
+                  "value" : true
+               },
+               {
+                  "name" : "climate_zone",
+                  "value" : "ASHRAE 169-2013-8A"
+               }
+            ],
+            "step_warnings" : 
+            [
+               "Set Pipe:Indoor ambient temp schedules to 67.3F to avoid E+ issue 9650, remove once fixed."
+            ]
+         }
+      },
+      {
+         "arguments" : 
+         {
+            "units" : "SI"
+         },
+         "description" : "This measure creates high level tables and charts pulling both from model inputs and EnergyPlus results. It has building level information as well as detail on space types, thermal zones, HVAC systems, envelope characteristics, and economics. Click the heading above a chart to view a table of the chart data.",
+         "measure_dir_name" : "OpenStudioResults",
+         "modeler_description" : "For the most part consumption data comes from the tabular EnergyPlus results, however there are a few requests added for time series results. Space type and loop details come from the OpenStudio model. The code for this is modular, making it easy to use as a template for your own custom reports. The structure of the report uses bootstrap, and the graphs use dimple js. The new measure warning section will show warnings generated by upstream measures. It will not show forward translation warnings, EnergyPlus warnings, or warnings that might be reported by this measure.",
+         "name" : "OpenStudio Results"
+      }
+   ],
+   "updated_at" : "20230301T014304Z",
+   "weather_file" : "USA_AK_Kodiak.703500_2020.epw"
+}
