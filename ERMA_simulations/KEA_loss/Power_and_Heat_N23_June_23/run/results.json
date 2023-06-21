@@ -1,0 +1,15 @@
+{
+  "SetPowerAndHeatOff": {
+    "otg_date": "June 23",
+    "otg_hr": 9,
+    "otg_len": 87,
+    "outage_type": "Power and Heat",
+    "applicable": true
+  },
+  "AddOutputVariable": {
+    "variable_name": "Zone Thermal Comfort Fanger Model PPD",
+    "reporting_frequency": "hourly",
+    "key_value": "*",
+    "applicable": true
+  }
+}
