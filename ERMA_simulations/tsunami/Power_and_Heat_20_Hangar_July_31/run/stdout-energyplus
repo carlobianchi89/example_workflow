@@ -1,0 +1,576 @@
+EnergyPlus Starting
+EnergyPlus, Version 22.2.0-aa78da9668, YMD=2023.06.21 17:07
+Initializing Response Factors
+Calculating CTFs for "INTERIORFURNISHINGS 2"
+Calculating CTFs for "TYPICAL INSULATED EXTERIOR MASS WALL R-20.83"
+Calculating CTFs for "TYPICAL INSULATED METAL BUILDING ROOF R-27.03"
+Calculating CTFs for "TYPICAL INTERIOR WALL"
+Calculating CTFs for "FOUNDATION F 093 PERIM 0 AREA 135471"
+Calculating CTFs for "FOUNDATION F 093 PERIM 0 AREA 2744"
+Calculating CTFs for "FOUNDATION F 093 PERIM 0 AREA 345251"
+Calculating CTFs for "FOUNDATION F 093 PERIM 2389 AREA 10924"
+Calculating CTFs for "FOUNDATION F 093 PERIM 484 AREA 2213"
+Calculating CTFs for "FOUNDATION F 093 PERIM 567 AREA 25923"
+Calculating CTFs for "FOUNDATION F 093 PERIM 6089 AREA 27839"
+Calculating CTFs for "FOUNDATION F 093 PERIM 914 AREA 209"
+Initializing Window Optical Properties
+Initializing Solar Calculations
+Allocate Solar Module Arrays
+Initializing Zone and Enclosure Report Variables
+Initializing Surface (Shading) Report Variables
+Determining Shadowing Combinations
+Computing Window Shade Absorption Factors
+Proceeding with Initializing Solar Calculations
+Initializing Surfaces
+Initializing Outdoor environment for Surfaces
+Setting up Surface Reporting Variables
+Initializing Temperature and Flux Histories
+Initializing Window Shading
+Computing Interior Absorption Factors
+Computing Interior Diffuse Solar Absorption Factors
+Initializing Solar Heat Gains
+Initializing Internal Heat Gains
+Initializing Interior Solar Distribution
+Initializing Interior Convection Coefficients
+Gathering Information for Predefined Reporting
+Completed Initializing Surface Heat Balance
+Calculate Outside Surface Heat Balance
+Calculate Inside Surface Heat Balance
+Calculate Air Heat Balance
+Initializing HVAC
+Warming up
+Calculating Detailed Daylighting Factors, Start Date=08/21
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation
+...for Sizing Period: #1 KODIAK ANN CLG .4% CONDNS DB=>MWB
+Warming up
+Calculating Detailed Daylighting Factors, Start Date=08/21
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation
+...for Sizing Period: #2 KODIAK ANN CLG .4% CONDNS WB=>MDB
+Warming up
+Calculating Detailed Daylighting Factors, Start Date=01/21
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation
+...for Sizing Period: #3 KODIAK ANN HTG 99.6% CONDNS DB
+Warming up
+Calculating Detailed Daylighting Factors, Start Date=04/21
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation
+...for Sizing Period: #4 KODIAK APRIL .4% CONDNS DB=>MCWB
+Warming up
+Calculating Detailed Daylighting Factors, Start Date=04/21
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation
+...for Sizing Period: #5 KODIAK APRIL .4% CONDNS WB=>MCDB
+Warming up
+Calculating Detailed Daylighting Factors, Start Date=08/21
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation
+...for Sizing Period: #6 KODIAK AUGUST .4% CONDNS DB=>MCWB
+Warming up
+Calculating Detailed Daylighting Factors, Start Date=08/21
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation
+...for Sizing Period: #7 KODIAK AUGUST .4% CONDNS WB=>MCDB
+Warming up
+Calculating Detailed Daylighting Factors, Start Date=12/21
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation
+...for Sizing Period: #8 KODIAK DECEMBER .4% CONDNS DB=>MCWB
+Warming up
+Calculating Detailed Daylighting Factors, Start Date=12/21
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation
+...for Sizing Period: #9 KODIAK DECEMBER .4% CONDNS WB=>MCDB
+Warming up
+Calculating Detailed Daylighting Factors, Start Date=02/21
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation
+...for Sizing Period: #10 KODIAK FEBRUARY .4% CONDNS DB=>MCWB
+Warming up
+Calculating Detailed Daylighting Factors, Start Date=02/21
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation
+...for Sizing Period: #11 KODIAK FEBRUARY .4% CONDNS WB=>MCDB
+Warming up
+Calculating Detailed Daylighting Factors, Start Date=01/21
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation
+...for Sizing Period: #12 KODIAK JANUARY .4% CONDNS DB=>MCWB
+Warming up
+Calculating Detailed Daylighting Factors, Start Date=01/21
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation
+...for Sizing Period: #13 KODIAK JANUARY .4% CONDNS WB=>MCDB
+Warming up
+Calculating Detailed Daylighting Factors, Start Date=07/21
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation
+...for Sizing Period: #14 KODIAK JULY .4% CONDNS DB=>MCWB
+Warming up
+Calculating Detailed Daylighting Factors, Start Date=07/21
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation
+...for Sizing Period: #15 KODIAK JULY .4% CONDNS WB=>MCDB
+Warming up
+Calculating Detailed Daylighting Factors, Start Date=06/21
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation
+...for Sizing Period: #16 KODIAK JUNE .4% CONDNS DB=>MCWB
+Warming up
+Calculating Detailed Daylighting Factors, Start Date=06/21
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation
+...for Sizing Period: #17 KODIAK JUNE .4% CONDNS WB=>MCDB
+Warming up
+Calculating Detailed Daylighting Factors, Start Date=03/21
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation
+...for Sizing Period: #18 KODIAK MARCH .4% CONDNS DB=>MCWB
+Warming up
+Calculating Detailed Daylighting Factors, Start Date=03/21
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation
+...for Sizing Period: #19 KODIAK MARCH .4% CONDNS WB=>MCDB
+Warming up
+Calculating Detailed Daylighting Factors, Start Date=05/21
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation
+...for Sizing Period: #20 KODIAK MAY .4% CONDNS DB=>MCWB
+Warming up
+Calculating Detailed Daylighting Factors, Start Date=05/21
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation
+...for Sizing Period: #21 KODIAK MAY .4% CONDNS WB=>MCDB
+Warming up
+Calculating Detailed Daylighting Factors, Start Date=11/21
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation
+...for Sizing Period: #22 KODIAK NOVEMBER .4% CONDNS DB=>MCWB
+Warming up
+Calculating Detailed Daylighting Factors, Start Date=11/21
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation
+...for Sizing Period: #23 KODIAK NOVEMBER .4% CONDNS WB=>MCDB
+Warming up
+Calculating Detailed Daylighting Factors, Start Date=10/21
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation
+...for Sizing Period: #24 KODIAK OCTOBER .4% CONDNS DB=>MCWB
+Warming up
+Calculating Detailed Daylighting Factors, Start Date=10/21
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation
+...for Sizing Period: #25 KODIAK OCTOBER .4% CONDNS WB=>MCDB
+Warming up
+Calculating Detailed Daylighting Factors, Start Date=09/21
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation
+...for Sizing Period: #26 KODIAK SEPTEMBER .4% CONDNS DB=>MCWB
+Warming up
+Calculating Detailed Daylighting Factors, Start Date=09/21
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Warming up
+Performing Zone Sizing Simulation
+...for Sizing Period: #27 KODIAK SEPTEMBER .4% CONDNS WB=>MCDB
+Calculating System sizing
+...for Sizing Period: #1 KODIAK ANN CLG .4% CONDNS DB=>MWB
+Calculating System sizing
+...for Sizing Period: #2 KODIAK ANN CLG .4% CONDNS WB=>MDB
+Calculating System sizing
+...for Sizing Period: #3 KODIAK ANN HTG 99.6% CONDNS DB
+Calculating System sizing
+...for Sizing Period: #4 KODIAK APRIL .4% CONDNS DB=>MCWB
+Calculating System sizing
+...for Sizing Period: #5 KODIAK APRIL .4% CONDNS WB=>MCDB
+Calculating System sizing
+...for Sizing Period: #6 KODIAK AUGUST .4% CONDNS DB=>MCWB
+Calculating System sizing
+...for Sizing Period: #7 KODIAK AUGUST .4% CONDNS WB=>MCDB
+Calculating System sizing
+...for Sizing Period: #8 KODIAK DECEMBER .4% CONDNS DB=>MCWB
+Calculating System sizing
+...for Sizing Period: #9 KODIAK DECEMBER .4% CONDNS WB=>MCDB
+Calculating System sizing
+...for Sizing Period: #10 KODIAK FEBRUARY .4% CONDNS DB=>MCWB
+Calculating System sizing
+...for Sizing Period: #11 KODIAK FEBRUARY .4% CONDNS WB=>MCDB
+Calculating System sizing
+...for Sizing Period: #12 KODIAK JANUARY .4% CONDNS DB=>MCWB
+Calculating System sizing
+...for Sizing Period: #13 KODIAK JANUARY .4% CONDNS WB=>MCDB
+Calculating System sizing
+...for Sizing Period: #14 KODIAK JULY .4% CONDNS DB=>MCWB
+Calculating System sizing
+...for Sizing Period: #15 KODIAK JULY .4% CONDNS WB=>MCDB
+Calculating System sizing
+...for Sizing Period: #16 KODIAK JUNE .4% CONDNS DB=>MCWB
+Calculating System sizing
+...for Sizing Period: #17 KODIAK JUNE .4% CONDNS WB=>MCDB
+Calculating System sizing
+...for Sizing Period: #18 KODIAK MARCH .4% CONDNS DB=>MCWB
+Calculating System sizing
+...for Sizing Period: #19 KODIAK MARCH .4% CONDNS WB=>MCDB
+Calculating System sizing
+...for Sizing Period: #20 KODIAK MAY .4% CONDNS DB=>MCWB
+Calculating System sizing
+...for Sizing Period: #21 KODIAK MAY .4% CONDNS WB=>MCDB
+Calculating System sizing
+...for Sizing Period: #22 KODIAK NOVEMBER .4% CONDNS DB=>MCWB
+Calculating System sizing
+...for Sizing Period: #23 KODIAK NOVEMBER .4% CONDNS WB=>MCDB
+Calculating System sizing
+...for Sizing Period: #24 KODIAK OCTOBER .4% CONDNS DB=>MCWB
+Calculating System sizing
+...for Sizing Period: #25 KODIAK OCTOBER .4% CONDNS WB=>MCDB
+Calculating System sizing
+...for Sizing Period: #26 KODIAK SEPTEMBER .4% CONDNS DB=>MCWB
+Calculating System sizing
+...for Sizing Period: #27 KODIAK SEPTEMBER .4% CONDNS WB=>MCDB
+Adjusting Air System Sizing
+Adjusting Standard 62.1 Ventilation Sizing
+Initializing Simulation
+Reporting Surfaces
+Beginning Primary Simulation
+Initializing New Environment Parameters
+Warming up {1}
+Calculating Detailed Daylighting Factors, Start Date=01/01
+Warming up {2}
+Warming up {3}
+Warming up {4}
+Warming up {5}
+Warming up {6}
+Warming up {7}
+Warming up {8}
+Warming up {9}
+Warming up {10}
+Starting Simulation at 01/01/2006 for RUN PERIOD 1
+Updating Shadowing Calculations, Start Date=01/31/2006
+Updating Detailed Daylighting Factors, Start Date=01/31
+Continuing Simulation at 01/31/2006 for RUN PERIOD 1
+Updating Shadowing Calculations, Start Date=03/02/2006
+Updating Detailed Daylighting Factors, Start Date=03/02
+Continuing Simulation at 03/02/2006 for RUN PERIOD 1
+Updating Shadowing Calculations, Start Date=04/01/2006
+Updating Detailed Daylighting Factors, Start Date=04/01
+Continuing Simulation at 04/01/2006 for RUN PERIOD 1
+Updating Shadowing Calculations, Start Date=05/01/2006
+Updating Detailed Daylighting Factors, Start Date=05/01
+Continuing Simulation at 05/01/2006 for RUN PERIOD 1
+Updating Shadowing Calculations, Start Date=05/31/2006
+Updating Detailed Daylighting Factors, Start Date=05/31
+Continuing Simulation at 05/31/2006 for RUN PERIOD 1
+Updating Shadowing Calculations, Start Date=06/30/2006
+Updating Detailed Daylighting Factors, Start Date=06/30
+Continuing Simulation at 06/30/2006 for RUN PERIOD 1
+Updating Shadowing Calculations, Start Date=07/30/2006
+Updating Detailed Daylighting Factors, Start Date=07/30
+Continuing Simulation at 07/30/2006 for RUN PERIOD 1
+Updating Shadowing Calculations, Start Date=08/29/2006
+Updating Detailed Daylighting Factors, Start Date=08/29
+Continuing Simulation at 08/29/2006 for RUN PERIOD 1
+Updating Shadowing Calculations, Start Date=09/28/2006
+Updating Detailed Daylighting Factors, Start Date=09/28
+Continuing Simulation at 09/28/2006 for RUN PERIOD 1
+Updating Shadowing Calculations, Start Date=10/28/2006
+Updating Detailed Daylighting Factors, Start Date=10/28
+Continuing Simulation at 10/28/2006 for RUN PERIOD 1
+Updating Shadowing Calculations, Start Date=11/27/2006
+Updating Detailed Daylighting Factors, Start Date=11/27
+Continuing Simulation at 11/27/2006 for RUN PERIOD 1
+Updating Shadowing Calculations, Start Date=12/27/2006
+Updating Detailed Daylighting Factors, Start Date=12/27
+Continuing Simulation at 12/27/2006 for RUN PERIOD 1
+Writing tabular output file results using HTML format.
+Computing Life Cycle Costs and Reporting
+Writing final SQL reports
+EnergyPlus Run Time=00hr 00min 13.37sec
+EnergyPlus Completed Successfully.

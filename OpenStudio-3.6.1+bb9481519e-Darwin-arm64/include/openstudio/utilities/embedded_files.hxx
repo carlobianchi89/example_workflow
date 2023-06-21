@@ -1,0 +1,194 @@
+#include <cstdint>
+#include <map>
+#include <vector>
+#include <string>
+#include <iostream>
+#include <fstream>
+#include <algorithm>
+
+#ifdef _MSC_VER
+#  include <direct.h>
+#else
+#  include <sys/stat.h>
+#  include <sys/types.h>
+#endif
+#include <memory>
+#include <vector>
+
+#include <filesystem>
+
+#include <stdio.h>
+#include <assert.h>
+#include <zlib.h>
+
+#if defined(MSDOS) || defined(OS2) || defined(_WIN32) || defined(_WIN64) || defined(__CYGWIN__)
+#  include <fcntl.h>
+#  include <io.h>
+#  define SET_BINARY_MODE(file) setmode(fileno(file), O_BINARY)
+#else
+#  define SET_BINARY_MODE(file)
+#endif
+
+#define CHUNK 16384
+
+using EmbeddedFile = std::pair<size_t, const uint8_t*>;
+
+namespace openstudio {
+
+/* Decompress from file source to file dest until stream ends or EOF.
+   inf() returns Z_OK on success, Z_MEM_ERROR if memory could not be
+   allocated for processing, Z_DATA_ERROR if the deflate data is
+   invalid or incomplete, Z_VERSION_ERROR if the version of zlib.h and
+   the version of the library linked do not match, or Z_ERRNO if there
+   is an error reading or writing the files. */
+inline int inf(const EmbeddedFile& file, std::vector<uint8_t>& result) {
+  //std::vector<uint8_t> result;
+
+  int ret;
+  unsigned have;
+  z_stream strm;
+  unsigned char in[CHUNK];
+  unsigned char out[CHUNK];
+
+  /* allocate inflate state */
+  strm.zalloc = Z_NULL;
+  strm.zfree = Z_NULL;
+  strm.opaque = Z_NULL;
+  strm.avail_in = 0;
+  strm.next_in = Z_NULL;
+  ret = inflateInit(&strm);
+  if (ret != Z_OK) {
+    return ret;
+  }
+
+  auto chars = file.second;
+  auto size = file.first;
+
+  // point or location where we are at moving through the data array
+  auto begin = chars;
+  auto end = chars + size;
+  auto chunk_end = begin;
+
+  /* decompress until deflate stream ends or end of file */
+  while (begin != end) {
+    if ((begin + CHUNK) < end) {
+      std::copy(begin, begin + CHUNK, in);
+      chunk_end = begin + CHUNK;
+    } else {
+      std::copy(begin, end, in);
+      chunk_end = end;
+    }
+
+    strm.next_in = const_cast<unsigned char*>(begin);
+    strm.avail_in = static_cast<uInt>(chunk_end - begin);
+
+    /* run inflate() on input until output buffer not full */
+    do {
+      strm.avail_out = CHUNK;
+      strm.next_out = out;
+      ret = inflate(&strm, Z_NO_FLUSH);
+      assert(ret != Z_STREAM_ERROR); /* state not clobbered */
+      switch (ret) {
+        case Z_NEED_DICT:
+          ret = Z_DATA_ERROR; /* and fall through */
+        case Z_DATA_ERROR:
+        case Z_MEM_ERROR:
+          (void)inflateEnd(&strm);
+          return ret;
+      }
+      have = CHUNK - strm.avail_out;
+      result.insert(result.end(), out, out + have);
+    } while (strm.avail_out == 0);
+
+    if (ret == Z_STREAM_END) {
+      break;
+    }
+
+    begin = chunk_end;
+  }
+
+  /* clean up and return */
+  (void)inflateEnd(&strm);
+  return ret == Z_STREAM_END ? Z_OK : Z_DATA_ERROR;
+}
+
+namespace embedded_files {
+  const std::map<std::string, EmbeddedFile>& files();
+
+  const std::vector<std::string>& fileNames();
+
+  inline const std::string& allFileNamesAsString() {
+    static const auto return_value = []() {
+      std::string result;
+      for (const auto& fileName : fileNames()) {
+        result += (fileName + ";");
+      }
+      return result;
+    }();
+
+    return return_value;
+  }
+
+  inline std::string findFirstFileByName(const std::string& t_filename) {
+    for (const auto& path : fileNames()) {
+      if (t_filename.size() > path.size()) {
+        continue;
+      }
+      if (std::equal(t_filename.rbegin(), t_filename.rend(), path.rbegin())) {
+        return path;
+      }
+    }
+    return {};
+  }
+
+  inline bool hasFile(const std::string& t_filename) {
+    const auto& fs = fileNames();
+    return (std::find(fs.begin(), fs.end(), t_filename) != fs.end());
+  }
+
+  inline std::string getFileAsString(const std::string& t_filename) {
+    const auto& fs = files();
+    const auto f = fs.find(t_filename);
+    if (f == fs.end()) {
+      throw std::runtime_error("Embedded file not found '" + t_filename + "'");
+    }
+    std::vector<uint8_t> inflated_data;
+    if (inf(f->second, inflated_data) != Z_OK) {
+      throw std::runtime_error("Embedded file failed to inflate '" + t_filename + "'");
+    }
+    return std::string(inflated_data.begin(), inflated_data.end());
+  }
+
+  inline void extractFile(const std::string& t_filename, const std::string& t_location, bool quiet = false) {
+    const auto& fs = files();
+    const auto f = fs.find(t_filename);
+    if (f == fs.end()) {
+      throw std::runtime_error("Embedded file not found '" + t_filename + "'");
+    }
+
+    std::string filenameonly = t_filename;
+    size_t i = t_filename.rfind('/', t_filename.length());
+    if (i != std::string::npos) {
+      filenameonly = t_filename.substr(i + 1, t_filename.length() - i);
+    }
+
+
+    std::filesystem::path createdFile = t_location / std::filesystem::path{filenameonly};
+    std::filesystem::create_directories(t_location);
+
+    std::ofstream ofs(createdFile);
+
+    std::vector<uint8_t> inflated_data;
+    if (inf(f->second, inflated_data) != Z_OK) {
+      throw std::runtime_error("Embedded file failed to inflate '" + t_filename + "'");
+    }
+
+    ofs.write(reinterpret_cast<const char*>(inflated_data.data()), inflated_data.size());
+    if (!quiet) {
+      std::cout << "***** Extracted " << t_filename << " to: " << createdFile.generic_string()  << " *****\n";
+    }
+  }
+
+}  // namespace embedded_files
+
+}

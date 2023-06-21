@@ -223,11 +223,6 @@ class SetPowerAndHeatOff < OpenStudio::Measure::ModelMeasure
         # leave schedule alone if used for people
         next if people_schedules.include?(schedule_ruleset)
 
-        puts '+++++++++++++++++++++++'
-        puts schedule_ruleset.name.get()
-        puts '+++++++++++++++++++++++'
-
-
         # don't leave infil alone but set to min value in year
         if infil_schs.include?(schedule_ruleset)
           otg_val = OsLib_Schedules.getMinMaxAnnualProfileValue(model, schedule_ruleset)['max']

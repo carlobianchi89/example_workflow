@@ -20191,7 +20191,10 @@ OS:ElectricEquipment:Definition,
   Watts/Area,                             !- Design Level Calculation Method
   ,                                       !- Design Level {W}
   10,                                     !- Watts per Space Floor Area {W/m2}
-  ;                                       !- Watts per Person {W/person}
+  ,                                       !- Watts per Person {W/person}
+  ,                                       !- Fraction Latent
+  ,                                       !- Fraction Radiant
+  0.95;                                   !- Fraction Lost
 
 OS:Rendering:Color,
   {0b4154c7-a81e-4753-93ef-d5e27d7807f5}, !- Handle
@@ -20640,7 +20643,10 @@ OS:ElectricEquipment:Definition,
   Watts/Area,                             !- Design Level Calculation Method
   ,                                       !- Design Level {W}
   13,                                     !- Watts per Space Floor Area {W/m2}
-  ;                                       !- Watts per Person {W/person}
+  ,                                       !- Watts per Person {W/person}
+  ,                                       !- Fraction Latent
+  ,                                       !- Fraction Radiant
+  0.95;                                   !- Fraction Lost
 
 OS:ElectricEquipment,
   {0837458f-e8d3-4a38-a725-a07490e08bc7}, !- Handle

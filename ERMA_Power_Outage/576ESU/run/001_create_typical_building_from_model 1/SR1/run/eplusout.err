@@ -1,4 +1,4 @@
-Program Version,EnergyPlus, Version 22.2.0-aa78da9668, YMD=2023.02.28 18:56,
+Program Version,EnergyPlus, Version 23.1.0-87ed9199d4, YMD=2023.06.01 11:04,
    ************* Beginning Zone Sizing Calculations
    ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="ECONOMIZER MAX OA FRACTION 70 PCT DEFAULT", Blank Schedule Type Limits Name input -- will not be validated.
    ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 10", Blank Schedule Type Limits Name input -- will not be validated.
@@ -20,6 +20,7 @@ Program Version,EnergyPlus, Version 22.2.0-aa78da9668, YMD=2023.02.28 18:56,
    ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 7", Blank Schedule Type Limits Name input -- will not be validated.
    ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 8", Blank Schedule Type Limits Name input -- will not be validated.
    ** Warning ** ProcessScheduleInput: Schedule:Constant="TEMPORARY PIPE INDOOR AMBIENT TEMP 67.3F", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Constant="ALWAYS OFF DISCRETE", Blank Schedule Type Limits Name input -- will not be validated.
    ** Warning ** ProcessScheduleInput: Schedule:Constant="ALWAYS ON CONTINUOUS", Blank Schedule Type Limits Name input -- will not be validated.
    ** Warning ** CheckUsedConstructions: There are 30 nominally unused constructions in input.
    **   ~~~   ** For explicit details on each unused construction, use Output:Diagnostics,DisplayExtraWarnings;
@@ -178,64 +179,63 @@ Program Version,EnergyPlus, Version 22.2.0-aa78da9668, YMD=2023.02.28 18:56,
    ** Warning ** AirLoopHVAC:UnitarySystem = ZONE OFFICE WHOLEBUILDING - MD OFFICE C END_B - STORY TOP PSZ-AC UNITARY AC
    **   ~~~   ** Method used to determine the heating supply air flow rate is not specified when heating coil is present.
    ************* Beginning Plant Sizing Calculations
-   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="CONTROLLER MECHANICAL VENTILATION 1
+   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="CONTROLLER MECHANICAL VENTILATION 1"
    **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone="ZONE OFFICE WHOLEBUILDING - MD OFFICE A  - STORY GROUND".
    **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.
-   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="CONTROLLER MECHANICAL VENTILATION 10
+   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="CONTROLLER MECHANICAL VENTILATION 10"
    **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone="ZONE OFFICE WHOLEBUILDING - MD OFFICE A  - STORY TOP".
    **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.
-   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="CONTROLLER MECHANICAL VENTILATION 2
+   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="CONTROLLER MECHANICAL VENTILATION 2"
    **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone="ZONE OFFICE WHOLEBUILDING - MD OFFICE A END_A - STORY GROUND".
    **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.
-   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="CONTROLLER MECHANICAL VENTILATION 11
+   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="CONTROLLER MECHANICAL VENTILATION 11"
    **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone="ZONE OFFICE WHOLEBUILDING - MD OFFICE A END_A - STORY TOP".
    **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.
-   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="CONTROLLER MECHANICAL VENTILATION 3
+   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="CONTROLLER MECHANICAL VENTILATION 3"
    **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone="ZONE OFFICE WHOLEBUILDING - MD OFFICE A END_B - STORY GROUND".
    **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.
-   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="CONTROLLER MECHANICAL VENTILATION 12
+   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="CONTROLLER MECHANICAL VENTILATION 12"
    **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone="ZONE OFFICE WHOLEBUILDING - MD OFFICE A END_B - STORY TOP".
    **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.
-   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="CONTROLLER MECHANICAL VENTILATION 4
+   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="CONTROLLER MECHANICAL VENTILATION 4"
    **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone="ZONE OFFICE WHOLEBUILDING - MD OFFICE B  - STORY GROUND".
    **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.
-   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="CONTROLLER MECHANICAL VENTILATION 13
+   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="CONTROLLER MECHANICAL VENTILATION 13"
    **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone="ZONE OFFICE WHOLEBUILDING - MD OFFICE B  - STORY TOP".
    **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.
-   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="CONTROLLER MECHANICAL VENTILATION 5
+   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="CONTROLLER MECHANICAL VENTILATION 5"
    **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone="ZONE OFFICE WHOLEBUILDING - MD OFFICE B END_A - STORY GROUND".
    **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.
-   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="CONTROLLER MECHANICAL VENTILATION 14
+   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="CONTROLLER MECHANICAL VENTILATION 14"
    **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone="ZONE OFFICE WHOLEBUILDING - MD OFFICE B END_A - STORY TOP".
    **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.
-   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="CONTROLLER MECHANICAL VENTILATION 6
+   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="CONTROLLER MECHANICAL VENTILATION 6"
    **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone="ZONE OFFICE WHOLEBUILDING - MD OFFICE B END_B - STORY GROUND".
    **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.
-   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="CONTROLLER MECHANICAL VENTILATION 15
+   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="CONTROLLER MECHANICAL VENTILATION 15"
    **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone="ZONE OFFICE WHOLEBUILDING - MD OFFICE B END_B - STORY TOP".
    **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.
-   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="CONTROLLER MECHANICAL VENTILATION 7
+   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="CONTROLLER MECHANICAL VENTILATION 7"
    **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone="ZONE OFFICE WHOLEBUILDING - MD OFFICE C  - STORY GROUND".
    **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.
-   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="CONTROLLER MECHANICAL VENTILATION 16
+   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="CONTROLLER MECHANICAL VENTILATION 16"
    **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone="ZONE OFFICE WHOLEBUILDING - MD OFFICE C  - STORY TOP".
    **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.
-   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="CONTROLLER MECHANICAL VENTILATION 8
+   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="CONTROLLER MECHANICAL VENTILATION 8"
    **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone="ZONE OFFICE WHOLEBUILDING - MD OFFICE C END_A - STORY GROUND".
    **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.
-   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="CONTROLLER MECHANICAL VENTILATION 17
+   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="CONTROLLER MECHANICAL VENTILATION 17"
    **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone="ZONE OFFICE WHOLEBUILDING - MD OFFICE C END_A - STORY TOP".
    **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.
-   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="CONTROLLER MECHANICAL VENTILATION 9
+   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="CONTROLLER MECHANICAL VENTILATION 9"
    **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone="ZONE OFFICE WHOLEBUILDING - MD OFFICE C END_B - STORY GROUND".
    **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.
-   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="CONTROLLER MECHANICAL VENTILATION 18
+   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="CONTROLLER MECHANICAL VENTILATION 18"
    **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone="ZONE OFFICE WHOLEBUILDING - MD OFFICE C END_B - STORY TOP".
    **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.
    ** Warning ** Check input. Pump nominal power or motor efficiency is set to 0, for pump=MAIN SERVICE WATER LOOP WATER MAINS PRESSURE DRIVEN
    ** Warning ** Check input. Pump nominal flow rate is set or calculated = 0, for pump=MAIN SERVICE WATER LOOP WATER MAINS PRESSURE DRIVEN
    ** Warning ** Output:Meter: invalid Key Name="DISTRICTCOOLING:FACILITY" - not found.
-   ** Warning ** Output:Meter: invalid Key Name="DISTRICTHEATING:FACILITY" - not found.
    ** Warning ** Output:Meter:MeterFileOnly requested for "Electricity:Facility" (TimeStep), already on "Output:Meter". Will report to both eplusout.eso and eplusout.mtr
    ************* Testing Individual Branch Integrity
    ************* All Branches passed integrity testing
@@ -258,16 +258,16 @@ Program Version,EnergyPlus, Version 22.2.0-aa78da9668, YMD=2023.02.28 18:56,
    ************* Simulation Error Summary *************
    ************* There are 8 unused objects in input.
    ************* Use Output:Diagnostics,DisplayUnusedObjects; to see them.
-   ************* There are 28 unused schedules in input.
-   ************* There are 41 unused week schedules in input.
-   ************* There are 109 unused day schedules in input.
+   ************* There are 29 unused schedules in input.
+   ************* There are 29 unused week schedules in input.
+   ************* There are 101 unused day schedules in input.
    ************* Use Output:Diagnostics,DisplayUnusedSchedules; to see them.
    *************
    ************* ===== Recurring Error Summary =====
    ************* The following recurring error messages occurred.
    *************
    *************  ** Warning ** "OFFICE WHOLEBUILDING - MD OFFICE - 90.1-2016 SERVICE WATER USE 0.13GPM AT 140F" - Target water temperature should be less than or equal to the hot water temperature error continues...
-   *************  **   ~~~   **   This error occurred 56463 total times;
+   *************  **   ~~~   **   This error occurred 56415 total times;
    *************  **   ~~~   **   during Warmup 0 times;
    *************  **   ~~~   **   during Sizing 0 times.
    *************  **   ~~~   **   Max=40.399837  Min=18.551227
@@ -281,5 +281,5 @@ Program Version,EnergyPlus, Version 22.2.0-aa78da9668, YMD=2023.02.28 18:56,
    ************* ..object. You may remove the constructions indicated (when you use the DisplayExtraWarnings option).
    *************
    ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
-   ************* EnergyPlus Sizing Error Summary. During Sizing: 80 Warning; 1 Severe Errors.
-   ************* EnergyPlus Completed Successfully-- 56570 Warning; 1 Severe Errors; Elapsed Time=00hr 03min 28.75sec
+   ************* EnergyPlus Sizing Error Summary. During Sizing: 81 Warning; 1 Severe Errors.
+   ************* EnergyPlus Completed Successfully-- 56522 Warning; 1 Severe Errors; Elapsed Time=00hr 00min 58.36sec

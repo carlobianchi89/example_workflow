@@ -674,4 +674,10 @@ Tabular Report,HTML,None
  Warmup Convergence Information,ZONE WAREHOUSE FINE B  - STORY GROUND,RunPeriod: RUN PERIOD 1,2.0724163126E-015,1.6747652893E-015,Pass,Pass,8.5607589898E-002,0.1291511777,Pass,Pass
  Warmup Convergence Information,ZONE WAREHOUSE FINE B END_B - STORY GROUND,RunPeriod: RUN PERIOD 1,1.9984014443E-015,1.7993378315E-015,Pass,Pass,0.1424693269,0.1041862759,Pass,Pass
  Warmup Convergence Information,ZONE WAREHOUSE FINE C  - STORY GROUND,RunPeriod: RUN PERIOD 1,2.3684757859E-015,2.0296814897E-015,Pass,Pass,0.1302777676,9.4922836869E-002,Pass,Pass
- Warmup Convergence Information,ZONE WAREHOUSE FINE C END_B - STORY GROUND,RunPeriod: RUN PERIOD 1,3.0190002771E-004,3.1207037398E-004,Pass,Pass,0.1272
+ Warmup Convergence Information,ZONE WAREHOUSE FINE C END_B - STORY GROUND,RunPeriod: RUN PERIOD 1,3.0190002771E-004,3.1207037398E-004,Pass,Pass,0.1272022004,0.1058761800,Pass,Pass
+ Warmup Convergence Information,ZONE WAREHOUSE OFFICE A  - STORY GROUND,RunPeriod: RUN PERIOD 1,1.8825506926E-004,2.9553887539E-004,Pass,Pass,0.2009352942,0.1995683392,Pass,Pass
+ Warmup Convergence Information,ZONE WAREHOUSE OFFICE B  - STORY GROUND,RunPeriod: RUN PERIOD 1,1.1842378929E-015,1.3240182151E-015,Pass,Pass,2.0324835951E-002,1.8128198119E-002,Pass,Pass
+ Warmup Convergence Information,ZONE WAREHOUSE OFFICE C  - STORY GROUND,RunPeriod: RUN PERIOD 1,2.4211389670E-004,3.0562797053E-004,Pass,Pass,8.2085126912E-002,5.9883394500E-002,Pass,Pass
+! <Program Control Information:Threads/Parallel Sims>, Threading Supported,Maximum Number of Threads, Env Set Threads (OMP_NUM_THREADS), EP Env Set Threads (EP_OMP_NUM_THREADS), IDF Set Threads, Number of Threads Used (Interior Radiant Exchange), Number Nominal Surfaces, Number Parallel Sims
+Program Control:Threads/Parallel Sims, No,1, N/A, N/A, N/A, N/A, N/A, N/A
+End of Data

@@ -1,6 +1,6 @@
 {
    "created_at" : "20230206T223851Z",
-   "seed_file" : "../576ESU.osm",
+   "seed_file" : "../576ESU copy.osm",
    "steps" : 
    [
       {
@@ -26,13 +26,14 @@
             "add_elevators" : false,
             "add_exterior_lights" : false,
             "add_refrigeration" : false,
+            "clg_src" : "DistrictCooling",
             "climate_zone" : "ASHRAE 169-2013-8A",
             "exterior_lighting_zone" : "0 - Undeveloped Areas Parks",
             "htg_src" : "DistrictHeating",
             "kitchen_makeup" : "None",
             "modify_wkdy_op_hrs" : true,
             "onsite_parking_fraction" : 0,
-            "system_type" : "PSZ-AC with gas coil",
+            "system_type" : "PSZ-AC with district hot water",
             "template" : "90.1-2016",
             "wall_construction_type" : "Mass",
             "wkdy_op_hrs_duration" : 24,
@@ -56,6 +57,6 @@
          "name" : "OpenStudio Results"
       }
    ],
-   "updated_at" : "20230301T020356Z",
-   "weather_file" : "USA_AK_Kodiak.703500_2020.epw"
+   "updated_at" : "20230601T170702Z",
+   "weather_file" : "Kodiak_Airport_703500_TMY3.epw"
 }

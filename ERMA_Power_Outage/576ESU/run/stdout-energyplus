@@ -1,5 +1,5 @@
 EnergyPlus Starting
-EnergyPlus, Version 22.2.0-aa78da9668, YMD=2023.02.28 19:00
+EnergyPlus, Version 23.1.0-87ed9199d4, YMD=2023.06.01 11:05
 Initializing Response Factors
 Calculating CTFs for "INTERIORFURNISHINGS 2"
 Calculating CTFs for "TYPICAL IEAD ROOF R-35.71"
@@ -153,6 +153,9 @@ Performing Zone Sizing Simulation
 ...for Sizing Period: #11 KODIAK FEBRUARY .4% CONDNS WB=>MCDB
 Warming up
 Calculating Detailed Daylighting Factors, Start Date=01/21
+Warming up
+Warming up
+Warming up
 Warming up
 Warming up
 Warming up
@@ -374,45 +377,49 @@ Warming up {3}
 Warming up {4}
 Warming up {5}
 Warming up {6}
-Starting Simulation at 01/01/2020 for RUN PERIOD 1
-Updating Shadowing Calculations, Start Date=01/31/2020
+Warming up {7}
+Warming up {8}
+Warming up {9}
+Warming up {10}
+Starting Simulation at 01/01/2006 for RUN PERIOD 1
+Updating Shadowing Calculations, Start Date=01/31/2006
 Updating Detailed Daylighting Factors, Start Date=01/31
-Continuing Simulation at 01/31/2020 for RUN PERIOD 1
-Updating Shadowing Calculations, Start Date=03/01/2020
-Updating Detailed Daylighting Factors, Start Date=03/01
-Continuing Simulation at 03/01/2020 for RUN PERIOD 1
-Updating Shadowing Calculations, Start Date=03/31/2020
-Updating Detailed Daylighting Factors, Start Date=03/31
-Continuing Simulation at 03/31/2020 for RUN PERIOD 1
-Updating Shadowing Calculations, Start Date=04/30/2020
-Updating Detailed Daylighting Factors, Start Date=04/30
-Continuing Simulation at 04/30/2020 for RUN PERIOD 1
-Updating Shadowing Calculations, Start Date=05/30/2020
-Updating Detailed Daylighting Factors, Start Date=05/30
-Continuing Simulation at 05/30/2020 for RUN PERIOD 1
-Updating Shadowing Calculations, Start Date=06/29/2020
-Updating Detailed Daylighting Factors, Start Date=06/29
-Continuing Simulation at 06/29/2020 for RUN PERIOD 1
-Updating Shadowing Calculations, Start Date=07/29/2020
-Updating Detailed Daylighting Factors, Start Date=07/29
-Continuing Simulation at 07/29/2020 for RUN PERIOD 1
-Updating Shadowing Calculations, Start Date=08/28/2020
-Updating Detailed Daylighting Factors, Start Date=08/28
-Continuing Simulation at 08/28/2020 for RUN PERIOD 1
-Updating Shadowing Calculations, Start Date=09/27/2020
-Updating Detailed Daylighting Factors, Start Date=09/27
-Continuing Simulation at 09/27/2020 for RUN PERIOD 1
-Updating Shadowing Calculations, Start Date=10/27/2020
-Updating Detailed Daylighting Factors, Start Date=10/27
-Continuing Simulation at 10/27/2020 for RUN PERIOD 1
-Updating Shadowing Calculations, Start Date=11/26/2020
-Updating Detailed Daylighting Factors, Start Date=11/26
-Continuing Simulation at 11/26/2020 for RUN PERIOD 1
-Updating Shadowing Calculations, Start Date=12/26/2020
-Updating Detailed Daylighting Factors, Start Date=12/26
-Continuing Simulation at 12/26/2020 for RUN PERIOD 1
+Continuing Simulation at 01/31/2006 for RUN PERIOD 1
+Updating Shadowing Calculations, Start Date=03/02/2006
+Updating Detailed Daylighting Factors, Start Date=03/02
+Continuing Simulation at 03/02/2006 for RUN PERIOD 1
+Updating Shadowing Calculations, Start Date=04/01/2006
+Updating Detailed Daylighting Factors, Start Date=04/01
+Continuing Simulation at 04/01/2006 for RUN PERIOD 1
+Updating Shadowing Calculations, Start Date=05/01/2006
+Updating Detailed Daylighting Factors, Start Date=05/01
+Continuing Simulation at 05/01/2006 for RUN PERIOD 1
+Updating Shadowing Calculations, Start Date=05/31/2006
+Updating Detailed Daylighting Factors, Start Date=05/31
+Continuing Simulation at 05/31/2006 for RUN PERIOD 1
+Updating Shadowing Calculations, Start Date=06/30/2006
+Updating Detailed Daylighting Factors, Start Date=06/30
+Continuing Simulation at 06/30/2006 for RUN PERIOD 1
+Updating Shadowing Calculations, Start Date=07/30/2006
+Updating Detailed Daylighting Factors, Start Date=07/30
+Continuing Simulation at 07/30/2006 for RUN PERIOD 1
+Updating Shadowing Calculations, Start Date=08/29/2006
+Updating Detailed Daylighting Factors, Start Date=08/29
+Continuing Simulation at 08/29/2006 for RUN PERIOD 1
+Updating Shadowing Calculations, Start Date=09/28/2006
+Updating Detailed Daylighting Factors, Start Date=09/28
+Continuing Simulation at 09/28/2006 for RUN PERIOD 1
+Updating Shadowing Calculations, Start Date=10/28/2006
+Updating Detailed Daylighting Factors, Start Date=10/28
+Continuing Simulation at 10/28/2006 for RUN PERIOD 1
+Updating Shadowing Calculations, Start Date=11/27/2006
+Updating Detailed Daylighting Factors, Start Date=11/27
+Continuing Simulation at 11/27/2006 for RUN PERIOD 1
+Updating Shadowing Calculations, Start Date=12/27/2006
+Updating Detailed Daylighting Factors, Start Date=12/27
+Continuing Simulation at 12/27/2006 for RUN PERIOD 1
 Writing tabular output file results using HTML format.
 Computing Life Cycle Costs and Reporting
 Writing final SQL reports
-EnergyPlus Run Time=00hr 02min 55.04sec
+EnergyPlus Run Time=00hr 01min 17.21sec
 EnergyPlus Completed Successfully.

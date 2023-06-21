@@ -1200,7 +1200,7 @@ ElectricEquipment,
   ,                                       !- Watts per Person {W/person}
   ,                                       !- Fraction Latent
   ,                                       !- Fraction Radiant
-  ,                                       !- Fraction Lost
+  0.95,                                   !- Fraction Lost
   General;                                !- End-Use Subcategory
 
 Schedule:Day:Interval,
@@ -12256,7 +12256,7 @@ ElectricEquipment,
   ,                                       !- Watts per Person {W/person}
   ,                                       !- Fraction Latent
   ,                                       !- Fraction Radiant
-  ,                                       !- Fraction Lost
+  0.95,                                   !- Fraction Lost
   General;                                !- End-Use Subcategory
 
 ElectricEquipment,

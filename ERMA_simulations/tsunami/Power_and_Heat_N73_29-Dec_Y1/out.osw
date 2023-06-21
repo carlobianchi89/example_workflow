@@ -1,0 +1,115 @@
+{
+   "completed_at" : "20230621T230141Z",
+   "completed_status" : "Fail",
+   "current_step" : 1,
+   "file_paths" : 
+   [
+      "/Users/cbianchi/Documents/GitHub/example_workflow/ERMA_simulations/tsunami/Power_and_Heat_N73_29-Dec_Y1/generated_files",
+      "./files",
+      "./weather",
+      "../../files",
+      "../../weather",
+      "./"
+   ],
+   "hash" : "4FFF1016",
+   "measure_paths" : 
+   [
+      "/Users/cbianchi/Documents/GitHub/example_workflow/measures"
+   ],
+   "seed_file" : "Power_and_Heat_N73_29-Dec_Y1.osm",
+   "started_at" : "20230621T230140Z",
+   "steps" : 
+   [
+      {
+         "arguments" : 
+         {
+            "otg_date" : "29-Dec",
+            "otg_hr" : "18",
+            "otg_len" : "53",
+            "outage_type" : "Power and Heat"
+         },
+         "measure_dir_name" : "set_power_and_heat_off",
+         "result" : 
+         {
+            "completed_at" : "20230621T230141Z",
+            "measure_class_name" : "SetPowerAndHeatOff",
+            "measure_display_name" : "Set Power and Heat off",
+            "measure_name" : "set_power_and_heat_off",
+            "measure_taxonomy" : "Whole Building.Whole Building Schedules",
+            "measure_type" : "ModelMeasure",
+            "measure_uid" : "0ac8dac6-7ee2-4ae7-aee0-f5cabdfe3a82",
+            "measure_version_id" : "55370018-4ff7-47f0-8c33-81b9a97a5a4b",
+            "measure_version_modified" : "20230529T194808Z",
+            "measure_xml_checksum" : "25215CE1",
+            "started_at" : "20230621T230141Z",
+            "stderr" : "",
+            "stdout" : "",
+            "step_errors" : 
+            [
+               "Invalid outage start date specified."
+            ],
+            "step_files" : [],
+            "step_info" : [],
+            "step_result" : "Fail",
+            "step_values" : 
+            [
+               {
+                  "name" : "otg_date",
+                  "value" : "29-Dec"
+               },
+               {
+                  "name" : "otg_hr",
+                  "value" : 18
+               },
+               {
+                  "name" : "otg_len",
+                  "value" : 53
+               },
+               {
+                  "name" : "outage_type",
+                  "value" : "Power and Heat"
+               }
+            ],
+            "step_warnings" : []
+         }
+      },
+      {
+         "arguments" : 
+         {
+            "key_value" : "*",
+            "reporting_frequency" : "hourly",
+            "variable_name" : "Zone Mean Air Temperature"
+         },
+         "measure_dir_name" : "AddOutputVariable"
+      },
+      {
+         "arguments" : 
+         {
+            "key_value" : "*",
+            "reporting_frequency" : "hourly",
+            "variable_name" : "Zone Operative Temperature"
+         },
+         "measure_dir_name" : "AddOutputVariable"
+      },
+      {
+         "arguments" : 
+         {
+            "key_value" : "*",
+            "reporting_frequency" : "hourly",
+            "variable_name" : "Zone Thermal Comfort Fanger Model PMV"
+         },
+         "measure_dir_name" : "AddOutputVariable"
+      },
+      {
+         "arguments" : 
+         {
+            "key_value" : "*",
+            "reporting_frequency" : "hourly",
+            "variable_name" : "Zone Thermal Comfort Fanger Model PPD"
+         },
+         "measure_dir_name" : "AddOutputVariable"
+      }
+   ],
+   "updated_at" : "20230621T230141Z",
+   "weather_file" : "/Users/cbianchi/Documents/GitHub/example_workflow/Kodiak_Airport_703500_TMY3.epw"
+}

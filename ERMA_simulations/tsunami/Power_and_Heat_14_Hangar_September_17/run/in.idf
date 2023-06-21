@@ -915,7 +915,7 @@ ElectricEquipment,
   ,                                       !- Watts per Person {W/person}
   ,                                       !- Fraction Latent
   ,                                       !- Fraction Radiant
-  ,                                       !- Fraction Lost
+  0.95,                                   !- Fraction Lost
   General;                                !- End-Use Subcategory
 
 Schedule:Day:Interval,
@@ -10754,477 +10754,8 @@ Schedule:Day:Interval,
   24:00,                                  !- Time 1 {hh:mm}
   1;                                      !- Value Until Time 1
 
-Schedule:Day:Interval,
-  Schedule Day 180,                       !- Name
-  Any Number,                             !- Schedule Type Limits Name
-  No,                                     !- Interpolate to Timestep
-  01:00,                                  !- Time 1 {hh:mm}
-  0,                                      !- Value Until Time 1
-  02:00,                                  !- Time 2 {hh:mm}
-  0,                                      !- Value Until Time 2
-  03:00,                                  !- Time 3 {hh:mm}
-  0,                                      !- Value Until Time 3
-  04:00,                                  !- Time 4 {hh:mm}
-  0,                                      !- Value Until Time 4
-  05:00,                                  !- Time 5 {hh:mm}
-  0,                                      !- Value Until Time 5
-  06:00,                                  !- Time 6 {hh:mm}
-  0,                                      !- Value Until Time 6
-  07:00,                                  !- Time 7 {hh:mm}
-  0,                                      !- Value Until Time 7
-  08:00,                                  !- Time 8 {hh:mm}
-  0,                                      !- Value Until Time 8
-  09:00,                                  !- Time 9 {hh:mm}
-  0,                                      !- Value Until Time 9
-  10:00,                                  !- Time 10 {hh:mm}
-  0,                                      !- Value Until Time 10
-  11:00,                                  !- Time 11 {hh:mm}
-  0,                                      !- Value Until Time 11
-  12:00,                                  !- Time 12 {hh:mm}
-  0,                                      !- Value Until Time 12
-  13:00,                                  !- Time 13 {hh:mm}
-  0,                                      !- Value Until Time 13
-  14:00,                                  !- Time 14 {hh:mm}
-  0,                                      !- Value Until Time 14
-  15:00,                                  !- Time 15 {hh:mm}
-  0,                                      !- Value Until Time 15
-  16:00,                                  !- Time 16 {hh:mm}
-  0,                                      !- Value Until Time 16
-  17:00,                                  !- Time 17 {hh:mm}
-  0,                                      !- Value Until Time 17
-  18:00,                                  !- Time 18 {hh:mm}
-  0,                                      !- Value Until Time 18
-  19:00,                                  !- Time 19 {hh:mm}
-  0,                                      !- Value Until Time 19
-  20:00,                                  !- Time 20 {hh:mm}
-  0,                                      !- Value Until Time 20
-  21:00,                                  !- Time 21 {hh:mm}
-  0,                                      !- Value Until Time 21
-  22:00,                                  !- Time 22 {hh:mm}
-  0,                                      !- Value Until Time 22
-  23:00,                                  !- Time 23 {hh:mm}
-  0,                                      !- Value Until Time 23
-  24:00,                                  !- Time 24 {hh:mm}
-  0;                                      !- Value Until Time 24
-
-Schedule:Day:Interval,
-  Schedule Day 181,                       !- Name
-  Any Number,                             !- Schedule Type Limits Name
-  No,                                     !- Interpolate to Timestep
-  01:00,                                  !- Time 1 {hh:mm}
-  0,                                      !- Value Until Time 1
-  02:00,                                  !- Time 2 {hh:mm}
-  0,                                      !- Value Until Time 2
-  03:00,                                  !- Time 3 {hh:mm}
-  0,                                      !- Value Until Time 3
-  04:00,                                  !- Time 4 {hh:mm}
-  0,                                      !- Value Until Time 4
-  05:00,                                  !- Time 5 {hh:mm}
-  0,                                      !- Value Until Time 5
-  06:00,                                  !- Time 6 {hh:mm}
-  0,                                      !- Value Until Time 6
-  07:00,                                  !- Time 7 {hh:mm}
-  0,                                      !- Value Until Time 7
-  08:00,                                  !- Time 8 {hh:mm}
-  0,                                      !- Value Until Time 8
-  09:00,                                  !- Time 9 {hh:mm}
-  0,                                      !- Value Until Time 9
-  10:00,                                  !- Time 10 {hh:mm}
-  0,                                      !- Value Until Time 10
-  11:00,                                  !- Time 11 {hh:mm}
-  0,                                      !- Value Until Time 11
-  12:00,                                  !- Time 12 {hh:mm}
-  0,                                      !- Value Until Time 12
-  13:00,                                  !- Time 13 {hh:mm}
-  0,                                      !- Value Until Time 13
-  14:00,                                  !- Time 14 {hh:mm}
-  0,                                      !- Value Until Time 14
-  15:00,                                  !- Time 15 {hh:mm}
-  0,                                      !- Value Until Time 15
-  16:00,                                  !- Time 16 {hh:mm}
-  0,                                      !- Value Until Time 16
-  17:00,                                  !- Time 17 {hh:mm}
-  0,                                      !- Value Until Time 17
-  18:00,                                  !- Time 18 {hh:mm}
-  0,                                      !- Value Until Time 18
-  19:00,                                  !- Time 19 {hh:mm}
-  0,                                      !- Value Until Time 19
-  20:00,                                  !- Time 20 {hh:mm}
-  0,                                      !- Value Until Time 20
-  21:00,                                  !- Time 21 {hh:mm}
-  0,                                      !- Value Until Time 21
-  22:00,                                  !- Time 22 {hh:mm}
-  0,                                      !- Value Until Time 22
-  23:00,                                  !- Time 23 {hh:mm}
-  0,                                      !- Value Until Time 23
-  24:00,                                  !- Time 24 {hh:mm}
-  0;                                      !- Value Until Time 24
-
-Schedule:Day:Interval,
-  Schedule Day 182,                       !- Name
-  Any Number,                             !- Schedule Type Limits Name
-  No,                                     !- Interpolate to Timestep
-  01:00,                                  !- Time 1 {hh:mm}
-  0,                                      !- Value Until Time 1
-  02:00,                                  !- Time 2 {hh:mm}
-  0,                                      !- Value Until Time 2
-  03:00,                                  !- Time 3 {hh:mm}
-  0,                                      !- Value Until Time 3
-  04:00,                                  !- Time 4 {hh:mm}
-  0,                                      !- Value Until Time 4
-  05:00,                                  !- Time 5 {hh:mm}
-  0,                                      !- Value Until Time 5
-  06:00,                                  !- Time 6 {hh:mm}
-  0,                                      !- Value Until Time 6
-  07:00,                                  !- Time 7 {hh:mm}
-  0,                                      !- Value Until Time 7
-  08:00,                                  !- Time 8 {hh:mm}
-  0,                                      !- Value Until Time 8
-  09:00,                                  !- Time 9 {hh:mm}
-  0,                                      !- Value Until Time 9
-  10:00,                                  !- Time 10 {hh:mm}
-  0,                                      !- Value Until Time 10
-  11:00,                                  !- Time 11 {hh:mm}
-  0,                                      !- Value Until Time 11
-  12:00,                                  !- Time 12 {hh:mm}
-  0,                                      !- Value Until Time 12
-  13:00,                                  !- Time 13 {hh:mm}
-  0,                                      !- Value Until Time 13
-  14:00,                                  !- Time 14 {hh:mm}
-  0,                                      !- Value Until Time 14
-  15:00,                                  !- Time 15 {hh:mm}
-  0,                                      !- Value Until Time 15
-  16:00,                                  !- Time 16 {hh:mm}
-  0,                                      !- Value Until Time 16
-  17:00,                                  !- Time 17 {hh:mm}
-  0,                                      !- Value Until Time 17
-  18:00,                                  !- Time 18 {hh:mm}
-  0,                                      !- Value Until Time 18
-  19:00,                                  !- Time 19 {hh:mm}
-  0,                                      !- Value Until Time 19
-  20:00,                                  !- Time 20 {hh:mm}
-  0,                                      !- Value Until Time 20
-  21:00,                                  !- Time 21 {hh:mm}
-  0,                                      !- Value Until Time 21
-  22:00,                                  !- Time 22 {hh:mm}
-  0,                                      !- Value Until Time 22
-  23:00,                                  !- Time 23 {hh:mm}
-  0,                                      !- Value Until Time 23
-  24:00,                                  !- Time 24 {hh:mm}
-  0;                                      !- Value Until Time 24
-
-Schedule:Day:Interval,
-  Schedule Day 183,                       !- Name
-  Any Number,                             !- Schedule Type Limits Name
-  No,                                     !- Interpolate to Timestep
-  01:00,                                  !- Time 1 {hh:mm}
-  0,                                      !- Value Until Time 1
-  02:00,                                  !- Time 2 {hh:mm}
-  0,                                      !- Value Until Time 2
-  03:00,                                  !- Time 3 {hh:mm}
-  0,                                      !- Value Until Time 3
-  04:00,                                  !- Time 4 {hh:mm}
-  0,                                      !- Value Until Time 4
-  05:00,                                  !- Time 5 {hh:mm}
-  0,                                      !- Value Until Time 5
-  06:00,                                  !- Time 6 {hh:mm}
-  0,                                      !- Value Until Time 6
-  07:00,                                  !- Time 7 {hh:mm}
-  0,                                      !- Value Until Time 7
-  08:00,                                  !- Time 8 {hh:mm}
-  0,                                      !- Value Until Time 8
-  09:00,                                  !- Time 9 {hh:mm}
-  0,                                      !- Value Until Time 9
-  10:00,                                  !- Time 10 {hh:mm}
-  0,                                      !- Value Until Time 10
-  11:00,                                  !- Time 11 {hh:mm}
-  0,                                      !- Value Until Time 11
-  12:00,                                  !- Time 12 {hh:mm}
-  0,                                      !- Value Until Time 12
-  13:00,                                  !- Time 13 {hh:mm}
-  0,                                      !- Value Until Time 13
-  14:00,                                  !- Time 14 {hh:mm}
-  0,                                      !- Value Until Time 14
-  15:00,                                  !- Time 15 {hh:mm}
-  0,                                      !- Value Until Time 15
-  16:00,                                  !- Time 16 {hh:mm}
-  0,                                      !- Value Until Time 16
-  17:00,                                  !- Time 17 {hh:mm}
-  0,                                      !- Value Until Time 17
-  18:00,                                  !- Time 18 {hh:mm}
-  0,                                      !- Value Until Time 18
-  19:00,                                  !- Time 19 {hh:mm}
-  0,                                      !- Value Until Time 19
-  20:00,                                  !- Time 20 {hh:mm}
-  0,                                      !- Value Until Time 20
-  21:00,                                  !- Time 21 {hh:mm}
-  0,                                      !- Value Until Time 21
-  22:00,                                  !- Time 22 {hh:mm}
-  0,                                      !- Value Until Time 22
-  23:00,                                  !- Time 23 {hh:mm}
-  0,                                      !- Value Until Time 23
-  24:00,                                  !- Time 24 {hh:mm}
-  0;                                      !- Value Until Time 24
-
-Schedule:Day:Interval,
-  Schedule Day 184,                       !- Name
-  Any Number,                             !- Schedule Type Limits Name
-  No,                                     !- Interpolate to Timestep
-  01:00,                                  !- Time 1 {hh:mm}
-  0,                                      !- Value Until Time 1
-  02:00,                                  !- Time 2 {hh:mm}
-  0,                                      !- Value Until Time 2
-  03:00,                                  !- Time 3 {hh:mm}
-  0,                                      !- Value Until Time 3
-  04:00,                                  !- Time 4 {hh:mm}
-  0,                                      !- Value Until Time 4
-  05:00,                                  !- Time 5 {hh:mm}
-  0,                                      !- Value Until Time 5
-  06:00,                                  !- Time 6 {hh:mm}
-  0,                                      !- Value Until Time 6
-  07:00,                                  !- Time 7 {hh:mm}
-  0,                                      !- Value Until Time 7
-  08:00,                                  !- Time 8 {hh:mm}
-  0,                                      !- Value Until Time 8
-  09:00,                                  !- Time 9 {hh:mm}
-  0,                                      !- Value Until Time 9
-  10:00,                                  !- Time 10 {hh:mm}
-  0,                                      !- Value Until Time 10
-  11:00,                                  !- Time 11 {hh:mm}
-  0,                                      !- Value Until Time 11
-  12:00,                                  !- Time 12 {hh:mm}
-  0,                                      !- Value Until Time 12
-  13:00,                                  !- Time 13 {hh:mm}
-  0,                                      !- Value Until Time 13
-  14:00,                                  !- Time 14 {hh:mm}
-  0,                                      !- Value Until Time 14
-  15:00,                                  !- Time 15 {hh:mm}
-  0,                                      !- Value Until Time 15
-  16:00,                                  !- Time 16 {hh:mm}
-  0,                                      !- Value Until Time 16
-  17:00,                                  !- Time 17 {hh:mm}
-  0,                                      !- Value Until Time 17
-  18:00,                                  !- Time 18 {hh:mm}
-  0,                                      !- Value Until Time 18
-  19:00,                                  !- Time 19 {hh:mm}
-  0,                                      !- Value Until Time 19
-  20:00,                                  !- Time 20 {hh:mm}
-  0,                                      !- Value Until Time 20
-  21:00,                                  !- Time 21 {hh:mm}
-  0,                                      !- Value Until Time 21
-  22:00,                                  !- Time 22 {hh:mm}
-  0,                                      !- Value Until Time 22
-  23:00,                                  !- Time 23 {hh:mm}
-  0,                                      !- Value Until Time 23
-  24:00,                                  !- Time 24 {hh:mm}
-  0;                                      !- Value Until Time 24
-
-Schedule:Day:Interval,
-  Schedule Day 185,                       !- Name
-  Any Number,                             !- Schedule Type Limits Name
-  No,                                     !- Interpolate to Timestep
-  01:00,                                  !- Time 1 {hh:mm}
-  0,                                      !- Value Until Time 1
-  02:00,                                  !- Time 2 {hh:mm}
-  0,                                      !- Value Until Time 2
-  03:00,                                  !- Time 3 {hh:mm}
-  0,                                      !- Value Until Time 3
-  04:00,                                  !- Time 4 {hh:mm}
-  0,                                      !- Value Until Time 4
-  05:00,                                  !- Time 5 {hh:mm}
-  0,                                      !- Value Until Time 5
-  06:00,                                  !- Time 6 {hh:mm}
-  0,                                      !- Value Until Time 6
-  07:00,                                  !- Time 7 {hh:mm}
-  0,                                      !- Value Until Time 7
-  08:00,                                  !- Time 8 {hh:mm}
-  0,                                      !- Value Until Time 8
-  09:00,                                  !- Time 9 {hh:mm}
-  0,                                      !- Value Until Time 9
-  10:00,                                  !- Time 10 {hh:mm}
-  0,                                      !- Value Until Time 10
-  11:00,                                  !- Time 11 {hh:mm}
-  0,                                      !- Value Until Time 11
-  12:00,                                  !- Time 12 {hh:mm}
-  0,                                      !- Value Until Time 12
-  13:00,                                  !- Time 13 {hh:mm}
-  0,                                      !- Value Until Time 13
-  14:00,                                  !- Time 14 {hh:mm}
-  0,                                      !- Value Until Time 14
-  15:00,                                  !- Time 15 {hh:mm}
-  0,                                      !- Value Until Time 15
-  16:00,                                  !- Time 16 {hh:mm}
-  0,                                      !- Value Until Time 16
-  17:00,                                  !- Time 17 {hh:mm}
-  0,                                      !- Value Until Time 17
-  18:00,                                  !- Time 18 {hh:mm}
-  0,                                      !- Value Until Time 18
-  19:00,                                  !- Time 19 {hh:mm}
-  0,                                      !- Value Until Time 19
-  20:00,                                  !- Time 20 {hh:mm}
-  0,                                      !- Value Until Time 20
-  21:00,                                  !- Time 21 {hh:mm}
-  0,                                      !- Value Until Time 21
-  22:00,                                  !- Time 22 {hh:mm}
-  0,                                      !- Value Until Time 22
-  23:00,                                  !- Time 23 {hh:mm}
-  0,                                      !- Value Until Time 23
-  24:00,                                  !- Time 24 {hh:mm}
-  0;                                      !- Value Until Time 24
-
-Schedule:Day:Interval,
-  Schedule Day 186,                       !- Name
-  Any Number,                             !- Schedule Type Limits Name
-  No,                                     !- Interpolate to Timestep
-  01:00,                                  !- Time 1 {hh:mm}
-  0,                                      !- Value Until Time 1
-  02:00,                                  !- Time 2 {hh:mm}
-  0,                                      !- Value Until Time 2
-  03:00,                                  !- Time 3 {hh:mm}
-  0,                                      !- Value Until Time 3
-  04:00,                                  !- Time 4 {hh:mm}
-  0,                                      !- Value Until Time 4
-  05:00,                                  !- Time 5 {hh:mm}
-  0,                                      !- Value Until Time 5
-  06:00,                                  !- Time 6 {hh:mm}
-  0,                                      !- Value Until Time 6
-  07:00,                                  !- Time 7 {hh:mm}
-  0,                                      !- Value Until Time 7
-  08:00,                                  !- Time 8 {hh:mm}
-  0,                                      !- Value Until Time 8
-  09:00,                                  !- Time 9 {hh:mm}
-  0,                                      !- Value Until Time 9
-  10:00,                                  !- Time 10 {hh:mm}
-  0,                                      !- Value Until Time 10
-  11:00,                                  !- Time 11 {hh:mm}
-  0,                                      !- Value Until Time 11
-  12:00,                                  !- Time 12 {hh:mm}
-  0,                                      !- Value Until Time 12
-  13:00,                                  !- Time 13 {hh:mm}
-  0,                                      !- Value Until Time 13
-  14:00,                                  !- Time 14 {hh:mm}
-  0,                                      !- Value Until Time 14
-  15:00,                                  !- Time 15 {hh:mm}
-  0,                                      !- Value Until Time 15
-  16:00,                                  !- Time 16 {hh:mm}
-  0,                                      !- Value Until Time 16
-  17:00,                                  !- Time 17 {hh:mm}
-  0,                                      !- Value Until Time 17
-  18:00,                                  !- Time 18 {hh:mm}
-  0,                                      !- Value Until Time 18
-  19:00,                                  !- Time 19 {hh:mm}
-  0,                                      !- Value Until Time 19
-  20:00,                                  !- Time 20 {hh:mm}
-  0,                                      !- Value Until Time 20
-  21:00,                                  !- Time 21 {hh:mm}
-  0,                                      !- Value Until Time 21
-  22:00,                                  !- Time 22 {hh:mm}
-  0,                                      !- Value Until Time 22
-  23:00,                                  !- Time 23 {hh:mm}
-  0,                                      !- Value Until Time 23
-  24:00,                                  !- Time 24 {hh:mm}
-  0;                                      !- Value Until Time 24
-
 Schedule:Week:Daily,
-  Clothing Schedule Week Rule - Jan1-Sep16, !- Name
-  Clothing Schedule Default Winter Clothes, !- Sunday Schedule:Day Name
-  Clothing Schedule Default Winter Clothes, !- Monday Schedule:Day Name
-  Clothing Schedule Default Winter Clothes, !- Tuesday Schedule:Day Name
-  Clothing Schedule Default Winter Clothes, !- Wednesday Schedule:Day Name
-  Clothing Schedule Default Winter Clothes, !- Thursday Schedule:Day Name
-  Clothing Schedule Default Winter Clothes, !- Friday Schedule:Day Name
-  Clothing Schedule Default Winter Clothes, !- Saturday Schedule:Day Name
-  Clothing Schedule Default Winter Clothes, !- Holiday Schedule:Day Name
-  Clothing Schedule Default Winter Clothes, !- SummerDesignDay Schedule:Day Name
-  Clothing Schedule Default Winter Clothes, !- WinterDesignDay Schedule:Day Name
-  Clothing Schedule Default Winter Clothes, !- CustomDay1 Schedule:Day Name
-  Clothing Schedule Default Winter Clothes; !- CustomDay2 Schedule:Day Name
-
-Schedule:Day:Interval,
-  Schedule Day 187,                       !- Name
-  Any Number,                             !- Schedule Type Limits Name
-  No,                                     !- Interpolate to Timestep
-  01:00,                                  !- Time 1 {hh:mm}
-  0,                                      !- Value Until Time 1
-  02:00,                                  !- Time 2 {hh:mm}
-  0,                                      !- Value Until Time 2
-  03:00,                                  !- Time 3 {hh:mm}
-  0,                                      !- Value Until Time 3
-  04:00,                                  !- Time 4 {hh:mm}
-  0,                                      !- Value Until Time 4
-  05:00,                                  !- Time 5 {hh:mm}
-  0,                                      !- Value Until Time 5
-  06:00,                                  !- Time 6 {hh:mm}
-  0,                                      !- Value Until Time 6
-  07:00,                                  !- Time 7 {hh:mm}
-  0,                                      !- Value Until Time 7
-  08:00,                                  !- Time 8 {hh:mm}
-  0,                                      !- Value Until Time 8
-  09:00,                                  !- Time 9 {hh:mm}
-  0,                                      !- Value Until Time 9
-  10:00,                                  !- Time 10 {hh:mm}
-  0,                                      !- Value Until Time 10
-  11:00,                                  !- Time 11 {hh:mm}
-  0,                                      !- Value Until Time 11
-  12:00,                                  !- Time 12 {hh:mm}
-  0,                                      !- Value Until Time 12
-  13:00,                                  !- Time 13 {hh:mm}
-  0,                                      !- Value Until Time 13
-  14:00,                                  !- Time 14 {hh:mm}
-  0,                                      !- Value Until Time 14
-  15:00,                                  !- Time 15 {hh:mm}
-  0,                                      !- Value Until Time 15
-  16:00,                                  !- Time 16 {hh:mm}
-  0,                                      !- Value Until Time 16
-  17:00,                                  !- Time 17 {hh:mm}
-  0,                                      !- Value Until Time 17
-  18:00,                                  !- Time 18 {hh:mm}
-  1,                                      !- Value Until Time 18
-  19:00,                                  !- Time 19 {hh:mm}
-  1,                                      !- Value Until Time 19
-  20:00,                                  !- Time 20 {hh:mm}
-  1,                                      !- Value Until Time 20
-  21:00,                                  !- Time 21 {hh:mm}
-  1,                                      !- Value Until Time 21
-  22:00,                                  !- Time 22 {hh:mm}
-  1,                                      !- Value Until Time 22
-  23:00,                                  !- Time 23 {hh:mm}
-  1,                                      !- Value Until Time 23
-  24:00,                                  !- Time 24 {hh:mm}
-  1;                                      !- Value Until Time 24
-
-Schedule:Week:Daily,
-  Clothing Schedule Week Rule - Sep17-Sep23, !- Name
-  Schedule Day 180,                       !- Sunday Schedule:Day Name
-  Schedule Day 181,                       !- Monday Schedule:Day Name
-  Schedule Day 182,                       !- Tuesday Schedule:Day Name
-  Schedule Day 183,                       !- Wednesday Schedule:Day Name
-  Schedule Day 184,                       !- Thursday Schedule:Day Name
-  Schedule Day 185,                       !- Friday Schedule:Day Name
-  Schedule Day 186,                       !- Saturday Schedule:Day Name
-  Clothing Schedule Default Winter Clothes, !- Holiday Schedule:Day Name
-  Clothing Schedule Default Winter Clothes, !- SummerDesignDay Schedule:Day Name
-  Clothing Schedule Default Winter Clothes, !- WinterDesignDay Schedule:Day Name
-  Clothing Schedule Default Winter Clothes, !- CustomDay1 Schedule:Day Name
-  Clothing Schedule Default Winter Clothes; !- CustomDay2 Schedule:Day Name
-
-Schedule:Week:Daily,
-  Clothing Schedule Week Rule - Sep24-Sep30, !- Name
-  Schedule Day 187,                       !- Sunday Schedule:Day Name
-  Clothing Schedule Default Winter Clothes, !- Monday Schedule:Day Name
-  Clothing Schedule Default Winter Clothes, !- Tuesday Schedule:Day Name
-  Clothing Schedule Default Winter Clothes, !- Wednesday Schedule:Day Name
-  Clothing Schedule Default Winter Clothes, !- Thursday Schedule:Day Name
-  Clothing Schedule Default Winter Clothes, !- Friday Schedule:Day Name
-  Clothing Schedule Default Winter Clothes, !- Saturday Schedule:Day Name
-  Clothing Schedule Default Winter Clothes, !- Holiday Schedule:Day Name
-  Clothing Schedule Default Winter Clothes, !- SummerDesignDay Schedule:Day Name
-  Clothing Schedule Default Winter Clothes, !- WinterDesignDay Schedule:Day Name
-  Clothing Schedule Default Winter Clothes, !- CustomDay1 Schedule:Day Name
-  Clothing Schedule Default Winter Clothes; !- CustomDay2 Schedule:Day Name
-
-Schedule:Week:Daily,
-  Clothing Schedule Week Rule - Oct1-Dec31, !- Name
+  Clothing Schedule Week Rule - Jan1-Dec31, !- Name
   Clothing Schedule Default Winter Clothes, !- Sunday Schedule:Day Name
   Clothing Schedule Default Winter Clothes, !- Monday Schedule:Day Name
   Clothing Schedule Default Winter Clothes, !- Tuesday Schedule:Day Name
@@ -11241,26 +10772,11 @@ Schedule:Week:Daily,
 Schedule:Year,
   Clothing Schedule,                      !- Name
   Any Number,                             !- Schedule Type Limits Name
-  Clothing Schedule Week Rule - Jan1-Sep16, !- Schedule:Week Name 1
+  Clothing Schedule Week Rule - Jan1-Dec31, !- Schedule:Week Name 1
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
-  9,                                      !- End Month 1
-  16,                                     !- End Day 1
-  Clothing Schedule Week Rule - Sep17-Sep23, !- Schedule:Week Name 2
-  9,                                      !- Start Month 2
-  17,                                     !- Start Day 2
-  9,                                      !- End Month 2
-  23,                                     !- End Day 2
-  Clothing Schedule Week Rule - Sep24-Sep30, !- Schedule:Week Name 3
-  9,                                      !- Start Month 3
-  24,                                     !- Start Day 3
-  9,                                      !- End Month 3
-  30,                                     !- End Day 3
-  Clothing Schedule Week Rule - Oct1-Dec31, !- Schedule:Week Name 4
-  10,                                     !- Start Month 4
-  1,                                      !- Start Day 4
-  12,                                     !- End Month 4
-  31;                                     !- End Day 4
+  12,                                     !- End Month 1
+  31;                                     !- End Day 1
 
 Schedule:Day:Interval,
   Clothing Schedule Summer Clothes,       !- Name
@@ -11283,477 +10799,8 @@ Schedule:Day:Interval,
   24:00,                                  !- Time 1 {hh:mm}
   0.2;                                    !- Value Until Time 1
 
-Schedule:Day:Interval,
-  Schedule Day 172,                       !- Name
-  Velocity,                               !- Schedule Type Limits Name
-  No,                                     !- Interpolate to Timestep
-  01:00,                                  !- Time 1 {hh:mm}
-  0,                                      !- Value Until Time 1
-  02:00,                                  !- Time 2 {hh:mm}
-  0,                                      !- Value Until Time 2
-  03:00,                                  !- Time 3 {hh:mm}
-  0,                                      !- Value Until Time 3
-  04:00,                                  !- Time 4 {hh:mm}
-  0,                                      !- Value Until Time 4
-  05:00,                                  !- Time 5 {hh:mm}
-  0,                                      !- Value Until Time 5
-  06:00,                                  !- Time 6 {hh:mm}
-  0,                                      !- Value Until Time 6
-  07:00,                                  !- Time 7 {hh:mm}
-  0,                                      !- Value Until Time 7
-  08:00,                                  !- Time 8 {hh:mm}
-  0,                                      !- Value Until Time 8
-  09:00,                                  !- Time 9 {hh:mm}
-  0,                                      !- Value Until Time 9
-  10:00,                                  !- Time 10 {hh:mm}
-  0,                                      !- Value Until Time 10
-  11:00,                                  !- Time 11 {hh:mm}
-  0,                                      !- Value Until Time 11
-  12:00,                                  !- Time 12 {hh:mm}
-  0,                                      !- Value Until Time 12
-  13:00,                                  !- Time 13 {hh:mm}
-  0,                                      !- Value Until Time 13
-  14:00,                                  !- Time 14 {hh:mm}
-  0,                                      !- Value Until Time 14
-  15:00,                                  !- Time 15 {hh:mm}
-  0,                                      !- Value Until Time 15
-  16:00,                                  !- Time 16 {hh:mm}
-  0,                                      !- Value Until Time 16
-  17:00,                                  !- Time 17 {hh:mm}
-  0,                                      !- Value Until Time 17
-  18:00,                                  !- Time 18 {hh:mm}
-  0,                                      !- Value Until Time 18
-  19:00,                                  !- Time 19 {hh:mm}
-  0,                                      !- Value Until Time 19
-  20:00,                                  !- Time 20 {hh:mm}
-  0,                                      !- Value Until Time 20
-  21:00,                                  !- Time 21 {hh:mm}
-  0,                                      !- Value Until Time 21
-  22:00,                                  !- Time 22 {hh:mm}
-  0,                                      !- Value Until Time 22
-  23:00,                                  !- Time 23 {hh:mm}
-  0,                                      !- Value Until Time 23
-  24:00,                                  !- Time 24 {hh:mm}
-  0;                                      !- Value Until Time 24
-
-Schedule:Day:Interval,
-  Schedule Day 173,                       !- Name
-  Velocity,                               !- Schedule Type Limits Name
-  No,                                     !- Interpolate to Timestep
-  01:00,                                  !- Time 1 {hh:mm}
-  0,                                      !- Value Until Time 1
-  02:00,                                  !- Time 2 {hh:mm}
-  0,                                      !- Value Until Time 2
-  03:00,                                  !- Time 3 {hh:mm}
-  0,                                      !- Value Until Time 3
-  04:00,                                  !- Time 4 {hh:mm}
-  0,                                      !- Value Until Time 4
-  05:00,                                  !- Time 5 {hh:mm}
-  0,                                      !- Value Until Time 5
-  06:00,                                  !- Time 6 {hh:mm}
-  0,                                      !- Value Until Time 6
-  07:00,                                  !- Time 7 {hh:mm}
-  0,                                      !- Value Until Time 7
-  08:00,                                  !- Time 8 {hh:mm}
-  0,                                      !- Value Until Time 8
-  09:00,                                  !- Time 9 {hh:mm}
-  0,                                      !- Value Until Time 9
-  10:00,                                  !- Time 10 {hh:mm}
-  0,                                      !- Value Until Time 10
-  11:00,                                  !- Time 11 {hh:mm}
-  0,                                      !- Value Until Time 11
-  12:00,                                  !- Time 12 {hh:mm}
-  0,                                      !- Value Until Time 12
-  13:00,                                  !- Time 13 {hh:mm}
-  0,                                      !- Value Until Time 13
-  14:00,                                  !- Time 14 {hh:mm}
-  0,                                      !- Value Until Time 14
-  15:00,                                  !- Time 15 {hh:mm}
-  0,                                      !- Value Until Time 15
-  16:00,                                  !- Time 16 {hh:mm}
-  0,                                      !- Value Until Time 16
-  17:00,                                  !- Time 17 {hh:mm}
-  0,                                      !- Value Until Time 17
-  18:00,                                  !- Time 18 {hh:mm}
-  0,                                      !- Value Until Time 18
-  19:00,                                  !- Time 19 {hh:mm}
-  0,                                      !- Value Until Time 19
-  20:00,                                  !- Time 20 {hh:mm}
-  0,                                      !- Value Until Time 20
-  21:00,                                  !- Time 21 {hh:mm}
-  0,                                      !- Value Until Time 21
-  22:00,                                  !- Time 22 {hh:mm}
-  0,                                      !- Value Until Time 22
-  23:00,                                  !- Time 23 {hh:mm}
-  0,                                      !- Value Until Time 23
-  24:00,                                  !- Time 24 {hh:mm}
-  0;                                      !- Value Until Time 24
-
-Schedule:Day:Interval,
-  Schedule Day 174,                       !- Name
-  Velocity,                               !- Schedule Type Limits Name
-  No,                                     !- Interpolate to Timestep
-  01:00,                                  !- Time 1 {hh:mm}
-  0,                                      !- Value Until Time 1
-  02:00,                                  !- Time 2 {hh:mm}
-  0,                                      !- Value Until Time 2
-  03:00,                                  !- Time 3 {hh:mm}
-  0,                                      !- Value Until Time 3
-  04:00,                                  !- Time 4 {hh:mm}
-  0,                                      !- Value Until Time 4
-  05:00,                                  !- Time 5 {hh:mm}
-  0,                                      !- Value Until Time 5
-  06:00,                                  !- Time 6 {hh:mm}
-  0,                                      !- Value Until Time 6
-  07:00,                                  !- Time 7 {hh:mm}
-  0,                                      !- Value Until Time 7
-  08:00,                                  !- Time 8 {hh:mm}
-  0,                                      !- Value Until Time 8
-  09:00,                                  !- Time 9 {hh:mm}
-  0,                                      !- Value Until Time 9
-  10:00,                                  !- Time 10 {hh:mm}
-  0,                                      !- Value Until Time 10
-  11:00,                                  !- Time 11 {hh:mm}
-  0,                                      !- Value Until Time 11
-  12:00,                                  !- Time 12 {hh:mm}
-  0,                                      !- Value Until Time 12
-  13:00,                                  !- Time 13 {hh:mm}
-  0,                                      !- Value Until Time 13
-  14:00,                                  !- Time 14 {hh:mm}
-  0,                                      !- Value Until Time 14
-  15:00,                                  !- Time 15 {hh:mm}
-  0,                                      !- Value Until Time 15
-  16:00,                                  !- Time 16 {hh:mm}
-  0,                                      !- Value Until Time 16
-  17:00,                                  !- Time 17 {hh:mm}
-  0,                                      !- Value Until Time 17
-  18:00,                                  !- Time 18 {hh:mm}
-  0,                                      !- Value Until Time 18
-  19:00,                                  !- Time 19 {hh:mm}
-  0,                                      !- Value Until Time 19
-  20:00,                                  !- Time 20 {hh:mm}
-  0,                                      !- Value Until Time 20
-  21:00,                                  !- Time 21 {hh:mm}
-  0,                                      !- Value Until Time 21
-  22:00,                                  !- Time 22 {hh:mm}
-  0,                                      !- Value Until Time 22
-  23:00,                                  !- Time 23 {hh:mm}
-  0,                                      !- Value Until Time 23
-  24:00,                                  !- Time 24 {hh:mm}
-  0;                                      !- Value Until Time 24
-
-Schedule:Day:Interval,
-  Schedule Day 175,                       !- Name
-  Velocity,                               !- Schedule Type Limits Name
-  No,                                     !- Interpolate to Timestep
-  01:00,                                  !- Time 1 {hh:mm}
-  0,                                      !- Value Until Time 1
-  02:00,                                  !- Time 2 {hh:mm}
-  0,                                      !- Value Until Time 2
-  03:00,                                  !- Time 3 {hh:mm}
-  0,                                      !- Value Until Time 3
-  04:00,                                  !- Time 4 {hh:mm}
-  0,                                      !- Value Until Time 4
-  05:00,                                  !- Time 5 {hh:mm}
-  0,                                      !- Value Until Time 5
-  06:00,                                  !- Time 6 {hh:mm}
-  0,                                      !- Value Until Time 6
-  07:00,                                  !- Time 7 {hh:mm}
-  0,                                      !- Value Until Time 7
-  08:00,                                  !- Time 8 {hh:mm}
-  0,                                      !- Value Until Time 8
-  09:00,                                  !- Time 9 {hh:mm}
-  0,                                      !- Value Until Time 9
-  10:00,                                  !- Time 10 {hh:mm}
-  0,                                      !- Value Until Time 10
-  11:00,                                  !- Time 11 {hh:mm}
-  0,                                      !- Value Until Time 11
-  12:00,                                  !- Time 12 {hh:mm}
-  0,                                      !- Value Until Time 12
-  13:00,                                  !- Time 13 {hh:mm}
-  0,                                      !- Value Until Time 13
-  14:00,                                  !- Time 14 {hh:mm}
-  0,                                      !- Value Until Time 14
-  15:00,                                  !- Time 15 {hh:mm}
-  0,                                      !- Value Until Time 15
-  16:00,                                  !- Time 16 {hh:mm}
-  0,                                      !- Value Until Time 16
-  17:00,                                  !- Time 17 {hh:mm}
-  0,                                      !- Value Until Time 17
-  18:00,                                  !- Time 18 {hh:mm}
-  0,                                      !- Value Until Time 18
-  19:00,                                  !- Time 19 {hh:mm}
-  0,                                      !- Value Until Time 19
-  20:00,                                  !- Time 20 {hh:mm}
-  0,                                      !- Value Until Time 20
-  21:00,                                  !- Time 21 {hh:mm}
-  0,                                      !- Value Until Time 21
-  22:00,                                  !- Time 22 {hh:mm}
-  0,                                      !- Value Until Time 22
-  23:00,                                  !- Time 23 {hh:mm}
-  0,                                      !- Value Until Time 23
-  24:00,                                  !- Time 24 {hh:mm}
-  0;                                      !- Value Until Time 24
-
-Schedule:Day:Interval,
-  Schedule Day 176,                       !- Name
-  Velocity,                               !- Schedule Type Limits Name
-  No,                                     !- Interpolate to Timestep
-  01:00,                                  !- Time 1 {hh:mm}
-  0,                                      !- Value Until Time 1
-  02:00,                                  !- Time 2 {hh:mm}
-  0,                                      !- Value Until Time 2
-  03:00,                                  !- Time 3 {hh:mm}
-  0,                                      !- Value Until Time 3
-  04:00,                                  !- Time 4 {hh:mm}
-  0,                                      !- Value Until Time 4
-  05:00,                                  !- Time 5 {hh:mm}
-  0,                                      !- Value Until Time 5
-  06:00,                                  !- Time 6 {hh:mm}
-  0,                                      !- Value Until Time 6
-  07:00,                                  !- Time 7 {hh:mm}
-  0,                                      !- Value Until Time 7
-  08:00,                                  !- Time 8 {hh:mm}
-  0,                                      !- Value Until Time 8
-  09:00,                                  !- Time 9 {hh:mm}
-  0,                                      !- Value Until Time 9
-  10:00,                                  !- Time 10 {hh:mm}
-  0,                                      !- Value Until Time 10
-  11:00,                                  !- Time 11 {hh:mm}
-  0,                                      !- Value Until Time 11
-  12:00,                                  !- Time 12 {hh:mm}
-  0,                                      !- Value Until Time 12
-  13:00,                                  !- Time 13 {hh:mm}
-  0,                                      !- Value Until Time 13
-  14:00,                                  !- Time 14 {hh:mm}
-  0,                                      !- Value Until Time 14
-  15:00,                                  !- Time 15 {hh:mm}
-  0,                                      !- Value Until Time 15
-  16:00,                                  !- Time 16 {hh:mm}
-  0,                                      !- Value Until Time 16
-  17:00,                                  !- Time 17 {hh:mm}
-  0,                                      !- Value Until Time 17
-  18:00,                                  !- Time 18 {hh:mm}
-  0,                                      !- Value Until Time 18
-  19:00,                                  !- Time 19 {hh:mm}
-  0,                                      !- Value Until Time 19
-  20:00,                                  !- Time 20 {hh:mm}
-  0,                                      !- Value Until Time 20
-  21:00,                                  !- Time 21 {hh:mm}
-  0,                                      !- Value Until Time 21
-  22:00,                                  !- Time 22 {hh:mm}
-  0,                                      !- Value Until Time 22
-  23:00,                                  !- Time 23 {hh:mm}
-  0,                                      !- Value Until Time 23
-  24:00,                                  !- Time 24 {hh:mm}
-  0;                                      !- Value Until Time 24
-
-Schedule:Day:Interval,
-  Schedule Day 177,                       !- Name
-  Velocity,                               !- Schedule Type Limits Name
-  No,                                     !- Interpolate to Timestep
-  01:00,                                  !- Time 1 {hh:mm}
-  0,                                      !- Value Until Time 1
-  02:00,                                  !- Time 2 {hh:mm}
-  0,                                      !- Value Until Time 2
-  03:00,                                  !- Time 3 {hh:mm}
-  0,                                      !- Value Until Time 3
-  04:00,                                  !- Time 4 {hh:mm}
-  0,                                      !- Value Until Time 4
-  05:00,                                  !- Time 5 {hh:mm}
-  0,                                      !- Value Until Time 5
-  06:00,                                  !- Time 6 {hh:mm}
-  0,                                      !- Value Until Time 6
-  07:00,                                  !- Time 7 {hh:mm}
-  0,                                      !- Value Until Time 7
-  08:00,                                  !- Time 8 {hh:mm}
-  0,                                      !- Value Until Time 8
-  09:00,                                  !- Time 9 {hh:mm}
-  0,                                      !- Value Until Time 9
-  10:00,                                  !- Time 10 {hh:mm}
-  0,                                      !- Value Until Time 10
-  11:00,                                  !- Time 11 {hh:mm}
-  0,                                      !- Value Until Time 11
-  12:00,                                  !- Time 12 {hh:mm}
-  0,                                      !- Value Until Time 12
-  13:00,                                  !- Time 13 {hh:mm}
-  0,                                      !- Value Until Time 13
-  14:00,                                  !- Time 14 {hh:mm}
-  0,                                      !- Value Until Time 14
-  15:00,                                  !- Time 15 {hh:mm}
-  0,                                      !- Value Until Time 15
-  16:00,                                  !- Time 16 {hh:mm}
-  0,                                      !- Value Until Time 16
-  17:00,                                  !- Time 17 {hh:mm}
-  0,                                      !- Value Until Time 17
-  18:00,                                  !- Time 18 {hh:mm}
-  0,                                      !- Value Until Time 18
-  19:00,                                  !- Time 19 {hh:mm}
-  0,                                      !- Value Until Time 19
-  20:00,                                  !- Time 20 {hh:mm}
-  0,                                      !- Value Until Time 20
-  21:00,                                  !- Time 21 {hh:mm}
-  0,                                      !- Value Until Time 21
-  22:00,                                  !- Time 22 {hh:mm}
-  0,                                      !- Value Until Time 22
-  23:00,                                  !- Time 23 {hh:mm}
-  0,                                      !- Value Until Time 23
-  24:00,                                  !- Time 24 {hh:mm}
-  0;                                      !- Value Until Time 24
-
-Schedule:Day:Interval,
-  Schedule Day 178,                       !- Name
-  Velocity,                               !- Schedule Type Limits Name
-  No,                                     !- Interpolate to Timestep
-  01:00,                                  !- Time 1 {hh:mm}
-  0,                                      !- Value Until Time 1
-  02:00,                                  !- Time 2 {hh:mm}
-  0,                                      !- Value Until Time 2
-  03:00,                                  !- Time 3 {hh:mm}
-  0,                                      !- Value Until Time 3
-  04:00,                                  !- Time 4 {hh:mm}
-  0,                                      !- Value Until Time 4
-  05:00,                                  !- Time 5 {hh:mm}
-  0,                                      !- Value Until Time 5
-  06:00,                                  !- Time 6 {hh:mm}
-  0,                                      !- Value Until Time 6
-  07:00,                                  !- Time 7 {hh:mm}
-  0,                                      !- Value Until Time 7
-  08:00,                                  !- Time 8 {hh:mm}
-  0,                                      !- Value Until Time 8
-  09:00,                                  !- Time 9 {hh:mm}
-  0,                                      !- Value Until Time 9
-  10:00,                                  !- Time 10 {hh:mm}
-  0,                                      !- Value Until Time 10
-  11:00,                                  !- Time 11 {hh:mm}
-  0,                                      !- Value Until Time 11
-  12:00,                                  !- Time 12 {hh:mm}
-  0,                                      !- Value Until Time 12
-  13:00,                                  !- Time 13 {hh:mm}
-  0,                                      !- Value Until Time 13
-  14:00,                                  !- Time 14 {hh:mm}
-  0,                                      !- Value Until Time 14
-  15:00,                                  !- Time 15 {hh:mm}
-  0,                                      !- Value Until Time 15
-  16:00,                                  !- Time 16 {hh:mm}
-  0,                                      !- Value Until Time 16
-  17:00,                                  !- Time 17 {hh:mm}
-  0,                                      !- Value Until Time 17
-  18:00,                                  !- Time 18 {hh:mm}
-  0,                                      !- Value Until Time 18
-  19:00,                                  !- Time 19 {hh:mm}
-  0,                                      !- Value Until Time 19
-  20:00,                                  !- Time 20 {hh:mm}
-  0,                                      !- Value Until Time 20
-  21:00,                                  !- Time 21 {hh:mm}
-  0,                                      !- Value Until Time 21
-  22:00,                                  !- Time 22 {hh:mm}
-  0,                                      !- Value Until Time 22
-  23:00,                                  !- Time 23 {hh:mm}
-  0,                                      !- Value Until Time 23
-  24:00,                                  !- Time 24 {hh:mm}
-  0;                                      !- Value Until Time 24
-
 Schedule:Week:Daily,
-  Air Velocity Schedule Week Rule - Jan1-Sep16, !- Name
-  Air Velocity Schedule Default,          !- Sunday Schedule:Day Name
-  Air Velocity Schedule Default,          !- Monday Schedule:Day Name
-  Air Velocity Schedule Default,          !- Tuesday Schedule:Day Name
-  Air Velocity Schedule Default,          !- Wednesday Schedule:Day Name
-  Air Velocity Schedule Default,          !- Thursday Schedule:Day Name
-  Air Velocity Schedule Default,          !- Friday Schedule:Day Name
-  Air Velocity Schedule Default,          !- Saturday Schedule:Day Name
-  Air Velocity Schedule Default,          !- Holiday Schedule:Day Name
-  Air Velocity Schedule Default,          !- SummerDesignDay Schedule:Day Name
-  Air Velocity Schedule Default,          !- WinterDesignDay Schedule:Day Name
-  Air Velocity Schedule Default,          !- CustomDay1 Schedule:Day Name
-  Air Velocity Schedule Default;          !- CustomDay2 Schedule:Day Name
-
-Schedule:Day:Interval,
-  Schedule Day 179,                       !- Name
-  Velocity,                               !- Schedule Type Limits Name
-  No,                                     !- Interpolate to Timestep
-  01:00,                                  !- Time 1 {hh:mm}
-  0,                                      !- Value Until Time 1
-  02:00,                                  !- Time 2 {hh:mm}
-  0,                                      !- Value Until Time 2
-  03:00,                                  !- Time 3 {hh:mm}
-  0,                                      !- Value Until Time 3
-  04:00,                                  !- Time 4 {hh:mm}
-  0,                                      !- Value Until Time 4
-  05:00,                                  !- Time 5 {hh:mm}
-  0,                                      !- Value Until Time 5
-  06:00,                                  !- Time 6 {hh:mm}
-  0,                                      !- Value Until Time 6
-  07:00,                                  !- Time 7 {hh:mm}
-  0,                                      !- Value Until Time 7
-  08:00,                                  !- Time 8 {hh:mm}
-  0,                                      !- Value Until Time 8
-  09:00,                                  !- Time 9 {hh:mm}
-  0,                                      !- Value Until Time 9
-  10:00,                                  !- Time 10 {hh:mm}
-  0,                                      !- Value Until Time 10
-  11:00,                                  !- Time 11 {hh:mm}
-  0,                                      !- Value Until Time 11
-  12:00,                                  !- Time 12 {hh:mm}
-  0,                                      !- Value Until Time 12
-  13:00,                                  !- Time 13 {hh:mm}
-  0,                                      !- Value Until Time 13
-  14:00,                                  !- Time 14 {hh:mm}
-  0,                                      !- Value Until Time 14
-  15:00,                                  !- Time 15 {hh:mm}
-  0,                                      !- Value Until Time 15
-  16:00,                                  !- Time 16 {hh:mm}
-  0,                                      !- Value Until Time 16
-  17:00,                                  !- Time 17 {hh:mm}
-  0,                                      !- Value Until Time 17
-  18:00,                                  !- Time 18 {hh:mm}
-  0.2,                                    !- Value Until Time 18
-  19:00,                                  !- Time 19 {hh:mm}
-  0.2,                                    !- Value Until Time 19
-  20:00,                                  !- Time 20 {hh:mm}
-  0.2,                                    !- Value Until Time 20
-  21:00,                                  !- Time 21 {hh:mm}
-  0.2,                                    !- Value Until Time 21
-  22:00,                                  !- Time 22 {hh:mm}
-  0.2,                                    !- Value Until Time 22
-  23:00,                                  !- Time 23 {hh:mm}
-  0.2,                                    !- Value Until Time 23
-  24:00,                                  !- Time 24 {hh:mm}
-  0.2;                                    !- Value Until Time 24
-
-Schedule:Week:Daily,
-  Air Velocity Schedule Week Rule - Sep17-Sep23, !- Name
-  Schedule Day 172,                       !- Sunday Schedule:Day Name
-  Schedule Day 173,                       !- Monday Schedule:Day Name
-  Schedule Day 174,                       !- Tuesday Schedule:Day Name
-  Schedule Day 175,                       !- Wednesday Schedule:Day Name
-  Schedule Day 176,                       !- Thursday Schedule:Day Name
-  Schedule Day 177,                       !- Friday Schedule:Day Name
-  Schedule Day 178,                       !- Saturday Schedule:Day Name
-  Air Velocity Schedule Default,          !- Holiday Schedule:Day Name
-  Air Velocity Schedule Default,          !- SummerDesignDay Schedule:Day Name
-  Air Velocity Schedule Default,          !- WinterDesignDay Schedule:Day Name
-  Air Velocity Schedule Default,          !- CustomDay1 Schedule:Day Name
-  Air Velocity Schedule Default;          !- CustomDay2 Schedule:Day Name
-
-Schedule:Week:Daily,
-  Air Velocity Schedule Week Rule - Sep24-Sep30, !- Name
-  Schedule Day 179,                       !- Sunday Schedule:Day Name
-  Air Velocity Schedule Default,          !- Monday Schedule:Day Name
-  Air Velocity Schedule Default,          !- Tuesday Schedule:Day Name
-  Air Velocity Schedule Default,          !- Wednesday Schedule:Day Name
-  Air Velocity Schedule Default,          !- Thursday Schedule:Day Name
-  Air Velocity Schedule Default,          !- Friday Schedule:Day Name
-  Air Velocity Schedule Default,          !- Saturday Schedule:Day Name
-  Air Velocity Schedule Default,          !- Holiday Schedule:Day Name
-  Air Velocity Schedule Default,          !- SummerDesignDay Schedule:Day Name
-  Air Velocity Schedule Default,          !- WinterDesignDay Schedule:Day Name
-  Air Velocity Schedule Default,          !- CustomDay1 Schedule:Day Name
-  Air Velocity Schedule Default;          !- CustomDay2 Schedule:Day Name
-
-Schedule:Week:Daily,
-  Air Velocity Schedule Week Rule - Oct1-Dec31, !- Name
+  Air Velocity Schedule Week Rule - Jan1-Dec31, !- Name
   Air Velocity Schedule Default,          !- Sunday Schedule:Day Name
   Air Velocity Schedule Default,          !- Monday Schedule:Day Name
   Air Velocity Schedule Default,          !- Tuesday Schedule:Day Name
@@ -11770,26 +10817,11 @@ Schedule:Week:Daily,
 Schedule:Year,
   Air Velocity Schedule,                  !- Name
   Velocity,                               !- Schedule Type Limits Name
-  Air Velocity Schedule Week Rule - Jan1-Sep16, !- Schedule:Week Name 1
+  Air Velocity Schedule Week Rule - Jan1-Dec31, !- Schedule:Week Name 1
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
-  9,                                      !- End Month 1
-  16,                                     !- End Day 1
-  Air Velocity Schedule Week Rule - Sep17-Sep23, !- Schedule:Week Name 2
-  9,                                      !- Start Month 2
-  17,                                     !- Start Day 2
-  9,                                      !- End Month 2
-  23,                                     !- End Day 2
-  Air Velocity Schedule Week Rule - Sep24-Sep30, !- Schedule:Week Name 3
-  9,                                      !- Start Month 3
-  24,                                     !- Start Day 3
-  9,                                      !- End Month 3
-  30,                                     !- End Day 3
-  Air Velocity Schedule Week Rule - Oct1-Dec31, !- Schedule:Week Name 4
-  10,                                     !- Start Month 4
-  1,                                      !- Start Day 4
-  12,                                     !- End Month 4
-  31;                                     !- End Day 4
+  12,                                     !- End Month 1
+  31;                                     !- End Day 1
 
 ElectricEquipment,
   Electric Equipment 1,                   !- Name
@@ -11801,7 +10833,7 @@ ElectricEquipment,
   ,                                       !- Watts per Person {W/person}
   ,                                       !- Fraction Latent
   ,                                       !- Fraction Radiant
-  ,                                       !- Fraction Lost
+  0.95,                                   !- Fraction Lost
   General;                                !- End-Use Subcategory
 
 ElectricEquipment,
@@ -15299,7 +14331,7 @@ Schedule:Day:Interval,
 
 Schedule:Day:Interval,
   Schedule Day 108,                       !- Name
-  ActivityLevel,                          !- Schedule Type Limits Name
+  Fractional,                             !- Schedule Type Limits Name
   No,                                     !- Interpolate to Timestep
   01:00,                                  !- Time 1 {hh:mm}
   0,                                      !- Value Until Time 1
@@ -15352,7 +14384,7 @@ Schedule:Day:Interval,
 
 Schedule:Day:Interval,
   Schedule Day 109,                       !- Name
-  ActivityLevel,                          !- Schedule Type Limits Name
+  Fractional,                             !- Schedule Type Limits Name
   No,                                     !- Interpolate to Timestep
   01:00,                                  !- Time 1 {hh:mm}
   0,                                      !- Value Until Time 1
@@ -15458,7 +14490,7 @@ Schedule:Day:Interval,
 
 Schedule:Day:Interval,
   Schedule Day 110,                       !- Name
-  ActivityLevel,                          !- Schedule Type Limits Name
+  Fractional,                             !- Schedule Type Limits Name
   No,                                     !- Interpolate to Timestep
   01:00,                                  !- Time 1 {hh:mm}
   0,                                      !- Value Until Time 1
@@ -15511,7 +14543,7 @@ Schedule:Day:Interval,
 
 Schedule:Day:Interval,
   Schedule Day 111,                       !- Name
-  ActivityLevel,                          !- Schedule Type Limits Name
+  Fractional,                             !- Schedule Type Limits Name
   No,                                     !- Interpolate to Timestep
   01:00,                                  !- Time 1 {hh:mm}
   0,                                      !- Value Until Time 1
@@ -15564,7 +14596,7 @@ Schedule:Day:Interval,
 
 Schedule:Day:Interval,
   Schedule Day 112,                       !- Name
-  ActivityLevel,                          !- Schedule Type Limits Name
+  Fractional,                             !- Schedule Type Limits Name
   No,                                     !- Interpolate to Timestep
   01:00,                                  !- Time 1 {hh:mm}
   0,                                      !- Value Until Time 1
@@ -15617,7 +14649,7 @@ Schedule:Day:Interval,
 
 Schedule:Day:Interval,
   Schedule Day 113,                       !- Name
-  ActivityLevel,                          !- Schedule Type Limits Name
+  Fractional,                             !- Schedule Type Limits Name
   No,                                     !- Interpolate to Timestep
   01:00,                                  !- Time 1 {hh:mm}
   0,                                      !- Value Until Time 1
@@ -15670,7 +14702,7 @@ Schedule:Day:Interval,
 
 Schedule:Day:Interval,
   Schedule Day 114,                       !- Name
-  ActivityLevel,                          !- Schedule Type Limits Name
+  Fractional,                             !- Schedule Type Limits Name
   No,                                     !- Interpolate to Timestep
   01:00,                                  !- Time 1 {hh:mm}
   0,                                      !- Value Until Time 1
@@ -15723,7 +14755,7 @@ Schedule:Day:Interval,
 
 Schedule:Day:Interval,
   Schedule Day 115,                       !- Name
-  ActivityLevel,                          !- Schedule Type Limits Name
+  Fractional,                             !- Schedule Type Limits Name
   No,                                     !- Interpolate to Timestep
   01:00,                                  !- Time 1 {hh:mm}
   0,                                      !- Value Until Time 1
@@ -15760,19 +14792,19 @@ Schedule:Day:Interval,
   17:00,                                  !- Time 17 {hh:mm}
   0,                                      !- Value Until Time 17
   18:00,                                  !- Time 18 {hh:mm}
-  90.00002999997,                         !- Value Until Time 18
+  0,                                      !- Value Until Time 18
   19:00,                                  !- Time 19 {hh:mm}
-  95.000024999975,                        !- Value Until Time 19
+  0,                                      !- Value Until Time 19
   20:00,                                  !- Time 20 {hh:mm}
-  100.00001999998,                        !- Value Until Time 20
+  0,                                      !- Value Until Time 20
   21:00,                                  !- Time 21 {hh:mm}
-  105.000014999985,                       !- Value Until Time 21
+  0,                                      !- Value Until Time 21
   22:00,                                  !- Time 22 {hh:mm}
-  110.00000999999,                        !- Value Until Time 22
+  0,                                      !- Value Until Time 22
   23:00,                                  !- Time 23 {hh:mm}
-  115.000004999995,                       !- Value Until Time 23
+  0,                                      !- Value Until Time 23
   24:00,                                  !- Time 24 {hh:mm}
-  120;                                    !- Value Until Time 24
+  0;                                      !- Value Until Time 24
 
 Schedule:Day:Interval,
   Schedule Day 116,                       !- Name
@@ -16608,23 +15640,23 @@ Schedule:Day:Interval,
   17:00,                                  !- Time 17 {hh:mm}
   0,                                      !- Value Until Time 17
   18:00,                                  !- Time 18 {hh:mm}
-  0,                                      !- Value Until Time 18
+  0.225000074999925,                      !- Value Until Time 18
   19:00,                                  !- Time 19 {hh:mm}
-  0,                                      !- Value Until Time 19
+  0.237500062499937,                      !- Value Until Time 19
   20:00,                                  !- Time 20 {hh:mm}
-  0,                                      !- Value Until Time 20
+  0.25000004999995,                       !- Value Until Time 20
   21:00,                                  !- Time 21 {hh:mm}
-  0,                                      !- Value Until Time 21
+  0.262500037499963,                      !- Value Until Time 21
   22:00,                                  !- Time 22 {hh:mm}
-  0,                                      !- Value Until Time 22
+  0.275000024999975,                      !- Value Until Time 22
   23:00,                                  !- Time 23 {hh:mm}
-  0,                                      !- Value Until Time 23
+  0.287500012499988,                      !- Value Until Time 23
   24:00,                                  !- Time 24 {hh:mm}
-  0;                                      !- Value Until Time 24
+  0.3;                                    !- Value Until Time 24
 
 Schedule:Day:Interval,
   Schedule Day 132,                       !- Name
-  Fractional,                             !- Schedule Type Limits Name
+  Any Number,                             !- Schedule Type Limits Name
   No,                                     !- Interpolate to Timestep
   01:00,                                  !- Time 1 {hh:mm}
   0,                                      !- Value Until Time 1
@@ -16677,7 +15709,7 @@ Schedule:Day:Interval,
 
 Schedule:Day:Interval,
   Schedule Day 133,                       !- Name
-  Fractional,                             !- Schedule Type Limits Name
+  Any Number,                             !- Schedule Type Limits Name
   No,                                     !- Interpolate to Timestep
   01:00,                                  !- Time 1 {hh:mm}
   0,                                      !- Value Until Time 1
@@ -16730,7 +15762,7 @@ Schedule:Day:Interval,
 
 Schedule:Day:Interval,
   Schedule Day 134,                       !- Name
-  Fractional,                             !- Schedule Type Limits Name
+  Any Number,                             !- Schedule Type Limits Name
   No,                                     !- Interpolate to Timestep
   01:00,                                  !- Time 1 {hh:mm}
   0,                                      !- Value Until Time 1
@@ -16783,7 +15815,7 @@ Schedule:Day:Interval,
 
 Schedule:Day:Interval,
   Schedule Day 135,                       !- Name
-  Fractional,                             !- Schedule Type Limits Name
+  Any Number,                             !- Schedule Type Limits Name
   No,                                     !- Interpolate to Timestep
   01:00,                                  !- Time 1 {hh:mm}
   0,                                      !- Value Until Time 1
@@ -16836,7 +15868,7 @@ Schedule:Day:Interval,
 
 Schedule:Day:Interval,
   Schedule Day 136,                       !- Name
-  Fractional,                             !- Schedule Type Limits Name
+  Any Number,                             !- Schedule Type Limits Name
   No,                                     !- Interpolate to Timestep
   01:00,                                  !- Time 1 {hh:mm}
   0,                                      !- Value Until Time 1
@@ -16889,7 +15921,7 @@ Schedule:Day:Interval,
 
 Schedule:Day:Interval,
   Schedule Day 137,                       !- Name
-  Fractional,                             !- Schedule Type Limits Name
+  Any Number,                             !- Schedule Type Limits Name
   No,                                     !- Interpolate to Timestep
   01:00,                                  !- Time 1 {hh:mm}
   0,                                      !- Value Until Time 1
@@ -16942,7 +15974,7 @@ Schedule:Day:Interval,
 
 Schedule:Day:Interval,
   Schedule Day 138,                       !- Name
-  Fractional,                             !- Schedule Type Limits Name
+  Any Number,                             !- Schedule Type Limits Name
   No,                                     !- Interpolate to Timestep
   01:00,                                  !- Time 1 {hh:mm}
   0,                                      !- Value Until Time 1
@@ -16995,7 +16027,7 @@ Schedule:Day:Interval,
 
 Schedule:Day:Interval,
   Schedule Day 139,                       !- Name
-  Fractional,                             !- Schedule Type Limits Name
+  Any Number,                             !- Schedule Type Limits Name
   No,                                     !- Interpolate to Timestep
   01:00,                                  !- Time 1 {hh:mm}
   0,                                      !- Value Until Time 1
@@ -17032,19 +16064,19 @@ Schedule:Day:Interval,
   17:00,                                  !- Time 17 {hh:mm}
   0,                                      !- Value Until Time 17
   18:00,                                  !- Time 18 {hh:mm}
-  0.225000074999925,                      !- Value Until Time 18
+  0,                                      !- Value Until Time 18
   19:00,                                  !- Time 19 {hh:mm}
-  0.237500062499937,                      !- Value Until Time 19
+  0,                                      !- Value Until Time 19
   20:00,                                  !- Time 20 {hh:mm}
-  0.25000004999995,                       !- Value Until Time 20
+  0,                                      !- Value Until Time 20
   21:00,                                  !- Time 21 {hh:mm}
-  0.262500037499963,                      !- Value Until Time 21
+  0,                                      !- Value Until Time 21
   22:00,                                  !- Time 22 {hh:mm}
-  0.275000024999975,                      !- Value Until Time 22
+  0,                                      !- Value Until Time 22
   23:00,                                  !- Time 23 {hh:mm}
-  0.287500012499988,                      !- Value Until Time 23
+  0,                                      !- Value Until Time 23
   24:00,                                  !- Time 24 {hh:mm}
-  0.3;                                    !- Value Until Time 24
+  0;                                      !- Value Until Time 24
 
 Schedule:Day:Interval,
   Schedule Day 140,                       !- Name
@@ -17472,7 +16504,7 @@ Schedule:Day:Interval,
 
 Schedule:Day:Interval,
   Schedule Day 148,                       !- Name
-  Any Number,                             !- Schedule Type Limits Name
+  Fractional,                             !- Schedule Type Limits Name
   No,                                     !- Interpolate to Timestep
   01:00,                                  !- Time 1 {hh:mm}
   0,                                      !- Value Until Time 1
@@ -17525,7 +16557,7 @@ Schedule:Day:Interval,
 
 Schedule:Day:Interval,
   Schedule Day 149,                       !- Name
-  Any Number,                             !- Schedule Type Limits Name
+  Fractional,                             !- Schedule Type Limits Name
   No,                                     !- Interpolate to Timestep
   01:00,                                  !- Time 1 {hh:mm}
   0,                                      !- Value Until Time 1
@@ -17578,7 +16610,7 @@ Schedule:Day:Interval,
 
 Schedule:Day:Interval,
   Schedule Day 150,                       !- Name
-  Any Number,                             !- Schedule Type Limits Name
+  Fractional,                             !- Schedule Type Limits Name
   No,                                     !- Interpolate to Timestep
   01:00,                                  !- Time 1 {hh:mm}
   0,                                      !- Value Until Time 1
@@ -17631,7 +16663,7 @@ Schedule:Day:Interval,
 
 Schedule:Day:Interval,
   Schedule Day 151,                       !- Name
-  Any Number,                             !- Schedule Type Limits Name
+  Fractional,                             !- Schedule Type Limits Name
   No,                                     !- Interpolate to Timestep
   01:00,                                  !- Time 1 {hh:mm}
   0,                                      !- Value Until Time 1
@@ -17684,7 +16716,7 @@ Schedule:Day:Interval,
 
 Schedule:Day:Interval,
   Schedule Day 152,                       !- Name
-  Any Number,                             !- Schedule Type Limits Name
+  Fractional,                             !- Schedule Type Limits Name
   No,                                     !- Interpolate to Timestep
   01:00,                                  !- Time 1 {hh:mm}
   0,                                      !- Value Until Time 1
@@ -17737,7 +16769,7 @@ Schedule:Day:Interval,
 
 Schedule:Day:Interval,
   Schedule Day 153,                       !- Name
-  Any Number,                             !- Schedule Type Limits Name
+  Fractional,                             !- Schedule Type Limits Name
   No,                                     !- Interpolate to Timestep
   01:00,                                  !- Time 1 {hh:mm}
   0,                                      !- Value Until Time 1
@@ -17790,7 +16822,7 @@ Schedule:Day:Interval,
 
 Schedule:Day:Interval,
   Schedule Day 154,                       !- Name
-  Any Number,                             !- Schedule Type Limits Name
+  Fractional,                             !- Schedule Type Limits Name
   No,                                     !- Interpolate to Timestep
   01:00,                                  !- Time 1 {hh:mm}
   0,                                      !- Value Until Time 1
@@ -17843,7 +16875,7 @@ Schedule:Day:Interval,
 
 Schedule:Day:Interval,
   Schedule Day 155,                       !- Name
-  Any Number,                             !- Schedule Type Limits Name
+  Fractional,                             !- Schedule Type Limits Name
   No,                                     !- Interpolate to Timestep
   01:00,                                  !- Time 1 {hh:mm}
   0,                                      !- Value Until Time 1
@@ -17880,19 +16912,19 @@ Schedule:Day:Interval,
   17:00,                                  !- Time 17 {hh:mm}
   0,                                      !- Value Until Time 17
   18:00,                                  !- Time 18 {hh:mm}
-  0,                                      !- Value Until Time 18
+  1,                                      !- Value Until Time 18
   19:00,                                  !- Time 19 {hh:mm}
-  0,                                      !- Value Until Time 19
+  1,                                      !- Value Until Time 19
   20:00,                                  !- Time 20 {hh:mm}
-  0,                                      !- Value Until Time 20
+  1,                                      !- Value Until Time 20
   21:00,                                  !- Time 21 {hh:mm}
-  0,                                      !- Value Until Time 21
+  1,                                      !- Value Until Time 21
   22:00,                                  !- Time 22 {hh:mm}
-  0,                                      !- Value Until Time 22
+  1,                                      !- Value Until Time 22
   23:00,                                  !- Time 23 {hh:mm}
-  0,                                      !- Value Until Time 23
+  1,                                      !- Value Until Time 23
   24:00,                                  !- Time 24 {hh:mm}
-  0;                                      !- Value Until Time 24
+  1;                                      !- Value Until Time 24
 
 Schedule:Day:Interval,
   Schedule Day 156,                       !- Name
@@ -18267,430 +17299,6 @@ Schedule:Day:Interval,
 
 Schedule:Day:Interval,
   Schedule Day 163,                       !- Name
-  Fractional,                             !- Schedule Type Limits Name
-  No,                                     !- Interpolate to Timestep
-  01:00,                                  !- Time 1 {hh:mm}
-  0,                                      !- Value Until Time 1
-  02:00,                                  !- Time 2 {hh:mm}
-  0,                                      !- Value Until Time 2
-  03:00,                                  !- Time 3 {hh:mm}
-  0,                                      !- Value Until Time 3
-  04:00,                                  !- Time 4 {hh:mm}
-  0,                                      !- Value Until Time 4
-  05:00,                                  !- Time 5 {hh:mm}
-  0,                                      !- Value Until Time 5
-  06:00,                                  !- Time 6 {hh:mm}
-  0,                                      !- Value Until Time 6
-  07:00,                                  !- Time 7 {hh:mm}
-  0,                                      !- Value Until Time 7
-  08:00,                                  !- Time 8 {hh:mm}
-  0,                                      !- Value Until Time 8
-  09:00,                                  !- Time 9 {hh:mm}
-  0,                                      !- Value Until Time 9
-  10:00,                                  !- Time 10 {hh:mm}
-  0,                                      !- Value Until Time 10
-  11:00,                                  !- Time 11 {hh:mm}
-  0,                                      !- Value Until Time 11
-  12:00,                                  !- Time 12 {hh:mm}
-  0,                                      !- Value Until Time 12
-  13:00,                                  !- Time 13 {hh:mm}
-  0,                                      !- Value Until Time 13
-  14:00,                                  !- Time 14 {hh:mm}
-  0,                                      !- Value Until Time 14
-  15:00,                                  !- Time 15 {hh:mm}
-  0,                                      !- Value Until Time 15
-  16:00,                                  !- Time 16 {hh:mm}
-  0,                                      !- Value Until Time 16
-  17:00,                                  !- Time 17 {hh:mm}
-  0,                                      !- Value Until Time 17
-  18:00,                                  !- Time 18 {hh:mm}
-  1,                                      !- Value Until Time 18
-  19:00,                                  !- Time 19 {hh:mm}
-  1,                                      !- Value Until Time 19
-  20:00,                                  !- Time 20 {hh:mm}
-  1,                                      !- Value Until Time 20
-  21:00,                                  !- Time 21 {hh:mm}
-  1,                                      !- Value Until Time 21
-  22:00,                                  !- Time 22 {hh:mm}
-  1,                                      !- Value Until Time 22
-  23:00,                                  !- Time 23 {hh:mm}
-  1,                                      !- Value Until Time 23
-  24:00,                                  !- Time 24 {hh:mm}
-  1;                                      !- Value Until Time 24
-
-Schedule:Day:Interval,
-  Schedule Day 164,                       !- Name
-  Fractional,                             !- Schedule Type Limits Name
-  No,                                     !- Interpolate to Timestep
-  01:00,                                  !- Time 1 {hh:mm}
-  0,                                      !- Value Until Time 1
-  02:00,                                  !- Time 2 {hh:mm}
-  0,                                      !- Value Until Time 2
-  03:00,                                  !- Time 3 {hh:mm}
-  0,                                      !- Value Until Time 3
-  04:00,                                  !- Time 4 {hh:mm}
-  0,                                      !- Value Until Time 4
-  05:00,                                  !- Time 5 {hh:mm}
-  0,                                      !- Value Until Time 5
-  06:00,                                  !- Time 6 {hh:mm}
-  0,                                      !- Value Until Time 6
-  07:00,                                  !- Time 7 {hh:mm}
-  0,                                      !- Value Until Time 7
-  08:00,                                  !- Time 8 {hh:mm}
-  0,                                      !- Value Until Time 8
-  09:00,                                  !- Time 9 {hh:mm}
-  0,                                      !- Value Until Time 9
-  10:00,                                  !- Time 10 {hh:mm}
-  0,                                      !- Value Until Time 10
-  11:00,                                  !- Time 11 {hh:mm}
-  0,                                      !- Value Until Time 11
-  12:00,                                  !- Time 12 {hh:mm}
-  0,                                      !- Value Until Time 12
-  13:00,                                  !- Time 13 {hh:mm}
-  0,                                      !- Value Until Time 13
-  14:00,                                  !- Time 14 {hh:mm}
-  0,                                      !- Value Until Time 14
-  15:00,                                  !- Time 15 {hh:mm}
-  0,                                      !- Value Until Time 15
-  16:00,                                  !- Time 16 {hh:mm}
-  0,                                      !- Value Until Time 16
-  17:00,                                  !- Time 17 {hh:mm}
-  0,                                      !- Value Until Time 17
-  18:00,                                  !- Time 18 {hh:mm}
-  0,                                      !- Value Until Time 18
-  19:00,                                  !- Time 19 {hh:mm}
-  0,                                      !- Value Until Time 19
-  20:00,                                  !- Time 20 {hh:mm}
-  0,                                      !- Value Until Time 20
-  21:00,                                  !- Time 21 {hh:mm}
-  0,                                      !- Value Until Time 21
-  22:00,                                  !- Time 22 {hh:mm}
-  0,                                      !- Value Until Time 22
-  23:00,                                  !- Time 23 {hh:mm}
-  0,                                      !- Value Until Time 23
-  24:00,                                  !- Time 24 {hh:mm}
-  0;                                      !- Value Until Time 24
-
-Schedule:Day:Interval,
-  Schedule Day 165,                       !- Name
-  Fractional,                             !- Schedule Type Limits Name
-  No,                                     !- Interpolate to Timestep
-  01:00,                                  !- Time 1 {hh:mm}
-  0,                                      !- Value Until Time 1
-  02:00,                                  !- Time 2 {hh:mm}
-  0,                                      !- Value Until Time 2
-  03:00,                                  !- Time 3 {hh:mm}
-  0,                                      !- Value Until Time 3
-  04:00,                                  !- Time 4 {hh:mm}
-  0,                                      !- Value Until Time 4
-  05:00,                                  !- Time 5 {hh:mm}
-  0,                                      !- Value Until Time 5
-  06:00,                                  !- Time 6 {hh:mm}
-  0,                                      !- Value Until Time 6
-  07:00,                                  !- Time 7 {hh:mm}
-  0,                                      !- Value Until Time 7
-  08:00,                                  !- Time 8 {hh:mm}
-  0,                                      !- Value Until Time 8
-  09:00,                                  !- Time 9 {hh:mm}
-  0,                                      !- Value Until Time 9
-  10:00,                                  !- Time 10 {hh:mm}
-  0,                                      !- Value Until Time 10
-  11:00,                                  !- Time 11 {hh:mm}
-  0,                                      !- Value Until Time 11
-  12:00,                                  !- Time 12 {hh:mm}
-  0,                                      !- Value Until Time 12
-  13:00,                                  !- Time 13 {hh:mm}
-  0,                                      !- Value Until Time 13
-  14:00,                                  !- Time 14 {hh:mm}
-  0,                                      !- Value Until Time 14
-  15:00,                                  !- Time 15 {hh:mm}
-  0,                                      !- Value Until Time 15
-  16:00,                                  !- Time 16 {hh:mm}
-  0,                                      !- Value Until Time 16
-  17:00,                                  !- Time 17 {hh:mm}
-  0,                                      !- Value Until Time 17
-  18:00,                                  !- Time 18 {hh:mm}
-  0,                                      !- Value Until Time 18
-  19:00,                                  !- Time 19 {hh:mm}
-  0,                                      !- Value Until Time 19
-  20:00,                                  !- Time 20 {hh:mm}
-  0,                                      !- Value Until Time 20
-  21:00,                                  !- Time 21 {hh:mm}
-  0,                                      !- Value Until Time 21
-  22:00,                                  !- Time 22 {hh:mm}
-  0,                                      !- Value Until Time 22
-  23:00,                                  !- Time 23 {hh:mm}
-  0,                                      !- Value Until Time 23
-  24:00,                                  !- Time 24 {hh:mm}
-  0;                                      !- Value Until Time 24
-
-Schedule:Day:Interval,
-  Schedule Day 166,                       !- Name
-  Fractional,                             !- Schedule Type Limits Name
-  No,                                     !- Interpolate to Timestep
-  01:00,                                  !- Time 1 {hh:mm}
-  0,                                      !- Value Until Time 1
-  02:00,                                  !- Time 2 {hh:mm}
-  0,                                      !- Value Until Time 2
-  03:00,                                  !- Time 3 {hh:mm}
-  0,                                      !- Value Until Time 3
-  04:00,                                  !- Time 4 {hh:mm}
-  0,                                      !- Value Until Time 4
-  05:00,                                  !- Time 5 {hh:mm}
-  0,                                      !- Value Until Time 5
-  06:00,                                  !- Time 6 {hh:mm}
-  0,                                      !- Value Until Time 6
-  07:00,                                  !- Time 7 {hh:mm}
-  0,                                      !- Value Until Time 7
-  08:00,                                  !- Time 8 {hh:mm}
-  0,                                      !- Value Until Time 8
-  09:00,                                  !- Time 9 {hh:mm}
-  0,                                      !- Value Until Time 9
-  10:00,                                  !- Time 10 {hh:mm}
-  0,                                      !- Value Until Time 10
-  11:00,                                  !- Time 11 {hh:mm}
-  0,                                      !- Value Until Time 11
-  12:00,                                  !- Time 12 {hh:mm}
-  0,                                      !- Value Until Time 12
-  13:00,                                  !- Time 13 {hh:mm}
-  0,                                      !- Value Until Time 13
-  14:00,                                  !- Time 14 {hh:mm}
-  0,                                      !- Value Until Time 14
-  15:00,                                  !- Time 15 {hh:mm}
-  0,                                      !- Value Until Time 15
-  16:00,                                  !- Time 16 {hh:mm}
-  0,                                      !- Value Until Time 16
-  17:00,                                  !- Time 17 {hh:mm}
-  0,                                      !- Value Until Time 17
-  18:00,                                  !- Time 18 {hh:mm}
-  0,                                      !- Value Until Time 18
-  19:00,                                  !- Time 19 {hh:mm}
-  0,                                      !- Value Until Time 19
-  20:00,                                  !- Time 20 {hh:mm}
-  0,                                      !- Value Until Time 20
-  21:00,                                  !- Time 21 {hh:mm}
-  0,                                      !- Value Until Time 21
-  22:00,                                  !- Time 22 {hh:mm}
-  0,                                      !- Value Until Time 22
-  23:00,                                  !- Time 23 {hh:mm}
-  0,                                      !- Value Until Time 23
-  24:00,                                  !- Time 24 {hh:mm}
-  0;                                      !- Value Until Time 24
-
-Schedule:Day:Interval,
-  Schedule Day 167,                       !- Name
-  Fractional,                             !- Schedule Type Limits Name
-  No,                                     !- Interpolate to Timestep
-  01:00,                                  !- Time 1 {hh:mm}
-  0,                                      !- Value Until Time 1
-  02:00,                                  !- Time 2 {hh:mm}
-  0,                                      !- Value Until Time 2
-  03:00,                                  !- Time 3 {hh:mm}
-  0,                                      !- Value Until Time 3
-  04:00,                                  !- Time 4 {hh:mm}
-  0,                                      !- Value Until Time 4
-  05:00,                                  !- Time 5 {hh:mm}
-  0,                                      !- Value Until Time 5
-  06:00,                                  !- Time 6 {hh:mm}
-  0,                                      !- Value Until Time 6
-  07:00,                                  !- Time 7 {hh:mm}
-  0,                                      !- Value Until Time 7
-  08:00,                                  !- Time 8 {hh:mm}
-  0,                                      !- Value Until Time 8
-  09:00,                                  !- Time 9 {hh:mm}
-  0,                                      !- Value Until Time 9
-  10:00,                                  !- Time 10 {hh:mm}
-  0,                                      !- Value Until Time 10
-  11:00,                                  !- Time 11 {hh:mm}
-  0,                                      !- Value Until Time 11
-  12:00,                                  !- Time 12 {hh:mm}
-  0,                                      !- Value Until Time 12
-  13:00,                                  !- Time 13 {hh:mm}
-  0,                                      !- Value Until Time 13
-  14:00,                                  !- Time 14 {hh:mm}
-  0,                                      !- Value Until Time 14
-  15:00,                                  !- Time 15 {hh:mm}
-  0,                                      !- Value Until Time 15
-  16:00,                                  !- Time 16 {hh:mm}
-  0,                                      !- Value Until Time 16
-  17:00,                                  !- Time 17 {hh:mm}
-  0,                                      !- Value Until Time 17
-  18:00,                                  !- Time 18 {hh:mm}
-  0,                                      !- Value Until Time 18
-  19:00,                                  !- Time 19 {hh:mm}
-  0,                                      !- Value Until Time 19
-  20:00,                                  !- Time 20 {hh:mm}
-  0,                                      !- Value Until Time 20
-  21:00,                                  !- Time 21 {hh:mm}
-  0,                                      !- Value Until Time 21
-  22:00,                                  !- Time 22 {hh:mm}
-  0,                                      !- Value Until Time 22
-  23:00,                                  !- Time 23 {hh:mm}
-  0,                                      !- Value Until Time 23
-  24:00,                                  !- Time 24 {hh:mm}
-  0;                                      !- Value Until Time 24
-
-Schedule:Day:Interval,
-  Schedule Day 168,                       !- Name
-  Fractional,                             !- Schedule Type Limits Name
-  No,                                     !- Interpolate to Timestep
-  01:00,                                  !- Time 1 {hh:mm}
-  0,                                      !- Value Until Time 1
-  02:00,                                  !- Time 2 {hh:mm}
-  0,                                      !- Value Until Time 2
-  03:00,                                  !- Time 3 {hh:mm}
-  0,                                      !- Value Until Time 3
-  04:00,                                  !- Time 4 {hh:mm}
-  0,                                      !- Value Until Time 4
-  05:00,                                  !- Time 5 {hh:mm}
-  0,                                      !- Value Until Time 5
-  06:00,                                  !- Time 6 {hh:mm}
-  0,                                      !- Value Until Time 6
-  07:00,                                  !- Time 7 {hh:mm}
-  0,                                      !- Value Until Time 7
-  08:00,                                  !- Time 8 {hh:mm}
-  0,                                      !- Value Until Time 8
-  09:00,                                  !- Time 9 {hh:mm}
-  0,                                      !- Value Until Time 9
-  10:00,                                  !- Time 10 {hh:mm}
-  0,                                      !- Value Until Time 10
-  11:00,                                  !- Time 11 {hh:mm}
-  0,                                      !- Value Until Time 11
-  12:00,                                  !- Time 12 {hh:mm}
-  0,                                      !- Value Until Time 12
-  13:00,                                  !- Time 13 {hh:mm}
-  0,                                      !- Value Until Time 13
-  14:00,                                  !- Time 14 {hh:mm}
-  0,                                      !- Value Until Time 14
-  15:00,                                  !- Time 15 {hh:mm}
-  0,                                      !- Value Until Time 15
-  16:00,                                  !- Time 16 {hh:mm}
-  0,                                      !- Value Until Time 16
-  17:00,                                  !- Time 17 {hh:mm}
-  0,                                      !- Value Until Time 17
-  18:00,                                  !- Time 18 {hh:mm}
-  0,                                      !- Value Until Time 18
-  19:00,                                  !- Time 19 {hh:mm}
-  0,                                      !- Value Until Time 19
-  20:00,                                  !- Time 20 {hh:mm}
-  0,                                      !- Value Until Time 20
-  21:00,                                  !- Time 21 {hh:mm}
-  0,                                      !- Value Until Time 21
-  22:00,                                  !- Time 22 {hh:mm}
-  0,                                      !- Value Until Time 22
-  23:00,                                  !- Time 23 {hh:mm}
-  0,                                      !- Value Until Time 23
-  24:00,                                  !- Time 24 {hh:mm}
-  0;                                      !- Value Until Time 24
-
-Schedule:Day:Interval,
-  Schedule Day 169,                       !- Name
-  Fractional,                             !- Schedule Type Limits Name
-  No,                                     !- Interpolate to Timestep
-  01:00,                                  !- Time 1 {hh:mm}
-  0,                                      !- Value Until Time 1
-  02:00,                                  !- Time 2 {hh:mm}
-  0,                                      !- Value Until Time 2
-  03:00,                                  !- Time 3 {hh:mm}
-  0,                                      !- Value Until Time 3
-  04:00,                                  !- Time 4 {hh:mm}
-  0,                                      !- Value Until Time 4
-  05:00,                                  !- Time 5 {hh:mm}
-  0,                                      !- Value Until Time 5
-  06:00,                                  !- Time 6 {hh:mm}
-  0,                                      !- Value Until Time 6
-  07:00,                                  !- Time 7 {hh:mm}
-  0,                                      !- Value Until Time 7
-  08:00,                                  !- Time 8 {hh:mm}
-  0,                                      !- Value Until Time 8
-  09:00,                                  !- Time 9 {hh:mm}
-  0,                                      !- Value Until Time 9
-  10:00,                                  !- Time 10 {hh:mm}
-  0,                                      !- Value Until Time 10
-  11:00,                                  !- Time 11 {hh:mm}
-  0,                                      !- Value Until Time 11
-  12:00,                                  !- Time 12 {hh:mm}
-  0,                                      !- Value Until Time 12
-  13:00,                                  !- Time 13 {hh:mm}
-  0,                                      !- Value Until Time 13
-  14:00,                                  !- Time 14 {hh:mm}
-  0,                                      !- Value Until Time 14
-  15:00,                                  !- Time 15 {hh:mm}
-  0,                                      !- Value Until Time 15
-  16:00,                                  !- Time 16 {hh:mm}
-  0,                                      !- Value Until Time 16
-  17:00,                                  !- Time 17 {hh:mm}
-  0,                                      !- Value Until Time 17
-  18:00,                                  !- Time 18 {hh:mm}
-  0,                                      !- Value Until Time 18
-  19:00,                                  !- Time 19 {hh:mm}
-  0,                                      !- Value Until Time 19
-  20:00,                                  !- Time 20 {hh:mm}
-  0,                                      !- Value Until Time 20
-  21:00,                                  !- Time 21 {hh:mm}
-  0,                                      !- Value Until Time 21
-  22:00,                                  !- Time 22 {hh:mm}
-  0,                                      !- Value Until Time 22
-  23:00,                                  !- Time 23 {hh:mm}
-  0,                                      !- Value Until Time 23
-  24:00,                                  !- Time 24 {hh:mm}
-  0;                                      !- Value Until Time 24
-
-Schedule:Day:Interval,
-  Schedule Day 170,                       !- Name
-  Fractional,                             !- Schedule Type Limits Name
-  No,                                     !- Interpolate to Timestep
-  01:00,                                  !- Time 1 {hh:mm}
-  0,                                      !- Value Until Time 1
-  02:00,                                  !- Time 2 {hh:mm}
-  0,                                      !- Value Until Time 2
-  03:00,                                  !- Time 3 {hh:mm}
-  0,                                      !- Value Until Time 3
-  04:00,                                  !- Time 4 {hh:mm}
-  0,                                      !- Value Until Time 4
-  05:00,                                  !- Time 5 {hh:mm}
-  0,                                      !- Value Until Time 5
-  06:00,                                  !- Time 6 {hh:mm}
-  0,                                      !- Value Until Time 6
-  07:00,                                  !- Time 7 {hh:mm}
-  0,                                      !- Value Until Time 7
-  08:00,                                  !- Time 8 {hh:mm}
-  0,                                      !- Value Until Time 8
-  09:00,                                  !- Time 9 {hh:mm}
-  0,                                      !- Value Until Time 9
-  10:00,                                  !- Time 10 {hh:mm}
-  0,                                      !- Value Until Time 10
-  11:00,                                  !- Time 11 {hh:mm}
-  0,                                      !- Value Until Time 11
-  12:00,                                  !- Time 12 {hh:mm}
-  0,                                      !- Value Until Time 12
-  13:00,                                  !- Time 13 {hh:mm}
-  0,                                      !- Value Until Time 13
-  14:00,                                  !- Time 14 {hh:mm}
-  0,                                      !- Value Until Time 14
-  15:00,                                  !- Time 15 {hh:mm}
-  0,                                      !- Value Until Time 15
-  16:00,                                  !- Time 16 {hh:mm}
-  0,                                      !- Value Until Time 16
-  17:00,                                  !- Time 17 {hh:mm}
-  0,                                      !- Value Until Time 17
-  18:00,                                  !- Time 18 {hh:mm}
-  0,                                      !- Value Until Time 18
-  19:00,                                  !- Time 19 {hh:mm}
-  0,                                      !- Value Until Time 19
-  20:00,                                  !- Time 20 {hh:mm}
-  0,                                      !- Value Until Time 20
-  21:00,                                  !- Time 21 {hh:mm}
-  0,                                      !- Value Until Time 21
-  22:00,                                  !- Time 22 {hh:mm}
-  0,                                      !- Value Until Time 22
-  23:00,                                  !- Time 23 {hh:mm}
-  0,                                      !- Value Until Time 23
-  24:00,                                  !- Time 24 {hh:mm}
-  0;                                      !- Value Until Time 24
-
-Schedule:Day:Interval,
-  Schedule Day 171,                       !- Name
   Fractional,                             !- Schedule Type Limits Name
   No,                                     !- Interpolate to Timestep
   01:00,                                  !- Time 1 {hh:mm}
@@ -22281,13 +20889,13 @@ Schedule:Week:Daily,
 
 Schedule:Week:Daily,
   Always On Week Rule - Sep17-Sep23,      !- Name
-  Schedule Day 156,                       !- Sunday Schedule:Day Name
-  Schedule Day 157,                       !- Monday Schedule:Day Name
-  Schedule Day 158,                       !- Tuesday Schedule:Day Name
-  Schedule Day 159,                       !- Wednesday Schedule:Day Name
-  Schedule Day 160,                       !- Thursday Schedule:Day Name
-  Schedule Day 161,                       !- Friday Schedule:Day Name
-  Schedule Day 162,                       !- Saturday Schedule:Day Name
+  Schedule Day 148,                       !- Sunday Schedule:Day Name
+  Schedule Day 149,                       !- Monday Schedule:Day Name
+  Schedule Day 150,                       !- Tuesday Schedule:Day Name
+  Schedule Day 151,                       !- Wednesday Schedule:Day Name
+  Schedule Day 152,                       !- Thursday Schedule:Day Name
+  Schedule Day 153,                       !- Friday Schedule:Day Name
+  Schedule Day 154,                       !- Saturday Schedule:Day Name
   Always On Default,                      !- Holiday Schedule:Day Name
   Always On Default,                      !- SummerDesignDay Schedule:Day Name
   Always On Default,                      !- WinterDesignDay Schedule:Day Name
@@ -22296,7 +20904,7 @@ Schedule:Week:Daily,
 
 Schedule:Week:Daily,
   Always On Week Rule - Sep24-Sep30,      !- Name
-  Schedule Day 163,                       !- Sunday Schedule:Day Name
+  Schedule Day 155,                       !- Sunday Schedule:Day Name
   Always On Default,                      !- Monday Schedule:Day Name
   Always On Default,                      !- Tuesday Schedule:Day Name
   Always On Default,                      !- Wednesday Schedule:Day Name
@@ -22533,13 +21141,13 @@ Schedule:Week:Daily,
 
 Schedule:Week:Daily,
   OfficeSmall Exterior_lighting_schedule_a Week Rule - Sep17-Sep23, !- Name
-  Schedule Day 116,                       !- Sunday Schedule:Day Name
-  Schedule Day 117,                       !- Monday Schedule:Day Name
-  Schedule Day 118,                       !- Tuesday Schedule:Day Name
-  Schedule Day 119,                       !- Wednesday Schedule:Day Name
-  Schedule Day 120,                       !- Thursday Schedule:Day Name
-  Schedule Day 121,                       !- Friday Schedule:Day Name
-  Schedule Day 122,                       !- Saturday Schedule:Day Name
+  Schedule Day 108,                       !- Sunday Schedule:Day Name
+  Schedule Day 109,                       !- Monday Schedule:Day Name
+  Schedule Day 110,                       !- Tuesday Schedule:Day Name
+  Schedule Day 111,                       !- Wednesday Schedule:Day Name
+  Schedule Day 112,                       !- Thursday Schedule:Day Name
+  Schedule Day 113,                       !- Friday Schedule:Day Name
+  Schedule Day 114,                       !- Saturday Schedule:Day Name
   OfficeSmall Exterior_lighting_schedule_a Default, !- Holiday Schedule:Day Name
   OfficeSmall Exterior_lighting_schedule_a Summer Design Day, !- SummerDesignDay Schedule:Day Name
   OfficeSmall Exterior_lighting_schedule_a Winter Design Day, !- WinterDesignDay Schedule:Day Name
@@ -22548,7 +21156,7 @@ Schedule:Week:Daily,
 
 Schedule:Week:Daily,
   OfficeSmall Exterior_lighting_schedule_a Week Rule - Sep24-Sep30, !- Name
-  Schedule Day 123,                       !- Sunday Schedule:Day Name
+  Schedule Day 115,                       !- Sunday Schedule:Day Name
   OfficeSmall Exterior_lighting_schedule_a Default, !- Monday Schedule:Day Name
   OfficeSmall Exterior_lighting_schedule_a Default, !- Tuesday Schedule:Day Name
   OfficeSmall Exterior_lighting_schedule_a Default, !- Wednesday Schedule:Day Name
@@ -22617,13 +21225,13 @@ Schedule:Week:Daily,
 
 Schedule:Week:Daily,
   OfficeSmall Exterior_lighting_schedule_b Week Rule - Sep17-Sep23, !- Name
-  Schedule Day 124,                       !- Sunday Schedule:Day Name
-  Schedule Day 125,                       !- Monday Schedule:Day Name
-  Schedule Day 126,                       !- Tuesday Schedule:Day Name
-  Schedule Day 127,                       !- Wednesday Schedule:Day Name
-  Schedule Day 128,                       !- Thursday Schedule:Day Name
-  Schedule Day 129,                       !- Friday Schedule:Day Name
-  Schedule Day 130,                       !- Saturday Schedule:Day Name
+  Schedule Day 116,                       !- Sunday Schedule:Day Name
+  Schedule Day 117,                       !- Monday Schedule:Day Name
+  Schedule Day 118,                       !- Tuesday Schedule:Day Name
+  Schedule Day 119,                       !- Wednesday Schedule:Day Name
+  Schedule Day 120,                       !- Thursday Schedule:Day Name
+  Schedule Day 121,                       !- Friday Schedule:Day Name
+  Schedule Day 122,                       !- Saturday Schedule:Day Name
   OfficeSmall Exterior_lighting_schedule_b Default, !- Holiday Schedule:Day Name
   OfficeSmall Exterior_lighting_schedule_b Summer Design Day, !- SummerDesignDay Schedule:Day Name
   OfficeSmall Exterior_lighting_schedule_b Winter Design Day, !- WinterDesignDay Schedule:Day Name
@@ -22632,7 +21240,7 @@ Schedule:Week:Daily,
 
 Schedule:Week:Daily,
   OfficeSmall Exterior_lighting_schedule_b Week Rule - Sep24-Sep30, !- Name
-  Schedule Day 131,                       !- Sunday Schedule:Day Name
+  Schedule Day 123,                       !- Sunday Schedule:Day Name
   OfficeSmall Exterior_lighting_schedule_b Default, !- Monday Schedule:Day Name
   OfficeSmall Exterior_lighting_schedule_b Default, !- Tuesday Schedule:Day Name
   OfficeSmall Exterior_lighting_schedule_b Default, !- Wednesday Schedule:Day Name
@@ -22799,52 +21407,7 @@ Schedule:Week:Daily,
   Small Office Activity Default;          !- CustomDay2 Schedule:Day Name
 
 Schedule:Week:Daily,
-  Small Office Activity Week Rule - Mar5-Sep16, !- Name
-  autogen Small Office Activity 0_day_sch, !- Sunday Schedule:Day Name
-  Small Office Activity Default,          !- Monday Schedule:Day Name
-  Small Office Activity Default,          !- Tuesday Schedule:Day Name
-  autogen Small Office Activity 1_day_sch, !- Wednesday Schedule:Day Name
-  Small Office Activity Default,          !- Thursday Schedule:Day Name
-  Small Office Activity Default,          !- Friday Schedule:Day Name
-  Small Office Activity Default,          !- Saturday Schedule:Day Name
-  Small Office Activity Default,          !- Holiday Schedule:Day Name
-  Small Office Activity Summer Design Day, !- SummerDesignDay Schedule:Day Name
-  Small Office Activity Winter Design Day, !- WinterDesignDay Schedule:Day Name
-  Small Office Activity Default,          !- CustomDay1 Schedule:Day Name
-  Small Office Activity Default;          !- CustomDay2 Schedule:Day Name
-
-Schedule:Week:Daily,
-  Small Office Activity Week Rule - Sep17-Sep23, !- Name
-  Schedule Day 108,                       !- Sunday Schedule:Day Name
-  Schedule Day 109,                       !- Monday Schedule:Day Name
-  Schedule Day 110,                       !- Tuesday Schedule:Day Name
-  Schedule Day 111,                       !- Wednesday Schedule:Day Name
-  Schedule Day 112,                       !- Thursday Schedule:Day Name
-  Schedule Day 113,                       !- Friday Schedule:Day Name
-  Schedule Day 114,                       !- Saturday Schedule:Day Name
-  Small Office Activity Default,          !- Holiday Schedule:Day Name
-  Small Office Activity Summer Design Day, !- SummerDesignDay Schedule:Day Name
-  Small Office Activity Winter Design Day, !- WinterDesignDay Schedule:Day Name
-  Small Office Activity Default,          !- CustomDay1 Schedule:Day Name
-  Small Office Activity Default;          !- CustomDay2 Schedule:Day Name
-
-Schedule:Week:Daily,
-  Small Office Activity Week Rule - Sep24-Sep30, !- Name
-  Schedule Day 115,                       !- Sunday Schedule:Day Name
-  Small Office Activity Default,          !- Monday Schedule:Day Name
-  Small Office Activity Default,          !- Tuesday Schedule:Day Name
-  autogen Small Office Activity 1_day_sch, !- Wednesday Schedule:Day Name
-  Small Office Activity Default,          !- Thursday Schedule:Day Name
-  Small Office Activity Default,          !- Friday Schedule:Day Name
-  Small Office Activity Default,          !- Saturday Schedule:Day Name
-  Small Office Activity Default,          !- Holiday Schedule:Day Name
-  Small Office Activity Summer Design Day, !- SummerDesignDay Schedule:Day Name
-  Small Office Activity Winter Design Day, !- WinterDesignDay Schedule:Day Name
-  Small Office Activity Default,          !- CustomDay1 Schedule:Day Name
-  Small Office Activity Default;          !- CustomDay2 Schedule:Day Name
-
-Schedule:Week:Daily,
-  Small Office Activity Week Rule - Oct1-Dec31, !- Name
+  Small Office Activity Week Rule - Mar5-Dec31, !- Name
   autogen Small Office Activity 0_day_sch, !- Sunday Schedule:Day Name
   Small Office Activity Default,          !- Monday Schedule:Day Name
   Small Office Activity Default,          !- Tuesday Schedule:Day Name
@@ -22871,26 +21434,11 @@ Schedule:Year,
   26,                                     !- Start Day 2
   3,                                      !- End Month 2
   4,                                      !- End Day 2
-  Small Office Activity Week Rule - Mar5-Sep16, !- Schedule:Week Name 3
+  Small Office Activity Week Rule - Mar5-Dec31, !- Schedule:Week Name 3
   3,                                      !- Start Month 3
   5,                                      !- Start Day 3
-  9,                                      !- End Month 3
-  16,                                     !- End Day 3
-  Small Office Activity Week Rule - Sep17-Sep23, !- Schedule:Week Name 4
-  9,                                      !- Start Month 4
-  17,                                     !- Start Day 4
-  9,                                      !- End Month 4
-  23,                                     !- End Day 4
-  Small Office Activity Week Rule - Sep24-Sep30, !- Schedule:Week Name 5
-  9,                                      !- Start Month 5
-  24,                                     !- Start Day 5
-  9,                                      !- End Month 5
-  30,                                     !- End Day 5
-  Small Office Activity Week Rule - Oct1-Dec31, !- Schedule:Week Name 6
-  10,                                     !- Start Month 6
-  1,                                      !- Start Day 6
-  12,                                     !- End Month 6
-  31;                                     !- End Day 6
+  12,                                     !- End Month 3
+  31;                                     !- End Day 3
 
 Schedule:Week:Daily,
   Small Office Bldg Equip Week Rule - Jan1-Mar4, !- Name
@@ -22924,13 +21472,13 @@ Schedule:Week:Daily,
 
 Schedule:Week:Daily,
   Small Office Bldg Equip Week Rule - Sep17-Sep23, !- Name
-  Schedule Day 132,                       !- Sunday Schedule:Day Name
-  Schedule Day 133,                       !- Monday Schedule:Day Name
-  Schedule Day 134,                       !- Tuesday Schedule:Day Name
-  Schedule Day 135,                       !- Wednesday Schedule:Day Name
-  Schedule Day 136,                       !- Thursday Schedule:Day Name
-  Schedule Day 137,                       !- Friday Schedule:Day Name
-  Schedule Day 138,                       !- Saturday Schedule:Day Name
+  Schedule Day 124,                       !- Sunday Schedule:Day Name
+  Schedule Day 125,                       !- Monday Schedule:Day Name
+  Schedule Day 126,                       !- Tuesday Schedule:Day Name
+  Schedule Day 127,                       !- Wednesday Schedule:Day Name
+  Schedule Day 128,                       !- Thursday Schedule:Day Name
+  Schedule Day 129,                       !- Friday Schedule:Day Name
+  Schedule Day 130,                       !- Saturday Schedule:Day Name
   Small Office Bldg Equip Default,        !- Holiday Schedule:Day Name
   Small Office Bldg Equip Summer Design Day, !- SummerDesignDay Schedule:Day Name
   Small Office Bldg Equip Winter Design Day, !- WinterDesignDay Schedule:Day Name
@@ -22939,7 +21487,7 @@ Schedule:Week:Daily,
 
 Schedule:Week:Daily,
   Small Office Bldg Equip Week Rule - Sep24-Sep30, !- Name
-  Schedule Day 139,                       !- Sunday Schedule:Day Name
+  Schedule Day 131,                       !- Sunday Schedule:Day Name
   Small Office Bldg Equip Default,        !- Monday Schedule:Day Name
   Small Office Bldg Equip Default,        !- Tuesday Schedule:Day Name
   Small Office Bldg Equip Default,        !- Wednesday Schedule:Day Name
@@ -23013,13 +21561,13 @@ Schedule:Week:Daily,
 
 Schedule:Week:Daily,
   Small Office Bldg Occ Week Rule - Sep17-Sep23, !- Name
-  Schedule Day 164,                       !- Sunday Schedule:Day Name
-  Schedule Day 165,                       !- Monday Schedule:Day Name
-  Schedule Day 166,                       !- Tuesday Schedule:Day Name
-  Schedule Day 167,                       !- Wednesday Schedule:Day Name
-  Schedule Day 168,                       !- Thursday Schedule:Day Name
-  Schedule Day 169,                       !- Friday Schedule:Day Name
-  Schedule Day 170,                       !- Saturday Schedule:Day Name
+  Schedule Day 156,                       !- Sunday Schedule:Day Name
+  Schedule Day 157,                       !- Monday Schedule:Day Name
+  Schedule Day 158,                       !- Tuesday Schedule:Day Name
+  Schedule Day 159,                       !- Wednesday Schedule:Day Name
+  Schedule Day 160,                       !- Thursday Schedule:Day Name
+  Schedule Day 161,                       !- Friday Schedule:Day Name
+  Schedule Day 162,                       !- Saturday Schedule:Day Name
   Small Office Bldg Occ Default,          !- Holiday Schedule:Day Name
   Small Office Bldg Occ Summer Design Day, !- SummerDesignDay Schedule:Day Name
   Small Office Bldg Occ Winter Design Day, !- WinterDesignDay Schedule:Day Name
@@ -23028,7 +21576,7 @@ Schedule:Week:Daily,
 
 Schedule:Week:Daily,
   Small Office Bldg Occ Week Rule - Sep24-Sep30, !- Name
-  Schedule Day 171,                       !- Sunday Schedule:Day Name
+  Schedule Day 163,                       !- Sunday Schedule:Day Name
   Small Office Bldg Occ Sat Day,          !- Monday Schedule:Day Name
   Small Office Bldg Occ Sat Day,          !- Tuesday Schedule:Day Name
   Small Office Bldg Occ Sat Day,          !- Wednesday Schedule:Day Name
@@ -23145,13 +21693,13 @@ Schedule:Week:Daily,
 
 Schedule:Week:Daily,
   Zone Warehouse Fine A  - Story Ground PSZ-AC Occ Sch Week Rule - Sep17-Sep23, !- Name
-  Schedule Day 148,                       !- Sunday Schedule:Day Name
-  Schedule Day 149,                       !- Monday Schedule:Day Name
-  Schedule Day 150,                       !- Tuesday Schedule:Day Name
-  Schedule Day 151,                       !- Wednesday Schedule:Day Name
-  Schedule Day 152,                       !- Thursday Schedule:Day Name
-  Schedule Day 153,                       !- Friday Schedule:Day Name
-  Schedule Day 154,                       !- Saturday Schedule:Day Name
+  Schedule Day 140,                       !- Sunday Schedule:Day Name
+  Schedule Day 141,                       !- Monday Schedule:Day Name
+  Schedule Day 142,                       !- Tuesday Schedule:Day Name
+  Schedule Day 143,                       !- Wednesday Schedule:Day Name
+  Schedule Day 144,                       !- Thursday Schedule:Day Name
+  Schedule Day 145,                       !- Friday Schedule:Day Name
+  Schedule Day 146,                       !- Saturday Schedule:Day Name
   Zone Warehouse Fine A  - Story Ground PSZ-AC Occ Sch Default, !- Holiday Schedule:Day Name
   Zone Warehouse Fine A  - Story Ground PSZ-AC Occ Sch Summer Design Day, !- SummerDesignDay Schedule:Day Name
   Zone Warehouse Fine A  - Story Ground PSZ-AC Occ Sch Winter Design Day, !- WinterDesignDay Schedule:Day Name
@@ -23160,7 +21708,7 @@ Schedule:Week:Daily,
 
 Schedule:Week:Daily,
   Zone Warehouse Fine A  - Story Ground PSZ-AC Occ Sch Week Rule - Sep24-Sep30, !- Name
-  Schedule Day 155,                       !- Sunday Schedule:Day Name
+  Schedule Day 147,                       !- Sunday Schedule:Day Name
   Zone Warehouse Fine A  - Story Ground PSZ-AC Occ Sch Sunday, !- Monday Schedule:Day Name
   Zone Warehouse Fine A  - Story Ground PSZ-AC Occ Sch Sunday, !- Tuesday Schedule:Day Name
   Zone Warehouse Fine A  - Story Ground PSZ-AC Occ Sch Sunday, !- Wednesday Schedule:Day Name
@@ -23229,13 +21777,13 @@ Schedule:Week:Daily,
 
 Schedule:Week:Daily,
   Zone Warehouse Fine A end_a - Story Ground PSZ-AC Occ Sch Week Rule - Sep17-Sep23, !- Name
-  Schedule Day 140,                       !- Sunday Schedule:Day Name
-  Schedule Day 141,                       !- Monday Schedule:Day Name
-  Schedule Day 142,                       !- Tuesday Schedule:Day Name
-  Schedule Day 143,                       !- Wednesday Schedule:Day Name
-  Schedule Day 144,                       !- Thursday Schedule:Day Name
-  Schedule Day 145,                       !- Friday Schedule:Day Name
-  Schedule Day 146,                       !- Saturday Schedule:Day Name
+  Schedule Day 132,                       !- Sunday Schedule:Day Name
+  Schedule Day 133,                       !- Monday Schedule:Day Name
+  Schedule Day 134,                       !- Tuesday Schedule:Day Name
+  Schedule Day 135,                       !- Wednesday Schedule:Day Name
+  Schedule Day 136,                       !- Thursday Schedule:Day Name
+  Schedule Day 137,                       !- Friday Schedule:Day Name
+  Schedule Day 138,                       !- Saturday Schedule:Day Name
   Zone Warehouse Fine A end_a - Story Ground PSZ-AC Occ Sch Default, !- Holiday Schedule:Day Name
   Zone Warehouse Fine A end_a - Story Ground PSZ-AC Occ Sch Summer Design Day, !- SummerDesignDay Schedule:Day Name
   Zone Warehouse Fine A end_a - Story Ground PSZ-AC Occ Sch Winter Design Day, !- WinterDesignDay Schedule:Day Name
@@ -23244,7 +21792,7 @@ Schedule:Week:Daily,
 
 Schedule:Week:Daily,
   Zone Warehouse Fine A end_a - Story Ground PSZ-AC Occ Sch Week Rule - Sep24-Sep30, !- Name
-  Schedule Day 147,                       !- Sunday Schedule:Day Name
+  Schedule Day 139,                       !- Sunday Schedule:Day Name
   Zone Warehouse Fine A end_a - Story Ground PSZ-AC Occ Sch Sunday, !- Monday Schedule:Day Name
   Zone Warehouse Fine A end_a - Story Ground PSZ-AC Occ Sch Sunday, !- Tuesday Schedule:Day Name
   Zone Warehouse Fine A end_a - Story Ground PSZ-AC Occ Sch Sunday, !- Wednesday Schedule:Day Name

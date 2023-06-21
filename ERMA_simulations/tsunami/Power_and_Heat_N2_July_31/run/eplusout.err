@@ -1,4 +1,4 @@
-Program Version,EnergyPlus, Version 22.2.0-aa78da9668, YMD=2023.06.20 14:58,
+Program Version,EnergyPlus, Version 22.2.0-aa78da9668, YMD=2023.06.21 17:06,
    ** Warning ** Timestep: Requested number (1) is less than the suggested minimum of 4.
    **   ~~~   ** Please see entry for Timestep in Input/Output Reference for discussion of considerations.
    ************* Beginning Zone Sizing Calculations
@@ -136,39 +136,39 @@ Program Version,EnergyPlus, Version 22.2.0-aa78da9668, YMD=2023.06.20 14:58,
    ************* Beginning Simulation
    ** Warning ** CalcOAController: Minimum OA fraction > Mechanical Ventilation Controller request for Controller:OutdoorAir=ZONE WAREHOUSE FINE A  - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER, Min OA fraction is used.
    **   ~~~   ** This may be overriding desired ventilation controls. Check inputs for Minimum Outdoor Air Flow Rate, Minimum Outdoor Air Schedule Name and Controller:MechanicalVentilation
-   **   ~~~   ** Minimum OA fraction = 0.1251, Mech Vent OA fraction = 3.3701E-002
+   **   ~~~   ** Minimum OA fraction = 0.1275, Mech Vent OA fraction = 3.4963E-002
    **   ~~~   **  Environment=RUN PERIOD 1, at Simulation time=01/01 00:00 - 01:00
    ** Warning ** CalcOAController: Minimum OA fraction > Mechanical Ventilation Controller request for Controller:OutdoorAir=ZONE WAREHOUSE FINE A END_B - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER, Min OA fraction is used.
    **   ~~~   ** This may be overriding desired ventilation controls. Check inputs for Minimum Outdoor Air Flow Rate, Minimum Outdoor Air Schedule Name and Controller:MechanicalVentilation
-   **   ~~~   ** Minimum OA fraction = 7.0500E-002, Mech Vent OA fraction = 1.8044E-002
+   **   ~~~   ** Minimum OA fraction = 7.1238E-002, Mech Vent OA fraction = 1.8419E-002
    **   ~~~   **  Environment=RUN PERIOD 1, at Simulation time=01/01 00:00 - 01:00
    ** Warning ** CalcOAController: Minimum OA fraction > Mechanical Ventilation Controller request for Controller:OutdoorAir=ZONE WAREHOUSE FINE B  - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER, Min OA fraction is used.
    **   ~~~   ** This may be overriding desired ventilation controls. Check inputs for Minimum Outdoor Air Flow Rate, Minimum Outdoor Air Schedule Name and Controller:MechanicalVentilation
-   **   ~~~   ** Minimum OA fraction = 0.2723, Mech Vent OA fraction = 6.0051E-002
+   **   ~~~   ** Minimum OA fraction = 0.1913, Mech Vent OA fraction = 3.0482E-002
    **   ~~~   **  Environment=RUN PERIOD 1, at Simulation time=01/01 00:00 - 01:00
    ** Warning ** CalcOAController: Minimum OA fraction > Mechanical Ventilation Controller request for Controller:OutdoorAir=ZONE WAREHOUSE FINE B END_B - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER, Min OA fraction is used.
    **   ~~~   ** This may be overriding desired ventilation controls. Check inputs for Minimum Outdoor Air Flow Rate, Minimum Outdoor Air Schedule Name and Controller:MechanicalVentilation
-   **   ~~~   ** Minimum OA fraction = 0.1285, Mech Vent OA fraction = 3.5985E-002
+   **   ~~~   ** Minimum OA fraction = 0.1310, Mech Vent OA fraction = 3.7356E-002
    **   ~~~   **  Environment=RUN PERIOD 1, at Simulation time=01/01 00:00 - 01:00
    ** Warning ** CalcOAController: Minimum OA fraction > Mechanical Ventilation Controller request for Controller:OutdoorAir=ZONE WAREHOUSE FINE C  - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER, Min OA fraction is used.
    **   ~~~   ** This may be overriding desired ventilation controls. Check inputs for Minimum Outdoor Air Flow Rate, Minimum Outdoor Air Schedule Name and Controller:MechanicalVentilation
-   **   ~~~   ** Minimum OA fraction = 0.1251, Mech Vent OA fraction = 3.8487E-002
+   **   ~~~   ** Minimum OA fraction = 0.1275, Mech Vent OA fraction = 3.9928E-002
    **   ~~~   **  Environment=RUN PERIOD 1, at Simulation time=01/01 00:00 - 01:00
    ** Warning ** CalcOAController: Minimum OA fraction > Mechanical Ventilation Controller request for Controller:OutdoorAir=ZONE WAREHOUSE FINE C END_B - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER, Min OA fraction is used.
    **   ~~~   ** This may be overriding desired ventilation controls. Check inputs for Minimum Outdoor Air Flow Rate, Minimum Outdoor Air Schedule Name and Controller:MechanicalVentilation
-   **   ~~~   ** Minimum OA fraction = 7.0507E-002, Mech Vent OA fraction = 1.9611E-002
+   **   ~~~   ** Minimum OA fraction = 7.1244E-002, Mech Vent OA fraction = 2.0018E-002
    **   ~~~   **  Environment=RUN PERIOD 1, at Simulation time=01/01 00:00 - 01:00
    ** Warning ** CalcOAController: Minimum OA fraction > Mechanical Ventilation Controller request for Controller:OutdoorAir=ZONE WAREHOUSE OFFICE A  - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER, Min OA fraction is used.
    **   ~~~   ** This may be overriding desired ventilation controls. Check inputs for Minimum Outdoor Air Flow Rate, Minimum Outdoor Air Schedule Name and Controller:MechanicalVentilation
-   **   ~~~   ** Minimum OA fraction = 3.1143E-002, Mech Vent OA fraction = 4.5418E-003
+   **   ~~~   ** Minimum OA fraction = 2.7366E-002, Mech Vent OA fraction = 3.4281E-003
    **   ~~~   **  Environment=RUN PERIOD 1, at Simulation time=01/01 00:00 - 01:00
    ** Warning ** CalcOAController: Minimum OA fraction > Mechanical Ventilation Controller request for Controller:OutdoorAir=ZONE WAREHOUSE OFFICE B  - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER, Min OA fraction is used.
    **   ~~~   ** This may be overriding desired ventilation controls. Check inputs for Minimum Outdoor Air Flow Rate, Minimum Outdoor Air Schedule Name and Controller:MechanicalVentilation
-   **   ~~~   ** Minimum OA fraction = 2.9287E-002, Mech Vent OA fraction = 2.6898E-003
+   **   ~~~   ** Minimum OA fraction = 2.5861E-002, Mech Vent OA fraction = 2.0240E-003
    **   ~~~   **  Environment=RUN PERIOD 1, at Simulation time=01/01 00:00 - 01:00
    ** Warning ** CalcOAController: Minimum OA fraction > Mechanical Ventilation Controller request for Controller:OutdoorAir=ZONE WAREHOUSE OFFICE C  - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER, Min OA fraction is used.
    **   ~~~   ** This may be overriding desired ventilation controls. Check inputs for Minimum Outdoor Air Flow Rate, Minimum Outdoor Air Schedule Name and Controller:MechanicalVentilation
-   **   ~~~   ** Minimum OA fraction = 3.5347E-002, Mech Vent OA fraction = 6.4075E-003
+   **   ~~~   ** Minimum OA fraction = 3.2739E-002, Mech Vent OA fraction = 5.3819E-003
    **   ~~~   **  Environment=RUN PERIOD 1, at Simulation time=01/01 00:00 - 01:00
    ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - ELECTRICITY' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:ELECTRICITY'
    ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - ELECTRICITY' invalid Variable or Meter Name 'HEATREJECTION:ELECTRICITY'
@@ -252,9 +252,9 @@ Program Version,EnergyPlus, Version 22.2.0-aa78da9668, YMD=2023.06.20 14:58,
    ** Warning ** More than 4% of time (350.4 hours) uncomfortable in one or more zones 
    **   ~~~   ** Based on ASHRAE 55-2004 graph (Section 5.2.1.1)
    **   ~~~   ** During Environment [01/01/2006 - 12/31/2006]: RUN PERIOD 1
-   **   ~~~   ** 4497.0 hours were uncomfortable in zone: ZONE WAREHOUSE OFFICE A  - STORY GROUND
-   **   ~~~   ** 4314.0 hours were uncomfortable in zone: ZONE WAREHOUSE OFFICE B  - STORY GROUND
-   **   ~~~   ** 4628.0 hours were uncomfortable in zone: ZONE WAREHOUSE OFFICE C  - STORY GROUND
+   **   ~~~   ** 4276.0 hours were uncomfortable in zone: ZONE WAREHOUSE OFFICE A  - STORY GROUND
+   **   ~~~   ** 4025.0 hours were uncomfortable in zone: ZONE WAREHOUSE OFFICE B  - STORY GROUND
+   **   ~~~   ** 4392.0 hours were uncomfortable in zone: ZONE WAREHOUSE OFFICE C  - STORY GROUND
    ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= "U.S. AVG  COMMERCIAL-ELECTRICITY" has no energy cost. 
    **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.
    ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= "U.S. AVG  COMMERCIAL-DISTILLATE OIL" has no energy cost. 
@@ -275,64 +275,64 @@ Program Version,EnergyPlus, Version 22.2.0-aa78da9668, YMD=2023.06.20 14:58,
    ************* The following recurring error messages occurred.
    *************
    *************  ** Warning ** Controller:OutdoorAir="ZONE WAREHOUSE FINE A  - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER": Min OA fraction > Mechanical ventilation OA fraction, continues...
-   *************  **   ~~~   **   This error occurred 106769 total times;
+   *************  **   ~~~   **   This error occurred 101957 total times;
    *************  **   ~~~   **   during Warmup 0 times;
    *************  **   ~~~   **   during Sizing 0 times.
-   *************  **   ~~~   **   Max=0.125088  Min=0.125088
+   *************  **   ~~~   **   Max=0.127462  Min=0.127462
    *************
    *************  ** Warning ** Controller:OutdoorAir="ZONE WAREHOUSE FINE A END_B - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER": Min OA fraction > Mechanical ventilation OA fraction, continues...
-   *************  **   ~~~   **   This error occurred 129029 total times;
+   *************  **   ~~~   **   This error occurred 132829 total times;
    *************  **   ~~~   **   during Warmup 0 times;
    *************  **   ~~~   **   during Sizing 0 times.
-   *************  **   ~~~   **   Max=7.050040E-002  Min=7.050040E-002
+   *************  **   ~~~   **   Max=7.123753E-002  Min=7.123753E-002
    *************
    *************  ** Warning ** Controller:OutdoorAir="ZONE WAREHOUSE FINE B  - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER": Min OA fraction > Mechanical ventilation OA fraction, continues...
-   *************  **   ~~~   **   This error occurred 38939 total times;
+   *************  **   ~~~   **   This error occurred 26315 total times;
    *************  **   ~~~   **   during Warmup 0 times;
    *************  **   ~~~   **   during Sizing 0 times.
-   *************  **   ~~~   **   Max=0.27234  Min=0.27234
+   *************  **   ~~~   **   Max=0.191332  Min=0.191332
    *************
    *************  ** Warning ** Controller:OutdoorAir="ZONE WAREHOUSE FINE B END_B - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER": Min OA fraction > Mechanical ventilation OA fraction, continues...
-   *************  **   ~~~   **   This error occurred 119999 total times;
+   *************  **   ~~~   **   This error occurred 117401 total times;
    *************  **   ~~~   **   during Warmup 0 times;
    *************  **   ~~~   **   during Sizing 0 times.
-   *************  **   ~~~   **   Max=0.12853  Min=0.12853
+   *************  **   ~~~   **   Max=0.131014  Min=0.131014
    *************
    *************  ** Warning ** Controller:OutdoorAir="ZONE WAREHOUSE FINE C  - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER": Min OA fraction > Mechanical ventilation OA fraction, continues...
-   *************  **   ~~~   **   This error occurred 115037 total times;
+   *************  **   ~~~   **   This error occurred 112097 total times;
    *************  **   ~~~   **   during Warmup 0 times;
    *************  **   ~~~   **   during Sizing 0 times.
-   *************  **   ~~~   **   Max=0.125097  Min=0.125097
+   *************  **   ~~~   **   Max=0.127472  Min=0.127472
    *************
    *************  ** Warning ** Controller:OutdoorAir="ZONE WAREHOUSE FINE C END_B - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER": Min OA fraction > Mechanical ventilation OA fraction, continues...
-   *************  **   ~~~   **   This error occurred 133347 total times;
+   *************  **   ~~~   **   This error occurred 137175 total times;
    *************  **   ~~~   **   during Warmup 0 times;
    *************  **   ~~~   **   during Sizing 0 times.
-   *************  **   ~~~   **   Max=7.050668E-002  Min=7.050668E-002
+   *************  **   ~~~   **   Max=7.124399E-002  Min=7.124399E-002
    *************
    *************  ** Warning ** Controller:OutdoorAir="ZONE WAREHOUSE OFFICE A  - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER": Min OA fraction > Mechanical ventilation OA fraction, continues...
-   *************  **   ~~~   **   This error occurred 30045 total times;
+   *************  **   ~~~   **   This error occurred 28739 total times;
    *************  **   ~~~   **   during Warmup 0 times;
    *************  **   ~~~   **   during Sizing 0 times.
-   *************  **   ~~~   **   Max=3.114252E-002  Min=3.114252E-002
+   *************  **   ~~~   **   Max=2.736553E-002  Min=2.736553E-002
    *************
    *************  ** Warning ** Controller:OutdoorAir="ZONE WAREHOUSE OFFICE B  - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER": Min OA fraction > Mechanical ventilation OA fraction, continues...
-   *************  **   ~~~   **   This error occurred 13811 total times;
+   *************  **   ~~~   **   This error occurred 10673 total times;
    *************  **   ~~~   **   during Warmup 0 times;
    *************  **   ~~~   **   during Sizing 0 times.
-   *************  **   ~~~   **   Max=2.928747E-002  Min=2.928747E-002
+   *************  **   ~~~   **   Max=2.586129E-002  Min=2.586129E-002
    *************
    *************  ** Warning ** Controller:OutdoorAir="ZONE WAREHOUSE OFFICE C  - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER": Min OA fraction > Mechanical ventilation OA fraction, continues...
-   *************  **   ~~~   **   This error occurred 34019 total times;
+   *************  **   ~~~   **   This error occurred 32219 total times;
    *************  **   ~~~   **   during Warmup 0 times;
    *************  **   ~~~   **   during Sizing 0 times.
-   *************  **   ~~~   **   Max=3.534688E-002  Min=3.534688E-002
+   *************  **   ~~~   **   Max=3.273943E-002  Min=3.273943E-002
    *************
    *************  ** Warning ** WaterHeater:Mixed = '40GAL ELECTRICITY WATER HEATER - 40KBTU/HR 1.0 THERM EFF 1.0 THERM EFF':  Temperature of tank < 2C indicates of possibility of freeze
-   *************  **   ~~~   **   This error occurred 12488 total times;
+   *************  **   ~~~   **   This error occurred 12504 total times;
    *************  **   ~~~   **   during Warmup 0 times;
    *************  **   ~~~   **   during Sizing 0 times.
-   *************  **   ~~~   **   Max=1.993376 {C}  Min=3.000380E-004 {C}
+   *************  **   ~~~   **   Max=1.993393 {C}  Min=2.968876E-004 {C}
    *************
    *************
    ************* ===== Final Error Summary =====
@@ -344,4 +344,4 @@ Program Version,EnergyPlus, Version 22.2.0-aa78da9668, YMD=2023.06.20 14:58,
    *************
    ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
    ************* EnergyPlus Sizing Error Summary. During Sizing: 33 Warning; 1 Severe Errors.
-   ************* EnergyPlus Completed Successfully-- 733634 Warning; 1 Severe Errors; Elapsed Time=00hr 00min  7.78sec
+   ************* EnergyPlus Completed Successfully-- 712060 Warning; 1 Severe Errors; Elapsed Time=00hr 00min  7.11sec

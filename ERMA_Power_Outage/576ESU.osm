@@ -1,7 +1,7 @@
 
 OS:Version,
-  {92366afa-21d4-4c8f-94e6-84ab40dc7bd5}, !- Handle
-  3.5.1;                                  !- Version Identifier
+  {a6c25875-8a88-46ac-97ef-35c2cb94f849}, !- Handle
+  3.6.0;                                  !- Version Identifier
 
 OS:Schedule:Constant,
   {2200450b-527b-4e5b-9911-63d7b634112a}, !- Handle
@@ -19,11 +19,11 @@ OS:ScheduleTypeLimits,
 
 OS:Site,
   {e4e0cf83-aa67-462b-ac86-dd69d24de0d1}, !- Handle
-  Kodiak,                                 !- Name
+  Kodiak Airport,                         !- Name
   57.75,                                  !- Latitude {deg}
-  -152.49,                                !- Longitude {deg}
+  -152.5,                                 !- Longitude {deg}
   -9,                                     !- Time Zone {hr}
-  34,                                     !- Elevation {m}
+  5,                                      !- Elevation {m}
   City;                                   !- Terrain
 
 OS:SimulationControl,
@@ -1160,8 +1160,8 @@ OS:RunPeriod,
 
 OS:YearDescription,
   {c909b14d-25f4-4587-81ac-13c1e4bb0508}, !- Handle
-  2020,                                   !- Calendar Year
-  ,                                       !- Day of Week for Start Day
+  ,                                       !- Calendar Year
+  Sunday,                                 !- Day of Week for Start Day
   ;                                       !- Is Leap Year
 
 OS:Surface,
@@ -3108,19 +3108,19 @@ OS:ThermostatSetpoint:DualSetpoint,
 
 OS:WeatherFile,
   {d3b55d86-f24f-4397-baf4-a5314167f2e9}, !- Handle
-  Kodiak,                                 !- City
+  Kodiak Airport,                         !- City
   AK,                                     !- State Province Region
   USA,                                    !- Country
-  customized weather file,                !- Data Source
+  TMY3,                                   !- Data Source
   703500,                                 !- WMO Number
   57.75,                                  !- Latitude {deg}
-  -152.49,                                !- Longitude {deg}
+  -152.5,                                 !- Longitude {deg}
   -9,                                     !- Time Zone {hr}
-  34,                                     !- Elevation {m}
-  USA_AK_Kodiak.703500_2020.epw,          !- Url
-  42836222,                               !- Checksum
+  5,                                      !- Elevation {m}
+  Kodiak_Airport_703500_TMY3.epw,         !- Url
+  63175AD6,                               !- Checksum
   2020,                                   !- Start Date Actual Year
-  Wednesday;                              !- Start Day of Week
+  Sunday;                                 !- Start Day of Week
 
 OS:Site:WaterMainsTemperature,
   {0780c102-fb11-44fb-84df-386bc20298ab}, !- Handle
@@ -9368,7 +9368,9 @@ OS:OutputControl:ReportingTolerances,
 
 OS:ZoneAirHeatBalanceAlgorithm,
   {16979cf4-cd6e-46d4-a792-a994391a7cbd}, !- Handle
-  ThirdOrderBackwardDifference;           !- Algorithm
+  ThirdOrderBackwardDifference,           !- Algorithm
+  ,                                       !- Do Space Heat Balance for Sizing
+  ;                                       !- Do Space Heat Balance for Simulation
 
 OS:ZoneAirContaminantBalance,
   {610e01d7-070b-44b1-9733-30441855ef73}; !- Handle
