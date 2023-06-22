@@ -10112,7 +10112,7 @@ OS:AirLoopHVAC:UnitarySystem,
   Load,                                   !- Control Type
   {e9fc2400-b8ee-4e52-b397-4a03abe88238}, !- Controlling Zone or Thermostat Location
   None,                                   !- Dehumidification Control Type
-  {f60bfd36-053e-48da-97a1-2c273a24e4ec}, !- Availability Schedule Name
+  {32539cde-1095-4e8c-bce2-a435f2be960e}, !- Availability Schedule Name
   {abc70edd-9101-4cf8-9e9c-6463212e53a7}, !- Air Inlet Node Name
   {8c14ee60-fb9b-415d-88ea-45d1eb137e43}, !- Air Outlet Node Name
   {11857a32-c04d-4630-9f78-c4a5cc3dabab}, !- Supply Fan Name
@@ -10669,7 +10669,7 @@ OS:AirLoopHVAC:UnitarySystem,
   Load,                                   !- Control Type
   {6e81abc9-3501-4134-acd8-dd5b987b2431}, !- Controlling Zone or Thermostat Location
   None,                                   !- Dehumidification Control Type
-  {f60bfd36-053e-48da-97a1-2c273a24e4ec}, !- Availability Schedule Name
+  {32539cde-1095-4e8c-bce2-a435f2be960e}, !- Availability Schedule Name
   {f4f603dd-4e5e-4593-a714-c98440f552b0}, !- Air Inlet Node Name
   {97eed9ba-0c60-4134-ac21-27b3fa1037fe}, !- Air Outlet Node Name
   {b3472c44-4503-4185-9c9d-4f33fbcfe319}, !- Supply Fan Name
@@ -11226,7 +11226,7 @@ OS:AirLoopHVAC:UnitarySystem,
   Load,                                   !- Control Type
   {978f9703-df12-40ab-ac8c-ae2acdbb6be4}, !- Controlling Zone or Thermostat Location
   None,                                   !- Dehumidification Control Type
-  {f60bfd36-053e-48da-97a1-2c273a24e4ec}, !- Availability Schedule Name
+  {32539cde-1095-4e8c-bce2-a435f2be960e}, !- Availability Schedule Name
   {4c70734c-0f5f-47c3-a4f5-418216426221}, !- Air Inlet Node Name
   {c9efe62e-1df7-409a-a512-9297fa8caea8}, !- Air Outlet Node Name
   {1bc196cf-cb42-4054-b142-68f8fedf8ad5}, !- Supply Fan Name
@@ -11769,7 +11769,7 @@ OS:AirLoopHVAC:UnitarySystem,
   Load,                                   !- Control Type
   {73c57322-a34f-4afa-8396-ad65e13e2a44}, !- Controlling Zone or Thermostat Location
   None,                                   !- Dehumidification Control Type
-  {f60bfd36-053e-48da-97a1-2c273a24e4ec}, !- Availability Schedule Name
+  {32539cde-1095-4e8c-bce2-a435f2be960e}, !- Availability Schedule Name
   {2ad2f68e-dda3-4fca-968e-6b4481b305b1}, !- Air Inlet Node Name
   {3d746139-a064-448c-92fe-b6bdd23712a4}, !- Air Outlet Node Name
   {8b89a1be-6910-4a3c-94a4-e4093b38c346}, !- Supply Fan Name
@@ -12326,7 +12326,7 @@ OS:AirLoopHVAC:UnitarySystem,
   Load,                                   !- Control Type
   {9521f114-4936-42ff-ac01-80f771540ab0}, !- Controlling Zone or Thermostat Location
   None,                                   !- Dehumidification Control Type
-  {f60bfd36-053e-48da-97a1-2c273a24e4ec}, !- Availability Schedule Name
+  {32539cde-1095-4e8c-bce2-a435f2be960e}, !- Availability Schedule Name
   {ae03d63e-16d1-4121-a0aa-2603ab0142cd}, !- Air Inlet Node Name
   {2c09c74b-a558-4627-bffa-6e04270e42e3}, !- Air Outlet Node Name
   {6dfe7f9a-f8c1-4dee-8ea4-ac7682707ef5}, !- Supply Fan Name
@@ -12883,7 +12883,7 @@ OS:AirLoopHVAC:UnitarySystem,
   Load,                                   !- Control Type
   {62fe768c-93ed-4667-8267-adb79d9a34ea}, !- Controlling Zone or Thermostat Location
   None,                                   !- Dehumidification Control Type
-  {f60bfd36-053e-48da-97a1-2c273a24e4ec}, !- Availability Schedule Name
+  {32539cde-1095-4e8c-bce2-a435f2be960e}, !- Availability Schedule Name
   {ea35ef91-790d-4312-a0ec-7c7c91144172}, !- Air Inlet Node Name
   {0191a571-5e31-4faf-b587-7623f1d837ef}, !- Air Outlet Node Name
   {3678234c-9100-42f7-8770-7d9e19dd7a85}, !- Supply Fan Name
@@ -13440,7 +13440,7 @@ OS:AirLoopHVAC:UnitarySystem,
   Load,                                   !- Control Type
   {1dd9c32f-f973-46b3-8d8a-c4cacfb08293}, !- Controlling Zone or Thermostat Location
   None,                                   !- Dehumidification Control Type
-  {f60bfd36-053e-48da-97a1-2c273a24e4ec}, !- Availability Schedule Name
+  {32539cde-1095-4e8c-bce2-a435f2be960e}, !- Availability Schedule Name
   {3b5c3455-cd41-4fe6-bebb-4bc535eebd72}, !- Air Inlet Node Name
   {dffc6c38-4c1c-411f-b347-de08d43529e9}, !- Air Outlet Node Name
   {b3aae602-fb3e-4350-a0aa-a80c18f770d3}, !- Supply Fan Name
@@ -13997,7 +13997,7 @@ OS:AirLoopHVAC:UnitarySystem,
   Load,                                   !- Control Type
   {d7948baf-3dd2-491a-971a-c82a879df827}, !- Controlling Zone or Thermostat Location
   None,                                   !- Dehumidification Control Type
-  {f60bfd36-053e-48da-97a1-2c273a24e4ec}, !- Availability Schedule Name
+  {32539cde-1095-4e8c-bce2-a435f2be960e}, !- Availability Schedule Name
   {2a4d739c-522d-4796-8aed-c2509c623f21}, !- Air Inlet Node Name
   {faa6d3bd-50fd-4ab5-97f2-c2cfc77bef85}, !- Air Outlet Node Name
   {485eadce-2650-45b4-bf20-e26e59d1eecc}, !- Supply Fan Name
@@ -14554,7 +14554,7 @@ OS:AirLoopHVAC:UnitarySystem,
   Load,                                   !- Control Type
   {91b738b8-da4b-414d-a58a-2d1bfbe657fc}, !- Controlling Zone or Thermostat Location
   None,                                   !- Dehumidification Control Type
-  {f60bfd36-053e-48da-97a1-2c273a24e4ec}, !- Availability Schedule Name
+  {32539cde-1095-4e8c-bce2-a435f2be960e}, !- Availability Schedule Name
   {84e78199-e131-4ee7-b300-7b08a9aaa932}, !- Air Inlet Node Name
   {b7cdc0eb-c5bc-4887-b03f-66acad1810e5}, !- Air Outlet Node Name
   {9538dd7d-35fe-47cf-bd50-757b29179fda}, !- Supply Fan Name
@@ -14849,7 +14849,7 @@ OS:Connection,
 OS:ZoneHVAC:Baseboard:Convective:Water,
   {1baac636-adf5-4c18-a238-c60604f19dea}, !- Handle
   Zone Warehouse Bulk A  - Story Ground Hydronic Baseboard, !- Name
-  {f60bfd36-053e-48da-97a1-2c273a24e4ec}, !- Availability Schedule Name
+  {32539cde-1095-4e8c-bce2-a435f2be960e}, !- Availability Schedule Name
   {633d194c-e901-4ead-a0be-76ee87189f4a}; !- Heating Coil Name
 
 OS:Coil:Heating:Water:Baseboard,
@@ -14908,7 +14908,7 @@ OS:Connection,
 OS:ZoneHVAC:Baseboard:Convective:Water,
   {ab17e51e-a765-4482-b8fc-c4ca0aac68f9}, !- Handle
   Zone Warehouse Bulk A end_a - Story Ground Hydronic Baseboard, !- Name
-  {f60bfd36-053e-48da-97a1-2c273a24e4ec}, !- Availability Schedule Name
+  {32539cde-1095-4e8c-bce2-a435f2be960e}, !- Availability Schedule Name
   {4fa4038f-e7d7-4c04-bbb6-d33ab7492bea}; !- Heating Coil Name
 
 OS:Coil:Heating:Water:Baseboard,
@@ -14967,7 +14967,7 @@ OS:Connection,
 OS:ZoneHVAC:Baseboard:Convective:Water,
   {222a5a03-f3a8-469b-8097-776a6c86db5f}, !- Handle
   Zone Warehouse Bulk B  - Story Ground Hydronic Baseboard, !- Name
-  {f60bfd36-053e-48da-97a1-2c273a24e4ec}, !- Availability Schedule Name
+  {32539cde-1095-4e8c-bce2-a435f2be960e}, !- Availability Schedule Name
   {1b0b97f0-04cb-40ef-97d8-fcab31cbbc8e}; !- Heating Coil Name
 
 OS:Coil:Heating:Water:Baseboard,
@@ -15026,7 +15026,7 @@ OS:Connection,
 OS:ZoneHVAC:Baseboard:Convective:Water,
   {f877ab2c-9bc0-48c8-9cf5-8335ee8fc256}, !- Handle
   Zone Warehouse Bulk B end_a - Story Ground Hydronic Baseboard, !- Name
-  {f60bfd36-053e-48da-97a1-2c273a24e4ec}, !- Availability Schedule Name
+  {32539cde-1095-4e8c-bce2-a435f2be960e}, !- Availability Schedule Name
   {f3a5899a-6356-43aa-a2d7-6113f96fd800}; !- Heating Coil Name
 
 OS:Coil:Heating:Water:Baseboard,
@@ -15085,7 +15085,7 @@ OS:Connection,
 OS:ZoneHVAC:Baseboard:Convective:Water,
   {e4408f86-b10d-4429-b88f-fb55019006ce}, !- Handle
   Zone Warehouse Bulk C  - Story Ground Hydronic Baseboard, !- Name
-  {f60bfd36-053e-48da-97a1-2c273a24e4ec}, !- Availability Schedule Name
+  {32539cde-1095-4e8c-bce2-a435f2be960e}, !- Availability Schedule Name
   {94fd2437-b1d3-401a-8058-5cd7cf00d51e}; !- Heating Coil Name
 
 OS:Coil:Heating:Water:Baseboard,
@@ -15144,7 +15144,7 @@ OS:Connection,
 OS:ZoneHVAC:Baseboard:Convective:Water,
   {37ad65fe-f8a2-4228-a437-31c37c6ee9fa}, !- Handle
   Zone Warehouse Bulk C end_a - Story Ground Hydronic Baseboard, !- Name
-  {f60bfd36-053e-48da-97a1-2c273a24e4ec}, !- Availability Schedule Name
+  {32539cde-1095-4e8c-bce2-a435f2be960e}, !- Availability Schedule Name
   {10dd3857-9111-43bc-b261-5dd03907544a}; !- Heating Coil Name
 
 OS:Schedule:Ruleset,
@@ -22056,12 +22056,12 @@ OS:Rendering:Color,
   245;                                    !- Rendering Blue Value
 
 OS:RunPeriodControl:DaylightSavingTime,
-  {33e1cc50-cc3b-417a-9446-38e4a424f889}, !- Handle
+  {c8343727-e7e2-45a3-bc2e-2b1189f2fe04}, !- Handle
   2nd Sunday in March,                    !- Start Date
   1st Sunday in November;                 !- End Date
 
 OS:Schedule:FixedInterval,
-  {f60bfd36-053e-48da-97a1-2c273a24e4ec}, !- Handle
+  {32539cde-1095-4e8c-bce2-a435f2be960e}, !- Handle
   Outage Availability Schedule,           !- Name
   {3b8f51ef-a01f-41c5-8bc0-bda1f9856b99}, !- Schedule Type Limits Name
   ,                                       !- Translate to Schedule File
@@ -30832,7 +30832,7 @@ OS:Schedule:FixedInterval,
   1;                                      !- Value 8760
 
 OS:AdditionalProperties,
-  {bce06ef7-a0b7-4a72-b343-0890c368259b}, !- Handle
+  {faaddf4e-6ec4-40d5-83dd-f33a02932edd}, !- Handle
   {c909b14d-25f4-4587-81ac-13c1e4bb0508}, !- Object Name
   PowerOutageStartDate,                   !- Feature Name 1
   String,                                 !- Feature Data Type 1
@@ -30845,28 +30845,28 @@ OS:AdditionalProperties,
   163;                                    !- Feature Value 3
 
 OS:Output:Variable,
-  {98d315fe-f6a1-484f-b1dc-8c628f4b24b5}, !- Handle
+  {275dde08-ca2a-40da-86ce-392b22a23ccc}, !- Handle
   Output Variable 19,                     !- Name
   *,                                      !- Key Value
   Zone Mean Air Temperature,              !- Variable Name
   hourly;                                 !- Reporting Frequency
 
 OS:Output:Variable,
-  {ca6c4ea5-6ff7-48c4-ac86-c22272665b38}, !- Handle
+  {db650a50-65bd-4f3a-bb0a-9a40d4cf391f}, !- Handle
   Output Variable 20,                     !- Name
   *,                                      !- Key Value
   Zone Operative Temperature,             !- Variable Name
   hourly;                                 !- Reporting Frequency
 
 OS:Output:Variable,
-  {6716c1e4-b68a-4b85-b7a2-3c0b07e6407d}, !- Handle
+  {753cdd41-ac21-4810-ab1a-0b79d4fb269a}, !- Handle
   Output Variable 21,                     !- Name
   *,                                      !- Key Value
   Zone Thermal Comfort Fanger Model PMV,  !- Variable Name
   hourly;                                 !- Reporting Frequency
 
 OS:Output:Variable,
-  {9367742c-3870-4757-b79f-586d22d40eb1}, !- Handle
+  {fc20eb8a-d80d-4ccc-9b7e-94b3c4425d94}, !- Handle
   Output Variable 22,                     !- Name
   *,                                      !- Key Value
   Zone Thermal Comfort Fanger Model PPD,  !- Variable Name

@@ -1,5 +1,5 @@
 {
-   "hash" : "341F0710",
+   "hash" : "06E35B73",
    "measure_paths" : 
    [
       "/Users/cbianchi/Documents/GitHub/example_workflow/measures"
@@ -54,6 +54,6 @@
          "measure_dir_name" : "AddOutputVariable"
       }
    ],
-   "updated_at" : "20230621T183105Z",
+   "updated_at" : "20230621T235307Z",
    "weather_file" : "/Users/cbianchi/Documents/GitHub/example_workflow/Kodiak_Airport_703500_TMY3.epw"
 }

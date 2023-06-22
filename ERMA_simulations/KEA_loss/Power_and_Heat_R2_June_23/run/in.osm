@@ -6299,7 +6299,7 @@ OS:AirLoopHVAC:UnitarySystem,
   Load,                                   !- Control Type
   {0dd227ae-7029-4446-b443-b6ff6cf45e34}, !- Controlling Zone or Thermostat Location
   None,                                   !- Dehumidification Control Type
-  {05395be1-571c-4862-ad86-b016c9104a6c}, !- Availability Schedule Name
+  {4b1d1fc4-35e4-412f-babd-3b7cabca2ff0}, !- Availability Schedule Name
   {7b706c33-2a5d-4877-884c-84c22d535fe3}, !- Air Inlet Node Name
   {3d25a05b-dd82-4ead-9fc9-d85c680d66fa}, !- Air Outlet Node Name
   {9eb0c485-332c-4bc9-ab66-cbb9cb0a6297}, !- Supply Fan Name
@@ -7816,16 +7816,16 @@ OS:ElectricEquipment,
   General;                                !- End-Use Subcategory
 
 OS:RunPeriodControl:DaylightSavingTime,
-  {81d5b548-ecf9-49f8-ae49-ae56d944f10f}, !- Handle
+  {eb2f9265-2fdc-4cc8-9b8b-d1e50839e451}, !- Handle
   2nd Sunday in March,                    !- Start Date
   1st Sunday in November;                 !- End Date
 
 OS:Schedule:Rule,
-  {eaff1183-11d4-4936-a017-39c3a5b0b641}, !- Handle
+  {d7353ef8-0482-4c36-a535-f0751a49ad54}, !- Handle
   Small Office Bldg Equip Outage Day 174, !- Name
   {2c8153bc-1494-49e0-98d8-cd4f74794a8c}, !- Schedule Ruleset Name
   0,                                      !- Rule Order
-  {dce27803-bccd-4678-b040-192b504e9108}, !- Day Schedule Name
+  {6a1c14d1-bf5b-4ba7-88d9-5d38e1e64791}, !- Day Schedule Name
   Yes,                                    !- Apply Sunday
   Yes,                                    !- Apply Monday
   Yes,                                    !- Apply Tuesday
@@ -7840,7 +7840,7 @@ OS:Schedule:Rule,
   23;                                     !- End Day
 
 OS:Schedule:Day,
-  {dce27803-bccd-4678-b040-192b504e9108}, !- Handle
+  {6a1c14d1-bf5b-4ba7-88d9-5d38e1e64791}, !- Handle
   Schedule Day 1,                         !- Name
   {afe44be9-7e6f-49dc-a06f-b601c45b8b3b}, !- Schedule Type Limits Name
   ,                                       !- Interpolate to Timestep
@@ -7918,11 +7918,11 @@ OS:Schedule:Day,
   0.948781673441734;                      !- Value Until Time 24
 
 OS:Schedule:Rule,
-  {69ca6b6f-c107-4cf3-ad38-c140e1550316}, !- Handle
+  {a7ed541c-280e-4b85-bec0-4288d4e8993e}, !- Handle
   Office Shared Service Water Loop Piping Air Velocity - 0.67mph Outage Day 174, !- Name
   {3c361f36-bc6c-4c40-8c66-03a65ed41417}, !- Schedule Ruleset Name
   0,                                      !- Rule Order
-  {4ad1289f-9f16-4c80-81c1-e286f23ee726}, !- Day Schedule Name
+  {49ce1711-aadd-4edf-a25d-cb6ccf85912a}, !- Day Schedule Name
   Yes,                                    !- Apply Sunday
   Yes,                                    !- Apply Monday
   Yes,                                    !- Apply Tuesday
@@ -7937,7 +7937,7 @@ OS:Schedule:Rule,
   23;                                     !- End Day
 
 OS:Schedule:Day,
-  {4ad1289f-9f16-4c80-81c1-e286f23ee726}, !- Handle
+  {49ce1711-aadd-4edf-a25d-cb6ccf85912a}, !- Handle
   Schedule Day 2,                         !- Name
   {6a032351-88c1-4a2d-9eaf-2401e8017a87}, !- Schedule Type Limits Name
   ,                                       !- Interpolate to Timestep
@@ -8015,11 +8015,11 @@ OS:Schedule:Day,
   0.3;                                    !- Value Until Time 24
 
 OS:Schedule:Rule,
-  {e8750849-c5ce-46ae-8367-4dfcf527bba2}, !- Handle
+  {243f2d17-45a3-488b-bd72-807f2a12eaf2}, !- Handle
   Water Heater Ambient Temp Schedule - 70.0f Outage Day 174, !- Name
   {4d5f53d9-c09f-41ba-8c5e-178e70be5a49}, !- Schedule Ruleset Name
   0,                                      !- Rule Order
-  {f0e2149b-855b-42fa-a895-a7b4106d5259}, !- Day Schedule Name
+  {f94f86e4-7f23-4b93-8a9a-f4d08c37c45a}, !- Day Schedule Name
   Yes,                                    !- Apply Sunday
   Yes,                                    !- Apply Monday
   Yes,                                    !- Apply Tuesday
@@ -8034,7 +8034,7 @@ OS:Schedule:Rule,
   23;                                     !- End Day
 
 OS:Schedule:Day,
-  {f0e2149b-855b-42fa-a895-a7b4106d5259}, !- Handle
+  {f94f86e4-7f23-4b93-8a9a-f4d08c37c45a}, !- Handle
   Schedule Day 3,                         !- Name
   {217d7e1e-73f6-4eb4-b01a-23cf7cb38a1c}, !- Schedule Type Limits Name
   ,                                       !- Interpolate to Timestep
@@ -8112,11 +8112,11 @@ OS:Schedule:Day,
   21.1111111111111;                       !- Value Until Time 24
 
 OS:Schedule:Rule,
-  {fcebce31-5e40-4e8e-bc23-bbbde43205e0}, !- Handle
+  {31337764-8d54-4f69-9ee6-a5f06ca70d5c}, !- Handle
   Zone Office WholeBuilding - Sm Office 2  - Story Ground PSZ-AC Occ Sch Outage Day 174, !- Name
   {0a4d2929-01b9-41d9-960b-4b57c21e86c2}, !- Schedule Ruleset Name
   0,                                      !- Rule Order
-  {3e942156-4ee4-4730-ac44-3562900f18e9}, !- Day Schedule Name
+  {07c0f813-97a3-4c5f-8de9-f0014e9c2ea1}, !- Day Schedule Name
   Yes,                                    !- Apply Sunday
   Yes,                                    !- Apply Monday
   Yes,                                    !- Apply Tuesday
@@ -8131,7 +8131,7 @@ OS:Schedule:Rule,
   23;                                     !- End Day
 
 OS:Schedule:Day,
-  {3e942156-4ee4-4730-ac44-3562900f18e9}, !- Handle
+  {07c0f813-97a3-4c5f-8de9-f0014e9c2ea1}, !- Handle
   Schedule Day 4,                         !- Name
   {850c145d-bad4-4b18-863a-364249f39316}, !- Schedule Type Limits Name
   ,                                       !- Interpolate to Timestep
@@ -8209,11 +8209,11 @@ OS:Schedule:Day,
   1;                                      !- Value Until Time 24
 
 OS:Schedule:Rule,
-  {efd9fe74-e468-4428-bde7-038173771324}, !- Handle
+  {d2c24f5f-aa20-4838-bcf7-0bc1b41f6191}, !- Handle
   OfficeSmall Exterior_lighting_schedule_a Outage Day 174, !- Name
   {ea0ae8f1-754c-4674-bd6f-657c789fb59a}, !- Schedule Ruleset Name
   0,                                      !- Rule Order
-  {6ffbe370-e9ad-4742-882a-f84993b14049}, !- Day Schedule Name
+  {9efd435e-fcbd-4af7-a0c2-f70b48296afe}, !- Day Schedule Name
   Yes,                                    !- Apply Sunday
   Yes,                                    !- Apply Monday
   Yes,                                    !- Apply Tuesday
@@ -8228,7 +8228,7 @@ OS:Schedule:Rule,
   23;                                     !- End Day
 
 OS:Schedule:Day,
-  {6ffbe370-e9ad-4742-882a-f84993b14049}, !- Handle
+  {9efd435e-fcbd-4af7-a0c2-f70b48296afe}, !- Handle
   Schedule Day 5,                         !- Name
   {afe44be9-7e6f-49dc-a06f-b601c45b8b3b}, !- Schedule Type Limits Name
   ,                                       !- Interpolate to Timestep
@@ -8306,11 +8306,11 @@ OS:Schedule:Day,
   0;                                      !- Value Until Time 24
 
 OS:Schedule:Rule,
-  {6df4bc72-d4e5-4707-8455-67e5d899169e}, !- Handle
+  {fdda7481-aacc-4b77-8917-5fb31ec5624e}, !- Handle
   Fraction Latent - 0.05 Outage Day 174,  !- Name
   {7362d9b9-d836-48bb-b6e4-544ec96304cc}, !- Schedule Ruleset Name
   0,                                      !- Rule Order
-  {00ae366f-3c4d-495d-9a5e-8d3d5f02b81b}, !- Day Schedule Name
+  {20108499-eaf2-4e2e-83c4-4ecd514c66bc}, !- Day Schedule Name
   Yes,                                    !- Apply Sunday
   Yes,                                    !- Apply Monday
   Yes,                                    !- Apply Tuesday
@@ -8325,7 +8325,7 @@ OS:Schedule:Rule,
   23;                                     !- End Day
 
 OS:Schedule:Day,
-  {00ae366f-3c4d-495d-9a5e-8d3d5f02b81b}, !- Handle
+  {20108499-eaf2-4e2e-83c4-4ecd514c66bc}, !- Handle
   Schedule Day 6,                         !- Name
   {afe44be9-7e6f-49dc-a06f-b601c45b8b3b}, !- Schedule Type Limits Name
   ,                                       !- Interpolate to Timestep
@@ -8403,11 +8403,11 @@ OS:Schedule:Day,
   0.05;                                   !- Value Until Time 24
 
 OS:Schedule:Rule,
-  {7ed85b6a-ec9e-4f27-929b-bdb8095ae93c}, !- Handle
+  {715b13ba-e7db-44b7-ab53-0047777b487e}, !- Handle
   Mixed Water At Faucet Temp - 140F Outage Day 174, !- Name
   {e72ac39e-e0b8-48e3-9299-1b7d2ec347ee}, !- Schedule Ruleset Name
   0,                                      !- Rule Order
-  {f19fa01f-2ccd-4aa4-a121-c2c59bd5e946}, !- Day Schedule Name
+  {226efcf4-b2da-4a68-82ae-13e2b86e0ba5}, !- Day Schedule Name
   Yes,                                    !- Apply Sunday
   Yes,                                    !- Apply Monday
   Yes,                                    !- Apply Tuesday
@@ -8422,7 +8422,7 @@ OS:Schedule:Rule,
   23;                                     !- End Day
 
 OS:Schedule:Day,
-  {f19fa01f-2ccd-4aa4-a121-c2c59bd5e946}, !- Handle
+  {226efcf4-b2da-4a68-82ae-13e2b86e0ba5}, !- Handle
   Schedule Day 7,                         !- Name
   {6a032351-88c1-4a2d-9eaf-2401e8017a87}, !- Schedule Type Limits Name
   ,                                       !- Interpolate to Timestep
@@ -8500,11 +8500,11 @@ OS:Schedule:Day,
   60.0000000000001;                       !- Value Until Time 24
 
 OS:Schedule:Rule,
-  {ef13526e-43cb-45fe-bade-ce51fc76500b}, !- Handle
+  {6c5b4c47-86e8-410b-86fa-3635e799a80c}, !- Handle
   OfficeSmall Exterior_lighting_schedule_b Outage Day 174, !- Name
   {6a2e6c76-6bd7-4713-a608-b9fd032c84dd}, !- Schedule Ruleset Name
   0,                                      !- Rule Order
-  {7254710b-9fd4-48f6-9719-95e39f888232}, !- Day Schedule Name
+  {c650c7e0-64d9-4314-8f72-38c585eaa600}, !- Day Schedule Name
   Yes,                                    !- Apply Sunday
   Yes,                                    !- Apply Monday
   Yes,                                    !- Apply Tuesday
@@ -8519,7 +8519,7 @@ OS:Schedule:Rule,
   23;                                     !- End Day
 
 OS:Schedule:Day,
-  {7254710b-9fd4-48f6-9719-95e39f888232}, !- Handle
+  {c650c7e0-64d9-4314-8f72-38c585eaa600}, !- Handle
   Schedule Day 8,                         !- Name
   {afe44be9-7e6f-49dc-a06f-b601c45b8b3b}, !- Schedule Type Limits Name
   ,                                       !- Interpolate to Timestep
@@ -8597,11 +8597,11 @@ OS:Schedule:Day,
   0.157259327342048;                      !- Value Until Time 24
 
 OS:Schedule:Rule,
-  {921841e6-9c5b-41ad-b772-930c618b7fc6}, !- Handle
+  {1ba8980c-7cdc-4ec1-bab8-817888fbbe02}, !- Handle
   Building Hours of Operation NonResidential Outage Day 174, !- Name
   {3e5faf4d-f60d-4a42-a91f-b2ee719cb63f}, !- Schedule Ruleset Name
   0,                                      !- Rule Order
-  {f42a777f-9053-4942-8cab-99b51972e4b7}, !- Day Schedule Name
+  {f388013b-d58a-4e41-92a5-f7b48f6a2c8c}, !- Day Schedule Name
   Yes,                                    !- Apply Sunday
   Yes,                                    !- Apply Monday
   Yes,                                    !- Apply Tuesday
@@ -8616,7 +8616,7 @@ OS:Schedule:Rule,
   23;                                     !- End Day
 
 OS:Schedule:Day,
-  {f42a777f-9053-4942-8cab-99b51972e4b7}, !- Handle
+  {f388013b-d58a-4e41-92a5-f7b48f6a2c8c}, !- Handle
   Schedule Day 9,                         !- Name
   {04718823-ff49-4148-b5a0-c603382877d8}, !- Schedule Type Limits Name
   ,                                       !- Interpolate to Timestep
@@ -8694,11 +8694,11 @@ OS:Schedule:Day,
   0;                                      !- Value Until Time 24
 
 OS:Schedule:Rule,
-  {087b0aaa-a660-4676-94e0-5d521ce30183}, !- Handle
+  {78b6d7e2-fcce-4697-a315-97660992650c}, !- Handle
   OfficeSmall BLDG_SWH_SCH Outage Day 174, !- Name
   {b4ffde5e-2273-4dcb-9e5f-4570538bc629}, !- Schedule Ruleset Name
   0,                                      !- Rule Order
-  {ce6a5a6f-703f-45ee-8bf5-689a6ef00d4d}, !- Day Schedule Name
+  {b2f7450e-69e5-43f9-8855-62bfe8a3de3b}, !- Day Schedule Name
   Yes,                                    !- Apply Sunday
   Yes,                                    !- Apply Monday
   Yes,                                    !- Apply Tuesday
@@ -8713,7 +8713,7 @@ OS:Schedule:Rule,
   23;                                     !- End Day
 
 OS:Schedule:Day,
-  {ce6a5a6f-703f-45ee-8bf5-689a6ef00d4d}, !- Handle
+  {b2f7450e-69e5-43f9-8855-62bfe8a3de3b}, !- Handle
   Schedule Day 10,                        !- Name
   {afe44be9-7e6f-49dc-a06f-b601c45b8b3b}, !- Schedule Type Limits Name
   ,                                       !- Interpolate to Timestep
@@ -8791,11 +8791,11 @@ OS:Schedule:Day,
   0.37;                                   !- Value Until Time 24
 
 OS:Schedule:Rule,
-  {eccfd23c-dd1f-4d1e-a9c0-211a9b842127}, !- Handle
+  {c89fc9bd-0a2e-4538-a776-b490e030d7f4}, !- Handle
   Small Office Infil Quarter On Outage Day 174, !- Name
   {2658ebe0-4785-464d-a4cc-443b4ecbe510}, !- Schedule Ruleset Name
   0,                                      !- Rule Order
-  {d21d9fbe-8e5f-451e-9a5a-2c50559e54ec}, !- Day Schedule Name
+  {ee885b18-665f-4c5c-9615-f16855bd820a}, !- Day Schedule Name
   Yes,                                    !- Apply Sunday
   Yes,                                    !- Apply Monday
   Yes,                                    !- Apply Tuesday
@@ -8810,7 +8810,7 @@ OS:Schedule:Rule,
   23;                                     !- End Day
 
 OS:Schedule:Day,
-  {d21d9fbe-8e5f-451e-9a5a-2c50559e54ec}, !- Handle
+  {ee885b18-665f-4c5c-9615-f16855bd820a}, !- Handle
   Schedule Day 11,                        !- Name
   {afe44be9-7e6f-49dc-a06f-b601c45b8b3b}, !- Schedule Type Limits Name
   ,                                       !- Interpolate to Timestep
@@ -8888,11 +8888,11 @@ OS:Schedule:Day,
   1;                                      !- Value Until Time 24
 
 OS:Schedule:Rule,
-  {169ea82a-ba9e-4f99-9d9a-0e07ec4c0267}, !- Handle
+  {59ed7871-c401-4967-9079-3d2fac8a1174}, !- Handle
   Service Water Loop Temp - 140F Outage Day 174, !- Name
   {4b82eaad-a4f1-4979-82d9-58c8e927fe7e}, !- Schedule Ruleset Name
   0,                                      !- Rule Order
-  {ca64c8cd-f175-4ca9-a17f-3f3bc06c42ac}, !- Day Schedule Name
+  {e58f610a-59d4-4182-b2b1-2ad0a3e35757}, !- Day Schedule Name
   Yes,                                    !- Apply Sunday
   Yes,                                    !- Apply Monday
   Yes,                                    !- Apply Tuesday
@@ -8907,7 +8907,7 @@ OS:Schedule:Rule,
   23;                                     !- End Day
 
 OS:Schedule:Day,
-  {ca64c8cd-f175-4ca9-a17f-3f3bc06c42ac}, !- Handle
+  {e58f610a-59d4-4182-b2b1-2ad0a3e35757}, !- Handle
   Schedule Day 12,                        !- Name
   {fd405ec6-8784-4525-9d10-c03828c036de}, !- Schedule Type Limits Name
   ,                                       !- Interpolate to Timestep
@@ -8985,11 +8985,11 @@ OS:Schedule:Day,
   60.0000000000001;                       !- Value Until Time 24
 
 OS:Schedule:Rule,
-  {12f5c35f-6baa-4589-9572-7e246823bd4a}, !- Handle
+  {17df978d-0ed4-464c-8fa3-04b107a8c741}, !- Handle
   Work Efficiency Schedule Outage Day 174, !- Name
   {b10bea0c-327f-4471-a2a8-eabd117121f6}, !- Schedule Ruleset Name
   0,                                      !- Rule Order
-  {a4a950a6-3548-4bfb-887a-72e0feba3b8d}, !- Day Schedule Name
+  {89eba6c2-156f-4ab1-a80a-2168ef4a2612}, !- Day Schedule Name
   Yes,                                    !- Apply Sunday
   Yes,                                    !- Apply Monday
   Yes,                                    !- Apply Tuesday
@@ -9004,7 +9004,7 @@ OS:Schedule:Rule,
   23;                                     !- End Day
 
 OS:Schedule:Day,
-  {a4a950a6-3548-4bfb-887a-72e0feba3b8d}, !- Handle
+  {89eba6c2-156f-4ab1-a80a-2168ef4a2612}, !- Handle
   Schedule Day 13,                        !- Name
   {afe44be9-7e6f-49dc-a06f-b601c45b8b3b}, !- Schedule Type Limits Name
   ,                                       !- Interpolate to Timestep
@@ -9082,11 +9082,11 @@ OS:Schedule:Day,
   0;                                      !- Value Until Time 24
 
 OS:Schedule:Rule,
-  {ae9e6d07-729b-46a6-b2bf-f000e4732abf}, !- Handle
+  {1d2498da-b00f-4614-9c81-d8bd1a0649d0}, !- Handle
   Office Bldg Light Outage Day 174,       !- Name
   {e5560955-74b0-4364-a70f-1ec1586f4d5c}, !- Schedule Ruleset Name
   0,                                      !- Rule Order
-  {a3a3b741-fdaf-4084-b738-361dc881d400}, !- Day Schedule Name
+  {c2bcd637-082b-4e18-8d4f-9f619ed57e88}, !- Day Schedule Name
   Yes,                                    !- Apply Sunday
   Yes,                                    !- Apply Monday
   Yes,                                    !- Apply Tuesday
@@ -9101,7 +9101,7 @@ OS:Schedule:Rule,
   23;                                     !- End Day
 
 OS:Schedule:Day,
-  {a3a3b741-fdaf-4084-b738-361dc881d400}, !- Handle
+  {c2bcd637-082b-4e18-8d4f-9f619ed57e88}, !- Handle
   Schedule Day 14,                        !- Name
   {afe44be9-7e6f-49dc-a06f-b601c45b8b3b}, !- Schedule Type Limits Name
   ,                                       !- Interpolate to Timestep
@@ -9179,11 +9179,11 @@ OS:Schedule:Day,
   0.27806549232159;                       !- Value Until Time 24
 
 OS:Schedule:Rule,
-  {2ad61293-a791-4f20-9335-7571a58448ba}, !- Handle
+  {48fc571c-0ca6-4d37-ac57-166b28178de3}, !- Handle
   Fraction Sensible - 0.2 Outage Day 174, !- Name
   {413d8364-81c7-4b60-b738-f492770ba072}, !- Schedule Ruleset Name
   0,                                      !- Rule Order
-  {ddf71e9b-a811-46a5-8fd6-587eee6e8977}, !- Day Schedule Name
+  {9cce4e92-e9f4-4acd-a475-5cf769e62164}, !- Day Schedule Name
   Yes,                                    !- Apply Sunday
   Yes,                                    !- Apply Monday
   Yes,                                    !- Apply Tuesday
@@ -9198,7 +9198,7 @@ OS:Schedule:Rule,
   23;                                     !- End Day
 
 OS:Schedule:Day,
-  {ddf71e9b-a811-46a5-8fd6-587eee6e8977}, !- Handle
+  {9cce4e92-e9f4-4acd-a475-5cf769e62164}, !- Handle
   Schedule Day 15,                        !- Name
   {afe44be9-7e6f-49dc-a06f-b601c45b8b3b}, !- Schedule Type Limits Name
   ,                                       !- Interpolate to Timestep
@@ -9276,7 +9276,7 @@ OS:Schedule:Day,
   0.2;                                    !- Value Until Time 24
 
 OS:Schedule:FixedInterval,
-  {05395be1-571c-4862-ad86-b016c9104a6c}, !- Handle
+  {4b1d1fc4-35e4-412f-babd-3b7cabca2ff0}, !- Handle
   Outage Availability Schedule,           !- Name
   {04718823-ff49-4148-b5a0-c603382877d8}, !- Schedule Type Limits Name
   ,                                       !- Translate to Schedule File
@@ -18047,7 +18047,7 @@ OS:Schedule:FixedInterval,
   1;                                      !- Value 8760
 
 OS:AdditionalProperties,
-  {3edabd0f-2873-4965-b8fe-3bb0019033bc}, !- Handle
+  {ec0df8fc-ff3e-4e27-bcf4-c1b51ed1f5c0}, !- Handle
   {c909b14d-25f4-4587-81ac-13c1e4bb0508}, !- Object Name
   PowerOutageStartDate,                   !- Feature Name 1
   String,                                 !- Feature Data Type 1
@@ -18060,28 +18060,28 @@ OS:AdditionalProperties,
   4;                                      !- Feature Value 3
 
 OS:Output:Variable,
-  {5f9a26df-df3a-4784-aea9-0da11c9e1870}, !- Handle
+  {4e29cf3a-399b-4d68-ae08-36579faedab1}, !- Handle
   Output Variable 1,                      !- Name
   *,                                      !- Key Value
   Zone Mean Air Temperature,              !- Variable Name
   hourly;                                 !- Reporting Frequency
 
 OS:Output:Variable,
-  {6269a995-49c2-436e-96f3-1b48f6173f38}, !- Handle
+  {fc26d175-f1ec-4e41-9db4-98f3131d4a71}, !- Handle
   Output Variable 2,                      !- Name
   *,                                      !- Key Value
   Zone Operative Temperature,             !- Variable Name
   hourly;                                 !- Reporting Frequency
 
 OS:Output:Variable,
-  {cc460531-1c9b-496d-8a6b-50aef98c1669}, !- Handle
+  {745f8999-08d3-4100-8a39-2f2e10b6781b}, !- Handle
   Output Variable 3,                      !- Name
   *,                                      !- Key Value
   Zone Thermal Comfort Fanger Model PMV,  !- Variable Name
   hourly;                                 !- Reporting Frequency
 
 OS:Output:Variable,
-  {5f900fb7-a3c6-4242-a32b-c4b780d8db8d}, !- Handle
+  {d01ff1cf-6ba4-4ecb-8bb0-9562ac8c0623}, !- Handle
   Output Variable 4,                      !- Name
   *,                                      !- Key Value
   Zone Thermal Comfort Fanger Model PPD,  !- Variable Name
