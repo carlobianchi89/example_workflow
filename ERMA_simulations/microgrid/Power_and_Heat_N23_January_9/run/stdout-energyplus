@@ -1,5 +1,5 @@
 EnergyPlus Starting
-EnergyPlus, Version 22.2.0-aa78da9668, YMD=2023.06.21 17:26
+EnergyPlus, Version 22.2.0-aa78da9668, YMD=2023.06.21 18:19
 Initializing Response Factors
 Calculating CTFs for "INTERIORFURNISHINGS 2"
 Calculating CTFs for "TYPICAL INSULATED EXTERIOR MASS WALL R-14.08"
@@ -368,5 +368,5 @@ Continuing Simulation at 12/27/2006 for RUN PERIOD 1
 Writing tabular output file results using HTML format.
 Computing Life Cycle Costs and Reporting
 Writing final SQL reports
-EnergyPlus Run Time=00hr 00min  1.72sec
+EnergyPlus Run Time=00hr 00min  1.70sec
 EnergyPlus Completed Successfully.

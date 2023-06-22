@@ -1,5 +1,5 @@
 EnergyPlus Starting
-EnergyPlus, Version 22.2.0-aa78da9668, YMD=2023.06.21 17:23
+EnergyPlus, Version 22.2.0-aa78da9668, YMD=2023.06.21 18:17
 Initializing Response Factors
 Calculating CTFs for "INTERIORFURNISHINGS 2"
 Calculating CTFs for "TYPICAL IEAD ROOF R-32.26"
@@ -353,5 +353,5 @@ Continuing Simulation at 12/27/2006 for RUN PERIOD 1
 Writing tabular output file results using HTML format.
 Computing Life Cycle Costs and Reporting
 Writing final SQL reports
-EnergyPlus Run Time=00hr 00min  6.76sec
+EnergyPlus Run Time=00hr 00min  6.70sec
 EnergyPlus Completed Successfully.
