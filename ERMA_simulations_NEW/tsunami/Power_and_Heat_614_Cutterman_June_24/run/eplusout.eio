@@ -1,0 +1,595 @@
+Program Version,EnergyPlus, Version 22.2.0-aa78da9668, YMD=2023.06.28 14:22
+! <Version>, Version ID
+ Version, 22.2
+! <Timesteps per Hour>, #TimeSteps, Minutes per TimeStep {minutes}
+ Timesteps per Hour,  1, 60
+! <System Convergence Limits>, Minimum System TimeStep {minutes}, Max HVAC Iterations, Minimum Plant Iterations, Maximum Plant Iterations
+ System Convergence Limits, 1, 20, 2, 8
+! <Simulation Control>, Do Zone Sizing, Do System Sizing, Do Plant Sizing, Do Design Days, Do Weather Simulation, Do HVAC Sizing Simulation
+ Simulation Control, Yes, Yes, Yes, No, Yes, No
+! <Performance Precision Tradeoffs>, Use Coil Direct Simulation, Zone Radiant Exchange Algorithm, Override Mode, Number of Timestep In Hour, Force Euler Method, Minimum Number of Warmup Days, Force Suppress All Begin Environment Resets, Minimum System Timestep, MaxZoneTempDiff, MaxAllowedDelTemp
+ Performance Precision Tradeoffs, No, ScriptF, Normal, 1, No, 1, No, 1.0, 0.300, 2.0000E-003
+! <Output Reporting Tolerances>, Tolerance for Time Heating Setpoint Not Met, Tolerance for Zone Cooling Setpoint Not Met Time
+ Output Reporting Tolerances, 0.556, 0.556, 
+! <Site:GroundTemperature:BuildingSurface>,Jan{C},Feb{C},Mar{C},Apr{C},May{C},Jun{C},Jul{C},Aug{C},Sep{C},Oct{C},Nov{C},Dec{C}
+ Site:GroundTemperature:BuildingSurface,  18.00,  18.00,  18.00,  18.00,  18.00,  18.00,  18.00,  18.00,  18.00,  18.00,  18.00,  18.00
+! <Site:GroundTemperature:FCfactorMethod>,Jan{C},Feb{C},Mar{C},Apr{C},May{C},Jun{C},Jul{C},Aug{C},Sep{C},Oct{C},Nov{C},Dec{C}
+ Site:GroundTemperature:FCfactorMethod,  -3.10, -17.70, -19.30, -17.60, -15.40, -10.30,   0.70,  10.60,  16.00,  16.90,  14.20,   6.70
+! <Site:GroundTemperature:Shallow>,Jan{C},Feb{C},Mar{C},Apr{C},May{C},Jun{C},Jul{C},Aug{C},Sep{C},Oct{C},Nov{C},Dec{C}
+ Site:GroundTemperature:Shallow,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00
+! <Site:GroundTemperature:Deep>,Jan{C},Feb{C},Mar{C},Apr{C},May{C},Jun{C},Jul{C},Aug{C},Sep{C},Oct{C},Nov{C},Dec{C}
+ Site:GroundTemperature:Deep,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00
+! <Site:GroundReflectance>,Jan{dimensionless},Feb{dimensionless},Mar{dimensionless},Apr{dimensionless},May{dimensionless},Jun{dimensionless},Jul{dimensionless},Aug{dimensionless},Sep{dimensionless},Oct{dimensionless},Nov{dimensionless},Dec{dimensionless}
+ Site:GroundReflectance,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20
+! <Site:GroundReflectance:SnowModifier>, Normal, Daylighting {dimensionless}
+ Site:GroundReflectance:SnowModifier,   1.000,   1.000
+! <Site:GroundReflectance:Snow>,Jan{dimensionless},Feb{dimensionless},Mar{dimensionless},Apr{dimensionless},May{dimensionless},Jun{dimensionless},Jul{dimensionless},Aug{dimensionless},Sep{dimensionless},Oct{dimensionless},Nov{dimensionless},Dec{dimensionless}
+ Site:GroundReflectance:Snow,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20
+! <Site:GroundReflectance:Snow:Daylighting>,Jan{dimensionless},Feb{dimensionless},Mar{dimensionless},Apr{dimensionless},May{dimensionless},Jun{dimensionless},Jul{dimensionless},Aug{dimensionless},Sep{dimensionless},Oct{dimensionless},Nov{dimensionless},Dec{dimensionless}
+ Site:GroundReflectance:Snow:Daylighting,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20
+! <Environment:Weather Station>,Wind Sensor Height Above Ground {m},Wind Speed Profile Exponent {},Wind Speed Profile Boundary Layer Thickness {m},Air Temperature Sensor Height Above Ground {m},Wind Speed Modifier Coefficient-Internal,Temperature Modifier Coefficient-Internal
+Environment:Weather Station,10.000,0.140,270.000,1.500,1.586,9.750E-003
+! <Site:Location>, Location Name, Latitude {N+/S- Deg}, Longitude {E+/W- Deg},  Time Zone Number {GMT+/-}, Elevation {m},  Standard Pressure at Elevation {Pa}, Standard RhoAir at Elevation
+Site:Location,Kodiak Airport AK USA TMY3 WMO#=703500,57.75,-152.50,-9.00,5.00,101265,1.2036
+! <Site Water Mains Temperature Information>,Calculation Method{},Water Mains Temperature Schedule Name{},Annual Average Outdoor Air Temperature{C},Maximum Difference In Monthly Average Outdoor Air Temperatures{deltaC},Fixed Default Water Mains Temperature{C}
+Site Water Mains Temperature Information,Correlation,NA,-1.53,36.20,NA
+! <Building Information>, Building Name,North Axis {deg},Terrain,  Loads Convergence Tolerance Value,Temperature Convergence Tolerance Value,  Solar Distribution,Maximum Number of Warmup Days,Minimum Number of Warmup Days
+ Building Information,DOE Ref 1980-2004|Warehouse,0.000,City,4.00000E-002,0.20000,FullInteriorAndExterior,25,6
+! <Inside Convection Algorithm>, Algorithm {Simple | TARP | CeilingDiffuser | AdaptiveConvectionAlgorithm}
+Inside Convection Algorithm,TARP
+! <Outside Convection Algorithm>, Algorithm {SimpleCombined | TARP | MoWitt | DOE-2 | AdaptiveConvectionAlgorithm}
+Outside Convection Algorithm,TARP
+! <Sky Radiance Distribution>, Value {Anisotropic}
+Sky Radiance Distribution,Anisotropic
+! <Zone Air Solution Algorithm>, Value {ThirdOrderBackwardDifference | AnalyticalSolution | EulerMethod}
+ Zone Air Solution Algorithm, ThirdOrderBackwardDifference
+! <Zone Air Carbon Dioxide Balance Simulation>, Simulation {Yes/No}, Carbon Dioxide Concentration
+ Zone Air Carbon Dioxide Balance Simulation, No,N/A
+! <Zone Air Generic Contaminant Balance Simulation>, Simulation {Yes/No}, Generic Contaminant Concentration
+ Zone Air Generic Contaminant Balance Simulation, No,N/A
+! <Zone Air Mass Flow Balance Simulation>, Enforce Mass Balance, Adjust Zone Mixing and Return {AdjustMixingOnly | AdjustReturnOnly | AdjustMixingThenReturn | AdjustReturnThenMixing | None}, Adjust Zone Infiltration {AddInfiltration | AdjustInfiltration | None}, Infiltration Zones {MixingSourceZonesOnly | AllZones}
+ Zone Air Mass Flow Balance Simulation, No,N/A,N/A,N/A
+! <HVACSystemRootFindingAlgorithm>, Value {RegulaFalsi | Bisection | BisectionThenRegulaFalsi | RegulaFalsiThenBisection}
+ HVACSystemRootFindingAlgorithm, RegulaFalsi
+! <Environment:Site Atmospheric Variation>,Wind Speed Profile Exponent {},Wind Speed Profile Boundary Layer Thickness {m},Air Temperature Gradient Coefficient {K/m}
+Environment:Site Atmospheric Variation,0.330,460.000,6.500000E-003
+! <Surface Geometry>,Starting Corner,Vertex Input Direction,Coordinate System,Daylight Reference Point Coordinate System,Rectangular (Simple) Surface Coordinate System
+ Surface Geometry,UpperLeftCorner,Counterclockwise,RelativeCoordinateSystem,RelativeCoordinateSystem,RelativeToZoneOrigin
+! <Surface Heat Transfer Algorithm>, Value {CTF - ConductionTransferFunction | EMPD - MoisturePenetrationDepthConductionTransferFunction | CondFD - ConductionFiniteDifference | HAMT - CombinedHeatAndMoistureFiniteElement} - Description,Inside Surface Max Temperature Limit{C}, Surface Convection Coefficient Lower Limit {W/m2-K}, Surface Convection Coefficient Upper Limit {W/m2-K}
+Surface Heat Transfer Algorithm, CTF - ConductionTransferFunction,200,0.10,1000.0
+! <Shading Summary>, Number of Fixed Detached Shades, Number of Building Detached Shades, Number of Attached Shades
+ Shading Summary,0,0,0
+! <Zone Summary>, Number of Zones, Number of Zone Surfaces, Number of SubSurfaces
+ Zone Summary,15,115,16
+! <Zone Information>,Zone Name,North Axis {deg},Origin X-Coordinate {m},Origin Y-Coordinate {m},Origin Z-Coordinate {m},Centroid X-Coordinate {m},Centroid Y-Coordinate {m},Centroid Z-Coordinate {m},Type,Zone Multiplier,Zone List Multiplier,Minimum X {m},Maximum X {m},Minimum Y {m},Maximum Y {m},Minimum Z {m},Maximum Z {m},Ceiling Height {m},Volume {m3},Zone Inside Convection Algorithm {Simple-Detailed-CeilingDiffuser-TrombeWall},Zone Outside Convection Algorithm {Simple-Detailed-Tarp-MoWitt-DOE-2-BLAST}, Floor Area {m2},Exterior Gross Wall Area {m2},Exterior Net Wall Area {m2},Exterior Window Area {m2}, Number of Surfaces, Number of SubSurfaces, Number of Shading SubSurfaces,  Part of Total Building Area
+ Zone Information, ZONE WAREHOUSE BULK A  - STORY GROUND,0.0,-12.23,-11.20,0.00,-3.38,-8.91,4.57,1,1,1,-12.23,5.47,-11.20,-6.63,0.00,9.14,9.14,739.81,TARP,TARP,80.91,161.81,153.72,8.09,6,1,0,Yes
+ Zone Information, ZONE WAREHOUSE BULK A END_A - STORY GROUND,0.0,-16.80,-11.20,0.00,-14.51,-8.91,4.57,1,1,1,-16.80,-12.23,-11.20,-6.63,0.00,9.14,9.14,191.14,TARP,TARP,20.90,83.61,79.43,4.18,6,2,0,Yes
+ Zone Information, ZONE WAREHOUSE BULK B  - STORY GROUND,0.0,-12.23,-6.63,0.00,-3.38,1.12E-014,4.57,1,1,1,-12.23,5.47,-6.63,6.63,0.00,9.14,9.14,2144.71,TARP,TARP,234.55,0.00,0.00,0.00,6,0,0,Yes
+ Zone Information, ZONE WAREHOUSE BULK B END_A - STORY GROUND,0.0,-16.80,-6.63,0.00,-14.51,1.12E-014,4.57,1,1,1,-16.80,-12.23,-6.63,6.63,0.00,9.14,9.14,554.11,TARP,TARP,60.60,121.20,115.14,6.06,6,1,0,Yes
+ Zone Information, ZONE WAREHOUSE BULK C  - STORY GROUND,0.0,-12.23,6.63,0.00,-3.38,8.91,4.57,1,1,1,-12.23,5.47,6.63,11.20,0.00,9.14,9.14,739.81,TARP,TARP,80.91,161.81,153.72,8.09,6,1,0,Yes
+ Zone Information, ZONE WAREHOUSE BULK C END_A - STORY GROUND,0.0,-16.80,6.63,0.00,-14.51,8.91,4.57,1,1,1,-16.80,-12.23,6.63,11.20,0.00,9.14,9.14,191.14,TARP,TARP,20.90,83.61,79.43,4.18,6,2,0,Yes
+ Zone Information, ZONE WAREHOUSE FINE A  - STORY GROUND,0.0,7.12,-11.20,0.00,9.67,-8.91,4.57,1,1,1,7.12,12.23,-11.20,-6.63,0.00,9.14,9.14,213.66,TARP,TARP,23.37,46.73,44.40,2.34,6,1,0,Yes
+ Zone Information, ZONE WAREHOUSE FINE A END_B - STORY GROUND,0.0,12.23,-11.20,0.00,14.51,-8.91,4.57,1,1,1,12.23,16.80,-11.20,-6.63,0.00,9.14,9.14,191.14,TARP,TARP,20.90,83.61,79.43,4.18,6,2,0,Yes
+ Zone Information, ZONE WAREHOUSE FINE B  - STORY GROUND,0.0,7.12,-6.63,0.00,9.67,1.12E-014,4.57,1,1,1,7.12,12.23,-6.63,6.63,0.00,9.14,9.14,619.40,TARP,TARP,67.74,0.00,0.00,0.00,6,0,0,Yes
+ Zone Information, ZONE WAREHOUSE FINE B END_B - STORY GROUND,0.0,12.23,-6.63,0.00,14.51,1.11E-014,4.57,1,1,1,12.23,16.80,-6.63,6.63,0.00,9.14,9.14,554.11,TARP,TARP,60.60,121.20,115.14,6.06,6,1,0,Yes
+ Zone Information, ZONE WAREHOUSE FINE C  - STORY GROUND,0.0,7.12,6.63,0.00,9.67,8.91,4.57,1,1,1,7.12,12.23,6.63,11.20,0.00,9.14,9.14,213.66,TARP,TARP,23.37,46.73,44.40,2.34,6,1,0,Yes
+ Zone Information, ZONE WAREHOUSE FINE C END_B - STORY GROUND,0.0,12.23,6.63,0.00,14.51,8.91,4.57,1,1,1,12.23,16.80,6.63,11.20,0.00,9.14,9.14,191.14,TARP,TARP,20.90,83.61,79.43,4.18,6,2,0,Yes
+ Zone Information, ZONE WAREHOUSE OFFICE A  - STORY GROUND,0.0,5.47,-11.20,0.00,6.29,-8.91,4.57,1,1,1,5.47,7.12,-11.20,-6.63,0.00,9.14,9.14,68.82,TARP,TARP,7.53,15.05,14.30,0.75,6,1,0,Yes
+ Zone Information, ZONE WAREHOUSE OFFICE B  - STORY GROUND,0.0,5.47,-6.63,0.00,6.29,1.12E-014,4.57,1,1,1,5.47,7.12,-6.63,6.63,0.00,9.14,9.14,199.52,TARP,TARP,21.82,0.00,0.00,0.00,6,0,0,Yes
+ Zone Information, ZONE WAREHOUSE OFFICE C  - STORY GROUND,0.0,5.47,6.63,0.00,6.29,8.91,4.57,1,1,1,5.47,7.12,6.63,11.20,0.00,9.14,9.14,68.82,TARP,TARP,7.53,15.05,14.30,0.75,6,1,0,Yes
+! <Zone Internal Gains Nominal>,Zone Name, Floor Area {m2},# Occupants,Area per Occupant {m2/person},Occupant per Area {person/m2},Interior Lighting {W/m2},Electric Load {W/m2},Gas Load {W/m2},Other Load {W/m2},Hot Water Eq {W/m2},Steam Equipment {W/m2},Sum Loads per Area {W/m2},Outdoor Controlled Baseboard Heat
+ Zone Internal Gains Nominal, ZONE WAREHOUSE BULK A  - STORY GROUND,80.91,0.0,N/A,0.000,3.340,82.560,0.000,0.000,0.000,0.000,85.900,No
+ Zone Internal Gains Nominal, ZONE WAREHOUSE BULK A END_A - STORY GROUND,20.90,0.0,N/A,0.000,3.340,82.560,0.000,0.000,0.000,0.000,85.900,No
+ Zone Internal Gains Nominal, ZONE WAREHOUSE BULK B  - STORY GROUND,234.55,0.0,N/A,0.000,3.340,82.560,0.000,0.000,0.000,0.000,85.900,No
+ Zone Internal Gains Nominal, ZONE WAREHOUSE BULK B END_A - STORY GROUND,60.60,0.0,N/A,0.000,3.340,82.560,0.000,0.000,0.000,0.000,85.900,No
+ Zone Internal Gains Nominal, ZONE WAREHOUSE BULK C  - STORY GROUND,80.91,0.0,N/A,0.000,3.340,82.560,0.000,0.000,0.000,0.000,85.900,No
+ Zone Internal Gains Nominal, ZONE WAREHOUSE BULK C END_A - STORY GROUND,20.90,0.0,N/A,0.000,3.340,82.560,0.000,0.000,0.000,0.000,85.900,No
+ Zone Internal Gains Nominal, ZONE WAREHOUSE FINE A  - STORY GROUND,23.37,0.0,N/A,0.000,11.640,50.000,0.000,0.000,0.000,0.000,61.640,No
+ Zone Internal Gains Nominal, ZONE WAREHOUSE FINE A END_B - STORY GROUND,20.90,0.0,N/A,0.000,11.640,50.000,0.000,0.000,0.000,0.000,61.640,No
+ Zone Internal Gains Nominal, ZONE WAREHOUSE FINE B  - STORY GROUND,67.74,0.0,N/A,0.000,11.640,50.000,0.000,0.000,0.000,0.000,61.640,No
+ Zone Internal Gains Nominal, ZONE WAREHOUSE FINE B END_B - STORY GROUND,60.60,0.0,N/A,0.000,11.640,50.000,0.000,0.000,0.000,0.000,61.640,No
+ Zone Internal Gains Nominal, ZONE WAREHOUSE FINE C  - STORY GROUND,23.37,0.0,N/A,0.000,11.640,50.000,0.000,0.000,0.000,0.000,61.640,No
+ Zone Internal Gains Nominal, ZONE WAREHOUSE FINE C END_B - STORY GROUND,20.90,0.0,N/A,0.000,11.640,50.000,0.000,0.000,0.000,0.000,61.640,No
+ Zone Internal Gains Nominal, ZONE WAREHOUSE OFFICE A  - STORY GROUND,7.53,0.2,47.400,2.110E-002,21.690,58.070,0.000,0.000,0.000,0.000,79.760,No
+ Zone Internal Gains Nominal, ZONE WAREHOUSE OFFICE B  - STORY GROUND,21.82,0.5,47.400,2.110E-002,21.690,58.070,0.000,0.000,0.000,0.000,79.760,No
+ Zone Internal Gains Nominal, ZONE WAREHOUSE OFFICE C  - STORY GROUND,7.53,0.2,47.400,2.110E-002,21.690,58.070,0.000,0.000,0.000,0.000,79.760,No
+! <People Internal Gains Nominal>,Name,Schedule Name,Zone Name,Zone Floor Area {m2},# Zone Occupants,Number of People {},People/Floor Area {person/m2},Floor Area per person {m2/person},Fraction Radiant,Fraction Convected,Sensible Fraction Calculation,Activity level,ASHRAE 55 Warnings,Carbon Dioxide Generation Rate,Nominal Minimum Number of People,Nominal Maximum Number of People,MRT Calculation Type,Work Efficiency, Clothing Insulation Calculation Method,Clothing Insulation Calculation Method Schedule,Clothing,Air Velocity,Fanger Calculation,Pierce Calculation,KSU Calculation,Cooling Effect Calculation,Ankle Draft Calculation
+ People Internal Gains Nominal, WAREHOUSE OFFICE B  - STORY GROUND WAREHOUSE OFFICE PEOPLE,WAREHOUSE BLDG OCC,ZONE WAREHOUSE OFFICE B  - STORY GROUND,21.82,0.5,0.5,2.110E-002,47.400,0.300,0.700,AutoCalculate,WAREHOUSE ACTIVITY,Yes,3.8200E-008,0,0,Zone Averaged,WORK EFFICIENCY SCHEDULE,Clothing Insulation Schedule,N/A,CLOTHING SCHEDULE,AIR VELOCITY SCHEDULE,Yes,No,No,No,No
+ People Internal Gains Nominal, WAREHOUSE OFFICE C  - STORY GROUND WAREHOUSE OFFICE PEOPLE,WAREHOUSE BLDG OCC,ZONE WAREHOUSE OFFICE C  - STORY GROUND,7.53,0.2,0.2,2.110E-002,47.400,0.300,0.700,AutoCalculate,WAREHOUSE ACTIVITY,Yes,3.8200E-008,0,0,Zone Averaged,WORK EFFICIENCY SCHEDULE,Clothing Insulation Schedule,N/A,CLOTHING SCHEDULE,AIR VELOCITY SCHEDULE,Yes,No,No,No,No
+ People Internal Gains Nominal, WAREHOUSE OFFICE A  - STORY GROUND WAREHOUSE OFFICE PEOPLE,WAREHOUSE BLDG OCC,ZONE WAREHOUSE OFFICE A  - STORY GROUND,7.53,0.2,0.2,2.110E-002,47.400,0.300,0.700,AutoCalculate,WAREHOUSE ACTIVITY,Yes,3.8200E-008,0,0,Zone Averaged,WORK EFFICIENCY SCHEDULE,Clothing Insulation Schedule,N/A,CLOTHING SCHEDULE,AIR VELOCITY SCHEDULE,Yes,No,No,No,No
+! <Lights Internal Gains Nominal>,Name,Schedule Name,Zone Name,Zone Floor Area {m2},# Zone Occupants,Lighting Level {W},Lights/Floor Area {W/m2},Lights per person {W/person},Fraction Return Air,Fraction Radiant,Fraction Short Wave,Fraction Convected,Fraction Replaceable,End-Use Category,Nominal Minimum Lighting Level {W},Nominal Maximum Lighting Level {W}
+ Lights Internal Gains Nominal, WAREHOUSE BULK A END_A - STORY GROUND WAREHOUSE BULK LIGHTS,WAREHOUSE BLDG LIGHT,ZONE WAREHOUSE BULK A END_A - STORY GROUND,20.90,0.0,69.817,3.340,N/A,0.000,0.500,0.200,0.300,0.000,General,0.000,69.817
+ Lights Internal Gains Nominal, WAREHOUSE BULK C END_A - STORY GROUND WAREHOUSE BULK LIGHTS,WAREHOUSE BLDG LIGHT,ZONE WAREHOUSE BULK C END_A - STORY GROUND,20.90,0.0,69.817,3.340,N/A,0.000,0.500,0.200,0.300,0.000,General,0.000,69.817
+ Lights Internal Gains Nominal, WAREHOUSE BULK A  - STORY GROUND WAREHOUSE BULK LIGHTS,WAREHOUSE BLDG LIGHT,ZONE WAREHOUSE BULK A  - STORY GROUND,80.91,0.0,270.230,3.340,N/A,0.000,0.500,0.200,0.300,0.000,General,0.000,270.230
+ Lights Internal Gains Nominal, WAREHOUSE BULK C  - STORY GROUND WAREHOUSE BULK LIGHTS,WAREHOUSE BLDG LIGHT,ZONE WAREHOUSE BULK C  - STORY GROUND,80.91,0.0,270.230,3.340,N/A,0.000,0.500,0.200,0.300,0.000,General,0.000,270.230
+ Lights Internal Gains Nominal, WAREHOUSE BULK B  - STORY GROUND WAREHOUSE BULK LIGHTS,WAREHOUSE BLDG LIGHT,ZONE WAREHOUSE BULK B  - STORY GROUND,234.55,0.0,783.391,3.340,N/A,0.000,0.500,0.200,0.300,0.000,General,0.000,783.391
+ Lights Internal Gains Nominal, WAREHOUSE BULK B END_A - STORY GROUND WAREHOUSE BULK LIGHTS,WAREHOUSE BLDG LIGHT,ZONE WAREHOUSE BULK B END_A - STORY GROUND,60.60,0.0,202.397,3.340,N/A,0.000,0.500,0.200,0.300,0.000,General,0.000,202.397
+ Lights Internal Gains Nominal, WAREHOUSE FINE C END_B - STORY GROUND WAREHOUSE FINE LIGHTS,WAREHOUSE BLDG LIGHT,ZONE WAREHOUSE FINE C END_B - STORY GROUND,20.90,0.0,243.313,11.640,N/A,0.000,0.500,0.200,0.300,0.000,General,0.000,243.313
+ Lights Internal Gains Nominal, WAREHOUSE FINE B  - STORY GROUND WAREHOUSE FINE LIGHTS,WAREHOUSE BLDG LIGHT,ZONE WAREHOUSE FINE B  - STORY GROUND,67.74,0.0,788.471,11.640,N/A,0.000,0.500,0.200,0.300,0.000,General,0.000,788.471
+ Lights Internal Gains Nominal, WAREHOUSE FINE B END_B - STORY GROUND WAREHOUSE FINE LIGHTS,WAREHOUSE BLDG LIGHT,ZONE WAREHOUSE FINE B END_B - STORY GROUND,60.60,0.0,705.360,11.640,N/A,0.000,0.500,0.200,0.300,0.000,General,0.000,705.360
+ Lights Internal Gains Nominal, WAREHOUSE FINE C  - STORY GROUND WAREHOUSE FINE LIGHTS,WAREHOUSE BLDG LIGHT,ZONE WAREHOUSE FINE C  - STORY GROUND,23.37,0.0,271.982,11.640,N/A,0.000,0.500,0.200,0.300,0.000,General,0.000,271.982
+ Lights Internal Gains Nominal, WAREHOUSE FINE A END_B - STORY GROUND WAREHOUSE FINE LIGHTS,WAREHOUSE BLDG LIGHT,ZONE WAREHOUSE FINE A END_B - STORY GROUND,20.90,0.0,243.313,11.640,N/A,0.000,0.500,0.200,0.300,0.000,General,0.000,243.313
+ Lights Internal Gains Nominal, WAREHOUSE FINE A  - STORY GROUND WAREHOUSE FINE LIGHTS,WAREHOUSE BLDG LIGHT,ZONE WAREHOUSE FINE A  - STORY GROUND,23.37,0.0,271.982,11.640,N/A,0.000,0.500,0.200,0.300,0.000,General,0.000,271.982
+ Lights Internal Gains Nominal, WAREHOUSE OFFICE B  - STORY GROUND WAREHOUSE OFFICE LIGHTS,WAREHOUSE BLDG LIGHT,ZONE WAREHOUSE OFFICE B  - STORY GROUND,21.82,0.5,473.271,21.690,1028.095,0.000,0.500,0.200,0.300,0.000,General,0.000,473.271
+ Lights Internal Gains Nominal, WAREHOUSE OFFICE C  - STORY GROUND WAREHOUSE OFFICE LIGHTS,WAREHOUSE BLDG LIGHT,ZONE WAREHOUSE OFFICE C  - STORY GROUND,7.53,0.2,163.254,21.690,1028.095,0.000,0.500,0.200,0.300,0.000,General,0.000,163.254
+ Lights Internal Gains Nominal, WAREHOUSE OFFICE A  - STORY GROUND WAREHOUSE OFFICE LIGHTS,WAREHOUSE BLDG LIGHT,ZONE WAREHOUSE OFFICE A  - STORY GROUND,7.53,0.2,163.254,21.690,1028.095,0.000,0.500,0.200,0.300,0.000,General,0.000,163.254
+! <ElectricEquipment Internal Gains Nominal>,Name,Schedule Name,Zone Name,Zone Floor Area {m2},# Zone Occupants,Equipment Level {W},Equipment/Floor Area {W/m2},Equipment per person {W/person},Fraction Latent,Fraction Radiant,Fraction Lost,Fraction Convected,End-Use SubCategory,Nominal Minimum Equipment Level {W},Nominal Maximum Equipment Level {W}
+ ElectricEquipment Internal Gains Nominal, WAREHOUSE BULK A END_A - STORY GROUND AUTO SHOP,WAREHOUSE BLDG EQUIP,ZONE WAREHOUSE BULK A END_A - STORY GROUND,20.90,0.0,627.096,30.000,N/A,0.000,0.000,0.950,5.000E-002,General,0.000,627.096
+ ElectricEquipment Internal Gains Nominal, WAREHOUSE BULK C END_A - STORY GROUND AUTO SHOP,WAREHOUSE BLDG EQUIP,ZONE WAREHOUSE BULK C END_A - STORY GROUND,20.90,0.0,627.096,30.000,N/A,0.000,0.000,0.950,5.000E-002,General,0.000,627.096
+ ElectricEquipment Internal Gains Nominal, WAREHOUSE BULK A  - STORY GROUND AUTO SHOP,WAREHOUSE BLDG EQUIP,ZONE WAREHOUSE BULK A  - STORY GROUND,80.91,0.0,2427.214,30.000,N/A,0.000,0.000,0.950,5.000E-002,General,0.000,2427.214
+ ElectricEquipment Internal Gains Nominal, WAREHOUSE BULK C  - STORY GROUND AUTO SHOP,WAREHOUSE BLDG EQUIP,ZONE WAREHOUSE BULK C  - STORY GROUND,80.91,0.0,2427.214,30.000,N/A,0.000,0.000,0.950,5.000E-002,General,0.000,2427.214
+ ElectricEquipment Internal Gains Nominal, WAREHOUSE BULK B  - STORY GROUND AUTO SHOP,WAREHOUSE BLDG EQUIP,ZONE WAREHOUSE BULK B  - STORY GROUND,234.55,0.0,7036.444,30.000,N/A,0.000,0.000,0.950,5.000E-002,General,0.000,7036.444
+ ElectricEquipment Internal Gains Nominal, WAREHOUSE BULK B END_A - STORY GROUND AUTO SHOP,WAREHOUSE BLDG EQUIP,ZONE WAREHOUSE BULK B END_A - STORY GROUND,60.60,0.0,1817.937,30.000,N/A,0.000,0.000,0.950,5.000E-002,General,0.000,1817.937
+ ElectricEquipment Internal Gains Nominal, WAREHOUSE BULK A END_A - STORY GROUND ELECTRIC EQUIPMENT 1,ELECTRIC HEATING,ZONE WAREHOUSE BULK A END_A - STORY GROUND,20.90,0.0,1045.159,50.000,N/A,0.000,0.000,0.950,5.000E-002,General,0.000,313.548
+ ElectricEquipment Internal Gains Nominal, WAREHOUSE BULK C END_A - STORY GROUND ELECTRIC EQUIPMENT 1,ELECTRIC HEATING,ZONE WAREHOUSE BULK C END_A - STORY GROUND,20.90,0.0,1045.159,50.000,N/A,0.000,0.000,0.950,5.000E-002,General,0.000,313.548
+ ElectricEquipment Internal Gains Nominal, WAREHOUSE BULK A  - STORY GROUND ELECTRIC EQUIPMENT 1,ELECTRIC HEATING,ZONE WAREHOUSE BULK A  - STORY GROUND,80.91,0.0,4045.357,50.000,N/A,0.000,0.000,0.950,5.000E-002,General,0.000,1213.607
+ ElectricEquipment Internal Gains Nominal, WAREHOUSE BULK C  - STORY GROUND ELECTRIC EQUIPMENT 1,ELECTRIC HEATING,ZONE WAREHOUSE BULK C  - STORY GROUND,80.91,0.0,4045.357,50.000,N/A,0.000,0.000,0.950,5.000E-002,General,0.000,1213.607
+ ElectricEquipment Internal Gains Nominal, WAREHOUSE BULK B  - STORY GROUND ELECTRIC EQUIPMENT 1,ELECTRIC HEATING,ZONE WAREHOUSE BULK B  - STORY GROUND,234.55,0.0,11727.407,50.000,N/A,0.000,0.000,0.950,5.000E-002,General,0.000,3518.222
+ ElectricEquipment Internal Gains Nominal, WAREHOUSE BULK B END_A - STORY GROUND ELECTRIC EQUIPMENT 1,ELECTRIC HEATING,ZONE WAREHOUSE BULK B END_A - STORY GROUND,60.60,0.0,3029.895,50.000,N/A,0.000,0.000,0.950,5.000E-002,General,0.000,908.969
+ ElectricEquipment Internal Gains Nominal, WAREHOUSE BULK A END_A - STORY GROUND ELECTRIC EQUIPMENT 2,WAREHOUSE BLDG EQUIP,ZONE WAREHOUSE BULK A END_A - STORY GROUND,20.90,0.0,53.512,2.560,N/A,0.000,0.500,0.000,0.500,General,0.000,53.512
+ ElectricEquipment Internal Gains Nominal, WAREHOUSE BULK C END_A - STORY GROUND ELECTRIC EQUIPMENT 2,WAREHOUSE BLDG EQUIP,ZONE WAREHOUSE BULK C END_A - STORY GROUND,20.90,0.0,53.512,2.560,N/A,0.000,0.500,0.000,0.500,General,0.000,53.512
+ ElectricEquipment Internal Gains Nominal, WAREHOUSE BULK A  - STORY GROUND ELECTRIC EQUIPMENT 2,WAREHOUSE BLDG EQUIP,ZONE WAREHOUSE BULK A  - STORY GROUND,80.91,0.0,207.122,2.560,N/A,0.000,0.500,0.000,0.500,General,0.000,207.122
+ ElectricEquipment Internal Gains Nominal, WAREHOUSE BULK C  - STORY GROUND ELECTRIC EQUIPMENT 2,WAREHOUSE BLDG EQUIP,ZONE WAREHOUSE BULK C  - STORY GROUND,80.91,0.0,207.122,2.560,N/A,0.000,0.500,0.000,0.500,General,0.000,207.122
+ ElectricEquipment Internal Gains Nominal, WAREHOUSE BULK B  - STORY GROUND ELECTRIC EQUIPMENT 2,WAREHOUSE BLDG EQUIP,ZONE WAREHOUSE BULK B  - STORY GROUND,234.55,0.0,600.443,2.560,N/A,0.000,0.500,0.000,0.500,General,0.000,600.443
+ ElectricEquipment Internal Gains Nominal, WAREHOUSE BULK B END_A - STORY GROUND ELECTRIC EQUIPMENT 2,WAREHOUSE BLDG EQUIP,ZONE WAREHOUSE BULK B END_A - STORY GROUND,60.60,0.0,155.131,2.560,N/A,0.000,0.500,0.000,0.500,General,0.000,155.131
+ ElectricEquipment Internal Gains Nominal, WAREHOUSE FINE C END_B - STORY GROUND ELECTRIC EQUIPMENT 3,ELECTRIC HEATING,ZONE WAREHOUSE FINE C END_B - STORY GROUND,20.90,0.0,1045.159,50.000,N/A,0.000,0.000,0.950,5.000E-002,General,0.000,313.548
+ ElectricEquipment Internal Gains Nominal, WAREHOUSE FINE B  - STORY GROUND ELECTRIC EQUIPMENT 3,ELECTRIC HEATING,ZONE WAREHOUSE FINE B  - STORY GROUND,67.74,0.0,3386.904,50.000,N/A,0.000,0.000,0.950,5.000E-002,General,0.000,1016.071
+ ElectricEquipment Internal Gains Nominal, WAREHOUSE FINE B END_B - STORY GROUND ELECTRIC EQUIPMENT 3,ELECTRIC HEATING,ZONE WAREHOUSE FINE B END_B - STORY GROUND,60.60,0.0,3029.895,50.000,N/A,0.000,0.000,0.950,5.000E-002,General,0.000,908.969
+ ElectricEquipment Internal Gains Nominal, WAREHOUSE FINE C  - STORY GROUND ELECTRIC EQUIPMENT 3,ELECTRIC HEATING,ZONE WAREHOUSE FINE C  - STORY GROUND,23.37,0.0,1168.309,50.000,N/A,0.000,0.000,0.950,5.000E-002,General,0.000,350.493
+ ElectricEquipment Internal Gains Nominal, WAREHOUSE FINE A END_B - STORY GROUND ELECTRIC EQUIPMENT 3,ELECTRIC HEATING,ZONE WAREHOUSE FINE A END_B - STORY GROUND,20.90,0.0,1045.159,50.000,N/A,0.000,0.000,0.950,5.000E-002,General,0.000,313.548
+ ElectricEquipment Internal Gains Nominal, WAREHOUSE FINE A  - STORY GROUND ELECTRIC EQUIPMENT 3,ELECTRIC HEATING,ZONE WAREHOUSE FINE A  - STORY GROUND,23.37,0.0,1168.309,50.000,N/A,0.000,0.000,0.950,5.000E-002,General,0.000,350.493
+ ElectricEquipment Internal Gains Nominal, WAREHOUSE OFFICE B  - STORY GROUND ELECTRIC EQUIPMENT 4,ELECTRIC HEATING,ZONE WAREHOUSE OFFICE B  - STORY GROUND,21.82,0.5,1090.989,50.000,2369.976,0.000,0.000,0.950,5.000E-002,General,0.000,327.297
+ ElectricEquipment Internal Gains Nominal, WAREHOUSE OFFICE C  - STORY GROUND ELECTRIC EQUIPMENT 4,ELECTRIC HEATING,ZONE WAREHOUSE OFFICE C  - STORY GROUND,7.53,0.2,376.336,50.000,2369.976,0.000,0.000,0.950,5.000E-002,General,0.000,112.901
+ ElectricEquipment Internal Gains Nominal, WAREHOUSE OFFICE A  - STORY GROUND ELECTRIC EQUIPMENT 4,ELECTRIC HEATING,ZONE WAREHOUSE OFFICE A  - STORY GROUND,7.53,0.2,376.336,50.000,2369.976,0.000,0.000,0.950,5.000E-002,General,0.000,112.901
+ ElectricEquipment Internal Gains Nominal, WAREHOUSE OFFICE B  - STORY GROUND WAREHOUSE OFFICE ELEC EQUIP,WAREHOUSE BLDG EQUIP,ZONE WAREHOUSE OFFICE B  - STORY GROUND,21.82,0.5,176.086,8.070,382.514,0.000,0.500,0.000,0.500,General,0.000,176.086
+ ElectricEquipment Internal Gains Nominal, WAREHOUSE OFFICE C  - STORY GROUND WAREHOUSE OFFICE ELEC EQUIP,WAREHOUSE BLDG EQUIP,ZONE WAREHOUSE OFFICE C  - STORY GROUND,7.53,0.2,60.741,8.070,382.514,0.000,0.500,0.000,0.500,General,0.000,60.741
+ ElectricEquipment Internal Gains Nominal, WAREHOUSE OFFICE A  - STORY GROUND WAREHOUSE OFFICE ELEC EQUIP,WAREHOUSE BLDG EQUIP,ZONE WAREHOUSE OFFICE A  - STORY GROUND,7.53,0.2,60.741,8.070,382.514,0.000,0.500,0.000,0.500,General,0.000,60.741
+ ElectricEquipment Internal Gains Nominal, WAREHOUSE OFFICE B  - STORY GROUND WASHER DRYER,WAREHOUSE BLDG EQUIP,ZONE WAREHOUSE OFFICE B  - STORY GROUND,21.82,0.5,0.000,0.000,0.000,0.000,0.000,0.000,1.000,General,0.000,0.000
+ ElectricEquipment Internal Gains Nominal, WAREHOUSE OFFICE C  - STORY GROUND WASHER DRYER,WAREHOUSE BLDG EQUIP,ZONE WAREHOUSE OFFICE C  - STORY GROUND,7.53,0.2,0.000,0.000,0.000,0.000,0.000,0.000,1.000,General,0.000,0.000
+ ElectricEquipment Internal Gains Nominal, WAREHOUSE OFFICE A  - STORY GROUND WASHER DRYER,WAREHOUSE BLDG EQUIP,ZONE WAREHOUSE OFFICE A  - STORY GROUND,7.53,0.2,0.000,0.000,0.000,0.000,0.000,0.000,1.000,General,0.000,0.000
+! <Shadowing/Sun Position Calculations Annual Simulations>, Shading Calculation Method, Shading Calculation Update Frequency Method, Shading Calculation Update Frequency {days}, Maximum Figures in Shadow Overlap Calculations {}, Polygon Clipping Algorithm, Pixel Counting Resolution, Sky Diffuse Modeling Algorithm, Output External Shading Calculation Results, Disable Self-Shading Within Shading Zone Groups, Disable Self-Shading From Shading Zone Groups to Other Zones
+Shadowing/Sun Position Calculations Annual Simulations,PolygonClipping,Periodic,30,15000,SutherlandHodgman,512,SimpleSkyDiffuseModeling,No,No,No
+! <Water Heater Information>,Type,Name,Volume {m3},Maximum Capacity {W},Standard Rated Recovery Efficiency, Standard Rated Energy Factor
+! <ZoneInfiltration Airflow Stats Nominal>,Name,Schedule Name,Zone Name, Zone Floor Area {m2}, # Zone Occupants,Design Volume Flow Rate {m3/s},Volume Flow Rate/Floor Area {m3/s-m2},Volume Flow Rate/Exterior Surface Area {m3/s-m2},ACH - Air Changes per Hour,Equation A - Constant Term Coefficient {},Equation B - Temperature Term Coefficient {1/C},Equation C - Velocity Term Coefficient {s/m}, Equation D - Velocity Squared Term Coefficient {s2/m2}
+ ZoneInfiltration Airflow Stats Nominal, WAREHOUSE BULK A  - STORY GROUND INFILTRATION,ALWAYS ON DISCRETE,ZONE WAREHOUSE BULK A  - STORY GROUND,80.91,0.0,0.166,2.050E-003,6.835E-004,0.807,1.000,0.000,0.000,0.000
+ ZoneInfiltration Airflow Stats Nominal, WAREHOUSE BULK A END_A - STORY GROUND INFILTRATION,ALWAYS ON DISCRETE,ZONE WAREHOUSE BULK A END_A - STORY GROUND,20.90,0.0,8.572E-002,4.101E-003,8.202E-004,1.615,1.000,0.000,0.000,0.000
+ ZoneInfiltration Airflow Stats Nominal, WAREHOUSE BULK B END_A - STORY GROUND INFILTRATION,ALWAYS ON DISCRETE,ZONE WAREHOUSE BULK B END_A - STORY GROUND,60.60,0.0,0.124,2.050E-003,6.835E-004,0.807,1.000,0.000,0.000,0.000
+ ZoneInfiltration Airflow Stats Nominal, WAREHOUSE BULK C  - STORY GROUND INFILTRATION,ALWAYS ON DISCRETE,ZONE WAREHOUSE BULK C  - STORY GROUND,80.91,0.0,0.166,2.050E-003,6.835E-004,0.807,1.000,0.000,0.000,0.000
+ ZoneInfiltration Airflow Stats Nominal, WAREHOUSE BULK C END_A - STORY GROUND INFILTRATION,ALWAYS ON DISCRETE,ZONE WAREHOUSE BULK C END_A - STORY GROUND,20.90,0.0,8.572E-002,4.101E-003,8.202E-004,1.615,1.000,0.000,0.000,0.000
+ ZoneInfiltration Airflow Stats Nominal, WAREHOUSE FINE A  - STORY GROUND INFILTRATION,ALWAYS ON DISCRETE,ZONE WAREHOUSE FINE A  - STORY GROUND,23.37,0.0,4.791E-002,2.050E-003,6.835E-004,0.807,1.000,0.000,0.000,0.000
+ ZoneInfiltration Airflow Stats Nominal, WAREHOUSE FINE A END_B - STORY GROUND INFILTRATION,ALWAYS ON DISCRETE,ZONE WAREHOUSE FINE A END_B - STORY GROUND,20.90,0.0,8.572E-002,4.101E-003,8.202E-004,1.615,1.000,0.000,0.000,0.000
+ ZoneInfiltration Airflow Stats Nominal, WAREHOUSE FINE B END_B - STORY GROUND INFILTRATION,ALWAYS ON DISCRETE,ZONE WAREHOUSE FINE B END_B - STORY GROUND,60.60,0.0,0.124,2.050E-003,6.835E-004,0.807,1.000,0.000,0.000,0.000
+ ZoneInfiltration Airflow Stats Nominal, WAREHOUSE FINE C  - STORY GROUND INFILTRATION,ALWAYS ON DISCRETE,ZONE WAREHOUSE FINE C  - STORY GROUND,23.37,0.0,4.791E-002,2.050E-003,6.835E-004,0.807,1.000,0.000,0.000,0.000
+ ZoneInfiltration Airflow Stats Nominal, WAREHOUSE FINE C END_B - STORY GROUND INFILTRATION,ALWAYS ON DISCRETE,ZONE WAREHOUSE FINE C END_B - STORY GROUND,20.90,0.0,8.572E-002,4.101E-003,8.202E-004,1.615,1.000,0.000,0.000,0.000
+ ZoneInfiltration Airflow Stats Nominal, WAREHOUSE OFFICE A  - STORY GROUND INFILTRATION,ALWAYS ON DISCRETE,ZONE WAREHOUSE OFFICE A  - STORY GROUND,7.53,0.2,1.543E-002,2.050E-003,6.835E-004,0.807,1.000,0.000,0.000,0.000
+ ZoneInfiltration Airflow Stats Nominal, WAREHOUSE OFFICE C  - STORY GROUND INFILTRATION,ALWAYS ON DISCRETE,ZONE WAREHOUSE OFFICE C  - STORY GROUND,7.53,0.2,1.543E-002,2.050E-003,6.835E-004,0.807,1.000,0.000,0.000,0.000
+! <AirFlow Model>, Simple
+ AirFlow Model, Simple
+! <RoomAir Model>, Zone Name, Mixing/Mundt/UCSDDV/UCSDCV/UCSDUFI/UCSDUFE/User Defined
+RoomAir Model,ZONE WAREHOUSE BULK A  - STORY GROUND,Mixing/Well-Stirred
+RoomAir Model,ZONE WAREHOUSE BULK A END_A - STORY GROUND,Mixing/Well-Stirred
+RoomAir Model,ZONE WAREHOUSE BULK B  - STORY GROUND,Mixing/Well-Stirred
+RoomAir Model,ZONE WAREHOUSE BULK B END_A - STORY GROUND,Mixing/Well-Stirred
+RoomAir Model,ZONE WAREHOUSE BULK C  - STORY GROUND,Mixing/Well-Stirred
+RoomAir Model,ZONE WAREHOUSE BULK C END_A - STORY GROUND,Mixing/Well-Stirred
+RoomAir Model,ZONE WAREHOUSE FINE A  - STORY GROUND,Mixing/Well-Stirred
+RoomAir Model,ZONE WAREHOUSE FINE A END_B - STORY GROUND,Mixing/Well-Stirred
+RoomAir Model,ZONE WAREHOUSE FINE B  - STORY GROUND,Mixing/Well-Stirred
+RoomAir Model,ZONE WAREHOUSE FINE B END_B - STORY GROUND,Mixing/Well-Stirred
+RoomAir Model,ZONE WAREHOUSE FINE C  - STORY GROUND,Mixing/Well-Stirred
+RoomAir Model,ZONE WAREHOUSE FINE C END_B - STORY GROUND,Mixing/Well-Stirred
+RoomAir Model,ZONE WAREHOUSE OFFICE A  - STORY GROUND,Mixing/Well-Stirred
+RoomAir Model,ZONE WAREHOUSE OFFICE B  - STORY GROUND,Mixing/Well-Stirred
+RoomAir Model,ZONE WAREHOUSE OFFICE C  - STORY GROUND,Mixing/Well-Stirred
+! <AirflowNetwork Model:Control>, No Multizone or Distribution/Multizone with Distribution/Multizone without Distribution/Multizone with Distribution only during Fan Operation
+AirflowNetwork Model:Control,NoMultizoneOrDistribution
+! <Zone Volume Capacitance Multiplier>, Sensible Heat Capacity Multiplier, Moisture Capacity Multiplier, Carbon Dioxide Capacity Multiplier, Generic Contaminant Capacity Multiplier
+Zone Volume Capacitance Multiplier,   1.000 ,   1.000,   1.000,   1.000
+! <Load Timesteps in Zone Design Calculation Averaging Window>, Value
+ Load Timesteps in Zone Design Calculation Averaging Window,    1
+! <Heating Sizing Factor Information>, Sizing Factor ID, Value
+ Heating Sizing Factor Information, Global,   1.2500    
+ Heating Sizing Factor Information, Zone ZONE WAREHOUSE BULK A  - STORY GROUND,   1.2500    
+ Heating Sizing Factor Information, Zone ZONE WAREHOUSE BULK A END_A - STORY GROUND,   1.2500    
+ Heating Sizing Factor Information, Zone ZONE WAREHOUSE BULK B  - STORY GROUND,   1.2500    
+ Heating Sizing Factor Information, Zone ZONE WAREHOUSE BULK B END_A - STORY GROUND,   1.2500    
+ Heating Sizing Factor Information, Zone ZONE WAREHOUSE BULK C  - STORY GROUND,   1.2500    
+ Heating Sizing Factor Information, Zone ZONE WAREHOUSE BULK C END_A - STORY GROUND,   1.2500    
+ Heating Sizing Factor Information, Zone ZONE WAREHOUSE FINE A  - STORY GROUND,   1.2500    
+ Heating Sizing Factor Information, Zone ZONE WAREHOUSE FINE A END_B - STORY GROUND,   1.2500    
+ Heating Sizing Factor Information, Zone ZONE WAREHOUSE FINE B  - STORY GROUND,   1.2500    
+ Heating Sizing Factor Information, Zone ZONE WAREHOUSE FINE B END_B - STORY GROUND,   1.2500    
+ Heating Sizing Factor Information, Zone ZONE WAREHOUSE FINE C  - STORY GROUND,   1.2500    
+ Heating Sizing Factor Information, Zone ZONE WAREHOUSE FINE C END_B - STORY GROUND,   1.2500    
+ Heating Sizing Factor Information, Zone ZONE WAREHOUSE OFFICE A  - STORY GROUND,   1.2500    
+ Heating Sizing Factor Information, Zone ZONE WAREHOUSE OFFICE B  - STORY GROUND,   1.2500    
+ Heating Sizing Factor Information, Zone ZONE WAREHOUSE OFFICE C  - STORY GROUND,   1.2500    
+! <Cooling Sizing Factor Information>, Sizing Factor ID, Value
+ Cooling Sizing Factor Information, Global,   1.1500    
+ Cooling Sizing Factor Information, Zone ZONE WAREHOUSE BULK A  - STORY GROUND,   1.1500    
+ Cooling Sizing Factor Information, Zone ZONE WAREHOUSE BULK A END_A - STORY GROUND,   1.1500    
+ Cooling Sizing Factor Information, Zone ZONE WAREHOUSE BULK B  - STORY GROUND,   1.1500    
+ Cooling Sizing Factor Information, Zone ZONE WAREHOUSE BULK B END_A - STORY GROUND,   1.1500    
+ Cooling Sizing Factor Information, Zone ZONE WAREHOUSE BULK C  - STORY GROUND,   1.1500    
+ Cooling Sizing Factor Information, Zone ZONE WAREHOUSE BULK C END_A - STORY GROUND,   1.1500    
+ Cooling Sizing Factor Information, Zone ZONE WAREHOUSE FINE A  - STORY GROUND,   1.1500    
+ Cooling Sizing Factor Information, Zone ZONE WAREHOUSE FINE A END_B - STORY GROUND,   1.1500    
+ Cooling Sizing Factor Information, Zone ZONE WAREHOUSE FINE B  - STORY GROUND,   1.1500    
+ Cooling Sizing Factor Information, Zone ZONE WAREHOUSE FINE B END_B - STORY GROUND,   1.1500    
+ Cooling Sizing Factor Information, Zone ZONE WAREHOUSE FINE C  - STORY GROUND,   1.1500    
+ Cooling Sizing Factor Information, Zone ZONE WAREHOUSE FINE C END_B - STORY GROUND,   1.1500    
+ Cooling Sizing Factor Information, Zone ZONE WAREHOUSE OFFICE A  - STORY GROUND,   1.1500    
+ Cooling Sizing Factor Information, Zone ZONE WAREHOUSE OFFICE B  - STORY GROUND,   1.1500    
+ Cooling Sizing Factor Information, Zone ZONE WAREHOUSE OFFICE C  - STORY GROUND,   1.1500    
+! <Zone Sizing Information>, Zone Name, Load Type, Calc Des Load {W}, User Des Load {W}, Calc Des Air Flow Rate {m3/s}, User Des Air Flow Rate {m3/s}, Design Day Name, Date/Time of Peak, Temperature at Peak {C}, Humidity Ratio at Peak {kgWater/kgDryAir}, Floor Area {m2}, # Occupants, Calc Outdoor Air Flow Rate {m3/s}, Calc DOAS Heat Addition Rate {W}
+ Zone Sizing Information, ZONE WAREHOUSE BULK A  - STORY GROUND, Cooling, 0.00000, 0.00000, 0.00000, 2.05504E-002, KODIAK JULY .4% CONDNS DB=>MCWB, 7/21 17:00:00, 23.43000, 8.28374E-003, 80.90714, 0.00000, 2.05504E-002, 0.00000
+ Zone Sizing Information, ZONE WAREHOUSE BULK A  - STORY GROUND, Heating, 5071.08378, 6338.85473, 0.12597, 0.15746, KODIAK ANN HTG 99.6% CONDNS DB, 1/21 07:00:00, -12.80000, 1.24844E-003, 80.90714, 0.00000, 2.05504E-002, 0.00000
+ Zone Sizing Information, ZONE WAREHOUSE BULK A END_A - STORY GROUND, Cooling, 0.00000, 0.00000, 0.00000, 5.30941E-003, KODIAK JULY .4% CONDNS DB=>MCWB, 7/21 17:00:00, 23.43000, 8.28374E-003, 20.90318, 0.00000, 5.30941E-003, 0.00000
+ Zone Sizing Information, ZONE WAREHOUSE BULK A END_A - STORY GROUND, Heating, 2992.21756, 3740.27195, 7.43296E-002, 9.29120E-002, KODIAK ANN HTG 99.6% CONDNS DB, 1/21 08:00:00, -12.80000, 1.24844E-003, 20.90318, 0.00000, 5.30941E-003, 0.00000
+ Zone Sizing Information, ZONE WAREHOUSE BULK B  - STORY GROUND, Cooling, 0.00000, 0.00000, 0.00000, 5.95752E-002, KODIAK JULY .4% CONDNS DB=>MCWB, 7/21 17:00:00, 23.43000, 8.28374E-003, 234.54814, 0.00000, 5.95752E-002, 0.00000
+ Zone Sizing Information, ZONE WAREHOUSE BULK B  - STORY GROUND, Heating, 0.00000, 0.00000, 0.00000, 5.95752E-002, KODIAK ANN HTG 99.6% CONDNS DB, 1/21 07:00:00, -12.80000, 1.24844E-003, 234.54814, 0.00000, 5.95752E-002, 0.00000
+ Zone Sizing Information, ZONE WAREHOUSE BULK B END_A - STORY GROUND, Cooling, 0.00000, 0.00000, 0.00000, 1.53919E-002, KODIAK JULY .4% CONDNS DB=>MCWB, 7/21 18:00:00, 22.88000, 8.28289E-003, 60.59790, 0.00000, 1.53919E-002, 0.00000
+ Zone Sizing Information, ZONE WAREHOUSE BULK B END_A - STORY GROUND, Heating, 4218.11143, 5272.63929, 0.10478, 0.13098, KODIAK ANN HTG 99.6% CONDNS DB, 1/21 08:00:00, -12.80000, 1.24844E-003, 60.59790, 0.00000, 1.53919E-002, 0.00000
+ Zone Sizing Information, ZONE WAREHOUSE BULK C  - STORY GROUND, Cooling, 0.00000, 0.00000, 0.00000, 2.05504E-002, KODIAK JULY .4% CONDNS DB=>MCWB, 7/21 17:00:00, 23.43000, 8.28374E-003, 80.90714, 0.00000, 2.05504E-002, 0.00000
+ Zone Sizing Information, ZONE WAREHOUSE BULK C  - STORY GROUND, Heating, 5068.91012, 6336.13765, 0.12592, 0.15740, KODIAK ANN HTG 99.6% CONDNS DB, 1/21 07:00:00, -12.80000, 1.24844E-003, 80.90714, 0.00000, 2.05504E-002, 0.00000
+ Zone Sizing Information, ZONE WAREHOUSE BULK C END_A - STORY GROUND, Cooling, 0.00000, 0.00000, 0.00000, 5.30941E-003, KODIAK JULY .4% CONDNS DB=>MCWB, 7/21 18:00:00, 22.88000, 8.28289E-003, 20.90318, 0.00000, 5.30941E-003, 0.00000
+ Zone Sizing Information, ZONE WAREHOUSE BULK C END_A - STORY GROUND, Heating, 2991.22190, 3739.02738, 7.43048E-002, 9.28810E-002, KODIAK ANN HTG 99.6% CONDNS DB, 1/21 08:00:00, -12.80000, 1.24844E-003, 20.90318, 0.00000, 5.30941E-003, 0.00000
+ Zone Sizing Information, ZONE WAREHOUSE FINE A  - STORY GROUND, Cooling, 309.16780, 355.54297, 1.80771E-002, 2.07886E-002, KODIAK JULY .4% CONDNS DB=>MCWB, 7/21 15:00:00, 24.20000, 8.28493E-003, 23.36618, 0.00000, 5.93501E-003, 0.00000
+ Zone Sizing Information, ZONE WAREHOUSE FINE A  - STORY GROUND, Heating, 2635.37126, 3294.21407, 6.23248E-002, 7.79059E-002, KODIAK ANN HTG 99.6% CONDNS DB, 1/21 07:00:00, -12.80000, 1.24844E-003, 23.36618, 0.00000, 5.93501E-003, 0.00000
+ Zone Sizing Information, ZONE WAREHOUSE FINE A END_B - STORY GROUND, Cooling, 286.30103, 329.24619, 1.67400E-002, 1.92511E-002, KODIAK JULY .4% CONDNS DB=>MCWB, 7/21 15:00:00, 24.20000, 8.28493E-003, 20.90318, 0.00000, 5.30941E-003, 0.00000
+ Zone Sizing Information, ZONE WAREHOUSE FINE A END_B - STORY GROUND, Heating, 4423.95919, 5529.94899, 0.10460, 0.13074, KODIAK ANN HTG 99.6% CONDNS DB, 1/21 07:00:00, -12.80000, 1.24844E-003, 20.90318, 0.00000, 5.30941E-003, 0.00000
+ Zone Sizing Information, ZONE WAREHOUSE FINE B  - STORY GROUND, Cooling, 780.67145, 897.77216, 4.56464E-002, 5.24933E-002, KODIAK JULY .4% CONDNS DB=>MCWB, 7/21 15:00:00, 24.20000, 8.28493E-003, 67.73808, 0.00000, 1.72055E-002, 0.00000
+ Zone Sizing Information, ZONE WAREHOUSE FINE B  - STORY GROUND, Heating, 841.93881, 1052.42351, 1.99186E-002, 2.48983E-002, KODIAK ANN HTG 99.6% CONDNS DB, 1/21 07:00:00, -12.80000, 1.24844E-003, 67.73808, 0.00000, 1.72055E-002, 0.00000
+ Zone Sizing Information, ZONE WAREHOUSE FINE B END_B - STORY GROUND, Cooling, 716.06274, 823.47215, 4.18682E-002, 4.81485E-002, KODIAK JULY .4% CONDNS DB=>MCWB, 7/21 12:00:00, 23.48500, 8.28382E-003, 60.59790, 0.00000, 1.53919E-002, 0.00000
+ Zone Sizing Information, ZONE WAREHOUSE FINE B END_B - STORY GROUND, Heating, 6608.24003, 8260.30003, 0.15628, 0.19535, KODIAK ANN HTG 99.6% CONDNS DB, 1/21 07:00:00, -12.80000, 1.24844E-003, 60.59790, 0.00000, 1.53919E-002, 0.00000
+ Zone Sizing Information, ZONE WAREHOUSE FINE C  - STORY GROUND, Cooling, 0.00000, 0.00000, 0.00000, 5.93501E-003, KODIAK JULY .4% CONDNS DB=>MCWB, 7/21 16:00:00, 23.87000, 8.28442E-003, 23.36618, 0.00000, 5.93501E-003, 0.00000
+ Zone Sizing Information, ZONE WAREHOUSE FINE C  - STORY GROUND, Heating, 2636.28060, 3295.35075, 6.23463E-002, 7.79328E-002, KODIAK ANN HTG 99.6% CONDNS DB, 1/21 07:00:00, -12.80000, 1.24844E-003, 23.36618, 0.00000, 5.93501E-003, 0.00000
+ Zone Sizing Information, ZONE WAREHOUSE FINE C END_B - STORY GROUND, Cooling, 0.00000, 0.00000, 0.00000, 5.30941E-003, KODIAK JULY .4% CONDNS DB=>MCWB, 7/21 16:00:00, 23.87000, 8.28442E-003, 20.90318, 0.00000, 5.30941E-003, 0.00000
+ Zone Sizing Information, ZONE WAREHOUSE FINE C END_B - STORY GROUND, Heating, 4424.72268, 5530.90335, 0.10461, 0.13077, KODIAK ANN HTG 99.6% CONDNS DB, 1/21 07:00:00, -12.80000, 1.24844E-003, 20.90318, 0.00000, 5.30941E-003, 0.00000
+ Zone Sizing Information, ZONE WAREHOUSE OFFICE A  - STORY GROUND, Cooling, 790.09568, 908.61003, 5.73121E-002, 6.59089E-002, KODIAK JULY .4% CONDNS DB=>MCWB, 7/21 16:00:00, 23.87000, 8.28442E-003, 7.52671, 0.15879, 1.49884E-003, 0.00000
+ Zone Sizing Information, ZONE WAREHOUSE OFFICE A  - STORY GROUND, Heating, 2872.70818, 3590.88523, 7.95055E-002, 9.93819E-002, KODIAK ANN HTG 99.6% CONDNS DB, 1/21 09:00:00, -12.80000, 1.24844E-003, 7.52671, 0.15879, 1.49884E-003, 0.00000
+ Zone Sizing Information, ZONE WAREHOUSE OFFICE B  - STORY GROUND, Cooling, 2091.25265, 2404.94055, 0.15110, 0.17376, KODIAK JULY .4% CONDNS DB=>MCWB, 7/21 08:00:00, 20.13000, 8.27867E-003, 21.81979, 0.46034, 4.34511E-003, 0.00000
+ Zone Sizing Information, ZONE WAREHOUSE OFFICE B  - STORY GROUND, Heating, 4908.30066, 6135.37582, 0.13596, 0.16996, KODIAK ANN HTG 99.6% CONDNS DB, 1/21 09:00:00, -12.80000, 1.24844E-003, 21.81979, 0.46034, 4.34511E-003, 0.00000
+ Zone Sizing Information, ZONE WAREHOUSE OFFICE C  - STORY GROUND, Cooling, 518.85597, 596.68437, 3.76368E-002, 4.32824E-002, KODIAK JULY .4% CONDNS DB=>MCWB, 7/21 16:00:00, 23.87000, 8.28442E-003, 7.52671, 0.15879, 1.49884E-003, 0.00000
+ Zone Sizing Information, ZONE WAREHOUSE OFFICE C  - STORY GROUND, Heating, 2873.10793, 3591.38491, 7.95166E-002, 9.93957E-002, KODIAK ANN HTG 99.6% CONDNS DB, 1/21 09:00:00, -12.80000, 1.24844E-003, 7.52671, 0.15879, 1.49884E-003, 0.00000
+! <System Sizing Information>, System Name, Load Type, Peak Load Kind, User Design Capacity, Calc Des Air Flow Rate [m3/s], User Des Air Flow Rate [m3/s], Design Day Name, Date/Time of Peak
+ System Sizing Information, ZONE WAREHOUSE FINE A  - STORY GROUND PSZ-AC, Cooling, Sensible, 332.10, 2.07886E-002, 2.07886E-002, KODIAK JULY .4% CONDNS DB=>MCWB, 7/21 05:00:00
+ System Sizing Information, ZONE WAREHOUSE FINE A  - STORY GROUND PSZ-AC, Heating, Sensible, 3449.71, 7.79059E-002, 7.79059E-002, KODIAK ANN HTG 99.6% CONDNS DB, 1/21 07:00:00
+ System Sizing Information, ZONE WAREHOUSE FINE A END_B - STORY GROUND PSZ-AC, Cooling, Sensible, 308.10, 1.92511E-002, 1.92511E-002, KODIAK JULY .4% CONDNS DB=>MCWB, 7/21 05:00:00
+ System Sizing Information, ZONE WAREHOUSE FINE A END_B - STORY GROUND PSZ-AC, Heating, Sensible, 5631.37, 0.13074, 0.13074, KODIAK ANN HTG 99.6% CONDNS DB, 1/21 07:00:00
+ System Sizing Information, ZONE WAREHOUSE FINE B  - STORY GROUND PSZ-AC, Cooling, Sensible, 831.87, 5.24933E-002, 5.24933E-002, KODIAK JULY .4% CONDNS DB=>MCWB, 7/21 05:00:00
+ System Sizing Information, ZONE WAREHOUSE FINE B  - STORY GROUND PSZ-AC, Heating, Sensible, 1627.24, 2.48983E-002, 2.48983E-002, KODIAK ANN HTG 99.6% CONDNS DB, 1/21 07:00:00
+ System Sizing Information, ZONE WAREHOUSE FINE B END_B - STORY GROUND PSZ-AC, Cooling, Sensible, 750.89, 4.81485E-002, 4.81485E-002, KODIAK JULY .4% CONDNS DB=>MCWB, 7/21 05:00:00
+ System Sizing Information, ZONE WAREHOUSE FINE B END_B - STORY GROUND PSZ-AC, Heating, Sensible, 8667.67, 0.19535, 0.19535, KODIAK ANN HTG 99.6% CONDNS DB, 1/21 07:00:00
+ System Sizing Information, ZONE WAREHOUSE FINE C  - STORY GROUND PSZ-AC, Cooling, Sensible, 81.99, 5.93501E-003, 5.93501E-003, KODIAK JULY .4% CONDNS DB=>MCWB, 7/21 05:00:00
+ System Sizing Information, ZONE WAREHOUSE FINE C  - STORY GROUND PSZ-AC, Heating, Sensible, 3450.83, 7.79328E-002, 7.79328E-002, KODIAK ANN HTG 99.6% CONDNS DB, 1/21 07:00:00
+ System Sizing Information, ZONE WAREHOUSE FINE C END_B - STORY GROUND PSZ-AC, Cooling, Sensible, 73.35, 5.30941E-003, 5.30941E-003, KODIAK JULY .4% CONDNS DB=>MCWB, 7/21 05:00:00
+ System Sizing Information, ZONE WAREHOUSE FINE C END_B - STORY GROUND PSZ-AC, Heating, Sensible, 5632.31, 0.13077, 0.13077, KODIAK ANN HTG 99.6% CONDNS DB, 1/21 07:00:00
+ System Sizing Information, ZONE WAREHOUSE OFFICE A  - STORY GROUND PSZ-AC, Cooling, Sensible, 894.32, 6.59089E-002, 6.59089E-002, KODIAK JULY .4% CONDNS DB=>MCWB, 7/21 05:00:00
+ System Sizing Information, ZONE WAREHOUSE OFFICE A  - STORY GROUND PSZ-AC, Heating, Sensible, 3598.15, 9.93819E-002, 9.93819E-002, KODIAK ANN HTG 99.6% CONDNS DB, 1/21 09:00:00
+ System Sizing Information, ZONE WAREHOUSE OFFICE B  - STORY GROUND PSZ-AC, Cooling, Sensible, 2346.55, 0.17376, 0.17376, KODIAK JULY .4% CONDNS DB=>MCWB, 7/21 05:00:00
+ System Sizing Information, ZONE WAREHOUSE OFFICE B  - STORY GROUND PSZ-AC, Heating, Sensible, 6217.75, 0.16996, 0.16996, KODIAK ANN HTG 99.6% CONDNS DB, 1/21 09:00:00
+ System Sizing Information, ZONE WAREHOUSE OFFICE C  - STORY GROUND PSZ-AC, Cooling, Sensible, 587.22, 4.32824E-002, 4.32824E-002, KODIAK JULY .4% CONDNS DB=>MCWB, 7/21 05:00:00
+ System Sizing Information, ZONE WAREHOUSE OFFICE C  - STORY GROUND PSZ-AC, Heating, Sensible, 3598.64, 9.93957E-002, 9.93957E-002, KODIAK ANN HTG 99.6% CONDNS DB, 1/21 09:00:00
+! <Component Sizing Information>, Component Type, Component Name, Input Field Description, Value
+ Component Sizing Information, ZONEHVAC:BASEBOARD:CONVECTIVE:ELECTRIC, ZONE WAREHOUSE BULK A  - STORY GROUND ELECTRIC BASEBOARD, Design Size Heating Design Capacity [W], 6338.85473
+ Component Sizing Information, ZONEHVAC:BASEBOARD:CONVECTIVE:ELECTRIC, ZONE WAREHOUSE BULK A END_A - STORY GROUND ELECTRIC BASEBOARD, Design Size Heating Design Capacity [W], 3740.27195
+ Component Sizing Information, ZONEHVAC:BASEBOARD:CONVECTIVE:ELECTRIC, ZONE WAREHOUSE BULK B  - STORY GROUND ELECTRIC BASEBOARD, Design Size Heating Design Capacity [W], 0.00000
+ Component Sizing Information, ZONEHVAC:BASEBOARD:CONVECTIVE:ELECTRIC, ZONE WAREHOUSE BULK B END_A - STORY GROUND ELECTRIC BASEBOARD, Design Size Heating Design Capacity [W], 5272.63929
+ Component Sizing Information, ZONEHVAC:BASEBOARD:CONVECTIVE:ELECTRIC, ZONE WAREHOUSE BULK C  - STORY GROUND ELECTRIC BASEBOARD, Design Size Heating Design Capacity [W], 6336.13765
+ Component Sizing Information, ZONEHVAC:BASEBOARD:CONVECTIVE:ELECTRIC, ZONE WAREHOUSE BULK C END_A - STORY GROUND ELECTRIC BASEBOARD, Design Size Heating Design Capacity [W], 3739.02738
+ Component Sizing Information, AirTerminal:SingleDuct:ConstantVolume:NoReheat, ZONE WAREHOUSE FINE A  - STORY GROUND PSZ-AC DIFFUSER, Design Size Maximum Air Flow Rate [m3/s], 7.79059E-002
+ Component Sizing Information, AirTerminal:SingleDuct:ConstantVolume:NoReheat, ZONE WAREHOUSE FINE A END_B - STORY GROUND PSZ-AC DIFFUSER, Design Size Maximum Air Flow Rate [m3/s], 0.13074
+ Component Sizing Information, AirTerminal:SingleDuct:ConstantVolume:NoReheat, ZONE WAREHOUSE FINE B  - STORY GROUND PSZ-AC DIFFUSER, Design Size Maximum Air Flow Rate [m3/s], 5.24933E-002
+ Component Sizing Information, AirTerminal:SingleDuct:ConstantVolume:NoReheat, ZONE WAREHOUSE FINE B END_B - STORY GROUND PSZ-AC DIFFUSER, Design Size Maximum Air Flow Rate [m3/s], 0.19535
+ Component Sizing Information, AirTerminal:SingleDuct:ConstantVolume:NoReheat, ZONE WAREHOUSE FINE C  - STORY GROUND PSZ-AC DIFFUSER, Design Size Maximum Air Flow Rate [m3/s], 7.79328E-002
+ Component Sizing Information, AirTerminal:SingleDuct:ConstantVolume:NoReheat, ZONE WAREHOUSE FINE C END_B - STORY GROUND PSZ-AC DIFFUSER, Design Size Maximum Air Flow Rate [m3/s], 0.13077
+ Component Sizing Information, AirTerminal:SingleDuct:ConstantVolume:NoReheat, ZONE WAREHOUSE OFFICE A  - STORY GROUND PSZ-AC DIFFUSER, Design Size Maximum Air Flow Rate [m3/s], 9.93819E-002
+ Component Sizing Information, AirTerminal:SingleDuct:ConstantVolume:NoReheat, ZONE WAREHOUSE OFFICE B  - STORY GROUND PSZ-AC DIFFUSER, Design Size Maximum Air Flow Rate [m3/s], 0.17376
+ Component Sizing Information, AirTerminal:SingleDuct:ConstantVolume:NoReheat, ZONE WAREHOUSE OFFICE C  - STORY GROUND PSZ-AC DIFFUSER, Design Size Maximum Air Flow Rate [m3/s], 9.93957E-002
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE FINE A  - STORY GROUND PSZ-AC, Sum of Air Terminal Maximum Heating Flow Rates [m3/s], 7.79059E-002
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE FINE A  - STORY GROUND PSZ-AC, Sum of Air Terminal Minimum Heating Flow Rates [m3/s], 7.79059E-002
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE FINE A  - STORY GROUND PSZ-AC, Sum of Air Terminal Maximum Flow Rates [m3/s], 7.79059E-002
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE FINE A  - STORY GROUND PSZ-AC, Adjusted Heating Design Air Flow Rate [m3/s], 7.79059E-002
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE FINE A  - STORY GROUND PSZ-AC, Adjusted Cooling Design Air Flow Rate [m3/s], 7.79059E-002
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE FINE A  - STORY GROUND PSZ-AC, Adjusted Main Design Air Flow Rate [m3/s], 7.79059E-002
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE FINE A  - STORY GROUND PSZ-AC, User Heating Air Flow Ratio [], 1.00000
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE FINE A  - STORY GROUND PSZ-AC, Calculated Heating Air Flow Ratio [], 1.00000
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE FINE A END_B - STORY GROUND PSZ-AC, Sum of Air Terminal Maximum Heating Flow Rates [m3/s], 0.13074
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE FINE A END_B - STORY GROUND PSZ-AC, Sum of Air Terminal Minimum Heating Flow Rates [m3/s], 0.13074
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE FINE A END_B - STORY GROUND PSZ-AC, Sum of Air Terminal Maximum Flow Rates [m3/s], 0.13074
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE FINE A END_B - STORY GROUND PSZ-AC, Adjusted Heating Design Air Flow Rate [m3/s], 0.13074
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE FINE A END_B - STORY GROUND PSZ-AC, Adjusted Cooling Design Air Flow Rate [m3/s], 0.13074
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE FINE A END_B - STORY GROUND PSZ-AC, Adjusted Main Design Air Flow Rate [m3/s], 0.13074
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE FINE A END_B - STORY GROUND PSZ-AC, User Heating Air Flow Ratio [], 1.00000
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE FINE A END_B - STORY GROUND PSZ-AC, Calculated Heating Air Flow Ratio [], 1.00000
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE FINE B  - STORY GROUND PSZ-AC, Sum of Air Terminal Maximum Heating Flow Rates [m3/s], 5.24933E-002
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE FINE B  - STORY GROUND PSZ-AC, Sum of Air Terminal Minimum Heating Flow Rates [m3/s], 5.24933E-002
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE FINE B  - STORY GROUND PSZ-AC, Sum of Air Terminal Maximum Flow Rates [m3/s], 5.24933E-002
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE FINE B  - STORY GROUND PSZ-AC, Adjusted Heating Design Air Flow Rate [m3/s], 5.24933E-002
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE FINE B  - STORY GROUND PSZ-AC, Adjusted Cooling Design Air Flow Rate [m3/s], 5.24933E-002
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE FINE B  - STORY GROUND PSZ-AC, Adjusted Main Design Air Flow Rate [m3/s], 5.24933E-002
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE FINE B  - STORY GROUND PSZ-AC, User Heating Air Flow Ratio [], 1.00000
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE FINE B  - STORY GROUND PSZ-AC, Calculated Heating Air Flow Ratio [], 1.00000
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE FINE B END_B - STORY GROUND PSZ-AC, Sum of Air Terminal Maximum Heating Flow Rates [m3/s], 0.19535
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE FINE B END_B - STORY GROUND PSZ-AC, Sum of Air Terminal Minimum Heating Flow Rates [m3/s], 0.19535
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE FINE B END_B - STORY GROUND PSZ-AC, Sum of Air Terminal Maximum Flow Rates [m3/s], 0.19535
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE FINE B END_B - STORY GROUND PSZ-AC, Adjusted Heating Design Air Flow Rate [m3/s], 0.19535
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE FINE B END_B - STORY GROUND PSZ-AC, Adjusted Cooling Design Air Flow Rate [m3/s], 0.19535
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE FINE B END_B - STORY GROUND PSZ-AC, Adjusted Main Design Air Flow Rate [m3/s], 0.19535
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE FINE B END_B - STORY GROUND PSZ-AC, User Heating Air Flow Ratio [], 1.00000
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE FINE B END_B - STORY GROUND PSZ-AC, Calculated Heating Air Flow Ratio [], 1.00000
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE FINE C  - STORY GROUND PSZ-AC, Sum of Air Terminal Maximum Heating Flow Rates [m3/s], 7.79328E-002
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE FINE C  - STORY GROUND PSZ-AC, Sum of Air Terminal Minimum Heating Flow Rates [m3/s], 7.79328E-002
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE FINE C  - STORY GROUND PSZ-AC, Sum of Air Terminal Maximum Flow Rates [m3/s], 7.79328E-002
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE FINE C  - STORY GROUND PSZ-AC, Adjusted Heating Design Air Flow Rate [m3/s], 7.79328E-002
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE FINE C  - STORY GROUND PSZ-AC, Adjusted Cooling Design Air Flow Rate [m3/s], 7.79328E-002
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE FINE C  - STORY GROUND PSZ-AC, Adjusted Main Design Air Flow Rate [m3/s], 7.79328E-002
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE FINE C  - STORY GROUND PSZ-AC, User Heating Air Flow Ratio [], 1.00000
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE FINE C  - STORY GROUND PSZ-AC, Calculated Heating Air Flow Ratio [], 1.00000
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE FINE C END_B - STORY GROUND PSZ-AC, Sum of Air Terminal Maximum Heating Flow Rates [m3/s], 0.13077
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE FINE C END_B - STORY GROUND PSZ-AC, Sum of Air Terminal Minimum Heating Flow Rates [m3/s], 0.13077
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE FINE C END_B - STORY GROUND PSZ-AC, Sum of Air Terminal Maximum Flow Rates [m3/s], 0.13077
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE FINE C END_B - STORY GROUND PSZ-AC, Adjusted Heating Design Air Flow Rate [m3/s], 0.13077
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE FINE C END_B - STORY GROUND PSZ-AC, Adjusted Cooling Design Air Flow Rate [m3/s], 0.13077
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE FINE C END_B - STORY GROUND PSZ-AC, Adjusted Main Design Air Flow Rate [m3/s], 0.13077
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE FINE C END_B - STORY GROUND PSZ-AC, User Heating Air Flow Ratio [], 1.00000
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE FINE C END_B - STORY GROUND PSZ-AC, Calculated Heating Air Flow Ratio [], 1.00000
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE OFFICE A  - STORY GROUND PSZ-AC, Sum of Air Terminal Maximum Heating Flow Rates [m3/s], 9.93819E-002
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE OFFICE A  - STORY GROUND PSZ-AC, Sum of Air Terminal Minimum Heating Flow Rates [m3/s], 9.93819E-002
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE OFFICE A  - STORY GROUND PSZ-AC, Sum of Air Terminal Maximum Flow Rates [m3/s], 9.93819E-002
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE OFFICE A  - STORY GROUND PSZ-AC, Adjusted Heating Design Air Flow Rate [m3/s], 9.93819E-002
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE OFFICE A  - STORY GROUND PSZ-AC, Adjusted Cooling Design Air Flow Rate [m3/s], 9.93819E-002
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE OFFICE A  - STORY GROUND PSZ-AC, Adjusted Main Design Air Flow Rate [m3/s], 9.93819E-002
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE OFFICE A  - STORY GROUND PSZ-AC, User Heating Air Flow Ratio [], 1.00000
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE OFFICE A  - STORY GROUND PSZ-AC, Calculated Heating Air Flow Ratio [], 1.00000
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE OFFICE B  - STORY GROUND PSZ-AC, Sum of Air Terminal Maximum Heating Flow Rates [m3/s], 0.17376
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE OFFICE B  - STORY GROUND PSZ-AC, Sum of Air Terminal Minimum Heating Flow Rates [m3/s], 0.17376
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE OFFICE B  - STORY GROUND PSZ-AC, Sum of Air Terminal Maximum Flow Rates [m3/s], 0.17376
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE OFFICE B  - STORY GROUND PSZ-AC, Adjusted Heating Design Air Flow Rate [m3/s], 0.17376
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE OFFICE B  - STORY GROUND PSZ-AC, Adjusted Cooling Design Air Flow Rate [m3/s], 0.17376
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE OFFICE B  - STORY GROUND PSZ-AC, Adjusted Main Design Air Flow Rate [m3/s], 0.17376
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE OFFICE B  - STORY GROUND PSZ-AC, User Heating Air Flow Ratio [], 1.00000
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE OFFICE B  - STORY GROUND PSZ-AC, Calculated Heating Air Flow Ratio [], 1.00000
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE OFFICE C  - STORY GROUND PSZ-AC, Sum of Air Terminal Maximum Heating Flow Rates [m3/s], 9.93957E-002
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE OFFICE C  - STORY GROUND PSZ-AC, Sum of Air Terminal Minimum Heating Flow Rates [m3/s], 9.93957E-002
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE OFFICE C  - STORY GROUND PSZ-AC, Sum of Air Terminal Maximum Flow Rates [m3/s], 9.93957E-002
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE OFFICE C  - STORY GROUND PSZ-AC, Adjusted Heating Design Air Flow Rate [m3/s], 9.93957E-002
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE OFFICE C  - STORY GROUND PSZ-AC, Adjusted Cooling Design Air Flow Rate [m3/s], 9.93957E-002
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE OFFICE C  - STORY GROUND PSZ-AC, Adjusted Main Design Air Flow Rate [m3/s], 9.93957E-002
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE OFFICE C  - STORY GROUND PSZ-AC, User Heating Air Flow Ratio [], 1.00000
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE OFFICE C  - STORY GROUND PSZ-AC, Calculated Heating Air Flow Ratio [], 1.00000
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE FINE A  - STORY GROUND PSZ-AC, Design Supply Air Flow Rate [m3/s], 7.79059E-002
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE FINE A END_B - STORY GROUND PSZ-AC, Design Supply Air Flow Rate [m3/s], 0.13074
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE FINE B  - STORY GROUND PSZ-AC, Design Supply Air Flow Rate [m3/s], 5.24933E-002
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE FINE B END_B - STORY GROUND PSZ-AC, Design Supply Air Flow Rate [m3/s], 0.19535
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE FINE C  - STORY GROUND PSZ-AC, Design Supply Air Flow Rate [m3/s], 7.79328E-002
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE FINE C END_B - STORY GROUND PSZ-AC, Design Supply Air Flow Rate [m3/s], 0.13077
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE OFFICE A  - STORY GROUND PSZ-AC, Design Supply Air Flow Rate [m3/s], 9.93819E-002
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE OFFICE B  - STORY GROUND PSZ-AC, Design Supply Air Flow Rate [m3/s], 0.17376
+ Component Sizing Information, AirLoopHVAC, ZONE WAREHOUSE OFFICE C  - STORY GROUND PSZ-AC, Design Supply Air Flow Rate [m3/s], 9.93957E-002
+!<Controller:MechanicalVentilation>,Name,Availability Schedule Name,Demand Controlled Ventilation {Yes/No},System Outdoor Air Method,Zone Maximum Outdoor Air Fraction,Number of Zones,Zone Name,DSOA Name,DSZAD Name
+ Controller:MechanicalVentilation,CONTROLLER MECHANICAL VENTILATION 1,ALWAYS ON DISCRETE,No,ZoneSum,1.00,1,ZONE WAREHOUSE FINE A  - STORY GROUND,WAREHOUSE FINE VENTILATION,
+ Controller:MechanicalVentilation,CONTROLLER MECHANICAL VENTILATION 2,ALWAYS ON DISCRETE,No,ZoneSum,1.00,1,ZONE WAREHOUSE FINE A END_B - STORY GROUND,WAREHOUSE FINE VENTILATION,
+ Controller:MechanicalVentilation,CONTROLLER MECHANICAL VENTILATION 3,ALWAYS ON DISCRETE,No,ZoneSum,1.00,1,ZONE WAREHOUSE FINE B  - STORY GROUND,WAREHOUSE FINE VENTILATION,
+ Controller:MechanicalVentilation,CONTROLLER MECHANICAL VENTILATION 4,ALWAYS ON DISCRETE,No,ZoneSum,1.00,1,ZONE WAREHOUSE FINE B END_B - STORY GROUND,WAREHOUSE FINE VENTILATION,
+ Controller:MechanicalVentilation,CONTROLLER MECHANICAL VENTILATION 5,ALWAYS ON DISCRETE,No,ZoneSum,1.00,1,ZONE WAREHOUSE FINE C  - STORY GROUND,WAREHOUSE FINE VENTILATION,
+ Controller:MechanicalVentilation,CONTROLLER MECHANICAL VENTILATION 6,ALWAYS ON DISCRETE,No,ZoneSum,1.00,1,ZONE WAREHOUSE FINE C END_B - STORY GROUND,WAREHOUSE FINE VENTILATION,
+ Controller:MechanicalVentilation,CONTROLLER MECHANICAL VENTILATION 7,ALWAYS ON DISCRETE,No,ZoneSum,1.00,1,ZONE WAREHOUSE OFFICE A  - STORY GROUND,WAREHOUSE OFFICE VENTILATION,
+ Controller:MechanicalVentilation,CONTROLLER MECHANICAL VENTILATION 8,ALWAYS ON DISCRETE,No,ZoneSum,1.00,1,ZONE WAREHOUSE OFFICE B  - STORY GROUND,WAREHOUSE OFFICE VENTILATION,
+ Controller:MechanicalVentilation,CONTROLLER MECHANICAL VENTILATION 9,ALWAYS ON DISCRETE,No,ZoneSum,1.00,1,ZONE WAREHOUSE OFFICE C  - STORY GROUND,WAREHOUSE OFFICE VENTILATION,
+ Component Sizing Information, Controller:OutdoorAir, ZONE WAREHOUSE FINE A  - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER, Maximum Outdoor Air Flow Rate [m3/s], 7.79059E-002
+ Component Sizing Information, Controller:OutdoorAir, ZONE WAREHOUSE FINE A  - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER, Minimum Outdoor Air Flow Rate [m3/s], 5.93501E-003
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE FINE A  - STORY GROUND PSZ-AC UNITARY AC, Design Size Supply Air Flow Rate [m3/s], 7.79059E-002
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE FINE A  - STORY GROUND PSZ-AC UNITARY AC, Design Size Heating Supply Air Flow Rate [m3/s], 7.79059E-002
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE FINE A  - STORY GROUND PSZ-AC UNITARY AC, Design Size Cooling Supply Air Flow Rate [m3/s], 7.79059E-002
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE FINE A  - STORY GROUND PSZ-AC UNITARY AC, User-Specified No Load Supply Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE FINE A  - STORY GROUND PSZ-AC UNITARY AC, Design Size Nominal Cooling Capacity [W], 1362.78745
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE FINE A  - STORY GROUND PSZ-AC UNITARY AC, Design Size Nominal Heating Capacity [W], 3449.70856
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE FINE A  - STORY GROUND PSZ-AC UNITARY AC, Design Size Maximum Supply Air Temperature [C], 50.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE FINE A  - STORY GROUND PSZ-AC UNITARY AC, User-Specified Maximum Supply Air Temperature [C], 80.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE FINE A  - STORY GROUND PSZ-AC UNITARY AC, User-Specified Supplemental Heating Coil Nominal Capacity [W], 0.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE FINE A  - STORY GROUND PSZ-AC UNITARY AC, Fraction of Supply Air Flow That Goes Through the Controlling Zone, 1.00000
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, ZONE WAREHOUSE FINE A  - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 5KBTU/HR 9.7SEER, Design Size Rated Air Flow Rate [m3/s], 7.79059E-002
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, ZONE WAREHOUSE FINE A  - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 5KBTU/HR 9.7SEER, Design Size Gross Rated Total Cooling Capacity [W], 1362.78745
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, ZONE WAREHOUSE FINE A  - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 5KBTU/HR 9.7SEER, Design Size Gross Rated Sensible Heat Ratio, 0.80092
+! <DX Cooling Coil Standard Rating Information>, Component Type, Component Name, Standard Rating (Net) Cooling Capacity {W}, Standard Rated Net COP {W/W}, EER {Btu/W-h}, SEER User {Btu/W-h}, SEER Standard {Btu/W-h}, IEER {Btu/W-h}
+ DX Cooling Coil Standard Rating Information, Coil:Cooling:DX:SingleSpeed, ZONE WAREHOUSE FINE A  - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 5KBTU/HR 9.7SEER, 1302.4, 2.64, 9.01, 10.35, 9.47, 9.87
+ DX Cooling Coil Standard Rating Information, Coil:Cooling:DX:SingleSpeed, ZONE WAREHOUSE FINE A  - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 5KBTU/HR 9.7SEER, 1289.9, 2.55, 8.70, 9.97, 9.38,  
+ Component Sizing Information, Coil:Heating:Fuel, ZONE WAREHOUSE FINE A  - STORY GROUND PSZ-AC GAS HTG COIL 12KBTU/HR 0.8 THERMAL EFF, Design Size Nominal Capacity [W], 3449.70856
+ Component Sizing Information, Fan:OnOff, ZONE WAREHOUSE FINE A  - STORY GROUND PSZ-AC FAN, Design Size Maximum Flow Rate [m3/s], 7.79059E-002
+ Component Sizing Information, Coil:Heating:Electric, ZONE WAREHOUSE FINE A  - STORY GROUND PSZ-AC NO HEAT, User-Specified Nominal Capacity [W], 0.00000
+ Component Sizing Information, Controller:OutdoorAir, ZONE WAREHOUSE FINE A END_B - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER, Maximum Outdoor Air Flow Rate [m3/s], 0.13074
+ Component Sizing Information, Controller:OutdoorAir, ZONE WAREHOUSE FINE A END_B - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER, Minimum Outdoor Air Flow Rate [m3/s], 5.30941E-003
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE FINE A END_B - STORY GROUND PSZ-AC UNITARY AC, Design Size Supply Air Flow Rate [m3/s], 0.13074
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE FINE A END_B - STORY GROUND PSZ-AC UNITARY AC, Design Size Heating Supply Air Flow Rate [m3/s], 0.13074
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE FINE A END_B - STORY GROUND PSZ-AC UNITARY AC, Design Size Cooling Supply Air Flow Rate [m3/s], 0.13074
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE FINE A END_B - STORY GROUND PSZ-AC UNITARY AC, User-Specified No Load Supply Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE FINE A END_B - STORY GROUND PSZ-AC UNITARY AC, Design Size Nominal Cooling Capacity [W], 2290.95792
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE FINE A END_B - STORY GROUND PSZ-AC UNITARY AC, Design Size Nominal Heating Capacity [W], 5631.36880
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE FINE A END_B - STORY GROUND PSZ-AC UNITARY AC, Design Size Maximum Supply Air Temperature [C], 50.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE FINE A END_B - STORY GROUND PSZ-AC UNITARY AC, User-Specified Maximum Supply Air Temperature [C], 80.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE FINE A END_B - STORY GROUND PSZ-AC UNITARY AC, User-Specified Supplemental Heating Coil Nominal Capacity [W], 0.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE FINE A END_B - STORY GROUND PSZ-AC UNITARY AC, Fraction of Supply Air Flow That Goes Through the Controlling Zone, 1.00000
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, ZONE WAREHOUSE FINE A END_B - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 8KBTU/HR 9.7SEER, Design Size Rated Air Flow Rate [m3/s], 0.13074
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, ZONE WAREHOUSE FINE A END_B - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 8KBTU/HR 9.7SEER, Design Size Gross Rated Total Cooling Capacity [W], 2290.95792
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, ZONE WAREHOUSE FINE A END_B - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 8KBTU/HR 9.7SEER, Design Size Gross Rated Sensible Heat Ratio, 0.80033
+ DX Cooling Coil Standard Rating Information, Coil:Cooling:DX:SingleSpeed, ZONE WAREHOUSE FINE A END_B - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 8KBTU/HR 9.7SEER, 2189.6, 2.64, 9.01, 10.36, 9.47, 9.88
+ DX Cooling Coil Standard Rating Information, Coil:Cooling:DX:SingleSpeed, ZONE WAREHOUSE FINE A END_B - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 8KBTU/HR 9.7SEER, 2168.6, 2.55, 8.70, 9.97, 9.38,  
+ Component Sizing Information, Coil:Heating:Fuel, ZONE WAREHOUSE FINE A END_B - STORY GROUND PSZ-AC GAS HTG COIL 19KBTU/HR 0.8 THERMAL EFF, Design Size Nominal Capacity [W], 5631.36880
+ Component Sizing Information, Fan:OnOff, ZONE WAREHOUSE FINE A END_B - STORY GROUND PSZ-AC FAN, Design Size Maximum Flow Rate [m3/s], 0.13074
+ Component Sizing Information, Coil:Heating:Electric, ZONE WAREHOUSE FINE A END_B - STORY GROUND PSZ-AC NO HEAT, User-Specified Nominal Capacity [W], 0.00000
+ Component Sizing Information, Controller:OutdoorAir, ZONE WAREHOUSE FINE B  - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER, Maximum Outdoor Air Flow Rate [m3/s], 5.24933E-002
+ Component Sizing Information, Controller:OutdoorAir, ZONE WAREHOUSE FINE B  - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER, Minimum Outdoor Air Flow Rate [m3/s], 1.72055E-002
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE FINE B  - STORY GROUND PSZ-AC UNITARY AC, Design Size Supply Air Flow Rate [m3/s], 5.24933E-002
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE FINE B  - STORY GROUND PSZ-AC UNITARY AC, Design Size Heating Supply Air Flow Rate [m3/s], 5.24933E-002
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE FINE B  - STORY GROUND PSZ-AC UNITARY AC, Design Size Cooling Supply Air Flow Rate [m3/s], 5.24933E-002
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE FINE B  - STORY GROUND PSZ-AC UNITARY AC, User-Specified No Load Supply Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE FINE B  - STORY GROUND PSZ-AC UNITARY AC, Design Size Nominal Cooling Capacity [W], 910.17431
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE FINE B  - STORY GROUND PSZ-AC UNITARY AC, Design Size Nominal Heating Capacity [W], 2776.66013
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE FINE B  - STORY GROUND PSZ-AC UNITARY AC, Design Size Maximum Supply Air Temperature [C], 50.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE FINE B  - STORY GROUND PSZ-AC UNITARY AC, User-Specified Maximum Supply Air Temperature [C], 80.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE FINE B  - STORY GROUND PSZ-AC UNITARY AC, User-Specified Supplemental Heating Coil Nominal Capacity [W], 0.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE FINE B  - STORY GROUND PSZ-AC UNITARY AC, Fraction of Supply Air Flow That Goes Through the Controlling Zone, 1.00000
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, ZONE WAREHOUSE FINE B  - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 3KBTU/HR 9.7SEER, Design Size Rated Air Flow Rate [m3/s], 5.24933E-002
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, ZONE WAREHOUSE FINE B  - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 3KBTU/HR 9.7SEER, Design Size Gross Rated Total Cooling Capacity [W], 910.17431
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, ZONE WAREHOUSE FINE B  - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 3KBTU/HR 9.7SEER, Design Size Gross Rated Sensible Heat Ratio, 0.80000
+ DX Cooling Coil Standard Rating Information, Coil:Cooling:DX:SingleSpeed, ZONE WAREHOUSE FINE B  - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 3KBTU/HR 9.7SEER, 869.5, 2.64, 9.00, 10.34, 9.45, 9.85
+ DX Cooling Coil Standard Rating Information, Coil:Cooling:DX:SingleSpeed, ZONE WAREHOUSE FINE B  - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 3KBTU/HR 9.7SEER, 861.0, 2.55, 8.69, 9.95, 9.36,  
+ Component Sizing Information, Coil:Heating:Fuel, ZONE WAREHOUSE FINE B  - STORY GROUND PSZ-AC GAS HTG COIL 9KBTU/HR 0.8 THERMAL EFF, Design Size Nominal Capacity [W], 2776.66013
+ Component Sizing Information, Fan:OnOff, ZONE WAREHOUSE FINE B  - STORY GROUND PSZ-AC FAN, Design Size Maximum Flow Rate [m3/s], 5.24933E-002
+ Component Sizing Information, Coil:Heating:Electric, ZONE WAREHOUSE FINE B  - STORY GROUND PSZ-AC NO HEAT, User-Specified Nominal Capacity [W], 0.00000
+ Component Sizing Information, Controller:OutdoorAir, ZONE WAREHOUSE FINE B END_B - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER, Maximum Outdoor Air Flow Rate [m3/s], 0.19535
+ Component Sizing Information, Controller:OutdoorAir, ZONE WAREHOUSE FINE B END_B - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER, Minimum Outdoor Air Flow Rate [m3/s], 1.53919E-002
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE FINE B END_B - STORY GROUND PSZ-AC UNITARY AC, Design Size Supply Air Flow Rate [m3/s], 0.19535
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE FINE B END_B - STORY GROUND PSZ-AC UNITARY AC, Design Size Heating Supply Air Flow Rate [m3/s], 0.19535
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE FINE B END_B - STORY GROUND PSZ-AC UNITARY AC, Design Size Cooling Supply Air Flow Rate [m3/s], 0.19535
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE FINE B END_B - STORY GROUND PSZ-AC UNITARY AC, User-Specified No Load Supply Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE FINE B END_B - STORY GROUND PSZ-AC UNITARY AC, Design Size Nominal Cooling Capacity [W], 3338.84302
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE FINE B END_B - STORY GROUND PSZ-AC UNITARY AC, Design Size Nominal Heating Capacity [W], 8667.66573
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE FINE B END_B - STORY GROUND PSZ-AC UNITARY AC, Design Size Maximum Supply Air Temperature [C], 50.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE FINE B END_B - STORY GROUND PSZ-AC UNITARY AC, User-Specified Maximum Supply Air Temperature [C], 80.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE FINE B END_B - STORY GROUND PSZ-AC UNITARY AC, User-Specified Supplemental Heating Coil Nominal Capacity [W], 0.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE FINE B END_B - STORY GROUND PSZ-AC UNITARY AC, Fraction of Supply Air Flow That Goes Through the Controlling Zone, 1.00000
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, ZONE WAREHOUSE FINE B END_B - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 11KBTU/HR 9.7SEER, Design Size Rated Air Flow Rate [m3/s], 0.19535
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, ZONE WAREHOUSE FINE B END_B - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 11KBTU/HR 9.7SEER, Design Size Gross Rated Total Cooling Capacity [W], 3338.84302
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, ZONE WAREHOUSE FINE B END_B - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 11KBTU/HR 9.7SEER, Design Size Gross Rated Sensible Heat Ratio, 0.80007
+ DX Cooling Coil Standard Rating Information, Coil:Cooling:DX:SingleSpeed, ZONE WAREHOUSE FINE B END_B - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 11KBTU/HR 9.7SEER, 3187.4, 2.63, 8.97, 10.31, 9.43, 9.81
+ DX Cooling Coil Standard Rating Information, Coil:Cooling:DX:SingleSpeed, ZONE WAREHOUSE FINE B END_B - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 11KBTU/HR 9.7SEER, 3156.0, 2.54, 8.66, 9.92, 9.33,  
+ Component Sizing Information, Coil:Heating:Fuel, ZONE WAREHOUSE FINE B END_B - STORY GROUND PSZ-AC GAS HTG COIL 30KBTU/HR 0.8 THERMAL EFF, Design Size Nominal Capacity [W], 8667.66573
+ Component Sizing Information, Fan:OnOff, ZONE WAREHOUSE FINE B END_B - STORY GROUND PSZ-AC FAN, Design Size Maximum Flow Rate [m3/s], 0.19535
+ Component Sizing Information, Coil:Heating:Electric, ZONE WAREHOUSE FINE B END_B - STORY GROUND PSZ-AC NO HEAT, User-Specified Nominal Capacity [W], 0.00000
+ Component Sizing Information, Controller:OutdoorAir, ZONE WAREHOUSE FINE C  - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER, Maximum Outdoor Air Flow Rate [m3/s], 7.79328E-002
+ Component Sizing Information, Controller:OutdoorAir, ZONE WAREHOUSE FINE C  - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER, Minimum Outdoor Air Flow Rate [m3/s], 5.93501E-003
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE FINE C  - STORY GROUND PSZ-AC UNITARY AC, Design Size Supply Air Flow Rate [m3/s], 7.79328E-002
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE FINE C  - STORY GROUND PSZ-AC UNITARY AC, Design Size Heating Supply Air Flow Rate [m3/s], 7.79328E-002
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE FINE C  - STORY GROUND PSZ-AC UNITARY AC, Design Size Cooling Supply Air Flow Rate [m3/s], 7.79328E-002
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE FINE C  - STORY GROUND PSZ-AC UNITARY AC, User-Specified No Load Supply Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE FINE C  - STORY GROUND PSZ-AC UNITARY AC, Design Size Nominal Cooling Capacity [W], 1290.06480
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE FINE C  - STORY GROUND PSZ-AC UNITARY AC, Design Size Nominal Heating Capacity [W], 3450.82865
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE FINE C  - STORY GROUND PSZ-AC UNITARY AC, Design Size Maximum Supply Air Temperature [C], 50.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE FINE C  - STORY GROUND PSZ-AC UNITARY AC, User-Specified Maximum Supply Air Temperature [C], 80.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE FINE C  - STORY GROUND PSZ-AC UNITARY AC, User-Specified Supplemental Heating Coil Nominal Capacity [W], 0.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE FINE C  - STORY GROUND PSZ-AC UNITARY AC, Fraction of Supply Air Flow That Goes Through the Controlling Zone, 1.00000
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, ZONE WAREHOUSE FINE C  - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 4KBTU/HR 9.7SEER, Design Size Rated Air Flow Rate [m3/s], 7.79328E-002
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, ZONE WAREHOUSE FINE C  - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 4KBTU/HR 9.7SEER, Design Size Gross Rated Total Cooling Capacity [W], 1290.06480
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, ZONE WAREHOUSE FINE C  - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 4KBTU/HR 9.7SEER, Design Size Gross Rated Sensible Heat Ratio, 0.80066
+ DX Cooling Coil Standard Rating Information, Coil:Cooling:DX:SingleSpeed, ZONE WAREHOUSE FINE C  - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 4KBTU/HR 9.7SEER, 1229.7, 2.62, 8.92, 10.25, 9.37, 9.72
+ DX Cooling Coil Standard Rating Information, Coil:Cooling:DX:SingleSpeed, ZONE WAREHOUSE FINE C  - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 4KBTU/HR 9.7SEER, 1217.1, 2.52, 8.60, 9.84, 9.26,  
+ Component Sizing Information, Coil:Heating:Fuel, ZONE WAREHOUSE FINE C  - STORY GROUND PSZ-AC GAS HTG COIL 12KBTU/HR 0.8 THERMAL EFF, Design Size Nominal Capacity [W], 3450.82865
+ Component Sizing Information, Fan:OnOff, ZONE WAREHOUSE FINE C  - STORY GROUND PSZ-AC FAN, Design Size Maximum Flow Rate [m3/s], 7.79328E-002
+ Component Sizing Information, Coil:Heating:Electric, ZONE WAREHOUSE FINE C  - STORY GROUND PSZ-AC NO HEAT, User-Specified Nominal Capacity [W], 0.00000
+ Component Sizing Information, Controller:OutdoorAir, ZONE WAREHOUSE FINE C END_B - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER, Maximum Outdoor Air Flow Rate [m3/s], 0.13077
+ Component Sizing Information, Controller:OutdoorAir, ZONE WAREHOUSE FINE C END_B - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER, Minimum Outdoor Air Flow Rate [m3/s], 5.30941E-003
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE FINE C END_B - STORY GROUND PSZ-AC UNITARY AC, Design Size Supply Air Flow Rate [m3/s], 0.13077
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE FINE C END_B - STORY GROUND PSZ-AC UNITARY AC, Design Size Heating Supply Air Flow Rate [m3/s], 0.13077
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE FINE C END_B - STORY GROUND PSZ-AC UNITARY AC, Design Size Cooling Supply Air Flow Rate [m3/s], 0.13077
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE FINE C END_B - STORY GROUND PSZ-AC UNITARY AC, User-Specified No Load Supply Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE FINE C END_B - STORY GROUND PSZ-AC UNITARY AC, Design Size Nominal Cooling Capacity [W], 2164.64986
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE FINE C END_B - STORY GROUND PSZ-AC UNITARY AC, Design Size Nominal Heating Capacity [W], 5632.30924
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE FINE C END_B - STORY GROUND PSZ-AC UNITARY AC, Design Size Maximum Supply Air Temperature [C], 50.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE FINE C END_B - STORY GROUND PSZ-AC UNITARY AC, User-Specified Maximum Supply Air Temperature [C], 80.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE FINE C END_B - STORY GROUND PSZ-AC UNITARY AC, User-Specified Supplemental Heating Coil Nominal Capacity [W], 0.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE FINE C END_B - STORY GROUND PSZ-AC UNITARY AC, Fraction of Supply Air Flow That Goes Through the Controlling Zone, 1.00000
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, ZONE WAREHOUSE FINE C END_B - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 7KBTU/HR 9.7SEER, Design Size Rated Air Flow Rate [m3/s], 0.13077
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, ZONE WAREHOUSE FINE C END_B - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 7KBTU/HR 9.7SEER, Design Size Gross Rated Total Cooling Capacity [W], 2164.64986
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, ZONE WAREHOUSE FINE C END_B - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 7KBTU/HR 9.7SEER, Design Size Gross Rated Sensible Heat Ratio, 0.80066
+ DX Cooling Coil Standard Rating Information, Coil:Cooling:DX:SingleSpeed, ZONE WAREHOUSE FINE C END_B - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 7KBTU/HR 9.7SEER, 2063.3, 2.62, 8.92, 10.25, 9.37, 9.72
+ DX Cooling Coil Standard Rating Information, Coil:Cooling:DX:SingleSpeed, ZONE WAREHOUSE FINE C END_B - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 7KBTU/HR 9.7SEER, 2042.2, 2.52, 8.60, 9.84, 9.26,  
+ Component Sizing Information, Coil:Heating:Fuel, ZONE WAREHOUSE FINE C END_B - STORY GROUND PSZ-AC GAS HTG COIL 19KBTU/HR 0.8 THERMAL EFF, Design Size Nominal Capacity [W], 5632.30924
+ Component Sizing Information, Fan:OnOff, ZONE WAREHOUSE FINE C END_B - STORY GROUND PSZ-AC FAN, Design Size Maximum Flow Rate [m3/s], 0.13077
+ Component Sizing Information, Coil:Heating:Electric, ZONE WAREHOUSE FINE C END_B - STORY GROUND PSZ-AC NO HEAT, User-Specified Nominal Capacity [W], 0.00000
+ Component Sizing Information, Controller:OutdoorAir, ZONE WAREHOUSE OFFICE A  - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER, Maximum Outdoor Air Flow Rate [m3/s], 9.93819E-002
+ Component Sizing Information, Controller:OutdoorAir, ZONE WAREHOUSE OFFICE A  - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER, Minimum Outdoor Air Flow Rate [m3/s], 1.49884E-003
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE OFFICE A  - STORY GROUND PSZ-AC UNITARY AC, Design Size Supply Air Flow Rate [m3/s], 9.93819E-002
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE OFFICE A  - STORY GROUND PSZ-AC UNITARY AC, Design Size Heating Supply Air Flow Rate [m3/s], 9.93819E-002
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE OFFICE A  - STORY GROUND PSZ-AC UNITARY AC, Design Size Cooling Supply Air Flow Rate [m3/s], 9.93819E-002
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE OFFICE A  - STORY GROUND PSZ-AC UNITARY AC, User-Specified No Load Supply Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE OFFICE A  - STORY GROUND PSZ-AC UNITARY AC, Design Size Nominal Cooling Capacity [W], 1645.12391
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE OFFICE A  - STORY GROUND PSZ-AC UNITARY AC, Design Size Nominal Heating Capacity [W], 3598.14939
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE OFFICE A  - STORY GROUND PSZ-AC UNITARY AC, Design Size Maximum Supply Air Temperature [C], 50.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE OFFICE A  - STORY GROUND PSZ-AC UNITARY AC, User-Specified Maximum Supply Air Temperature [C], 80.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE OFFICE A  - STORY GROUND PSZ-AC UNITARY AC, User-Specified Supplemental Heating Coil Nominal Capacity [W], 0.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE OFFICE A  - STORY GROUND PSZ-AC UNITARY AC, Fraction of Supply Air Flow That Goes Through the Controlling Zone, 1.00000
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, ZONE WAREHOUSE OFFICE A  - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 5KBTU/HR 9.7SEER, Design Size Rated Air Flow Rate [m3/s], 9.93819E-002
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, ZONE WAREHOUSE OFFICE A  - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 5KBTU/HR 9.7SEER, Design Size Gross Rated Total Cooling Capacity [W], 1645.12391
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, ZONE WAREHOUSE OFFICE A  - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 5KBTU/HR 9.7SEER, Design Size Gross Rated Sensible Heat Ratio, 0.80066
+ DX Cooling Coil Standard Rating Information, Coil:Cooling:DX:SingleSpeed, ZONE WAREHOUSE OFFICE A  - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 5KBTU/HR 9.7SEER, 1568.1, 2.62, 8.92, 10.25, 9.37, 9.72
+ DX Cooling Coil Standard Rating Information, Coil:Cooling:DX:SingleSpeed, ZONE WAREHOUSE OFFICE A  - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 5KBTU/HR 9.7SEER, 1552.1, 2.52, 8.60, 9.84, 9.26,  
+ Component Sizing Information, Coil:Heating:Fuel, ZONE WAREHOUSE OFFICE A  - STORY GROUND PSZ-AC GAS HTG COIL 11KBTU/HR 0.8 THERMAL EFF, Design Size Nominal Capacity [W], 3598.14939
+ Component Sizing Information, Fan:OnOff, ZONE WAREHOUSE OFFICE A  - STORY GROUND PSZ-AC FAN, Design Size Maximum Flow Rate [m3/s], 9.93819E-002
+ Component Sizing Information, Coil:Heating:Electric, ZONE WAREHOUSE OFFICE A  - STORY GROUND PSZ-AC NO HEAT, User-Specified Nominal Capacity [W], 0.00000
+ Component Sizing Information, Controller:OutdoorAir, ZONE WAREHOUSE OFFICE B  - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER, Maximum Outdoor Air Flow Rate [m3/s], 0.17376
+ Component Sizing Information, Controller:OutdoorAir, ZONE WAREHOUSE OFFICE B  - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER, Minimum Outdoor Air Flow Rate [m3/s], 4.34511E-003
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE OFFICE B  - STORY GROUND PSZ-AC UNITARY AC, Design Size Supply Air Flow Rate [m3/s], 0.17376
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE OFFICE B  - STORY GROUND PSZ-AC UNITARY AC, Design Size Heating Supply Air Flow Rate [m3/s], 0.17376
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE OFFICE B  - STORY GROUND PSZ-AC UNITARY AC, Design Size Cooling Supply Air Flow Rate [m3/s], 0.17376
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE OFFICE B  - STORY GROUND PSZ-AC UNITARY AC, User-Specified No Load Supply Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE OFFICE B  - STORY GROUND PSZ-AC UNITARY AC, Design Size Nominal Cooling Capacity [W], 2900.52637
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE OFFICE B  - STORY GROUND PSZ-AC UNITARY AC, Design Size Nominal Heating Capacity [W], 6353.13247
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE OFFICE B  - STORY GROUND PSZ-AC UNITARY AC, Design Size Maximum Supply Air Temperature [C], 50.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE OFFICE B  - STORY GROUND PSZ-AC UNITARY AC, User-Specified Maximum Supply Air Temperature [C], 80.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE OFFICE B  - STORY GROUND PSZ-AC UNITARY AC, User-Specified Supplemental Heating Coil Nominal Capacity [W], 0.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE OFFICE B  - STORY GROUND PSZ-AC UNITARY AC, Fraction of Supply Air Flow That Goes Through the Controlling Zone, 1.00000
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, ZONE WAREHOUSE OFFICE B  - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 8KBTU/HR 9.7SEER, Design Size Rated Air Flow Rate [m3/s], 0.17376
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, ZONE WAREHOUSE OFFICE B  - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 8KBTU/HR 9.7SEER, Design Size Gross Rated Total Cooling Capacity [W], 2900.52637
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, ZONE WAREHOUSE OFFICE B  - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 8KBTU/HR 9.7SEER, Design Size Gross Rated Sensible Heat Ratio, 0.80060
+ DX Cooling Coil Standard Rating Information, Coil:Cooling:DX:SingleSpeed, ZONE WAREHOUSE OFFICE B  - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 8KBTU/HR 9.7SEER, 2765.9, 2.62, 8.94, 10.26, 9.38, 9.74
+ DX Cooling Coil Standard Rating Information, Coil:Cooling:DX:SingleSpeed, ZONE WAREHOUSE OFFICE B  - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 8KBTU/HR 9.7SEER, 2737.9, 2.53, 8.62, 9.86, 9.28,  
+ Component Sizing Information, Coil:Heating:Fuel, ZONE WAREHOUSE OFFICE B  - STORY GROUND PSZ-AC GAS HTG COIL 18KBTU/HR 0.8 THERMAL EFF, Design Size Nominal Capacity [W], 6353.13247
+ Component Sizing Information, Fan:OnOff, ZONE WAREHOUSE OFFICE B  - STORY GROUND PSZ-AC FAN, Design Size Maximum Flow Rate [m3/s], 0.17376
+ Component Sizing Information, Coil:Heating:Electric, ZONE WAREHOUSE OFFICE B  - STORY GROUND PSZ-AC NO HEAT, User-Specified Nominal Capacity [W], 0.00000
+ Component Sizing Information, Controller:OutdoorAir, ZONE WAREHOUSE OFFICE C  - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER, Maximum Outdoor Air Flow Rate [m3/s], 9.93957E-002
+ Component Sizing Information, Controller:OutdoorAir, ZONE WAREHOUSE OFFICE C  - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER, Minimum Outdoor Air Flow Rate [m3/s], 1.49884E-003
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE OFFICE C  - STORY GROUND PSZ-AC UNITARY AC, Design Size Supply Air Flow Rate [m3/s], 9.93957E-002
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE OFFICE C  - STORY GROUND PSZ-AC UNITARY AC, Design Size Heating Supply Air Flow Rate [m3/s], 9.93957E-002
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE OFFICE C  - STORY GROUND PSZ-AC UNITARY AC, Design Size Cooling Supply Air Flow Rate [m3/s], 9.93957E-002
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE OFFICE C  - STORY GROUND PSZ-AC UNITARY AC, User-Specified No Load Supply Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE OFFICE C  - STORY GROUND PSZ-AC UNITARY AC, Design Size Nominal Cooling Capacity [W], 1645.35219
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE OFFICE C  - STORY GROUND PSZ-AC UNITARY AC, Design Size Nominal Heating Capacity [W], 3598.64190
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE OFFICE C  - STORY GROUND PSZ-AC UNITARY AC, Design Size Maximum Supply Air Temperature [C], 50.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE OFFICE C  - STORY GROUND PSZ-AC UNITARY AC, User-Specified Maximum Supply Air Temperature [C], 80.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE OFFICE C  - STORY GROUND PSZ-AC UNITARY AC, User-Specified Supplemental Heating Coil Nominal Capacity [W], 0.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE WAREHOUSE OFFICE C  - STORY GROUND PSZ-AC UNITARY AC, Fraction of Supply Air Flow That Goes Through the Controlling Zone, 1.00000
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, ZONE WAREHOUSE OFFICE C  - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 5KBTU/HR 9.7SEER, Design Size Rated Air Flow Rate [m3/s], 9.93957E-002
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, ZONE WAREHOUSE OFFICE C  - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 5KBTU/HR 9.7SEER, Design Size Gross Rated Total Cooling Capacity [W], 1645.35219
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, ZONE WAREHOUSE OFFICE C  - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 5KBTU/HR 9.7SEER, Design Size Gross Rated Sensible Heat Ratio, 0.80066
+ DX Cooling Coil Standard Rating Information, Coil:Cooling:DX:SingleSpeed, ZONE WAREHOUSE OFFICE C  - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 5KBTU/HR 9.7SEER, 1568.3, 2.62, 8.92, 10.25, 9.37, 9.72
+ DX Cooling Coil Standard Rating Information, Coil:Cooling:DX:SingleSpeed, ZONE WAREHOUSE OFFICE C  - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 5KBTU/HR 9.7SEER, 1552.3, 2.52, 8.60, 9.84, 9.26,  
+ Component Sizing Information, Coil:Heating:Fuel, ZONE WAREHOUSE OFFICE C  - STORY GROUND PSZ-AC GAS HTG COIL 11KBTU/HR 0.8 THERMAL EFF, Design Size Nominal Capacity [W], 3598.64190
+ Component Sizing Information, Fan:OnOff, ZONE WAREHOUSE OFFICE C  - STORY GROUND PSZ-AC FAN, Design Size Maximum Flow Rate [m3/s], 9.93957E-002
+ Component Sizing Information, Coil:Heating:Electric, ZONE WAREHOUSE OFFICE C  - STORY GROUND PSZ-AC NO HEAT, User-Specified Nominal Capacity [W], 0.00000
+Water Heater Information,WaterHeater:Mixed,40GAL ELECTRICITY WATER HEATER - 40KBTU/HR 1.0 THERM EFF 1.0 THERM EFF,0.1514,11722.8,3.752,0.4491
+ Component Sizing Information, PlantLoop, MAIN SERVICE WATER LOOP, Maximum Loop Flow Rate [m3/s], 0.00000
+ Component Sizing Information, PlantLoop, MAIN SERVICE WATER LOOP, Plant Loop Volume [m3], 0.00000
+ Component Sizing Information, Pump:VariableSpeed, MAIN SERVICE WATER LOOP WATER MAINS PRESSURE DRIVEN, Design Flow Rate [m3/s], 0.00000
+ Component Sizing Information, Pump:VariableSpeed, MAIN SERVICE WATER LOOP WATER MAINS PRESSURE DRIVEN, Design Power Consumption [W], 0.00000
+ Component Sizing Information, WaterHeater:Mixed, 40GAL ELECTRICITY WATER HEATER - 40KBTU/HR 1.0 THERM EFF 1.0 THERM EFF, Use Side Design Flow Rate [m3/s], 0.00000
+! <Environment>,Environment Name,Environment Type, Start Date, End Date, Start DayOfWeek, Duration {#days}, Source:Start DayOfWeek,  Use Daylight Saving, Use Holidays, Apply Weekend Holiday Rule,  Use Rain Values, Use Snow Values, Sky Temperature Model
+! <Environment:Special Days>, Special Day Name, Special Day Type, Source, Start Date, Duration {#days}
+! <Environment:Daylight Saving>, Daylight Saving Indicator, Source, Start Date, End Date
+! <Environment:WarmupDays>, NumberofWarmupDays
+Environment,RUN PERIOD 1,WeatherFileRunPeriod,01/01/2006,12/31/2006,Sunday,365,Use RunPeriod Specified Day,No,No,No,Yes,Yes,Clark and Allen
+Environment:Daylight Saving,Yes,InputFile,03/12,11/05
+Environment:WarmupDays,  8
+! <Tabular Report>,Style,Unit Conversion
+Tabular Report,HTML,None
+! <Warmup Convergence Information>,Zone Name,Environment Type/Name,Average Warmup Temperature Difference {deltaC},Std Dev Warmup Temperature Difference {deltaC},Max Temperature Pass/Fail Convergence,Min Temperature Pass/Fail Convergence,Average Warmup Load Difference {W},Std Dev Warmup Load Difference {W},Heating Load Pass/Fail Convergence,Cooling Load Pass/Fail Convergence
+ Warmup Convergence Information,ZONE WAREHOUSE BULK A  - STORY GROUND,RunPeriod: RUN PERIOD 1,8.5082732823E-002,0.1383669021,Pass,Pass,0.1781430874,0.2771515159,Pass,Pass
+ Warmup Convergence Information,ZONE WAREHOUSE BULK A END_A - STORY GROUND,RunPeriod: RUN PERIOD 1,6.6613381478E-016,7.3643864126E-016,Pass,Pass,0.1925204631,0.2501149094,Pass,Pass
+ Warmup Convergence Information,ZONE WAREHOUSE BULK B  - STORY GROUND,RunPeriod: RUN PERIOD 1,4.8044369785E-002,3.6724695437E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,ZONE WAREHOUSE BULK B END_A - STORY GROUND,RunPeriod: RUN PERIOD 1,4.0708177570E-016,5.7212104808E-016,Pass,Pass,0.1679175183,0.2083457000,Pass,Pass
+ Warmup Convergence Information,ZONE WAREHOUSE BULK C  - STORY GROUND,RunPeriod: RUN PERIOD 1,3.7007434154E-016,5.6851899099E-016,Pass,Pass,0.3959228087,0.6866384707,Pass,Pass
+ Warmup Convergence Information,ZONE WAREHOUSE BULK C END_A - STORY GROUND,RunPeriod: RUN PERIOD 1,2.9605947323E-016,4.1869132232E-016,Pass,Pass,0.1183986674,0.1458904315,Pass,Pass
+ Warmup Convergence Information,ZONE WAREHOUSE FINE A  - STORY GROUND,RunPeriod: RUN PERIOD 1,1.7257407021E-005,4.5196037926E-005,Pass,Pass,6.2466219142E-002,6.5996158103E-002,Pass,Pass
+ Warmup Convergence Information,ZONE WAREHOUSE FINE A END_B - STORY GROUND,RunPeriod: RUN PERIOD 1,3.0684496370E-005,8.6765687984E-005,Pass,Pass,5.6173686045E-002,6.4323621907E-002,Pass,Pass
+ Warmup Convergence Information,ZONE WAREHOUSE FINE B  - STORY GROUND,RunPeriod: RUN PERIOD 1,4.5609952926E-008,1.0797903886E-007,Pass,Pass,4.5681163711E-002,5.1896894778E-002,Pass,Pass
+ Warmup Convergence Information,ZONE WAREHOUSE FINE B END_B - STORY GROUND,RunPeriod: RUN PERIOD 1,1.9994490466E-005,5.2822422003E-005,Pass,Pass,4.9818058591E-002,6.0845544132E-002,Pass,Pass
+ Warmup Convergence Information,ZONE WAREHOUSE FINE C  - STORY GROUND,RunPeriod: RUN PERIOD 1,2.0193182196E-005,5.3169036165E-005,Pass,Pass,4.0317152328E-002,4.9694467128E-002,Pass,Pass
+ Warmup Convergence Information,ZONE WAREHOUSE FINE C END_B - STORY GROUND,RunPeriod: RUN PERIOD 1,3.2201564576E-005,9.0512200596E-005,Pass,Pass,4.5104930319E-002,5.6990809093E-002,Pass,Pass
+ Warmup Convergence Information,ZONE WAREHOUSE OFFICE A  - STORY GROUND,RunPeriod: RUN PERIOD 1,2.2468133451E-005,5.2910472467E-005,Pass,Pass,4.1187925574E-002,3.7693221858E-002,Pass,Pass
+ Warmup Convergence Information,ZONE WAREHOUSE OFFICE B  - STORY GROUND,RunPeriod: RUN PERIOD 1,1.0025538286E-006,3.2223642662E-006,Pass,Pass,1.3545251744E-002,1.0025841001E-002,Pass,Pass
+ Warmup Convergence Information,ZONE WAREHOUSE OFFICE C  - STORY GROUND,RunPeriod: RUN PERIOD 1,2.6130844310E-005,6.1432164359E-005,Pass,Pass,2.1516069453E-002,2.4311120709E-002,Pass,Pass
+! <Program Control Information:Threads/Parallel Sims>, Threading Supported,Maximum Number of Threads, Env Set Threads (OMP_NUM_THREADS), EP Env Set Threads (EP_OMP_NUM_THREADS), IDF Set Threads, Number of Threads Used (Interior Radiant Exchange), Number Nominal Surfaces, Number Parallel Sims
+Program Control:Threads/Parallel Sims, No,1, N/A, N/A, N/A, N/A, N/A, N/A
+End of Data

@@ -1,0 +1,370 @@
+{
+   "completed_at" : "20230628T202342Z",
+   "completed_status" : "Success",
+   "current_step" : 5,
+   "eplusout_err" : "Program Version,EnergyPlus, Version 22.2.0-aa78da9668, YMD=2023.06.28 14:23,\n   ** Warning ** Timestep: Requested number (1) is less than the suggested minimum of 4.\n   **   ~~~   ** Please see entry for Timestep in Input/Output Reference for discussion of considerations.\n   ************* Beginning Zone Sizing Calculations\n   ** Warning ** ProcessScheduleInput: DecodeHHMMField, Invalid \"until\" field value is not a multiple of the minutes for each timestep: 06:50\n   **   ~~~   ** Other errors may result. Occurred in Day Schedule=ZONE WAREHOUSE OFFICE A  - STORY GROUND PSZ-AC OCC SCH DEFAULT\n   ** Warning ** ProcessScheduleInput: DecodeHHMMField, Invalid \"until\" field value is not a multiple of the minutes for each timestep: 06:50\n   **   ~~~   ** Other errors may result. Occurred in Day Schedule=ZONE WAREHOUSE OFFICE A  - STORY GROUND PSZ-AC OCC SCH SATURDAY\n   ** Warning ** ProcessScheduleInput: DecodeHHMMField, Invalid \"until\" field value is not a multiple of the minutes for each timestep: 06:50\n   **   ~~~   ** Other errors may result. Occurred in Day Schedule=ZONE WAREHOUSE OFFICE B  - STORY GROUND PSZ-AC OCC SCH DEFAULT\n   ** Warning ** ProcessScheduleInput: DecodeHHMMField, Invalid \"until\" field value is not a multiple of the minutes for each timestep: 06:50\n   **   ~~~   ** Other errors may result. Occurred in Day Schedule=ZONE WAREHOUSE OFFICE B  - STORY GROUND PSZ-AC OCC SCH SATURDAY\n   ** Warning ** ProcessScheduleInput: DecodeHHMMField, Invalid \"until\" field value is not a multiple of the minutes for each timestep: 06:50\n   **   ~~~   ** Other errors may result. Occurred in Day Schedule=ZONE WAREHOUSE OFFICE C  - STORY GROUND PSZ-AC OCC SCH DEFAULT\n   ** Warning ** ProcessScheduleInput: DecodeHHMMField, Invalid \"until\" field value is not a multiple of the minutes for each timestep: 06:50\n   **   ~~~   ** Other errors may result. Occurred in Day Schedule=ZONE WAREHOUSE OFFICE C  - STORY GROUND PSZ-AC OCC SCH SATURDAY\n   ** Warning ** ProcessScheduleInput: Schedule:Constant=\"ALWAYS ON CONTINUOUS\", Blank Schedule Type Limits Name input -- will not be validated.\n   ** Warning ** CheckUsedConstructions: There are 11 nominally unused constructions in input.\n   **   ~~~   ** For explicit details on each unused construction, use Output:Diagnostics,DisplayExtraWarnings;\n   ** Severe  ** WaterHeater:Mixed = 40GAL ELECTRICITY WATER HEATER - 40KBTU/HR 1.0 THERM EFF 1.0 THERM EFF:  Ambient Temperature Zone not found = \n   ** Warning ** Calculated design cooling load for zone=ZONE WAREHOUSE BULK A  - STORY GROUND is zero.\n   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.\n   ** Warning ** Calculated design cooling load for zone=ZONE WAREHOUSE BULK A END_A - STORY GROUND is zero.\n   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.\n   ** Warning ** Calculated design cooling load for zone=ZONE WAREHOUSE BULK B  - STORY GROUND is zero.\n   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.\n   ** Warning ** Calculated design cooling load for zone=ZONE WAREHOUSE BULK B END_A - STORY GROUND is zero.\n   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.\n   ** Warning ** Calculated design cooling load for zone=ZONE WAREHOUSE BULK C  - STORY GROUND is zero.\n   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.\n   ** Warning ** Calculated design cooling load for zone=ZONE WAREHOUSE BULK C END_A - STORY GROUND is zero.\n   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.\n   ************* Beginning System Sizing Calculations\n   ** Warning ** GetDXCoils: Coil:Cooling:DX:SingleSpeed=\"ZONE WAREHOUSE FINE A  - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 3KBTU/HR 13.0SEER\", invalid\n   **   ~~~   ** ...Part Load Fraction Correlation Curve Name = COILCLGDXEIRRATIO_FQFRAC has out of range value.\n   **   ~~~   ** ...Curve maximum must be <= 1.0, curve max at PLR = 0.99 is 1.018\n   **   ~~~   ** ...Setting curve maximum to 1.0 and simulation continues.\n   ** Warning ** AirLoopHVAC:UnitarySystem = ZONE WAREHOUSE FINE A  - STORY GROUND PSZ-AC UNITARY AC\n   **   ~~~   ** Method used to determine the cooling supply air flow rate is not specified when cooling coil is present.\n   ** Warning ** AirLoopHVAC:UnitarySystem = ZONE WAREHOUSE FINE A  - STORY GROUND PSZ-AC UNITARY AC\n   **   ~~~   ** Method used to determine the heating supply air flow rate is not specified when heating coil is present.\n   ** Warning ** AirLoopHVAC:UnitarySystem = ZONE WAREHOUSE FINE A END_B - STORY GROUND PSZ-AC UNITARY AC\n   **   ~~~   ** Method used to determine the cooling supply air flow rate is not specified when cooling coil is present.\n   ** Warning ** AirLoopHVAC:UnitarySystem = ZONE WAREHOUSE FINE A END_B - STORY GROUND PSZ-AC UNITARY AC\n   **   ~~~   ** Method used to determine the heating supply air flow rate is not specified when heating coil is present.\n   ** Warning ** AirLoopHVAC:UnitarySystem = ZONE WAREHOUSE FINE B  - STORY GROUND PSZ-AC UNITARY AC\n   **   ~~~   ** Method used to determine the cooling supply air flow rate is not specified when cooling coil is present.\n   ** Warning ** AirLoopHVAC:UnitarySystem = ZONE WAREHOUSE FINE B  - STORY GROUND PSZ-AC UNITARY AC\n   **   ~~~   ** Method used to determine the heating supply air flow rate is not specified when heating coil is present.\n   ** Warning ** AirLoopHVAC:UnitarySystem = ZONE WAREHOUSE FINE B END_B - STORY GROUND PSZ-AC UNITARY AC\n   **   ~~~   ** Method used to determine the cooling supply air flow rate is not specified when cooling coil is present.\n   ** Warning ** AirLoopHVAC:UnitarySystem = ZONE WAREHOUSE FINE B END_B - STORY GROUND PSZ-AC UNITARY AC\n   **   ~~~   ** Method used to determine the heating supply air flow rate is not specified when heating coil is present.\n   ** Warning ** AirLoopHVAC:UnitarySystem = ZONE WAREHOUSE FINE C  - STORY GROUND PSZ-AC UNITARY AC\n   **   ~~~   ** Method used to determine the cooling supply air flow rate is not specified when cooling coil is present.\n   ** Warning ** AirLoopHVAC:UnitarySystem = ZONE WAREHOUSE FINE C  - STORY GROUND PSZ-AC UNITARY AC\n   **   ~~~   ** Method used to determine the heating supply air flow rate is not specified when heating coil is present.\n   ** Warning ** AirLoopHVAC:UnitarySystem = ZONE WAREHOUSE FINE C END_B - STORY GROUND PSZ-AC UNITARY AC\n   **   ~~~   ** Method used to determine the cooling supply air flow rate is not specified when cooling coil is present.\n   ** Warning ** AirLoopHVAC:UnitarySystem = ZONE WAREHOUSE FINE C END_B - STORY GROUND PSZ-AC UNITARY AC\n   **   ~~~   ** Method used to determine the heating supply air flow rate is not specified when heating coil is present.\n   ** Warning ** AirLoopHVAC:UnitarySystem = ZONE WAREHOUSE OFFICE A  - STORY GROUND PSZ-AC UNITARY AC\n   **   ~~~   ** Method used to determine the cooling supply air flow rate is not specified when cooling coil is present.\n   ** Warning ** AirLoopHVAC:UnitarySystem = ZONE WAREHOUSE OFFICE A  - STORY GROUND PSZ-AC UNITARY AC\n   **   ~~~   ** Method used to determine the heating supply air flow rate is not specified when heating coil is present.\n   ** Warning ** AirLoopHVAC:UnitarySystem = ZONE WAREHOUSE OFFICE B  - STORY GROUND PSZ-AC UNITARY AC\n   **   ~~~   ** Method used to determine the cooling supply air flow rate is not specified when cooling coil is present.\n   ** Warning ** AirLoopHVAC:UnitarySystem = ZONE WAREHOUSE OFFICE B  - STORY GROUND PSZ-AC UNITARY AC\n   **   ~~~   ** Method used to determine the heating supply air flow rate is not specified when heating coil is present.\n   ** Warning ** AirLoopHVAC:UnitarySystem = ZONE WAREHOUSE OFFICE C  - STORY GROUND PSZ-AC UNITARY AC\n   **   ~~~   ** Method used to determine the cooling supply air flow rate is not specified when cooling coil is present.\n   ** Warning ** AirLoopHVAC:UnitarySystem = ZONE WAREHOUSE OFFICE C  - STORY GROUND PSZ-AC UNITARY AC\n   **   ~~~   ** Method used to determine the heating supply air flow rate is not specified when heating coil is present.\n   ************* Beginning Plant Sizing Calculations\n   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation=\"CONTROLLER MECHANICAL VENTILATION 1\n   **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone=\"ZONE WAREHOUSE FINE A  - STORY GROUND\".\n   **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.\n   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation=\"CONTROLLER MECHANICAL VENTILATION 2\n   **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone=\"ZONE WAREHOUSE FINE A END_B - STORY GROUND\".\n   **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.\n   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation=\"CONTROLLER MECHANICAL VENTILATION 3\n   **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone=\"ZONE WAREHOUSE FINE B  - STORY GROUND\".\n   **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.\n   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation=\"CONTROLLER MECHANICAL VENTILATION 4\n   **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone=\"ZONE WAREHOUSE FINE B END_B - STORY GROUND\".\n   **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.\n   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation=\"CONTROLLER MECHANICAL VENTILATION 5\n   **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone=\"ZONE WAREHOUSE FINE C  - STORY GROUND\".\n   **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.\n   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation=\"CONTROLLER MECHANICAL VENTILATION 6\n   **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone=\"ZONE WAREHOUSE FINE C END_B - STORY GROUND\".\n   **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.\n   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation=\"CONTROLLER MECHANICAL VENTILATION 7\n   **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone=\"ZONE WAREHOUSE OFFICE A  - STORY GROUND\".\n   **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.\n   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation=\"CONTROLLER MECHANICAL VENTILATION 8\n   **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone=\"ZONE WAREHOUSE OFFICE B  - STORY GROUND\".\n   **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.\n   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation=\"CONTROLLER MECHANICAL VENTILATION 9\n   **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone=\"ZONE WAREHOUSE OFFICE C  - STORY GROUND\".\n   **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.\n   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = ZONE WAREHOUSE FINE A  - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 3KBTU/HR 13.0SEER but not at the AHRI test condition due to curve out of bound.\n   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.\n   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = ZONE WAREHOUSE FINE A END_B - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 5KBTU/HR 13.0SEER but not at the AHRI test condition due to curve out of bound.\n   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.\n   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = ZONE WAREHOUSE FINE B  - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 5KBTU/HR 13.0SEER but not at the AHRI test condition due to curve out of bound.\n   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.\n   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = ZONE WAREHOUSE FINE B END_B - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 8KBTU/HR 13.0SEER but not at the AHRI test condition due to curve out of bound.\n   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.\n   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = ZONE WAREHOUSE FINE C  - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 3KBTU/HR 13.0SEER but not at the AHRI test condition due to curve out of bound.\n   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.\n   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = ZONE WAREHOUSE FINE C END_B - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 5KBTU/HR 13.0SEER but not at the AHRI test condition due to curve out of bound.\n   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.\n   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = ZONE WAREHOUSE OFFICE A  - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 4KBTU/HR 13.0SEER but not at the AHRI test condition due to curve out of bound.\n   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.\n   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = ZONE WAREHOUSE OFFICE B  - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 10KBTU/HR 13.0SEER but not at the AHRI test condition due to curve out of bound.\n   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.\n   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = ZONE WAREHOUSE OFFICE C  - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 4KBTU/HR 13.0SEER but not at the AHRI test condition due to curve out of bound.\n   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.\n   ** Warning ** SizePlantLoop: Calculated Plant Sizing Design Volume Flow Rate=[0.00] is too small. Set to 0.0\n   **   ~~~   ** ..occurs for PlantLoop=MAIN SERVICE WATER LOOP\n   ** Warning ** SizePump: Calculated Pump Nominal Volume Flow Rate=[0.00] is too small. Set to 0.0\n   **   ~~~   ** ..occurs for Pump=MAIN SERVICE WATER LOOP WATER MAINS PRESSURE DRIVEN\n   ** Warning ** Check input. Pump nominal power or motor efficiency is set to 0, for pump=MAIN SERVICE WATER LOOP WATER MAINS PRESSURE DRIVEN\n   ** Warning ** Check input. Pump nominal flow rate is set or calculated = 0, for pump=MAIN SERVICE WATER LOOP WATER MAINS PRESSURE DRIVEN\n   ** Warning ** Output:Meter: invalid Key Name=\"DISTRICTCOOLING:FACILITY\" - not found.\n   ** Warning ** Output:Meter: invalid Key Name=\"DISTRICTHEATING:FACILITY\" - not found.\n   ** Warning ** Output:Meter:MeterFileOnly requested for \"Electricity:Facility\" (TimeStep), already on \"Output:Meter\". Will report to both eplusout.eso and eplusout.mtr\n   ************* Testing Individual Branch Integrity\n   ************* All Branches passed integrity testing\n   ************* Testing Individual Supply Air Path Integrity\n   ************* All Supply Air Paths passed integrity testing\n   ************* Testing Individual Return Air Path Integrity\n   ************* All Return Air Paths passed integrity testing\n   ************* No node connection errors were found.\n   ************* Beginning Simulation\n   ** Warning ** CalcOAController: Minimum OA fraction > Mechanical Ventilation Controller request for Controller:OutdoorAir=ZONE WAREHOUSE FINE A  - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER, Min OA fraction is used.\n   **   ~~~   ** This may be overriding desired ventilation controls. Check inputs for Minimum Outdoor Air Flow Rate, Minimum Outdoor Air Schedule Name and Controller:MechanicalVentilation\n   **   ~~~   ** Minimum OA fraction = 0.1275, Mech Vent OA fraction = 3.4963E-002\n   **   ~~~   **  Environment=RUN PERIOD 1, at Simulation time=01/01 00:00 - 01:00\n   ** Warning ** CalcOAController: Minimum OA fraction > Mechanical Ventilation Controller request for Controller:OutdoorAir=ZONE WAREHOUSE FINE A END_B - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER, Min OA fraction is used.\n   **   ~~~   ** This may be overriding desired ventilation controls. Check inputs for Minimum Outdoor Air Flow Rate, Minimum Outdoor Air Schedule Name and Controller:MechanicalVentilation\n   **   ~~~   ** Minimum OA fraction = 7.1238E-002, Mech Vent OA fraction = 1.8419E-002\n   **   ~~~   **  Environment=RUN PERIOD 1, at Simulation time=01/01 00:00 - 01:00\n   ** Warning ** CalcOAController: Minimum OA fraction > Mechanical Ventilation Controller request for Controller:OutdoorAir=ZONE WAREHOUSE FINE B  - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER, Min OA fraction is used.\n   **   ~~~   ** This may be overriding desired ventilation controls. Check inputs for Minimum Outdoor Air Flow Rate, Minimum Outdoor Air Schedule Name and Controller:MechanicalVentilation\n   **   ~~~   ** Minimum OA fraction = 0.1913, Mech Vent OA fraction = 3.0482E-002\n   **   ~~~   **  Environment=RUN PERIOD 1, at Simulation time=01/01 00:00 - 01:00\n   ** Warning ** CalcOAController: Minimum OA fraction > Mechanical Ventilation Controller request for Controller:OutdoorAir=ZONE WAREHOUSE FINE B END_B - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER, Min OA fraction is used.\n   **   ~~~   ** This may be overriding desired ventilation controls. Check inputs for Minimum Outdoor Air Flow Rate, Minimum Outdoor Air Schedule Name and Controller:MechanicalVentilation\n   **   ~~~   ** Minimum OA fraction = 0.1310, Mech Vent OA fraction = 3.7356E-002\n   **   ~~~   **  Environment=RUN PERIOD 1, at Simulation time=01/01 00:00 - 01:00\n   ** Warning ** CalcOAController: Minimum OA fraction > Mechanical Ventilation Controller request for Controller:OutdoorAir=ZONE WAREHOUSE FINE C  - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER, Min OA fraction is used.\n   **   ~~~   ** This may be overriding desired ventilation controls. Check inputs for Minimum Outdoor Air Flow Rate, Minimum Outdoor Air Schedule Name and Controller:MechanicalVentilation\n   **   ~~~   ** Minimum OA fraction = 0.1275, Mech Vent OA fraction = 3.9928E-002\n   **   ~~~   **  Environment=RUN PERIOD 1, at Simulation time=01/01 00:00 - 01:00\n   ** Warning ** CalcOAController: Minimum OA fraction > Mechanical Ventilation Controller request for Controller:OutdoorAir=ZONE WAREHOUSE FINE C END_B - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER, Min OA fraction is used.\n   **   ~~~   ** This may be overriding desired ventilation controls. Check inputs for Minimum Outdoor Air Flow Rate, Minimum Outdoor Air Schedule Name and Controller:MechanicalVentilation\n   **   ~~~   ** Minimum OA fraction = 7.1244E-002, Mech Vent OA fraction = 2.0018E-002\n   **   ~~~   **  Environment=RUN PERIOD 1, at Simulation time=01/01 00:00 - 01:00\n   ** Warning ** CalcOAController: Minimum OA fraction > Mechanical Ventilation Controller request for Controller:OutdoorAir=ZONE WAREHOUSE OFFICE A  - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER, Min OA fraction is used.\n   **   ~~~   ** This may be overriding desired ventilation controls. Check inputs for Minimum Outdoor Air Flow Rate, Minimum Outdoor Air Schedule Name and Controller:MechanicalVentilation\n   **   ~~~   ** Minimum OA fraction = 2.7366E-002, Mech Vent OA fraction = 3.4281E-003\n   **   ~~~   **  Environment=RUN PERIOD 1, at Simulation time=01/01 00:00 - 01:00\n   ** Warning ** CalcOAController: Minimum OA fraction > Mechanical Ventilation Controller request for Controller:OutdoorAir=ZONE WAREHOUSE OFFICE B  - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER, Min OA fraction is used.\n   **   ~~~   ** This may be overriding desired ventilation controls. Check inputs for Minimum Outdoor Air Flow Rate, Minimum Outdoor Air Schedule Name and Controller:MechanicalVentilation\n   **   ~~~   ** Minimum OA fraction = 2.5861E-002, Mech Vent OA fraction = 2.0240E-003\n   **   ~~~   **  Environment=RUN PERIOD 1, at Simulation time=01/01 00:00 - 01:00\n   ** Warning ** CalcOAController: Minimum OA fraction > Mechanical Ventilation Controller request for Controller:OutdoorAir=ZONE WAREHOUSE OFFICE C  - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER, Min OA fraction is used.\n   **   ~~~   ** This may be overriding desired ventilation controls. Check inputs for Minimum Outdoor Air Flow Rate, Minimum Outdoor Air Schedule Name and Controller:MechanicalVentilation\n   **   ~~~   ** Minimum OA fraction = 3.2739E-002, Mech Vent OA fraction = 5.3819E-003\n   **   ~~~   **  Environment=RUN PERIOD 1, at Simulation time=01/01 00:00 - 01:00\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - ELECTRICITY' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:ELECTRICITY'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - ELECTRICITY' invalid Variable or Meter Name 'HEATREJECTION:ELECTRICITY'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - ELECTRICITY' invalid Variable or Meter Name 'HUMIDIFIER:ELECTRICITY'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - ELECTRICITY' invalid Variable or Meter Name 'HEATRECOVERY:ELECTRICITY'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - ELECTRICITY' invalid Variable or Meter Name 'COGENERATION:ELECTRICITY'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - ELECTRICITY' invalid Variable or Meter Name 'REFRIGERATION:ELECTRICITY'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - NATURAL GAS' invalid Variable or Meter Name 'INTERIOREQUIPMENT:NATURALGAS'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - NATURAL GAS' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:NATURALGAS'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - NATURAL GAS' invalid Variable or Meter Name 'COOLING:NATURALGAS'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - NATURAL GAS' invalid Variable or Meter Name 'WATERSYSTEMS:NATURALGAS'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - NATURAL GAS' invalid Variable or Meter Name 'COGENERATION:NATURALGAS'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING' invalid Variable or Meter Name 'INTERIORLIGHTS:DISTRICTHEATING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING' invalid Variable or Meter Name 'EXTERIORLIGHTS:DISTRICTHEATING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING' invalid Variable or Meter Name 'INTERIOREQUIPMENT:DISTRICTHEATING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:DISTRICTHEATING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING' invalid Variable or Meter Name 'FANS:DISTRICTHEATING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING' invalid Variable or Meter Name 'PUMPS:DISTRICTHEATING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING' invalid Variable or Meter Name 'HEATING:DISTRICTHEATING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING' invalid Variable or Meter Name 'COOLING:DISTRICTHEATING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING' invalid Variable or Meter Name 'HEATREJECTION:DISTRICTHEATING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING' invalid Variable or Meter Name 'HUMIDIFIER:DISTRICTHEATING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING' invalid Variable or Meter Name 'HEATRECOVERY:DISTRICTHEATING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING' invalid Variable or Meter Name 'WATERSYSTEMS:DISTRICTHEATING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING' invalid Variable or Meter Name 'COGENERATION:DISTRICTHEATING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING' invalid Variable or Meter Name 'INTERIORLIGHTS:DISTRICTCOOLING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING' invalid Variable or Meter Name 'EXTERIORLIGHTS:DISTRICTCOOLING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING' invalid Variable or Meter Name 'INTERIOREQUIPMENT:DISTRICTCOOLING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:DISTRICTCOOLING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING' invalid Variable or Meter Name 'FANS:DISTRICTCOOLING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING' invalid Variable or Meter Name 'PUMPS:DISTRICTCOOLING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING' invalid Variable or Meter Name 'HEATING:DISTRICTCOOLING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING' invalid Variable or Meter Name 'COOLING:DISTRICTCOOLING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING' invalid Variable or Meter Name 'HEATREJECTION:DISTRICTCOOLING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING' invalid Variable or Meter Name 'HUMIDIFIER:DISTRICTCOOLING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING' invalid Variable or Meter Name 'HEATRECOVERY:DISTRICTCOOLING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING' invalid Variable or Meter Name 'WATERSYSTEMS:DISTRICTCOOLING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING' invalid Variable or Meter Name 'COGENERATION:DISTRICTCOOLING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - ELECTRICITY PEAK DEMAND' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:ELECTRICITY'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - ELECTRICITY PEAK DEMAND' invalid Variable or Meter Name 'HEATREJECTION:ELECTRICITY'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - ELECTRICITY PEAK DEMAND' invalid Variable or Meter Name 'HUMIDIFIER:ELECTRICITY'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - ELECTRICITY PEAK DEMAND' invalid Variable or Meter Name 'HEATRECOVERY:ELECTRICITY'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - ELECTRICITY PEAK DEMAND' invalid Variable or Meter Name 'COGENERATION:ELECTRICITY'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - NATURAL GAS PEAK DEMAND' invalid Variable or Meter Name 'INTERIOREQUIPMENT:NATURALGAS'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - NATURAL GAS PEAK DEMAND' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:NATURALGAS'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - NATURAL GAS PEAK DEMAND' invalid Variable or Meter Name 'COOLING:NATURALGAS'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - NATURAL GAS PEAK DEMAND' invalid Variable or Meter Name 'WATERSYSTEMS:NATURALGAS'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - NATURAL GAS PEAK DEMAND' invalid Variable or Meter Name 'COGENERATION:NATURALGAS'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING PEAK DEMAND' invalid Variable or Meter Name 'DISTRICTHEATING:FACILITY'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING PEAK DEMAND' invalid Variable or Meter Name 'INTERIORLIGHTS:DISTRICTHEATING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING PEAK DEMAND' invalid Variable or Meter Name 'EXTERIORLIGHTS:DISTRICTHEATING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING PEAK DEMAND' invalid Variable or Meter Name 'INTERIOREQUIPMENT:DISTRICTHEATING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING PEAK DEMAND' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:DISTRICTHEATING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING PEAK DEMAND' invalid Variable or Meter Name 'FANS:DISTRICTHEATING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING PEAK DEMAND' invalid Variable or Meter Name 'PUMPS:DISTRICTHEATING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING PEAK DEMAND' invalid Variable or Meter Name 'HEATING:DISTRICTHEATING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING PEAK DEMAND' invalid Variable or Meter Name 'COOLING:DISTRICTHEATING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING PEAK DEMAND' invalid Variable or Meter Name 'HEATREJECTION:DISTRICTHEATING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING PEAK DEMAND' invalid Variable or Meter Name 'HUMIDIFIER:DISTRICTHEATING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING PEAK DEMAND' invalid Variable or Meter Name 'HEATRECOVERY:DISTRICTHEATING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING PEAK DEMAND' invalid Variable or Meter Name 'WATERSYSTEMS:DISTRICTHEATING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING PEAK DEMAND' invalid Variable or Meter Name 'COGENERATION:DISTRICTHEATING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING PEAK DEMAND' invalid Variable or Meter Name 'DISTRICTCOOLING:FACILITY'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING PEAK DEMAND' invalid Variable or Meter Name 'INTERIORLIGHTS:DISTRICTCOOLING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING PEAK DEMAND' invalid Variable or Meter Name 'EXTERIORLIGHTS:DISTRICTCOOLING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING PEAK DEMAND' invalid Variable or Meter Name 'INTERIOREQUIPMENT:DISTRICTCOOLING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING PEAK DEMAND' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:DISTRICTCOOLING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING PEAK DEMAND' invalid Variable or Meter Name 'FANS:DISTRICTCOOLING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING PEAK DEMAND' invalid Variable or Meter Name 'PUMPS:DISTRICTCOOLING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING PEAK DEMAND' invalid Variable or Meter Name 'HEATING:DISTRICTCOOLING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING PEAK DEMAND' invalid Variable or Meter Name 'COOLING:DISTRICTCOOLING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING PEAK DEMAND' invalid Variable or Meter Name 'HEATREJECTION:DISTRICTCOOLING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING PEAK DEMAND' invalid Variable or Meter Name 'HUMIDIFIER:DISTRICTCOOLING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING PEAK DEMAND' invalid Variable or Meter Name 'HEATRECOVERY:DISTRICTCOOLING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING PEAK DEMAND' invalid Variable or Meter Name 'WATERSYSTEMS:DISTRICTCOOLING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING PEAK DEMAND' invalid Variable or Meter Name 'COGENERATION:DISTRICTCOOLING'\n   ** Warning ** Processing Monthly Tabular Reports: Variable names not valid for this simulation\n   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual variables.\n   ** Warning ** More than 4% of time (350.4 hours) uncomfortable in one or more zones \n   **   ~~~   ** Based on ASHRAE 55-2004 graph (Section 5.2.1.1)\n   **   ~~~   ** During Environment [01/01/2006 - 12/31/2006]: RUN PERIOD 1\n   **   ~~~   ** 3893.0 hours were uncomfortable in zone: ZONE WAREHOUSE OFFICE A  - STORY GROUND\n   **   ~~~   ** 3505.0 hours were uncomfortable in zone: ZONE WAREHOUSE OFFICE B  - STORY GROUND\n   **   ~~~   ** 3958.0 hours were uncomfortable in zone: ZONE WAREHOUSE OFFICE C  - STORY GROUND\n   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= \"U.S. AVG  COMMERCIAL-ELECTRICITY\" has no energy cost. \n   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.\n   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= \"U.S. AVG  COMMERCIAL-DISTILLATE OIL\" has no energy cost. \n   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.\n   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= \"U.S. AVG  COMMERCIAL-RESIDUAL OIL\" has no energy cost. \n   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.\n   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= \"U.S. AVG  COMMERCIAL-NATURAL GAS\" has no energy cost. \n   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.\n   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= \"U.S. AVG  COMMERCIAL-COAL\" has no energy cost. \n   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.\n   ************* Simulation Error Summary *************\n   ************* There are 11 unused schedules in input.\n   ************* There are 37 unused week schedules in input.\n   ************* There are 78 unused day schedules in input.\n   ************* Use Output:Diagnostics,DisplayUnusedSchedules; to see them.\n   *************\n   ************* ===== Recurring Error Summary =====\n   ************* The following recurring error messages occurred.\n   *************\n   *************  ** Warning ** Controller:OutdoorAir=\"ZONE WAREHOUSE FINE A  - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER\": Min OA fraction > Mechanical ventilation OA fraction, continues...\n   *************  **   ~~~   **   This error occurred 100585 total times;\n   *************  **   ~~~   **   during Warmup 0 times;\n   *************  **   ~~~   **   during Sizing 0 times.\n   *************  **   ~~~   **   Max=0.127462  Min=0.127462\n   *************\n   *************  ** Warning ** Controller:OutdoorAir=\"ZONE WAREHOUSE FINE A END_B - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER\": Min OA fraction > Mechanical ventilation OA fraction, continues...\n   *************  **   ~~~   **   This error occurred 131765 total times;\n   *************  **   ~~~   **   during Warmup 0 times;\n   *************  **   ~~~   **   during Sizing 0 times.\n   *************  **   ~~~   **   Max=7.123753E-002  Min=7.123753E-002\n   *************\n   *************  ** Warning ** Controller:OutdoorAir=\"ZONE WAREHOUSE FINE B  - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER\": Min OA fraction > Mechanical ventilation OA fraction, continues...\n   *************  **   ~~~   **   This error occurred 27089 total times;\n   *************  **   ~~~   **   during Warmup 0 times;\n   *************  **   ~~~   **   during Sizing 0 times.\n   *************  **   ~~~   **   Max=0.191332  Min=0.191332\n   *************\n   *************  ** Warning ** Controller:OutdoorAir=\"ZONE WAREHOUSE FINE B END_B - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER\": Min OA fraction > Mechanical ventilation OA fraction, continues...\n   *************  **   ~~~   **   This error occurred 115853 total times;\n   *************  **   ~~~   **   during Warmup 0 times;\n   *************  **   ~~~   **   during Sizing 0 times.\n   *************  **   ~~~   **   Max=0.131014  Min=0.131014\n   *************\n   *************  ** Warning ** Controller:OutdoorAir=\"ZONE WAREHOUSE FINE C  - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER\": Min OA fraction > Mechanical ventilation OA fraction, continues...\n   *************  **   ~~~   **   This error occurred 110513 total times;\n   *************  **   ~~~   **   during Warmup 0 times;\n   *************  **   ~~~   **   during Sizing 0 times.\n   *************  **   ~~~   **   Max=0.127472  Min=0.127472\n   *************\n   *************  ** Warning ** Controller:OutdoorAir=\"ZONE WAREHOUSE FINE C END_B - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER\": Min OA fraction > Mechanical ventilation OA fraction, continues...\n   *************  **   ~~~   **   This error occurred 136251 total times;\n   *************  **   ~~~   **   during Warmup 0 times;\n   *************  **   ~~~   **   during Sizing 0 times.\n   *************  **   ~~~   **   Max=7.124399E-002  Min=7.124399E-002\n   *************\n   *************  ** Warning ** Controller:OutdoorAir=\"ZONE WAREHOUSE OFFICE A  - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER\": Min OA fraction > Mechanical ventilation OA fraction, continues...\n   *************  **   ~~~   **   This error occurred 28509 total times;\n   *************  **   ~~~   **   during Warmup 0 times;\n   *************  **   ~~~   **   during Sizing 0 times.\n   *************  **   ~~~   **   Max=2.736553E-002  Min=2.736553E-002\n   *************\n   *************  ** Warning ** Controller:OutdoorAir=\"ZONE WAREHOUSE OFFICE B  - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER\": Min OA fraction > Mechanical ventilation OA fraction, continues...\n   *************  **   ~~~   **   This error occurred 10865 total times;\n   *************  **   ~~~   **   during Warmup 0 times;\n   *************  **   ~~~   **   during Sizing 0 times.\n   *************  **   ~~~   **   Max=2.586129E-002  Min=2.586129E-002\n   *************\n   *************  ** Warning ** Controller:OutdoorAir=\"ZONE WAREHOUSE OFFICE C  - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER\": Min OA fraction > Mechanical ventilation OA fraction, continues...\n   *************  **   ~~~   **   This error occurred 31823 total times;\n   *************  **   ~~~   **   during Warmup 0 times;\n   *************  **   ~~~   **   during Sizing 0 times.\n   *************  **   ~~~   **   Max=3.273943E-002  Min=3.273943E-002\n   *************\n   *************\n   ************* ===== Final Error Summary =====\n   ************* The following error categories occurred.  Consider correcting or noting.\n   ************* Nominally Unused Constructions\n   ************* ..The nominally unused constructions warning is provided to alert you to potential conditions that can cause\n   ************* ..extra time during simulation. Each construction is calculated by the algorithm indicated in the HeatBalanceAlgorithm\n   ************* ..object. You may remove the constructions indicated (when you use the DisplayExtraWarnings option).\n   *************\n   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.\n   ************* EnergyPlus Sizing Error Summary. During Sizing: 33 Warning; 1 Severe Errors.\n   ************* EnergyPlus Completed Successfully-- 693403 Warning; 1 Severe Errors; Elapsed Time=00hr 00min  6.64sec\n",
+   "file_paths" : 
+   [
+      "/Users/cbianchi/Documents/GitHub/example_workflow/ERMA_simulations_NEW/tsunami/Power_and_Heat_N2_November_8/generated_files",
+      "./files",
+      "./weather",
+      "../../files",
+      "../../weather",
+      "./"
+   ],
+   "hash" : "BF1B1DE6",
+   "measure_paths" : 
+   [
+      "/Users/cbianchi/Documents/GitHub/example_workflow/measures"
+   ],
+   "seed_file" : "Power_and_Heat_N2_November_8.osm",
+   "started_at" : "20230628T202332Z",
+   "steps" : 
+   [
+      {
+         "arguments" : 
+         {
+            "otg_date" : "November 8",
+            "otg_hr" : "6",
+            "otg_len" : "48",
+            "outage_type" : "Power and Heat"
+         },
+         "measure_dir_name" : "set_power_and_heat_off",
+         "result" : 
+         {
+            "completed_at" : "20230628T202333Z",
+            "measure_class_name" : "SetPowerAndHeatOff",
+            "measure_display_name" : "Set Power and Heat off",
+            "measure_name" : "set_power_and_heat_off",
+            "measure_taxonomy" : "Whole Building.Whole Building Schedules",
+            "measure_type" : "ModelMeasure",
+            "measure_uid" : "0ac8dac6-7ee2-4ae7-aee0-f5cabdfe3a82",
+            "measure_version_id" : "55370018-4ff7-47f0-8c33-81b9a97a5a4b",
+            "measure_version_modified" : "20230529T194808Z",
+            "measure_xml_checksum" : "25215CE1",
+            "started_at" : "20230628T202333Z",
+            "stderr" : "",
+            "stdout" : "",
+            "step_errors" : [],
+            "step_files" : [],
+            "step_final_condition" : "A power outage has been added, starting on November 8 at hour 6 and lasting for 48 hours.",
+            "step_info" : 
+            [
+               "Modified the schedule 'ZoneWarehouseOfficeCStoryGroundPSZACmaxOASch'.",
+               "Modified the schedule 'Zone Warehouse Office A  - Story Ground PSZ-AC Occ Sch'.",
+               "Modified the schedule 'ZoneWarehouseFineCendbStoryGroundPSZACmaxOASch'.",
+               "Modified the schedule 'Zone Warehouse Fine C  - Story Ground PSZ-AC Occ Sch'.",
+               "Modified the schedule 'ZoneWarehouseFineBendbStoryGroundPSZACmaxOASch'.",
+               "Modified the schedule 'Zone Warehouse Fine A end_b - Story Ground PSZ-AC Occ Sch'.",
+               "Modified the schedule 'ZoneWarehouseFineAStoryGroundPSZACmaxOASch'.",
+               "Modified the schedule 'Zone Warehouse Fine A  - Story Ground PSZ-AC Occ Sch'.",
+               "Modified the schedule 'ZoneWarehouseOfficeAStoryGroundPSZACmaxOASch'.",
+               "Modified the schedule 'Zone Warehouse Office B  - Story Ground PSZ-AC Occ Sch'.",
+               "Modified the schedule 'Zone Warehouse Fine C end_b - Story Ground PSZ-AC Occ Sch'.",
+               "Modified the schedule 'Warehouse Bulk Infil Schedule'.",
+               "Modified the schedule 'Warehouse Office Infil Schedule'.",
+               "Modified the schedule 'ZoneWarehouseFineCStoryGroundPSZACmaxOASch'.",
+               "Modified the schedule 'OfficeSmall BLDG_LIGHT_SCH'.",
+               "Modified the schedule 'Warehouse Office_Plug_SCH'.",
+               "Modified the schedule 'Zone Warehouse Fine B  - Story Ground PSZ-AC Occ Sch'.",
+               "Modified the schedule 'Warehouse BLDG_LIGHT_OFFICE_SCH'.",
+               "Modified the schedule 'ZoneWarehouseFineAendbStoryGroundPSZACmaxOASch'.",
+               "Modified the schedule 'Warehouse Fine Infil Schedule'.",
+               "Modified the schedule 'Building Hours of Operation NonResidential'.",
+               "Modified the schedule 'Warehouse Bldg Equip'.",
+               "Modified the schedule 'OfficeSmall BLDG_EQUIP_SCH'.",
+               "Modified the schedule 'OfficeSmall Exterior_lighting_schedule_b'.",
+               "Modified the schedule 'ZoneWarehouseOfficeBStoryGroundPSZACmaxOASch'.",
+               "Modified the schedule 'OfficeSmall CLGSETP_SCH_NO_OPTIMUM'.",
+               "Modified the schedule 'Work Efficiency Schedule'.",
+               "Modified the schedule 'Service Water Loop Temp - 140F'.",
+               "Modified the schedule 'Warehouse BLDG_LIGHT_STORAGE_SCH'.",
+               "Modified the schedule 'OfficeSmall HTGSETP_SCH_NO_OPTIMUM'.",
+               "Modified the schedule 'Zone Warehouse Office C  - Story Ground PSZ-AC Occ Sch'.",
+               "Modified the schedule 'ZoneWarehouseFineBStoryGroundPSZACmaxOASch'.",
+               "Modified the schedule 'OfficeSmall Exterior_lighting_schedule_a'.",
+               "Modified the schedule 'OfficeSmall BLDG_OCC_SCH'.",
+               "Modified the schedule 'Zone Warehouse Fine B end_b - Story Ground PSZ-AC Occ Sch'.",
+               "Modified the availability schedule for 'Zone Warehouse Fine C end_b - Story Ground PSZ-AC Unitary AC'.",
+               "Modified the availability schedule for 'Zone Warehouse Fine C end_b - Story Ground PSZ-AC Unitary AC'.",
+               "Modified the availability schedule for 'Zone Warehouse Fine A end_b - Story Ground PSZ-AC Unitary AC'.",
+               "Modified the availability schedule for 'Zone Warehouse Fine A end_b - Story Ground PSZ-AC Unitary AC'.",
+               "Modified the availability schedule for 'Zone Warehouse Fine B end_b - Story Ground PSZ-AC Unitary AC'.",
+               "Modified the availability schedule for 'Zone Warehouse Fine B end_b - Story Ground PSZ-AC Unitary AC'.",
+               "Modified the availability schedule for 'Zone Warehouse Fine B  - Story Ground PSZ-AC Unitary AC'.",
+               "Modified the availability schedule for 'Zone Warehouse Fine B  - Story Ground PSZ-AC Unitary AC'.",
+               "Found electric baseboard in Zone Warehouse Bulk B  - Story Ground.",
+               "Modified the availability schedule for 'Zone Warehouse Bulk B  - Story Ground Electric Baseboard'.",
+               "Modified the availability schedule for 'Zone Warehouse Office A  - Story Ground PSZ-AC Unitary AC'.",
+               "Modified the availability schedule for 'Zone Warehouse Office A  - Story Ground PSZ-AC Unitary AC'.",
+               "Found electric baseboard in Zone Warehouse Bulk A  - Story Ground.",
+               "Modified the availability schedule for 'Zone Warehouse Bulk A  - Story Ground Electric Baseboard'.",
+               "Modified the availability schedule for 'Zone Warehouse Fine A  - Story Ground PSZ-AC Unitary AC'.",
+               "Modified the availability schedule for 'Zone Warehouse Fine A  - Story Ground PSZ-AC Unitary AC'.",
+               "Found electric baseboard in Zone Warehouse Bulk B end_a - Story Ground.",
+               "Modified the availability schedule for 'Zone Warehouse Bulk B end_a - Story Ground Electric Baseboard'.",
+               "Found electric baseboard in Zone Warehouse Bulk C end_a - Story Ground.",
+               "Modified the availability schedule for 'Zone Warehouse Bulk C end_a - Story Ground Electric Baseboard'.",
+               "Modified the availability schedule for 'Zone Warehouse Fine C  - Story Ground PSZ-AC Unitary AC'.",
+               "Modified the availability schedule for 'Zone Warehouse Fine C  - Story Ground PSZ-AC Unitary AC'.",
+               "Modified the availability schedule for 'Zone Warehouse Office C  - Story Ground PSZ-AC Unitary AC'.",
+               "Modified the availability schedule for 'Zone Warehouse Office C  - Story Ground PSZ-AC Unitary AC'.",
+               "Modified the availability schedule for 'Zone Warehouse Office B  - Story Ground PSZ-AC Unitary AC'.",
+               "Modified the availability schedule for 'Zone Warehouse Office B  - Story Ground PSZ-AC Unitary AC'.",
+               "Found electric baseboard in Zone Warehouse Bulk C  - Story Ground.",
+               "Modified the availability schedule for 'Zone Warehouse Bulk C  - Story Ground Electric Baseboard'.",
+               "Found electric baseboard in Zone Warehouse Bulk A end_a - Story Ground.",
+               "Modified the availability schedule for 'Zone Warehouse Bulk A end_a - Story Ground Electric Baseboard'.",
+               "Modified the schedule 'lighting_interior'.",
+               "Modified the schedule 'lighting_exterior'.",
+               "Modified the schedule 'lighting_garage'.",
+               "Modified the schedule 'lighting_exterior_holiday'.",
+               "Modified the schedule 'cooking_range'.",
+               "Modified the schedule 'dishwasher'.",
+               "Modified the schedule 'dishwasher_power'.",
+               "Modified the schedule 'clothes_washer'.",
+               "Modified the schedule 'clothes_washer_power'.",
+               "Modified the schedule 'clothes_dryer'.",
+               "Modified the schedule 'clothes_dryer_exhaust'.",
+               "Modified the schedule 'baths'.",
+               "Modified the schedule 'showers'.",
+               "Modified the schedule 'sinks'.",
+               "Modified the schedule 'ceiling_fan'.",
+               "Modified the schedule 'plug_loads'.",
+               "Modified the schedule 'plug_loads_vehicle'.",
+               "Modified the schedule 'plug_loads_well_pump'.",
+               "Modified the schedule 'fuel_loads_grill'.",
+               "Modified the schedule 'fuel_loads_lighting'.",
+               "Modified the schedule 'fuel_loads_fireplace'."
+            ],
+            "step_result" : "Success",
+            "step_values" : 
+            [
+               {
+                  "name" : "otg_date",
+                  "value" : "November 8"
+               },
+               {
+                  "name" : "otg_hr",
+                  "value" : 6
+               },
+               {
+                  "name" : "otg_len",
+                  "value" : 48
+               },
+               {
+                  "name" : "outage_type",
+                  "value" : "Power and Heat"
+               }
+            ],
+            "step_warnings" : []
+         }
+      },
+      {
+         "arguments" : 
+         {
+            "key_value" : "*",
+            "reporting_frequency" : "hourly",
+            "variable_name" : "Zone Mean Air Temperature"
+         },
+         "measure_dir_name" : "AddOutputVariable",
+         "result" : 
+         {
+            "completed_at" : "20230628T202333Z",
+            "measure_class_name" : "AddOutputVariable",
+            "measure_display_name" : "AddOutputVariable",
+            "measure_name" : "add_output_variable",
+            "measure_taxonomy" : "Reporting.QAQC",
+            "measure_type" : "ModelMeasure",
+            "measure_uid" : "2a058afb-e349-49ae-a4bf-2c56a42b4352",
+            "measure_version_id" : "b38027ec-5a67-46d2-959d-76fe29e9ff93",
+            "measure_version_modified" : "20180726T200322Z",
+            "measure_xml_checksum" : "0CA4D54C",
+            "started_at" : "20230628T202333Z",
+            "stderr" : "",
+            "stdout" : "",
+            "step_errors" : [],
+            "step_files" : [],
+            "step_final_condition" : "The model finished with 1 output variable objects.",
+            "step_info" : 
+            [
+               "Adding output variable for Zone Mean Air Temperature reporting hourly.",
+               "Key value for variable is *."
+            ],
+            "step_initial_condition" : "The model started with 0 output variable objects.",
+            "step_result" : "Success",
+            "step_values" : 
+            [
+               {
+                  "name" : "variable_name",
+                  "value" : "Zone Mean Air Temperature"
+               },
+               {
+                  "name" : "reporting_frequency",
+                  "value" : "hourly"
+               },
+               {
+                  "name" : "key_value",
+                  "value" : "*"
+               }
+            ],
+            "step_warnings" : []
+         }
+      },
+      {
+         "arguments" : 
+         {
+            "key_value" : "*",
+            "reporting_frequency" : "hourly",
+            "variable_name" : "Zone Operative Temperature"
+         },
+         "measure_dir_name" : "AddOutputVariable",
+         "result" : 
+         {
+            "completed_at" : "20230628T202333Z",
+            "measure_class_name" : "AddOutputVariable",
+            "measure_display_name" : "AddOutputVariable",
+            "measure_name" : "add_output_variable",
+            "measure_taxonomy" : "Reporting.QAQC",
+            "measure_type" : "ModelMeasure",
+            "measure_uid" : "2a058afb-e349-49ae-a4bf-2c56a42b4352",
+            "measure_version_id" : "b38027ec-5a67-46d2-959d-76fe29e9ff93",
+            "measure_version_modified" : "20180726T200322Z",
+            "measure_xml_checksum" : "0CA4D54C",
+            "started_at" : "20230628T202333Z",
+            "stderr" : "",
+            "stdout" : "",
+            "step_errors" : [],
+            "step_files" : [],
+            "step_final_condition" : "The model finished with 2 output variable objects.",
+            "step_info" : 
+            [
+               "Adding output variable for Zone Operative Temperature reporting hourly.",
+               "Key value for variable is *."
+            ],
+            "step_initial_condition" : "The model started with 1 output variable objects.",
+            "step_result" : "Success",
+            "step_values" : 
+            [
+               {
+                  "name" : "variable_name",
+                  "value" : "Zone Operative Temperature"
+               },
+               {
+                  "name" : "reporting_frequency",
+                  "value" : "hourly"
+               },
+               {
+                  "name" : "key_value",
+                  "value" : "*"
+               }
+            ],
+            "step_warnings" : []
+         }
+      },
+      {
+         "arguments" : 
+         {
+            "key_value" : "*",
+            "reporting_frequency" : "hourly",
+            "variable_name" : "Zone Thermal Comfort Fanger Model PMV"
+         },
+         "measure_dir_name" : "AddOutputVariable",
+         "result" : 
+         {
+            "completed_at" : "20230628T202333Z",
+            "measure_class_name" : "AddOutputVariable",
+            "measure_display_name" : "AddOutputVariable",
+            "measure_name" : "add_output_variable",
+            "measure_taxonomy" : "Reporting.QAQC",
+            "measure_type" : "ModelMeasure",
+            "measure_uid" : "2a058afb-e349-49ae-a4bf-2c56a42b4352",
+            "measure_version_id" : "b38027ec-5a67-46d2-959d-76fe29e9ff93",
+            "measure_version_modified" : "20180726T200322Z",
+            "measure_xml_checksum" : "0CA4D54C",
+            "started_at" : "20230628T202333Z",
+            "stderr" : "",
+            "stdout" : "",
+            "step_errors" : [],
+            "step_files" : [],
+            "step_final_condition" : "The model finished with 3 output variable objects.",
+            "step_info" : 
+            [
+               "Adding output variable for Zone Thermal Comfort Fanger Model PMV reporting hourly.",
+               "Key value for variable is *."
+            ],
+            "step_initial_condition" : "The model started with 2 output variable objects.",
+            "step_result" : "Success",
+            "step_values" : 
+            [
+               {
+                  "name" : "variable_name",
+                  "value" : "Zone Thermal Comfort Fanger Model PMV"
+               },
+               {
+                  "name" : "reporting_frequency",
+                  "value" : "hourly"
+               },
+               {
+                  "name" : "key_value",
+                  "value" : "*"
+               }
+            ],
+            "step_warnings" : []
+         }
+      },
+      {
+         "arguments" : 
+         {
+            "key_value" : "*",
+            "reporting_frequency" : "hourly",
+            "variable_name" : "Zone Thermal Comfort Fanger Model PPD"
+         },
+         "measure_dir_name" : "AddOutputVariable",
+         "result" : 
+         {
+            "completed_at" : "20230628T202333Z",
+            "measure_class_name" : "AddOutputVariable",
+            "measure_display_name" : "AddOutputVariable",
+            "measure_name" : "add_output_variable",
+            "measure_taxonomy" : "Reporting.QAQC",
+            "measure_type" : "ModelMeasure",
+            "measure_uid" : "2a058afb-e349-49ae-a4bf-2c56a42b4352",
+            "measure_version_id" : "b38027ec-5a67-46d2-959d-76fe29e9ff93",
+            "measure_version_modified" : "20180726T200322Z",
+            "measure_xml_checksum" : "0CA4D54C",
+            "started_at" : "20230628T202333Z",
+            "stderr" : "",
+            "stdout" : "",
+            "step_errors" : [],
+            "step_files" : [],
+            "step_final_condition" : "The model finished with 4 output variable objects.",
+            "step_info" : 
+            [
+               "Adding output variable for Zone Thermal Comfort Fanger Model PPD reporting hourly.",
+               "Key value for variable is *."
+            ],
+            "step_initial_condition" : "The model started with 3 output variable objects.",
+            "step_result" : "Success",
+            "step_values" : 
+            [
+               {
+                  "name" : "variable_name",
+                  "value" : "Zone Thermal Comfort Fanger Model PPD"
+               },
+               {
+                  "name" : "reporting_frequency",
+                  "value" : "hourly"
+               },
+               {
+                  "name" : "key_value",
+                  "value" : "*"
+               }
+            ],
+            "step_warnings" : []
+         }
+      }
+   ],
+   "updated_at" : "20230628T202342Z",
+   "weather_file" : "/Users/cbianchi/Documents/GitHub/example_workflow/Kodiak_Airport_703500_TMY3.epw"
+}

@@ -1,0 +1,59 @@
+{
+   "hash" : "A44BDC3F",
+   "measure_paths" : 
+   [
+      "/Users/cbianchi/Documents/GitHub/example_workflow/measures"
+   ],
+   "seed_file" : "Power_and_Heat_614_Cutterman_November_8.osm",
+   "steps" : 
+   [
+      {
+         "arguments" : 
+         {
+            "otg_date" : "November 8",
+            "otg_hr" : "6",
+            "otg_len" : "97",
+            "outage_type" : "Power and Heat"
+         },
+         "measure_dir_name" : "set_power_and_heat_off"
+      },
+      {
+         "arguments" : 
+         {
+            "key_value" : "*",
+            "reporting_frequency" : "hourly",
+            "variable_name" : "Zone Mean Air Temperature"
+         },
+         "measure_dir_name" : "AddOutputVariable"
+      },
+      {
+         "arguments" : 
+         {
+            "key_value" : "*",
+            "reporting_frequency" : "hourly",
+            "variable_name" : "Zone Operative Temperature"
+         },
+         "measure_dir_name" : "AddOutputVariable"
+      },
+      {
+         "arguments" : 
+         {
+            "key_value" : "*",
+            "reporting_frequency" : "hourly",
+            "variable_name" : "Zone Thermal Comfort Fanger Model PMV"
+         },
+         "measure_dir_name" : "AddOutputVariable"
+      },
+      {
+         "arguments" : 
+         {
+            "key_value" : "*",
+            "reporting_frequency" : "hourly",
+            "variable_name" : "Zone Thermal Comfort Fanger Model PPD"
+         },
+         "measure_dir_name" : "AddOutputVariable"
+      }
+   ],
+   "updated_at" : "20230628T202447Z",
+   "weather_file" : "/Users/cbianchi/Documents/GitHub/example_workflow/Kodiak_Airport_703500_TMY3.epw"
+}
