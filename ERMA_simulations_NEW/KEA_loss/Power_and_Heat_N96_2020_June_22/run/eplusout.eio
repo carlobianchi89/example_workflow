@@ -1,0 +1,528 @@
+Program Version,EnergyPlus, Version 22.2.0-aa78da9668, YMD=2023.06.28 14:27
+! <Version>, Version ID
+ Version, 22.2
+! <Timesteps per Hour>, #TimeSteps, Minutes per TimeStep {minutes}
+ Timesteps per Hour,  1, 60
+! <System Convergence Limits>, Minimum System TimeStep {minutes}, Max HVAC Iterations, Minimum Plant Iterations, Maximum Plant Iterations
+ System Convergence Limits, 1, 20, 2, 8
+! <Simulation Control>, Do Zone Sizing, Do System Sizing, Do Plant Sizing, Do Design Days, Do Weather Simulation, Do HVAC Sizing Simulation
+ Simulation Control, Yes, Yes, Yes, No, Yes, No
+! <Performance Precision Tradeoffs>, Use Coil Direct Simulation, Zone Radiant Exchange Algorithm, Override Mode, Number of Timestep In Hour, Force Euler Method, Minimum Number of Warmup Days, Force Suppress All Begin Environment Resets, Minimum System Timestep, MaxZoneTempDiff, MaxAllowedDelTemp
+ Performance Precision Tradeoffs, No, ScriptF, Normal, 1, No, 1, No, 1.0, 0.300, 2.0000E-003
+! <Output Reporting Tolerances>, Tolerance for Time Heating Setpoint Not Met, Tolerance for Zone Cooling Setpoint Not Met Time
+ Output Reporting Tolerances, 0.556, 0.556, 
+! <Site:GroundTemperature:BuildingSurface>,Jan{C},Feb{C},Mar{C},Apr{C},May{C},Jun{C},Jul{C},Aug{C},Sep{C},Oct{C},Nov{C},Dec{C}
+ Site:GroundTemperature:BuildingSurface,  18.00,  18.00,  18.00,  18.00,  18.00,  18.00,  18.00,  18.00,  18.00,  18.00,  18.00,  18.00
+! <Site:GroundTemperature:FCfactorMethod>,Jan{C},Feb{C},Mar{C},Apr{C},May{C},Jun{C},Jul{C},Aug{C},Sep{C},Oct{C},Nov{C},Dec{C}
+ Site:GroundTemperature:FCfactorMethod,  -3.10, -17.70, -19.30, -17.60, -15.40, -10.30,   0.70,  10.60,  16.00,  16.90,  14.20,   6.70
+! <Site:GroundTemperature:Shallow>,Jan{C},Feb{C},Mar{C},Apr{C},May{C},Jun{C},Jul{C},Aug{C},Sep{C},Oct{C},Nov{C},Dec{C}
+ Site:GroundTemperature:Shallow,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00
+! <Site:GroundTemperature:Deep>,Jan{C},Feb{C},Mar{C},Apr{C},May{C},Jun{C},Jul{C},Aug{C},Sep{C},Oct{C},Nov{C},Dec{C}
+ Site:GroundTemperature:Deep,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00
+! <Site:GroundReflectance>,Jan{dimensionless},Feb{dimensionless},Mar{dimensionless},Apr{dimensionless},May{dimensionless},Jun{dimensionless},Jul{dimensionless},Aug{dimensionless},Sep{dimensionless},Oct{dimensionless},Nov{dimensionless},Dec{dimensionless}
+ Site:GroundReflectance,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20
+! <Site:GroundReflectance:SnowModifier>, Normal, Daylighting {dimensionless}
+ Site:GroundReflectance:SnowModifier,   1.000,   1.000
+! <Site:GroundReflectance:Snow>,Jan{dimensionless},Feb{dimensionless},Mar{dimensionless},Apr{dimensionless},May{dimensionless},Jun{dimensionless},Jul{dimensionless},Aug{dimensionless},Sep{dimensionless},Oct{dimensionless},Nov{dimensionless},Dec{dimensionless}
+ Site:GroundReflectance:Snow,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20
+! <Site:GroundReflectance:Snow:Daylighting>,Jan{dimensionless},Feb{dimensionless},Mar{dimensionless},Apr{dimensionless},May{dimensionless},Jun{dimensionless},Jul{dimensionless},Aug{dimensionless},Sep{dimensionless},Oct{dimensionless},Nov{dimensionless},Dec{dimensionless}
+ Site:GroundReflectance:Snow:Daylighting,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20
+! <Environment:Weather Station>,Wind Sensor Height Above Ground {m},Wind Speed Profile Exponent {},Wind Speed Profile Boundary Layer Thickness {m},Air Temperature Sensor Height Above Ground {m},Wind Speed Modifier Coefficient-Internal,Temperature Modifier Coefficient-Internal
+Environment:Weather Station,10.000,0.140,270.000,1.500,1.586,9.750E-003
+! <Site:Location>, Location Name, Latitude {N+/S- Deg}, Longitude {E+/W- Deg},  Time Zone Number {GMT+/-}, Elevation {m},  Standard Pressure at Elevation {Pa}, Standard RhoAir at Elevation
+Site:Location,Kodiak Airport AK USA TMY3 WMO#=703500,57.75,-152.50,-9.00,5.00,101265,1.2036
+! <Site Water Mains Temperature Information>,Calculation Method{},Water Mains Temperature Schedule Name{},Annual Average Outdoor Air Temperature{C},Maximum Difference In Monthly Average Outdoor Air Temperatures{deltaC},Fixed Default Water Mains Temperature{C}
+Site Water Mains Temperature Information,Correlation,NA,-1.53,36.20,NA
+! <Building Information>, Building Name,North Axis {deg},Terrain,  Loads Convergence Tolerance Value,Temperature Convergence Tolerance Value,  Solar Distribution,Maximum Number of Warmup Days,Minimum Number of Warmup Days
+ Building Information,90.1-2004|SmallOffice,0.000,City,4.00000E-002,0.20000,FullInteriorAndExterior,25,6
+! <Inside Convection Algorithm>, Algorithm {Simple | TARP | CeilingDiffuser | AdaptiveConvectionAlgorithm}
+Inside Convection Algorithm,TARP
+! <Outside Convection Algorithm>, Algorithm {SimpleCombined | TARP | MoWitt | DOE-2 | AdaptiveConvectionAlgorithm}
+Outside Convection Algorithm,TARP
+! <Sky Radiance Distribution>, Value {Anisotropic}
+Sky Radiance Distribution,Anisotropic
+! <Zone Air Solution Algorithm>, Value {ThirdOrderBackwardDifference | AnalyticalSolution | EulerMethod}
+ Zone Air Solution Algorithm, ThirdOrderBackwardDifference
+! <Zone Air Carbon Dioxide Balance Simulation>, Simulation {Yes/No}, Carbon Dioxide Concentration
+ Zone Air Carbon Dioxide Balance Simulation, No,N/A
+! <Zone Air Generic Contaminant Balance Simulation>, Simulation {Yes/No}, Generic Contaminant Concentration
+ Zone Air Generic Contaminant Balance Simulation, No,N/A
+! <Zone Air Mass Flow Balance Simulation>, Enforce Mass Balance, Adjust Zone Mixing and Return {AdjustMixingOnly | AdjustReturnOnly | AdjustMixingThenReturn | AdjustReturnThenMixing | None}, Adjust Zone Infiltration {AddInfiltration | AdjustInfiltration | None}, Infiltration Zones {MixingSourceZonesOnly | AllZones}
+ Zone Air Mass Flow Balance Simulation, No,N/A,N/A,N/A
+! <HVACSystemRootFindingAlgorithm>, Value {RegulaFalsi | Bisection | BisectionThenRegulaFalsi | RegulaFalsiThenBisection}
+ HVACSystemRootFindingAlgorithm, RegulaFalsi
+! <Environment:Site Atmospheric Variation>,Wind Speed Profile Exponent {},Wind Speed Profile Boundary Layer Thickness {m},Air Temperature Gradient Coefficient {K/m}
+Environment:Site Atmospheric Variation,0.330,460.000,6.500000E-003
+! <Surface Geometry>,Starting Corner,Vertex Input Direction,Coordinate System,Daylight Reference Point Coordinate System,Rectangular (Simple) Surface Coordinate System
+ Surface Geometry,UpperLeftCorner,Counterclockwise,RelativeCoordinateSystem,RelativeCoordinateSystem,RelativeToZoneOrigin
+! <Surface Heat Transfer Algorithm>, Value {CTF - ConductionTransferFunction | EMPD - MoisturePenetrationDepthConductionTransferFunction | CondFD - ConductionFiniteDifference | HAMT - CombinedHeatAndMoistureFiniteElement} - Description,Inside Surface Max Temperature Limit{C}, Surface Convection Coefficient Lower Limit {W/m2-K}, Surface Convection Coefficient Upper Limit {W/m2-K}
+Surface Heat Transfer Algorithm, CTF - ConductionTransferFunction,200,0.10,1000.0
+! <Shading Summary>, Number of Fixed Detached Shades, Number of Building Detached Shades, Number of Attached Shades
+ Shading Summary,0,0,0
+! <Zone Summary>, Number of Zones, Number of Zone Surfaces, Number of SubSurfaces
+ Zone Summary,9,75,12
+! <Zone Information>,Zone Name,North Axis {deg},Origin X-Coordinate {m},Origin Y-Coordinate {m},Origin Z-Coordinate {m},Centroid X-Coordinate {m},Centroid Y-Coordinate {m},Centroid Z-Coordinate {m},Type,Zone Multiplier,Zone List Multiplier,Minimum X {m},Maximum X {m},Minimum Y {m},Maximum Y {m},Minimum Z {m},Maximum Z {m},Ceiling Height {m},Volume {m3},Zone Inside Convection Algorithm {Simple-Detailed-CeilingDiffuser-TrombeWall},Zone Outside Convection Algorithm {Simple-Detailed-Tarp-MoWitt-DOE-2-BLAST}, Floor Area {m2},Exterior Gross Wall Area {m2},Exterior Net Wall Area {m2},Exterior Window Area {m2}, Number of Surfaces, Number of SubSurfaces, Number of Shading SubSurfaces,  Part of Total Building Area
+ Zone Information, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND,0.0,-7.79,-8.24,0.00,-1.02E-014,-5.96,2.74,1,1,1,-7.79,7.79,-8.24,-3.67,0.00,5.49,5.49,391.04,TARP,TARP,71.27,85.53,72.70,12.83,6,1,0,Yes
+ Zone Information, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND,0.0,-12.37,-8.24,0.00,-10.08,-5.96,2.74,1,1,1,-12.37,-7.79,-8.24,-3.67,0.00,5.49,5.49,114.68,TARP,TARP,20.90,50.17,42.64,7.53,6,2,0,Yes
+ Zone Information, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND,0.0,7.79,-8.24,0.00,10.08,-5.96,2.74,1,1,1,7.79,12.37,-8.24,-3.67,0.00,5.49,5.49,114.68,TARP,TARP,20.90,50.17,42.64,7.53,6,2,0,Yes
+ Zone Information, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND,0.0,-7.79,-3.67,0.00,-1.01E-014,1.90E-015,2.74,1,1,1,-7.79,7.79,-3.67,3.67,0.00,5.49,5.49,628.21,TARP,TARP,114.50,0.00,0.00,0.00,6,0,0,Yes
+ Zone Information, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND,0.0,-12.37,-3.67,0.00,-10.08,2.04E-015,2.74,1,1,1,-12.37,-7.79,-3.67,3.67,0.00,5.49,5.49,184.24,TARP,TARP,33.58,40.30,34.25,6.04,6,1,0,Yes
+ Zone Information, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND,0.0,7.79,-3.67,0.00,10.08,2.00E-015,2.74,1,1,1,7.79,12.37,-3.67,3.67,0.00,5.49,5.49,184.24,TARP,TARP,33.58,40.30,34.25,6.04,6,1,0,Yes
+ Zone Information, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND,0.0,-7.79,3.67,0.00,-1.02E-014,5.96,2.74,1,1,1,-7.79,7.79,3.67,8.24,0.00,5.49,5.49,391.04,TARP,TARP,71.27,85.53,72.70,12.83,6,1,0,Yes
+ Zone Information, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND,0.0,-12.37,3.67,0.00,-10.08,5.96,2.74,1,1,1,-12.37,-7.79,3.67,8.24,0.00,5.49,5.49,114.68,TARP,TARP,20.90,50.17,42.64,7.53,6,2,0,Yes
+ Zone Information, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND,0.0,7.79,3.67,0.00,10.08,5.96,2.74,1,1,1,7.79,12.37,3.67,8.24,0.00,5.49,5.49,114.68,TARP,TARP,20.90,50.17,42.64,7.53,6,2,0,Yes
+! <Zone Internal Gains Nominal>,Zone Name, Floor Area {m2},# Occupants,Area per Occupant {m2/person},Occupant per Area {person/m2},Interior Lighting {W/m2},Electric Load {W/m2},Gas Load {W/m2},Other Load {W/m2},Hot Water Eq {W/m2},Steam Equipment {W/m2},Sum Loads per Area {W/m2},Outdoor Controlled Baseboard Heat
+ Zone Internal Gains Nominal, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND,71.27,3.0,23.758,4.209E-002,5.000,9.781,0.000,0.000,0.000,0.000,14.781,No
+ Zone Internal Gains Nominal, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND,20.90,3.0,6.968,0.144,5.000,9.781,0.000,0.000,0.000,0.000,14.781,No
+ Zone Internal Gains Nominal, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND,20.90,3.0,6.968,0.144,5.000,9.781,0.000,0.000,0.000,0.000,14.781,No
+ Zone Internal Gains Nominal, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND,114.50,3.0,38.167,2.620E-002,5.000,9.781,0.000,0.000,0.000,0.000,14.781,No
+ Zone Internal Gains Nominal, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND,33.58,3.0,11.194,8.934E-002,5.000,9.781,0.000,0.000,0.000,0.000,14.781,No
+ Zone Internal Gains Nominal, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND,33.58,3.0,11.194,8.934E-002,5.000,9.781,0.000,0.000,0.000,0.000,14.781,No
+ Zone Internal Gains Nominal, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND,71.27,3.0,23.758,4.209E-002,5.000,9.781,0.000,0.000,0.000,0.000,14.781,No
+ Zone Internal Gains Nominal, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND,20.90,3.0,6.968,0.144,5.000,9.781,0.000,0.000,0.000,0.000,14.781,No
+ Zone Internal Gains Nominal, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND,20.90,3.0,6.968,0.144,5.000,9.781,0.000,0.000,0.000,0.000,14.781,No
+! <People Internal Gains Nominal>,Name,Schedule Name,Zone Name,Zone Floor Area {m2},# Zone Occupants,Number of People {},People/Floor Area {person/m2},Floor Area per person {m2/person},Fraction Radiant,Fraction Convected,Sensible Fraction Calculation,Activity level,ASHRAE 55 Warnings,Carbon Dioxide Generation Rate,Nominal Minimum Number of People,Nominal Maximum Number of People,MRT Calculation Type,Work Efficiency, Clothing Insulation Calculation Method,Clothing Insulation Calculation Method Schedule,Clothing,Air Velocity,Fanger Calculation,Pierce Calculation,KSU Calculation,Cooling Effect Calculation,Ankle Draft Calculation
+ People Internal Gains Nominal, OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 PEOPLE,OFFICESMALL BLDG_OCC_SCH,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND,20.90,3.0,3.0,0.144,6.968,0.300,0.700,AutoCalculate,OFFICESMALL ACTIVITY_SCH,Yes,3.8200E-008,0,3,Zone Averaged,WORK EFFICIENCY SCHEDULE,Clothing Insulation Schedule,N/A,CLOTHING SCHEDULE,AIR VELOCITY SCHEDULE,Yes,No,No,No,No
+ People Internal Gains Nominal, OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 PEOPLE,OFFICESMALL BLDG_OCC_SCH,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND,33.58,3.0,3.0,8.934E-002,11.194,0.300,0.700,AutoCalculate,OFFICESMALL ACTIVITY_SCH,Yes,3.8200E-008,0,3,Zone Averaged,WORK EFFICIENCY SCHEDULE,Clothing Insulation Schedule,N/A,CLOTHING SCHEDULE,AIR VELOCITY SCHEDULE,Yes,No,No,No,No
+ People Internal Gains Nominal, OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 PEOPLE,OFFICESMALL BLDG_OCC_SCH,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND,71.27,3.0,3.0,4.209E-002,23.758,0.300,0.700,AutoCalculate,OFFICESMALL ACTIVITY_SCH,Yes,3.8200E-008,0,3,Zone Averaged,WORK EFFICIENCY SCHEDULE,Clothing Insulation Schedule,N/A,CLOTHING SCHEDULE,AIR VELOCITY SCHEDULE,Yes,No,No,No,No
+ People Internal Gains Nominal, OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 PEOPLE,OFFICESMALL BLDG_OCC_SCH,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND,71.27,3.0,3.0,4.209E-002,23.758,0.300,0.700,AutoCalculate,OFFICESMALL ACTIVITY_SCH,Yes,3.8200E-008,0,3,Zone Averaged,WORK EFFICIENCY SCHEDULE,Clothing Insulation Schedule,N/A,CLOTHING SCHEDULE,AIR VELOCITY SCHEDULE,Yes,No,No,No,No
+ People Internal Gains Nominal, OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 PEOPLE,OFFICESMALL BLDG_OCC_SCH,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND,20.90,3.0,3.0,0.144,6.968,0.300,0.700,AutoCalculate,OFFICESMALL ACTIVITY_SCH,Yes,3.8200E-008,0,3,Zone Averaged,WORK EFFICIENCY SCHEDULE,Clothing Insulation Schedule,N/A,CLOTHING SCHEDULE,AIR VELOCITY SCHEDULE,Yes,No,No,No,No
+ People Internal Gains Nominal, OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 PEOPLE,OFFICESMALL BLDG_OCC_SCH,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND,114.50,3.0,3.0,2.620E-002,38.167,0.300,0.700,AutoCalculate,OFFICESMALL ACTIVITY_SCH,Yes,3.8200E-008,0,3,Zone Averaged,WORK EFFICIENCY SCHEDULE,Clothing Insulation Schedule,N/A,CLOTHING SCHEDULE,AIR VELOCITY SCHEDULE,Yes,No,No,No,No
+ People Internal Gains Nominal, OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 PEOPLE,OFFICESMALL BLDG_OCC_SCH,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND,33.58,3.0,3.0,8.934E-002,11.194,0.300,0.700,AutoCalculate,OFFICESMALL ACTIVITY_SCH,Yes,3.8200E-008,0,3,Zone Averaged,WORK EFFICIENCY SCHEDULE,Clothing Insulation Schedule,N/A,CLOTHING SCHEDULE,AIR VELOCITY SCHEDULE,Yes,No,No,No,No
+ People Internal Gains Nominal, OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 PEOPLE,OFFICESMALL BLDG_OCC_SCH,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND,20.90,3.0,3.0,0.144,6.968,0.300,0.700,AutoCalculate,OFFICESMALL ACTIVITY_SCH,Yes,3.8200E-008,0,3,Zone Averaged,WORK EFFICIENCY SCHEDULE,Clothing Insulation Schedule,N/A,CLOTHING SCHEDULE,AIR VELOCITY SCHEDULE,Yes,No,No,No,No
+ People Internal Gains Nominal, OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 PEOPLE,OFFICESMALL BLDG_OCC_SCH,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND,20.90,3.0,3.0,0.144,6.968,0.300,0.700,AutoCalculate,OFFICESMALL ACTIVITY_SCH,Yes,3.8200E-008,0,3,Zone Averaged,WORK EFFICIENCY SCHEDULE,Clothing Insulation Schedule,N/A,CLOTHING SCHEDULE,AIR VELOCITY SCHEDULE,Yes,No,No,No,No
+! <Lights Internal Gains Nominal>,Name,Schedule Name,Zone Name,Zone Floor Area {m2},# Zone Occupants,Lighting Level {W},Lights/Floor Area {W/m2},Lights per person {W/person},Fraction Return Air,Fraction Radiant,Fraction Short Wave,Fraction Convected,Fraction Replaceable,End-Use Category,Nominal Minimum Lighting Level {W},Nominal Maximum Lighting Level {W}
+ Lights Internal Gains Nominal, OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS,OFFICESMALL BLDG_LIGHT_SCH,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND,20.90,3.0,104.516,5.000,34.839,0.000,0.700,0.200,0.100,1.000,General,0.000,104.516
+ Lights Internal Gains Nominal, OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS,OFFICESMALL BLDG_LIGHT_SCH,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND,33.58,3.0,167.904,5.000,55.968,0.000,0.700,0.200,0.100,1.000,General,0.000,167.904
+ Lights Internal Gains Nominal, OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS,OFFICESMALL BLDG_LIGHT_SCH,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND,71.27,3.0,356.373,5.000,118.791,0.000,0.700,0.200,0.100,1.000,General,0.000,356.373
+ Lights Internal Gains Nominal, OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS,OFFICESMALL BLDG_LIGHT_SCH,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND,71.27,3.0,356.373,5.000,118.791,0.000,0.700,0.200,0.100,1.000,General,0.000,356.373
+ Lights Internal Gains Nominal, OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS,OFFICESMALL BLDG_LIGHT_SCH,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND,20.90,3.0,104.516,5.000,34.839,0.000,0.700,0.200,0.100,1.000,General,0.000,104.516
+ Lights Internal Gains Nominal, OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS,OFFICESMALL BLDG_LIGHT_SCH,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND,114.50,3.0,572.511,5.000,190.837,0.000,0.700,0.200,0.100,1.000,General,0.000,572.511
+ Lights Internal Gains Nominal, OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS,OFFICESMALL BLDG_LIGHT_SCH,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND,33.58,3.0,167.904,5.000,55.968,0.000,0.700,0.200,0.100,1.000,General,0.000,167.904
+ Lights Internal Gains Nominal, OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS,OFFICESMALL BLDG_LIGHT_SCH,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND,20.90,3.0,104.516,5.000,34.839,0.000,0.700,0.200,0.100,1.000,General,0.000,104.516
+ Lights Internal Gains Nominal, OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 LIGHTS,OFFICESMALL BLDG_LIGHT_SCH,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND,20.90,3.0,104.516,5.000,34.839,0.000,0.700,0.200,0.100,1.000,General,0.000,104.516
+! <ElectricEquipment Internal Gains Nominal>,Name,Schedule Name,Zone Name,Zone Floor Area {m2},# Zone Occupants,Equipment Level {W},Equipment/Floor Area {W/m2},Equipment per person {W/person},Fraction Latent,Fraction Radiant,Fraction Lost,Fraction Convected,End-Use SubCategory,Nominal Minimum Equipment Level {W},Nominal Maximum Equipment Level {W}
+ ElectricEquipment Internal Gains Nominal, OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND ELECTRIC EQUIPMENT 1,OFFICESMALL BLDG_EQUIP_SCH,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND,20.90,3.0,62.710,3.000,20.903,0.000,0.000,0.950,5.000E-002,General,0.000,62.710
+ ElectricEquipment Internal Gains Nominal, OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND ELECTRIC EQUIPMENT 1,OFFICESMALL BLDG_EQUIP_SCH,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND,33.58,3.0,100.743,3.000,33.581,0.000,0.000,0.950,5.000E-002,General,0.000,100.743
+ ElectricEquipment Internal Gains Nominal, OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND ELECTRIC EQUIPMENT 1,OFFICESMALL BLDG_EQUIP_SCH,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND,71.27,3.0,213.824,3.000,71.275,0.000,0.000,0.950,5.000E-002,General,0.000,213.824
+ ElectricEquipment Internal Gains Nominal, OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND ELECTRIC EQUIPMENT 1,OFFICESMALL BLDG_EQUIP_SCH,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND,71.27,3.0,213.824,3.000,71.275,0.000,0.000,0.950,5.000E-002,General,0.000,213.824
+ ElectricEquipment Internal Gains Nominal, OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND ELECTRIC EQUIPMENT 1,OFFICESMALL BLDG_EQUIP_SCH,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND,20.90,3.0,62.710,3.000,20.903,0.000,0.000,0.950,5.000E-002,General,0.000,62.710
+ ElectricEquipment Internal Gains Nominal, OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND ELECTRIC EQUIPMENT 1,OFFICESMALL BLDG_EQUIP_SCH,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND,114.50,3.0,343.507,3.000,114.502,0.000,0.000,0.950,5.000E-002,General,0.000,343.507
+ ElectricEquipment Internal Gains Nominal, OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND ELECTRIC EQUIPMENT 1,OFFICESMALL BLDG_EQUIP_SCH,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND,33.58,3.0,100.743,3.000,33.581,0.000,0.000,0.950,5.000E-002,General,0.000,100.743
+ ElectricEquipment Internal Gains Nominal, OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND ELECTRIC EQUIPMENT 1,OFFICESMALL BLDG_EQUIP_SCH,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND,20.90,3.0,62.710,3.000,20.903,0.000,0.000,0.950,5.000E-002,General,0.000,62.710
+ ElectricEquipment Internal Gains Nominal, OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND ELECTRIC EQUIPMENT 1,OFFICESMALL BLDG_EQUIP_SCH,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND,20.90,3.0,62.710,3.000,20.903,0.000,0.000,0.950,5.000E-002,General,0.000,62.710
+ ElectricEquipment Internal Gains Nominal, OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP,OFFICESMALL BLDG_EQUIP_SCH,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND,20.90,3.0,141.750,6.781,47.250,0.000,0.500,0.000,0.500,General,0.000,141.750
+ ElectricEquipment Internal Gains Nominal, OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP,OFFICESMALL BLDG_EQUIP_SCH,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND,33.58,3.0,227.721,6.781,75.907,0.000,0.500,0.000,0.500,General,0.000,227.721
+ ElectricEquipment Internal Gains Nominal, OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP,OFFICESMALL BLDG_EQUIP_SCH,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND,71.27,3.0,483.331,6.781,161.110,0.000,0.500,0.000,0.500,General,0.000,483.331
+ ElectricEquipment Internal Gains Nominal, OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP,OFFICESMALL BLDG_EQUIP_SCH,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND,71.27,3.0,483.331,6.781,161.110,0.000,0.500,0.000,0.500,General,0.000,483.331
+ ElectricEquipment Internal Gains Nominal, OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP,OFFICESMALL BLDG_EQUIP_SCH,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND,20.90,3.0,141.750,6.781,47.250,0.000,0.500,0.000,0.500,General,0.000,141.750
+ ElectricEquipment Internal Gains Nominal, OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP,OFFICESMALL BLDG_EQUIP_SCH,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND,114.50,3.0,776.470,6.781,258.823,0.000,0.500,0.000,0.500,General,0.000,776.470
+ ElectricEquipment Internal Gains Nominal, OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP,OFFICESMALL BLDG_EQUIP_SCH,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND,33.58,3.0,227.721,6.781,75.907,0.000,0.500,0.000,0.500,General,0.000,227.721
+ ElectricEquipment Internal Gains Nominal, OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP,OFFICESMALL BLDG_EQUIP_SCH,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND,20.90,3.0,141.750,6.781,47.250,0.000,0.500,0.000,0.500,General,0.000,141.750
+ ElectricEquipment Internal Gains Nominal, OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND OFFICE WHOLEBUILDING - SM OFFICE 2 ELEC EQUIP,OFFICESMALL BLDG_EQUIP_SCH,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND,20.90,3.0,141.750,6.781,47.250,0.000,0.500,0.000,0.500,General,0.000,141.750
+! <Shadowing/Sun Position Calculations Annual Simulations>, Shading Calculation Method, Shading Calculation Update Frequency Method, Shading Calculation Update Frequency {days}, Maximum Figures in Shadow Overlap Calculations {}, Polygon Clipping Algorithm, Pixel Counting Resolution, Sky Diffuse Modeling Algorithm, Output External Shading Calculation Results, Disable Self-Shading Within Shading Zone Groups, Disable Self-Shading From Shading Zone Groups to Other Zones
+Shadowing/Sun Position Calculations Annual Simulations,PolygonClipping,Periodic,30,15000,SutherlandHodgman,512,SimpleSkyDiffuseModeling,No,No,No
+! <Water Heater Information>,Type,Name,Volume {m3},Maximum Capacity {W},Standard Rated Recovery Efficiency, Standard Rated Energy Factor
+! <ZoneInfiltration Airflow Stats Nominal>,Name,Schedule Name,Zone Name, Zone Floor Area {m2}, # Zone Occupants,Design Volume Flow Rate {m3/s},Volume Flow Rate/Floor Area {m3/s-m2},Volume Flow Rate/Exterior Surface Area {m3/s-m2},ACH - Air Changes per Hour,Equation A - Constant Term Coefficient {},Equation B - Temperature Term Coefficient {1/C},Equation C - Velocity Term Coefficient {s/m}, Equation D - Velocity Squared Term Coefficient {s2/m2}
+ ZoneInfiltration Airflow Stats Nominal, OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND INFILTRATION,ALWAYS ON DISCRETE,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND,71.27,3.0,8.769E-002,1.230E-003,5.592E-004,0.807,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND INFILTRATION,ALWAYS ON DISCRETE,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND,20.90,3.0,5.143E-002,2.461E-003,7.237E-004,1.615,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND INFILTRATION,ALWAYS ON DISCRETE,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND,20.90,3.0,5.143E-002,2.461E-003,7.237E-004,1.615,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND INFILTRATION,ALWAYS ON DISCRETE,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND,33.58,3.0,4.131E-002,1.230E-003,5.592E-004,0.807,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND INFILTRATION,ALWAYS ON DISCRETE,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND,33.58,3.0,4.131E-002,1.230E-003,5.592E-004,0.807,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND INFILTRATION,ALWAYS ON DISCRETE,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND,71.27,3.0,8.769E-002,1.230E-003,5.592E-004,0.807,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND INFILTRATION,ALWAYS ON DISCRETE,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND,20.90,3.0,5.143E-002,2.461E-003,7.237E-004,1.615,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND INFILTRATION,ALWAYS ON DISCRETE,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND,20.90,3.0,5.143E-002,2.461E-003,7.237E-004,1.615,0.000,0.000,0.224,0.000
+! <AirFlow Model>, Simple
+ AirFlow Model, Simple
+! <RoomAir Model>, Zone Name, Mixing/Mundt/UCSDDV/UCSDCV/UCSDUFI/UCSDUFE/User Defined
+RoomAir Model,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND,Mixing/Well-Stirred
+RoomAir Model,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND,Mixing/Well-Stirred
+RoomAir Model,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND,Mixing/Well-Stirred
+RoomAir Model,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND,Mixing/Well-Stirred
+RoomAir Model,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND,Mixing/Well-Stirred
+RoomAir Model,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND,Mixing/Well-Stirred
+RoomAir Model,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND,Mixing/Well-Stirred
+RoomAir Model,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND,Mixing/Well-Stirred
+RoomAir Model,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND,Mixing/Well-Stirred
+! <AirflowNetwork Model:Control>, No Multizone or Distribution/Multizone with Distribution/Multizone without Distribution/Multizone with Distribution only during Fan Operation
+AirflowNetwork Model:Control,NoMultizoneOrDistribution
+! <Zone Volume Capacitance Multiplier>, Sensible Heat Capacity Multiplier, Moisture Capacity Multiplier, Carbon Dioxide Capacity Multiplier, Generic Contaminant Capacity Multiplier
+Zone Volume Capacitance Multiplier,   1.000 ,   1.000,   1.000,   1.000
+! <Load Timesteps in Zone Design Calculation Averaging Window>, Value
+ Load Timesteps in Zone Design Calculation Averaging Window,    1
+! <Heating Sizing Factor Information>, Sizing Factor ID, Value
+ Heating Sizing Factor Information, Global,   1.2500    
+ Heating Sizing Factor Information, Zone ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND,   1.2500    
+ Heating Sizing Factor Information, Zone ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND,   1.2500    
+ Heating Sizing Factor Information, Zone ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND,   1.2500    
+ Heating Sizing Factor Information, Zone ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND,   1.2500    
+ Heating Sizing Factor Information, Zone ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND,   1.2500    
+ Heating Sizing Factor Information, Zone ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND,   1.2500    
+ Heating Sizing Factor Information, Zone ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND,   1.2500    
+ Heating Sizing Factor Information, Zone ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND,   1.2500    
+ Heating Sizing Factor Information, Zone ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND,   1.2500    
+! <Cooling Sizing Factor Information>, Sizing Factor ID, Value
+ Cooling Sizing Factor Information, Global,   1.1500    
+ Cooling Sizing Factor Information, Zone ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND,   1.1500    
+ Cooling Sizing Factor Information, Zone ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND,   1.1500    
+ Cooling Sizing Factor Information, Zone ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND,   1.1500    
+ Cooling Sizing Factor Information, Zone ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND,   1.1500    
+ Cooling Sizing Factor Information, Zone ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND,   1.1500    
+ Cooling Sizing Factor Information, Zone ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND,   1.1500    
+ Cooling Sizing Factor Information, Zone ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND,   1.1500    
+ Cooling Sizing Factor Information, Zone ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND,   1.1500    
+ Cooling Sizing Factor Information, Zone ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND,   1.1500    
+! <Zone Sizing Information>, Zone Name, Load Type, Calc Des Load {W}, User Des Load {W}, Calc Des Air Flow Rate {m3/s}, User Des Air Flow Rate {m3/s}, Design Day Name, Date/Time of Peak, Temperature at Peak {C}, Humidity Ratio at Peak {kgWater/kgDryAir}, Floor Area {m2}, # Occupants, Calc Outdoor Air Flow Rate {m3/s}, Calc DOAS Heat Addition Rate {W}
+ Zone Sizing Information, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND, Cooling, 4071.60171, 4682.34196, 0.29830, 0.34305, KODIAK AUGUST .4% CONDNS DB=>MCWB, 8/21 15:00:00, 22.60000, 8.70767E-003, 71.27451, 3.00000, 3.62075E-002, 0.00000
+ Zone Sizing Information, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND, Heating, 4069.91895, 5087.39869, 0.11474, 0.14343, KODIAK ANN HTG 99.6% CONDNS DB, 1/21 24:00:00, -12.80000, 1.24844E-003, 71.27451, 3.00000, 3.62075E-002, 0.00000
+ Zone Sizing Information, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND, Cooling, 1806.97834, 2078.02510, 0.13241, 0.15227, KODIAK AUGUST .4% CONDNS DB=>MCWB, 8/21 17:00:00, 21.71800, 8.70630E-003, 20.90318, 3.00000, 1.06188E-002, 0.00000
+ Zone Sizing Information, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND, Heating, 2156.37107, 2695.46383, 6.07835E-002, 7.59794E-002, KODIAK ANN HTG 99.6% CONDNS DB, 1/21 24:00:00, -12.80000, 1.24844E-003, 20.90318, 3.00000, 1.06188E-002, 0.00000
+ Zone Sizing Information, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND, Cooling, 1686.76968, 1939.78513, 0.12360, 0.14214, KODIAK AUGUST .4% CONDNS DB=>MCWB, 8/21 13:00:00, 22.28500, 8.70718E-003, 20.90318, 3.00000, 1.06188E-002, 0.00000
+ Zone Sizing Information, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND, Heating, 2150.65537, 2688.31922, 6.06224E-002, 7.57780E-002, KODIAK ANN HTG 99.6% CONDNS DB, 1/21 24:00:00, -12.80000, 1.24844E-003, 20.90318, 3.00000, 1.06188E-002, 0.00000
+ Zone Sizing Information, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND, Cooling, 2477.82868, 2849.50298, 0.18153, 0.20876, KODIAK JULY .4% CONDNS DB=>MCWB, 7/21 16:00:00, 23.87000, 8.28442E-003, 114.50223, 3.00000, 5.81671E-002, 0.00000
+ Zone Sizing Information, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND, Heating, 1713.55226, 2141.94033, 4.83273E-002, 6.04091E-002, KODIAK ANN HTG 99.6% CONDNS DB, 1/21 24:00:00, -12.80000, 1.24844E-003, 114.50223, 3.00000, 5.81671E-002, 0.00000
+ Zone Sizing Information, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND, Cooling, 2023.43443, 2326.94959, 0.14826, 0.17050, KODIAK JULY .4% CONDNS DB=>MCWB, 7/21 19:00:00, 22.05500, 8.28162E-003, 33.58089, 3.00000, 1.70591E-002, 0.00000
+ Zone Sizing Information, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND, Heating, 1981.36182, 2476.70227, 5.58616E-002, 6.98270E-002, KODIAK ANN HTG 99.6% CONDNS DB, 1/21 24:00:00, -12.80000, 1.24844E-003, 33.58089, 3.00000, 1.70591E-002, 0.00000
+ Zone Sizing Information, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND, Cooling, 1975.75010, 2272.11262, 0.14476, 0.16648, KODIAK JULY .4% CONDNS DB=>MCWB, 7/21 11:00:00, 22.93500, 8.28298E-003, 33.58089, 3.00000, 1.70591E-002, 0.00000
+ Zone Sizing Information, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND, Heating, 1972.83333, 2466.04167, 5.56212E-002, 6.95264E-002, KODIAK ANN HTG 99.6% CONDNS DB, 1/21 24:00:00, -12.80000, 1.24844E-003, 33.58089, 3.00000, 1.70591E-002, 0.00000
+ Zone Sizing Information, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND, Cooling, 1696.95768, 1951.50133, 0.12432, 0.14297, KODIAK JULY .4% CONDNS DB=>MCWB, 7/21 15:00:00, 24.20000, 8.28493E-003, 71.27451, 3.00000, 3.62075E-002, 0.00000
+ Zone Sizing Information, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND, Heating, 4086.09994, 5107.62493, 0.11520, 0.14400, KODIAK ANN HTG 99.6% CONDNS DB, 1/21 24:00:00, -12.80000, 1.24844E-003, 71.27451, 3.00000, 3.62075E-002, 0.00000
+ Zone Sizing Information, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND, Cooling, 1342.46659, 1543.83657, 9.83655E-002, 0.11312, KODIAK JULY .4% CONDNS DB=>MCWB, 7/21 20:00:00, 21.45000, 8.28069E-003, 20.90318, 3.00000, 1.06188E-002, 0.00000
+ Zone Sizing Information, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND, Heating, 2162.06849, 2702.58561, 6.09441E-002, 7.61801E-002, KODIAK ANN HTG 99.6% CONDNS DB, 1/21 24:00:00, -12.80000, 1.24844E-003, 20.90318, 3.00000, 1.06188E-002, 0.00000
+ Zone Sizing Information, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND, Cooling, 1307.49137, 1503.61508, 9.58055E-002, 0.11018, KODIAK JULY .4% CONDNS DB=>MCWB, 7/21 11:00:00, 22.93500, 8.28298E-003, 20.90318, 3.00000, 1.06188E-002, 0.00000
+ Zone Sizing Information, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND, Heating, 2156.35560, 2695.44450, 6.07830E-002, 7.59788E-002, KODIAK ANN HTG 99.6% CONDNS DB, 1/21 24:00:00, -12.80000, 1.24844E-003, 20.90318, 3.00000, 1.06188E-002, 0.00000
+! <System Sizing Information>, System Name, Load Type, Peak Load Kind, User Design Capacity, Calc Des Air Flow Rate [m3/s], User Des Air Flow Rate [m3/s], Design Day Name, Date/Time of Peak
+ System Sizing Information, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND PSZ-AC, Cooling, Sensible, 4553.50, 0.34305, 0.34305, KODIAK AUGUST .4% CONDNS DB=>MCWB, 8/21 05:00:00
+ System Sizing Information, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND PSZ-AC, Heating, Sensible, 6497.79, 0.14343, 0.14343, KODIAK ANN HTG 99.6% CONDNS DB, 1/21 24:00:00
+ System Sizing Information, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND PSZ-AC, Cooling, Sensible, 2018.03, 0.15227, 0.15227, KODIAK AUGUST .4% CONDNS DB=>MCWB, 8/21 05:00:00
+ System Sizing Information, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND PSZ-AC, Heating, Sensible, 3091.50, 7.59794E-002, 7.59794E-002, KODIAK ANN HTG 99.6% CONDNS DB, 1/21 24:00:00
+ System Sizing Information, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND PSZ-AC, Cooling, Sensible, 1903.04, 0.14202, 0.14202, KODIAK JULY .4% CONDNS DB=>MCWB, 7/21 05:00:00
+ System Sizing Information, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND PSZ-AC, Heating, Sensible, 3084.46, 7.57780E-002, 7.57780E-002, KODIAK ANN HTG 99.6% CONDNS DB, 1/21 24:00:00
+ System Sizing Information, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND PSZ-AC, Cooling, Sensible, 2817.28, 0.20876, 0.20876, KODIAK JULY .4% CONDNS DB=>MCWB, 7/21 05:00:00
+ System Sizing Information, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND PSZ-AC, Heating, Sensible, 4496.30, 6.04091E-002, 6.04091E-002, KODIAK ANN HTG 99.6% CONDNS DB, 1/21 24:00:00
+ System Sizing Information, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND PSZ-AC, Cooling, Sensible, 2253.15, 0.17050, 0.17050, KODIAK JULY .4% CONDNS DB=>MCWB, 7/21 05:00:00
+ System Sizing Information, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND PSZ-AC, Heating, Sensible, 3140.06, 6.98270E-002, 6.98270E-002, KODIAK ANN HTG 99.6% CONDNS DB, 1/21 24:00:00
+ System Sizing Information, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND PSZ-AC, Cooling, Sensible, 2217.32, 0.16648, 0.16648, KODIAK JULY .4% CONDNS DB=>MCWB, 7/21 05:00:00
+ System Sizing Information, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND PSZ-AC, Heating, Sensible, 3129.55, 6.95264E-002, 6.95264E-002, KODIAK ANN HTG 99.6% CONDNS DB, 1/21 24:00:00
+ System Sizing Information, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND PSZ-AC, Cooling, Sensible, 1934.94, 0.14297, 0.14297, KODIAK JULY .4% CONDNS DB=>MCWB, 7/21 05:00:00
+ System Sizing Information, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND PSZ-AC, Heating, Sensible, 6517.72, 0.14400, 0.14400, KODIAK ANN HTG 99.6% CONDNS DB, 1/21 24:00:00
+ System Sizing Information, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND PSZ-AC, Cooling, Sensible, 1488.66, 0.11312, 0.11312, KODIAK JULY .4% CONDNS DB=>MCWB, 7/21 05:00:00
+ System Sizing Information, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND PSZ-AC, Heating, Sensible, 3098.52, 7.61801E-002, 7.61801E-002, KODIAK ANN HTG 99.6% CONDNS DB, 1/21 24:00:00
+ System Sizing Information, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND PSZ-AC, Cooling, Sensible, 1468.13, 0.11018, 0.11018, KODIAK JULY .4% CONDNS DB=>MCWB, 7/21 05:00:00
+ System Sizing Information, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND PSZ-AC, Heating, Sensible, 3091.49, 7.59788E-002, 7.59788E-002, KODIAK ANN HTG 99.6% CONDNS DB, 1/21 24:00:00
+! <Component Sizing Information>, Component Type, Component Name, Input Field Description, Value
+ Component Sizing Information, AirTerminal:SingleDuct:ConstantVolume:NoReheat, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND PSZ-AC DIFFUSER, Design Size Maximum Air Flow Rate [m3/s], 0.34305
+ Component Sizing Information, AirTerminal:SingleDuct:ConstantVolume:NoReheat, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND PSZ-AC DIFFUSER, Design Size Maximum Air Flow Rate [m3/s], 0.15227
+ Component Sizing Information, AirTerminal:SingleDuct:ConstantVolume:NoReheat, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND PSZ-AC DIFFUSER, Design Size Maximum Air Flow Rate [m3/s], 0.14214
+ Component Sizing Information, AirTerminal:SingleDuct:ConstantVolume:NoReheat, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND PSZ-AC DIFFUSER, Design Size Maximum Air Flow Rate [m3/s], 0.20876
+ Component Sizing Information, AirTerminal:SingleDuct:ConstantVolume:NoReheat, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND PSZ-AC DIFFUSER, Design Size Maximum Air Flow Rate [m3/s], 0.17050
+ Component Sizing Information, AirTerminal:SingleDuct:ConstantVolume:NoReheat, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND PSZ-AC DIFFUSER, Design Size Maximum Air Flow Rate [m3/s], 0.16648
+ Component Sizing Information, AirTerminal:SingleDuct:ConstantVolume:NoReheat, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND PSZ-AC DIFFUSER, Design Size Maximum Air Flow Rate [m3/s], 0.14400
+ Component Sizing Information, AirTerminal:SingleDuct:ConstantVolume:NoReheat, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND PSZ-AC DIFFUSER, Design Size Maximum Air Flow Rate [m3/s], 0.11312
+ Component Sizing Information, AirTerminal:SingleDuct:ConstantVolume:NoReheat, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND PSZ-AC DIFFUSER, Design Size Maximum Air Flow Rate [m3/s], 0.11018
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND PSZ-AC, Sum of Air Terminal Maximum Heating Flow Rates [m3/s], 0.34305
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND PSZ-AC, Sum of Air Terminal Minimum Heating Flow Rates [m3/s], 0.34305
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND PSZ-AC, Sum of Air Terminal Maximum Flow Rates [m3/s], 0.34305
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND PSZ-AC, Adjusted Heating Design Air Flow Rate [m3/s], 0.34305
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND PSZ-AC, Adjusted Cooling Design Air Flow Rate [m3/s], 0.34305
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND PSZ-AC, Adjusted Main Design Air Flow Rate [m3/s], 0.34305
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND PSZ-AC, User Heating Air Flow Ratio [], 1.00000
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND PSZ-AC, Calculated Heating Air Flow Ratio [], 1.00000
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND PSZ-AC, Sum of Air Terminal Maximum Heating Flow Rates [m3/s], 0.15227
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND PSZ-AC, Sum of Air Terminal Minimum Heating Flow Rates [m3/s], 0.15227
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND PSZ-AC, Sum of Air Terminal Maximum Flow Rates [m3/s], 0.15227
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND PSZ-AC, Adjusted Heating Design Air Flow Rate [m3/s], 0.15227
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND PSZ-AC, Adjusted Cooling Design Air Flow Rate [m3/s], 0.15227
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND PSZ-AC, Adjusted Main Design Air Flow Rate [m3/s], 0.15227
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND PSZ-AC, User Heating Air Flow Ratio [], 1.00000
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND PSZ-AC, Calculated Heating Air Flow Ratio [], 1.00000
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND PSZ-AC, Sum of Air Terminal Maximum Heating Flow Rates [m3/s], 0.14214
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND PSZ-AC, Sum of Air Terminal Minimum Heating Flow Rates [m3/s], 0.14214
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND PSZ-AC, Sum of Air Terminal Maximum Flow Rates [m3/s], 0.14214
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND PSZ-AC, Adjusted Heating Design Air Flow Rate [m3/s], 0.14214
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND PSZ-AC, Adjusted Cooling Design Air Flow Rate [m3/s], 0.14214
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND PSZ-AC, Adjusted Main Design Air Flow Rate [m3/s], 0.14214
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND PSZ-AC, User Heating Air Flow Ratio [], 1.00000
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND PSZ-AC, Calculated Heating Air Flow Ratio [], 1.00000
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND PSZ-AC, Sum of Air Terminal Maximum Heating Flow Rates [m3/s], 0.20876
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND PSZ-AC, Sum of Air Terminal Minimum Heating Flow Rates [m3/s], 0.20876
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND PSZ-AC, Sum of Air Terminal Maximum Flow Rates [m3/s], 0.20876
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND PSZ-AC, Adjusted Heating Design Air Flow Rate [m3/s], 0.20876
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND PSZ-AC, Adjusted Cooling Design Air Flow Rate [m3/s], 0.20876
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND PSZ-AC, Adjusted Main Design Air Flow Rate [m3/s], 0.20876
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND PSZ-AC, User Heating Air Flow Ratio [], 1.00000
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND PSZ-AC, Calculated Heating Air Flow Ratio [], 1.00000
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND PSZ-AC, Sum of Air Terminal Maximum Heating Flow Rates [m3/s], 0.17050
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND PSZ-AC, Sum of Air Terminal Minimum Heating Flow Rates [m3/s], 0.17050
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND PSZ-AC, Sum of Air Terminal Maximum Flow Rates [m3/s], 0.17050
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND PSZ-AC, Adjusted Heating Design Air Flow Rate [m3/s], 0.17050
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND PSZ-AC, Adjusted Cooling Design Air Flow Rate [m3/s], 0.17050
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND PSZ-AC, Adjusted Main Design Air Flow Rate [m3/s], 0.17050
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND PSZ-AC, User Heating Air Flow Ratio [], 1.00000
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND PSZ-AC, Calculated Heating Air Flow Ratio [], 1.00000
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND PSZ-AC, Sum of Air Terminal Maximum Heating Flow Rates [m3/s], 0.16648
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND PSZ-AC, Sum of Air Terminal Minimum Heating Flow Rates [m3/s], 0.16648
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND PSZ-AC, Sum of Air Terminal Maximum Flow Rates [m3/s], 0.16648
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND PSZ-AC, Adjusted Heating Design Air Flow Rate [m3/s], 0.16648
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND PSZ-AC, Adjusted Cooling Design Air Flow Rate [m3/s], 0.16648
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND PSZ-AC, Adjusted Main Design Air Flow Rate [m3/s], 0.16648
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND PSZ-AC, User Heating Air Flow Ratio [], 1.00000
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND PSZ-AC, Calculated Heating Air Flow Ratio [], 1.00000
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND PSZ-AC, Sum of Air Terminal Maximum Heating Flow Rates [m3/s], 0.14400
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND PSZ-AC, Sum of Air Terminal Minimum Heating Flow Rates [m3/s], 0.14400
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND PSZ-AC, Sum of Air Terminal Maximum Flow Rates [m3/s], 0.14400
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND PSZ-AC, Adjusted Heating Design Air Flow Rate [m3/s], 0.14400
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND PSZ-AC, Adjusted Cooling Design Air Flow Rate [m3/s], 0.14400
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND PSZ-AC, Adjusted Main Design Air Flow Rate [m3/s], 0.14400
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND PSZ-AC, User Heating Air Flow Ratio [], 1.00000
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND PSZ-AC, Calculated Heating Air Flow Ratio [], 1.00000
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND PSZ-AC, Sum of Air Terminal Maximum Heating Flow Rates [m3/s], 0.11312
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND PSZ-AC, Sum of Air Terminal Minimum Heating Flow Rates [m3/s], 0.11312
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND PSZ-AC, Sum of Air Terminal Maximum Flow Rates [m3/s], 0.11312
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND PSZ-AC, Adjusted Heating Design Air Flow Rate [m3/s], 0.11312
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND PSZ-AC, Adjusted Cooling Design Air Flow Rate [m3/s], 0.11312
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND PSZ-AC, Adjusted Main Design Air Flow Rate [m3/s], 0.11312
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND PSZ-AC, User Heating Air Flow Ratio [], 1.00000
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND PSZ-AC, Calculated Heating Air Flow Ratio [], 1.00000
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND PSZ-AC, Sum of Air Terminal Maximum Heating Flow Rates [m3/s], 0.11018
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND PSZ-AC, Sum of Air Terminal Minimum Heating Flow Rates [m3/s], 0.11018
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND PSZ-AC, Sum of Air Terminal Maximum Flow Rates [m3/s], 0.11018
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND PSZ-AC, Adjusted Heating Design Air Flow Rate [m3/s], 0.11018
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND PSZ-AC, Adjusted Cooling Design Air Flow Rate [m3/s], 0.11018
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND PSZ-AC, Adjusted Main Design Air Flow Rate [m3/s], 0.11018
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND PSZ-AC, User Heating Air Flow Ratio [], 1.00000
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND PSZ-AC, Calculated Heating Air Flow Ratio [], 1.00000
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND PSZ-AC, Design Supply Air Flow Rate [m3/s], 0.34305
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND PSZ-AC, Design Supply Air Flow Rate [m3/s], 0.15227
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND PSZ-AC, Design Supply Air Flow Rate [m3/s], 0.14214
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND PSZ-AC, Design Supply Air Flow Rate [m3/s], 0.20876
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND PSZ-AC, Design Supply Air Flow Rate [m3/s], 0.17050
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND PSZ-AC, Design Supply Air Flow Rate [m3/s], 0.16648
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND PSZ-AC, Design Supply Air Flow Rate [m3/s], 0.14400
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND PSZ-AC, Design Supply Air Flow Rate [m3/s], 0.11312
+ Component Sizing Information, AirLoopHVAC, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND PSZ-AC, Design Supply Air Flow Rate [m3/s], 0.11018
+!<Controller:MechanicalVentilation>,Name,Availability Schedule Name,Demand Controlled Ventilation {Yes/No},System Outdoor Air Method,Zone Maximum Outdoor Air Fraction,Number of Zones,Zone Name,DSOA Name,DSZAD Name
+ Controller:MechanicalVentilation,CONTROLLER MECHANICAL VENTILATION 1,ALWAYS ON DISCRETE,No,ZoneSum,1.00,1,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND,OFFICE WHOLEBUILDING - SM OFFICE 2 VENTILATION,
+ Controller:MechanicalVentilation,CONTROLLER MECHANICAL VENTILATION 2,ALWAYS ON DISCRETE,No,ZoneSum,1.00,1,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND,OFFICE WHOLEBUILDING - SM OFFICE 2 VENTILATION,
+ Controller:MechanicalVentilation,CONTROLLER MECHANICAL VENTILATION 3,ALWAYS ON DISCRETE,No,ZoneSum,1.00,1,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND,OFFICE WHOLEBUILDING - SM OFFICE 2 VENTILATION,
+ Controller:MechanicalVentilation,CONTROLLER MECHANICAL VENTILATION 4,ALWAYS ON DISCRETE,No,ZoneSum,1.00,1,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND,OFFICE WHOLEBUILDING - SM OFFICE 2 VENTILATION,
+ Controller:MechanicalVentilation,CONTROLLER MECHANICAL VENTILATION 5,ALWAYS ON DISCRETE,No,ZoneSum,1.00,1,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND,OFFICE WHOLEBUILDING - SM OFFICE 2 VENTILATION,
+ Controller:MechanicalVentilation,CONTROLLER MECHANICAL VENTILATION 6,ALWAYS ON DISCRETE,No,ZoneSum,1.00,1,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND,OFFICE WHOLEBUILDING - SM OFFICE 2 VENTILATION,
+ Controller:MechanicalVentilation,CONTROLLER MECHANICAL VENTILATION 7,ALWAYS ON DISCRETE,No,ZoneSum,1.00,1,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND,OFFICE WHOLEBUILDING - SM OFFICE 2 VENTILATION,
+ Controller:MechanicalVentilation,CONTROLLER MECHANICAL VENTILATION 8,ALWAYS ON DISCRETE,No,ZoneSum,1.00,1,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND,OFFICE WHOLEBUILDING - SM OFFICE 2 VENTILATION,
+ Controller:MechanicalVentilation,CONTROLLER MECHANICAL VENTILATION 9,ALWAYS ON DISCRETE,No,ZoneSum,1.00,1,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND,OFFICE WHOLEBUILDING - SM OFFICE 2 VENTILATION,
+ Component Sizing Information, Controller:OutdoorAir, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER, Maximum Outdoor Air Flow Rate [m3/s], 0.34305
+ Component Sizing Information, Controller:OutdoorAir, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER, Minimum Outdoor Air Flow Rate [m3/s], 3.62075E-002
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND PSZ-AC UNITARY AC, Design Size Supply Air Flow Rate [m3/s], 0.34305
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND PSZ-AC UNITARY AC, Design Size Heating Supply Air Flow Rate [m3/s], 0.34305
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND PSZ-AC UNITARY AC, Design Size Cooling Supply Air Flow Rate [m3/s], 0.34305
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND PSZ-AC UNITARY AC, User-Specified No Load Supply Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND PSZ-AC UNITARY AC, Design Size Nominal Cooling Capacity [W], 5678.69139
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND PSZ-AC UNITARY AC, Design Size Nominal Heating Capacity [W], 13475.20400
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND PSZ-AC UNITARY AC, Design Size Maximum Supply Air Temperature [C], 50.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND PSZ-AC UNITARY AC, User-Specified Maximum Supply Air Temperature [C], 80.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND PSZ-AC UNITARY AC, User-Specified Supplemental Heating Coil Nominal Capacity [W], 0.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND PSZ-AC UNITARY AC, Fraction of Supply Air Flow That Goes Through the Controlling Zone, 1.00000
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 22KBTU/HR 9.7SEER, Design Size Rated Air Flow Rate [m3/s], 0.34305
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 22KBTU/HR 9.7SEER, Design Size Gross Rated Total Cooling Capacity [W], 5678.69139
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 22KBTU/HR 9.7SEER, Design Size Gross Rated Sensible Heat Ratio, 0.80066
+! <DX Cooling Coil Standard Rating Information>, Component Type, Component Name, Standard Rating (Net) Cooling Capacity {W}, Standard Rated Net COP {W/W}, EER {Btu/W-h}, SEER User {Btu/W-h}, SEER Standard {Btu/W-h}, IEER {Btu/W-h}
+ DX Cooling Coil Standard Rating Information, Coil:Cooling:DX:SingleSpeed, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 22KBTU/HR 9.7SEER, 5404.4, 2.61, 8.92, 9.40, 8.94, 8.96
+ DX Cooling Coil Standard Rating Information, Coil:Cooling:DX:SingleSpeed, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 22KBTU/HR 9.7SEER, 5349.1, 2.52, 8.60, 9.05, 8.85,  
+ Component Sizing Information, Coil:Heating:Fuel, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND PSZ-AC GAS HTG COIL 50KBTU/HR 0.8 THERMAL EFF, Design Size Nominal Capacity [W], 13475.20400
+ Component Sizing Information, Fan:OnOff, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND PSZ-AC FAN, Design Size Maximum Flow Rate [m3/s], 0.34305
+ Component Sizing Information, Coil:Heating:Electric, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND PSZ-AC NO HEAT, User-Specified Nominal Capacity [W], 0.00000
+ Component Sizing Information, Controller:OutdoorAir, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER, Maximum Outdoor Air Flow Rate [m3/s], 0.15227
+ Component Sizing Information, Controller:OutdoorAir, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER, Minimum Outdoor Air Flow Rate [m3/s], 1.06188E-002
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND PSZ-AC UNITARY AC, Design Size Supply Air Flow Rate [m3/s], 0.15227
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND PSZ-AC UNITARY AC, Design Size Heating Supply Air Flow Rate [m3/s], 0.15227
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND PSZ-AC UNITARY AC, Design Size Cooling Supply Air Flow Rate [m3/s], 0.15227
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND PSZ-AC UNITARY AC, User-Specified No Load Supply Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND PSZ-AC UNITARY AC, Design Size Nominal Cooling Capacity [W], 2520.58970
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND PSZ-AC UNITARY AC, Design Size Nominal Heating Capacity [W], 5758.54780
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND PSZ-AC UNITARY AC, Design Size Maximum Supply Air Temperature [C], 50.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND PSZ-AC UNITARY AC, User-Specified Maximum Supply Air Temperature [C], 80.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND PSZ-AC UNITARY AC, User-Specified Supplemental Heating Coil Nominal Capacity [W], 0.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND PSZ-AC UNITARY AC, Fraction of Supply Air Flow That Goes Through the Controlling Zone, 1.00000
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 9KBTU/HR 9.7SEER, Design Size Rated Air Flow Rate [m3/s], 0.15227
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 9KBTU/HR 9.7SEER, Design Size Gross Rated Total Cooling Capacity [W], 2520.58970
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 9KBTU/HR 9.7SEER, Design Size Gross Rated Sensible Heat Ratio, 0.80066
+ DX Cooling Coil Standard Rating Information, Coil:Cooling:DX:SingleSpeed, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 9KBTU/HR 9.7SEER, 2398.8, 2.61, 8.92, 9.40, 8.94, 8.96
+ DX Cooling Coil Standard Rating Information, Coil:Cooling:DX:SingleSpeed, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 9KBTU/HR 9.7SEER, 2374.3, 2.52, 8.60, 9.05, 8.85,  
+ Component Sizing Information, Coil:Heating:Fuel, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND PSZ-AC GAS HTG COIL 20KBTU/HR 0.8 THERMAL EFF, Design Size Nominal Capacity [W], 5758.54780
+ Component Sizing Information, Fan:OnOff, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND PSZ-AC FAN, Design Size Maximum Flow Rate [m3/s], 0.15227
+ Component Sizing Information, Coil:Heating:Electric, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND PSZ-AC NO HEAT, User-Specified Nominal Capacity [W], 0.00000
+ Component Sizing Information, Controller:OutdoorAir, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER, Maximum Outdoor Air Flow Rate [m3/s], 0.14214
+ Component Sizing Information, Controller:OutdoorAir, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER, Minimum Outdoor Air Flow Rate [m3/s], 1.06188E-002
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND PSZ-AC UNITARY AC, Design Size Supply Air Flow Rate [m3/s], 0.14214
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND PSZ-AC UNITARY AC, Design Size Heating Supply Air Flow Rate [m3/s], 0.14214
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND PSZ-AC UNITARY AC, Design Size Cooling Supply Air Flow Rate [m3/s], 0.14214
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND PSZ-AC UNITARY AC, User-Specified No Load Supply Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND PSZ-AC UNITARY AC, Design Size Nominal Cooling Capacity [W], 2352.92217
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND PSZ-AC UNITARY AC, Design Size Nominal Heating Capacity [W], 5404.44956
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND PSZ-AC UNITARY AC, Design Size Maximum Supply Air Temperature [C], 50.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND PSZ-AC UNITARY AC, User-Specified Maximum Supply Air Temperature [C], 80.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND PSZ-AC UNITARY AC, User-Specified Supplemental Heating Coil Nominal Capacity [W], 0.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND PSZ-AC UNITARY AC, Fraction of Supply Air Flow That Goes Through the Controlling Zone, 1.00000
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 8KBTU/HR 9.7SEER, Design Size Rated Air Flow Rate [m3/s], 0.14214
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 8KBTU/HR 9.7SEER, Design Size Gross Rated Total Cooling Capacity [W], 2352.92217
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 8KBTU/HR 9.7SEER, Design Size Gross Rated Sensible Heat Ratio, 0.80066
+ DX Cooling Coil Standard Rating Information, Coil:Cooling:DX:SingleSpeed, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 8KBTU/HR 9.7SEER, 2239.3, 2.61, 8.92, 9.40, 8.94, 8.96
+ DX Cooling Coil Standard Rating Information, Coil:Cooling:DX:SingleSpeed, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 8KBTU/HR 9.7SEER, 2216.4, 2.52, 8.60, 9.05, 8.85,  
+ Component Sizing Information, Coil:Heating:Fuel, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND PSZ-AC GAS HTG COIL 19KBTU/HR 0.8 THERMAL EFF, Design Size Nominal Capacity [W], 5404.44956
+ Component Sizing Information, Fan:OnOff, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND PSZ-AC FAN, Design Size Maximum Flow Rate [m3/s], 0.14214
+ Component Sizing Information, Coil:Heating:Electric, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND PSZ-AC NO HEAT, User-Specified Nominal Capacity [W], 0.00000
+ Component Sizing Information, Controller:OutdoorAir, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER, Maximum Outdoor Air Flow Rate [m3/s], 0.20876
+ Component Sizing Information, Controller:OutdoorAir, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER, Minimum Outdoor Air Flow Rate [m3/s], 5.81671E-002
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND PSZ-AC UNITARY AC, Design Size Supply Air Flow Rate [m3/s], 0.20876
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND PSZ-AC UNITARY AC, Design Size Heating Supply Air Flow Rate [m3/s], 0.20876
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND PSZ-AC UNITARY AC, Design Size Cooling Supply Air Flow Rate [m3/s], 0.20876
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND PSZ-AC UNITARY AC, User-Specified No Load Supply Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND PSZ-AC UNITARY AC, Design Size Nominal Cooling Capacity [W], 3455.74125
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND PSZ-AC UNITARY AC, Design Size Nominal Heating Capacity [W], 9679.85047
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND PSZ-AC UNITARY AC, Design Size Maximum Supply Air Temperature [C], 50.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND PSZ-AC UNITARY AC, User-Specified Maximum Supply Air Temperature [C], 80.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND PSZ-AC UNITARY AC, User-Specified Supplemental Heating Coil Nominal Capacity [W], 0.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND PSZ-AC UNITARY AC, Fraction of Supply Air Flow That Goes Through the Controlling Zone, 1.00000
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 16KBTU/HR 9.7SEER, Design Size Rated Air Flow Rate [m3/s], 0.20876
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 16KBTU/HR 9.7SEER, Design Size Gross Rated Total Cooling Capacity [W], 3455.74125
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 16KBTU/HR 9.7SEER, Design Size Gross Rated Sensible Heat Ratio, 0.80066
+ DX Cooling Coil Standard Rating Information, Coil:Cooling:DX:SingleSpeed, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 16KBTU/HR 9.7SEER, 3288.8, 2.61, 8.92, 9.40, 8.94, 8.96
+ DX Cooling Coil Standard Rating Information, Coil:Cooling:DX:SingleSpeed, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 16KBTU/HR 9.7SEER, 3255.2, 2.52, 8.60, 9.05, 8.85,  
+ Component Sizing Information, Coil:Heating:Fuel, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND PSZ-AC GAS HTG COIL 42KBTU/HR 0.8 THERMAL EFF, Design Size Nominal Capacity [W], 9679.85047
+ Component Sizing Information, Fan:OnOff, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND PSZ-AC FAN, Design Size Maximum Flow Rate [m3/s], 0.20876
+ Component Sizing Information, Coil:Heating:Electric, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND PSZ-AC NO HEAT, User-Specified Nominal Capacity [W], 0.00000
+ Component Sizing Information, Controller:OutdoorAir, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER, Maximum Outdoor Air Flow Rate [m3/s], 0.17050
+ Component Sizing Information, Controller:OutdoorAir, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER, Minimum Outdoor Air Flow Rate [m3/s], 1.70591E-002
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND PSZ-AC UNITARY AC, Design Size Supply Air Flow Rate [m3/s], 0.17050
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND PSZ-AC UNITARY AC, Design Size Heating Supply Air Flow Rate [m3/s], 0.17050
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND PSZ-AC UNITARY AC, Design Size Cooling Supply Air Flow Rate [m3/s], 0.17050
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND PSZ-AC UNITARY AC, User-Specified No Load Supply Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND PSZ-AC UNITARY AC, Design Size Nominal Cooling Capacity [W], 2822.31150
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND PSZ-AC UNITARY AC, Design Size Nominal Heating Capacity [W], 6658.68451
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND PSZ-AC UNITARY AC, Design Size Maximum Supply Air Temperature [C], 50.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND PSZ-AC UNITARY AC, User-Specified Maximum Supply Air Temperature [C], 80.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND PSZ-AC UNITARY AC, User-Specified Supplemental Heating Coil Nominal Capacity [W], 0.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND PSZ-AC UNITARY AC, Fraction of Supply Air Flow That Goes Through the Controlling Zone, 1.00000
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 10KBTU/HR 9.7SEER, Design Size Rated Air Flow Rate [m3/s], 0.17050
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 10KBTU/HR 9.7SEER, Design Size Gross Rated Total Cooling Capacity [W], 2822.31150
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 10KBTU/HR 9.7SEER, Design Size Gross Rated Sensible Heat Ratio, 0.80066
+ DX Cooling Coil Standard Rating Information, Coil:Cooling:DX:SingleSpeed, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 10KBTU/HR 9.7SEER, 2686.0, 2.61, 8.92, 9.40, 8.94, 8.96
+ DX Cooling Coil Standard Rating Information, Coil:Cooling:DX:SingleSpeed, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 10KBTU/HR 9.7SEER, 2658.5, 2.52, 8.60, 9.05, 8.85,  
+ Component Sizing Information, Coil:Heating:Fuel, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND PSZ-AC GAS HTG COIL 24KBTU/HR 0.8 THERMAL EFF, Design Size Nominal Capacity [W], 6658.68451
+ Component Sizing Information, Fan:OnOff, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND PSZ-AC FAN, Design Size Maximum Flow Rate [m3/s], 0.17050
+ Component Sizing Information, Coil:Heating:Electric, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND PSZ-AC NO HEAT, User-Specified Nominal Capacity [W], 0.00000
+ Component Sizing Information, Controller:OutdoorAir, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER, Maximum Outdoor Air Flow Rate [m3/s], 0.16648
+ Component Sizing Information, Controller:OutdoorAir, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER, Minimum Outdoor Air Flow Rate [m3/s], 1.70591E-002
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND PSZ-AC UNITARY AC, Design Size Supply Air Flow Rate [m3/s], 0.16648
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND PSZ-AC UNITARY AC, Design Size Heating Supply Air Flow Rate [m3/s], 0.16648
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND PSZ-AC UNITARY AC, Design Size Cooling Supply Air Flow Rate [m3/s], 0.16648
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND PSZ-AC UNITARY AC, User-Specified No Load Supply Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND PSZ-AC UNITARY AC, Design Size Nominal Cooling Capacity [W], 2755.80847
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND PSZ-AC UNITARY AC, Design Size Nominal Heating Capacity [W], 6518.26424
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND PSZ-AC UNITARY AC, Design Size Maximum Supply Air Temperature [C], 50.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND PSZ-AC UNITARY AC, User-Specified Maximum Supply Air Temperature [C], 80.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND PSZ-AC UNITARY AC, User-Specified Supplemental Heating Coil Nominal Capacity [W], 0.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND PSZ-AC UNITARY AC, Fraction of Supply Air Flow That Goes Through the Controlling Zone, 1.00000
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 10KBTU/HR 9.7SEER, Design Size Rated Air Flow Rate [m3/s], 0.16648
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 10KBTU/HR 9.7SEER, Design Size Gross Rated Total Cooling Capacity [W], 2755.80847
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 10KBTU/HR 9.7SEER, Design Size Gross Rated Sensible Heat Ratio, 0.80066
+ DX Cooling Coil Standard Rating Information, Coil:Cooling:DX:SingleSpeed, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 10KBTU/HR 9.7SEER, 2622.7, 2.61, 8.92, 9.40, 8.94, 8.96
+ DX Cooling Coil Standard Rating Information, Coil:Cooling:DX:SingleSpeed, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 10KBTU/HR 9.7SEER, 2595.9, 2.52, 8.60, 9.05, 8.85,  
+ Component Sizing Information, Coil:Heating:Fuel, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND PSZ-AC GAS HTG COIL 23KBTU/HR 0.8 THERMAL EFF, Design Size Nominal Capacity [W], 6518.26424
+ Component Sizing Information, Fan:OnOff, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND PSZ-AC FAN, Design Size Maximum Flow Rate [m3/s], 0.16648
+ Component Sizing Information, Coil:Heating:Electric, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND PSZ-AC NO HEAT, User-Specified Nominal Capacity [W], 0.00000
+ Component Sizing Information, Controller:OutdoorAir, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER, Maximum Outdoor Air Flow Rate [m3/s], 0.14400
+ Component Sizing Information, Controller:OutdoorAir, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER, Minimum Outdoor Air Flow Rate [m3/s], 3.62075E-002
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND PSZ-AC UNITARY AC, Design Size Supply Air Flow Rate [m3/s], 0.14400
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND PSZ-AC UNITARY AC, Design Size Heating Supply Air Flow Rate [m3/s], 0.14400
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND PSZ-AC UNITARY AC, Design Size Cooling Supply Air Flow Rate [m3/s], 0.14400
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND PSZ-AC UNITARY AC, User-Specified No Load Supply Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND PSZ-AC UNITARY AC, Design Size Nominal Cooling Capacity [W], 2383.69120
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND PSZ-AC UNITARY AC, Design Size Nominal Heating Capacity [W], 6517.72391
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND PSZ-AC UNITARY AC, Design Size Maximum Supply Air Temperature [C], 50.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND PSZ-AC UNITARY AC, User-Specified Maximum Supply Air Temperature [C], 80.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND PSZ-AC UNITARY AC, User-Specified Supplemental Heating Coil Nominal Capacity [W], 0.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND PSZ-AC UNITARY AC, Fraction of Supply Air Flow That Goes Through the Controlling Zone, 1.00000
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 10KBTU/HR 9.7SEER, Design Size Rated Air Flow Rate [m3/s], 0.14400
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 10KBTU/HR 9.7SEER, Design Size Gross Rated Total Cooling Capacity [W], 2383.69120
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 10KBTU/HR 9.7SEER, Design Size Gross Rated Sensible Heat Ratio, 0.80066
+ DX Cooling Coil Standard Rating Information, Coil:Cooling:DX:SingleSpeed, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 10KBTU/HR 9.7SEER, 2268.5, 2.61, 8.92, 9.40, 8.94, 8.96
+ DX Cooling Coil Standard Rating Information, Coil:Cooling:DX:SingleSpeed, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 10KBTU/HR 9.7SEER, 2245.3, 2.52, 8.60, 9.05, 8.85,  
+ Component Sizing Information, Coil:Heating:Fuel, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND PSZ-AC GAS HTG COIL 27KBTU/HR 0.8 THERMAL EFF, Design Size Nominal Capacity [W], 6517.72391
+ Component Sizing Information, Fan:OnOff, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND PSZ-AC FAN, Design Size Maximum Flow Rate [m3/s], 0.14400
+ Component Sizing Information, Coil:Heating:Electric, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND PSZ-AC NO HEAT, User-Specified Nominal Capacity [W], 0.00000
+ Component Sizing Information, Controller:OutdoorAir, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER, Maximum Outdoor Air Flow Rate [m3/s], 0.11312
+ Component Sizing Information, Controller:OutdoorAir, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER, Minimum Outdoor Air Flow Rate [m3/s], 1.06188E-002
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND PSZ-AC UNITARY AC, Design Size Supply Air Flow Rate [m3/s], 0.11312
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND PSZ-AC UNITARY AC, Design Size Heating Supply Air Flow Rate [m3/s], 0.11312
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND PSZ-AC UNITARY AC, Design Size Cooling Supply Air Flow Rate [m3/s], 0.11312
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND PSZ-AC UNITARY AC, User-Specified No Load Supply Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND PSZ-AC UNITARY AC, Design Size Nominal Cooling Capacity [W], 1872.54399
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND PSZ-AC UNITARY AC, Design Size Nominal Heating Capacity [W], 4389.93726
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND PSZ-AC UNITARY AC, Design Size Maximum Supply Air Temperature [C], 50.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND PSZ-AC UNITARY AC, User-Specified Maximum Supply Air Temperature [C], 80.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND PSZ-AC UNITARY AC, User-Specified Supplemental Heating Coil Nominal Capacity [W], 0.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND PSZ-AC UNITARY AC, Fraction of Supply Air Flow That Goes Through the Controlling Zone, 1.00000
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 7KBTU/HR 9.7SEER, Design Size Rated Air Flow Rate [m3/s], 0.11312
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 7KBTU/HR 9.7SEER, Design Size Gross Rated Total Cooling Capacity [W], 1872.54399
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 7KBTU/HR 9.7SEER, Design Size Gross Rated Sensible Heat Ratio, 0.80066
+ DX Cooling Coil Standard Rating Information, Coil:Cooling:DX:SingleSpeed, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 7KBTU/HR 9.7SEER, 1782.1, 2.61, 8.92, 9.40, 8.94, 8.96
+ DX Cooling Coil Standard Rating Information, Coil:Cooling:DX:SingleSpeed, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 7KBTU/HR 9.7SEER, 1763.9, 2.52, 8.60, 9.05, 8.85,  
+ Component Sizing Information, Coil:Heating:Fuel, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND PSZ-AC GAS HTG COIL 15KBTU/HR 0.8 THERMAL EFF, Design Size Nominal Capacity [W], 4389.93726
+ Component Sizing Information, Fan:OnOff, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND PSZ-AC FAN, Design Size Maximum Flow Rate [m3/s], 0.11312
+ Component Sizing Information, Coil:Heating:Electric, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND PSZ-AC NO HEAT, User-Specified Nominal Capacity [W], 0.00000
+ Component Sizing Information, Controller:OutdoorAir, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER, Maximum Outdoor Air Flow Rate [m3/s], 0.11018
+ Component Sizing Information, Controller:OutdoorAir, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND PSZ-AC OA SYSTEM CONTROLLER, Minimum Outdoor Air Flow Rate [m3/s], 1.06188E-002
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND PSZ-AC UNITARY AC, Design Size Supply Air Flow Rate [m3/s], 0.11018
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND PSZ-AC UNITARY AC, Design Size Heating Supply Air Flow Rate [m3/s], 0.11018
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND PSZ-AC UNITARY AC, Design Size Cooling Supply Air Flow Rate [m3/s], 0.11018
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND PSZ-AC UNITARY AC, User-Specified No Load Supply Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND PSZ-AC UNITARY AC, Design Size Nominal Cooling Capacity [W], 1823.80877
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND PSZ-AC UNITARY AC, Design Size Nominal Heating Capacity [W], 4287.01281
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND PSZ-AC UNITARY AC, Design Size Maximum Supply Air Temperature [C], 50.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND PSZ-AC UNITARY AC, User-Specified Maximum Supply Air Temperature [C], 80.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND PSZ-AC UNITARY AC, User-Specified Supplemental Heating Coil Nominal Capacity [W], 0.00000
+ Component Sizing Information, AirLoopHVAC:UnitarySystem, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND PSZ-AC UNITARY AC, Fraction of Supply Air Flow That Goes Through the Controlling Zone, 1.00000
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 6KBTU/HR 9.7SEER, Design Size Rated Air Flow Rate [m3/s], 0.11018
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 6KBTU/HR 9.7SEER, Design Size Gross Rated Total Cooling Capacity [W], 1823.80877
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 6KBTU/HR 9.7SEER, Design Size Gross Rated Sensible Heat Ratio, 0.80066
+ DX Cooling Coil Standard Rating Information, Coil:Cooling:DX:SingleSpeed, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 6KBTU/HR 9.7SEER, 1735.7, 2.61, 8.92, 9.40, 8.94, 8.96
+ DX Cooling Coil Standard Rating Information, Coil:Cooling:DX:SingleSpeed, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND PSZ-AC 1SPD DX AC CLG COIL 6KBTU/HR 9.7SEER, 1718.0, 2.52, 8.60, 9.05, 8.85,  
+ Component Sizing Information, Coil:Heating:Fuel, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND PSZ-AC GAS HTG COIL 15KBTU/HR 0.8 THERMAL EFF, Design Size Nominal Capacity [W], 4287.01281
+ Component Sizing Information, Fan:OnOff, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND PSZ-AC FAN, Design Size Maximum Flow Rate [m3/s], 0.11018
+ Component Sizing Information, Coil:Heating:Electric, ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND PSZ-AC NO HEAT, User-Specified Nominal Capacity [W], 0.00000
+Water Heater Information,WaterHeater:Mixed,40GAL ELECTRICITY WATER HEATER - 40KBTU/HR 1.0 THERM EFF 1.0 THERM EFF,0.1514,11722.8,3.752,0.4491
+Water Heater Information,WaterHeater:Mixed,40GAL NATURALGAS WATER HEATER - 3KBTU/HR 0.82 THERM EFF,0.1514,736.5,0.201,1.2118
+ Component Sizing Information, PlantLoop, MAIN SERVICE WATER LOOP, Maximum Loop Flow Rate [m3/s], 0.00000
+ Component Sizing Information, PlantLoop, MAIN SERVICE WATER LOOP, Plant Loop Volume [m3], 0.00000
+ Component Sizing Information, Pump:VariableSpeed, MAIN SERVICE WATER LOOP WATER MAINS PRESSURE DRIVEN, Design Flow Rate [m3/s], 0.00000
+ Component Sizing Information, Pump:VariableSpeed, MAIN SERVICE WATER LOOP WATER MAINS PRESSURE DRIVEN, Design Power Consumption [W], 0.00000
+ Component Sizing Information, WaterHeater:Mixed, 40GAL ELECTRICITY WATER HEATER - 40KBTU/HR 1.0 THERM EFF 1.0 THERM EFF, Use Side Design Flow Rate [m3/s], 0.00000
+ Component Sizing Information, PlantLoop, OFFICE SHARED SERVICE WATER LOOP, Maximum Loop Flow Rate [m3/s], 2.51684E-006
+ Component Sizing Information, PlantLoop, OFFICE SHARED SERVICE WATER LOOP, Plant Loop Volume [m3], 3.02021E-004
+ Component Sizing Information, Pump:ConstantSpeed, OFFICE SHARED SERVICE WATER LOOP CIRCULATOR PUMP, Design Flow Rate [m3/s], 2.51684E-006
+ Component Sizing Information, Pump:ConstantSpeed, OFFICE SHARED SERVICE WATER LOOP CIRCULATOR PUMP, Design Power Consumption [W], 0.11691
+ Component Sizing Information, WaterHeater:Mixed, 40GAL NATURALGAS WATER HEATER - 3KBTU/HR 0.82 THERM EFF, Use Side Design Flow Rate [m3/s], 2.51684E-006
+! <Environment>,Environment Name,Environment Type, Start Date, End Date, Start DayOfWeek, Duration {#days}, Source:Start DayOfWeek,  Use Daylight Saving, Use Holidays, Apply Weekend Holiday Rule,  Use Rain Values, Use Snow Values, Sky Temperature Model
+! <Environment:Special Days>, Special Day Name, Special Day Type, Source, Start Date, Duration {#days}
+! <Environment:Daylight Saving>, Daylight Saving Indicator, Source, Start Date, End Date
+! <Environment:WarmupDays>, NumberofWarmupDays
+Environment,RUN PERIOD 1,WeatherFileRunPeriod,01/01/2006,12/31/2006,Sunday,365,Use RunPeriod Specified Day,No,No,No,Yes,Yes,Clark and Allen
+Environment:Daylight Saving,Yes,InputFile,03/12,11/05
+Environment:WarmupDays,  7
+! <Tabular Report>,Style,Unit Conversion
+Tabular Report,HTML,None
+! <Warmup Convergence Information>,Zone Name,Environment Type/Name,Average Warmup Temperature Difference {deltaC},Std Dev Warmup Temperature Difference {deltaC},Max Temperature Pass/Fail Convergence,Min Temperature Pass/Fail Convergence,Average Warmup Load Difference {W},Std Dev Warmup Load Difference {W},Heating Load Pass/Fail Convergence,Cooling Load Pass/Fail Convergence
+ Warmup Convergence Information,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A  - STORY GROUND,RunPeriod: RUN PERIOD 1,2.5165055225E-015,2.4006389084E-015,Pass,Pass,0.3337736628,0.4660207633,Pass,Pass
+ Warmup Convergence Information,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_A - STORY GROUND,RunPeriod: RUN PERIOD 1,1.3322676296E-015,1.7199501140E-015,Pass,Pass,0.1686168048,0.1077147521,Pass,Pass
+ Warmup Convergence Information,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 A END_B - STORY GROUND,RunPeriod: RUN PERIOD 1,2.5165055225E-015,2.4006389084E-015,Pass,Pass,0.1866326781,0.1644814641,Pass,Pass
+ Warmup Convergence Information,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B  - STORY GROUND,RunPeriod: RUN PERIOD 1,1.7763568394E-015,2.2932668186E-015,Pass,Pass,0.2198582105,0.3635447565,Pass,Pass
+ Warmup Convergence Information,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_A - STORY GROUND,RunPeriod: RUN PERIOD 1,2.5165055225E-015,1.9129657833E-015,Pass,Pass,0.1106728605,8.0523409639E-002,Pass,Pass
+ Warmup Convergence Information,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 B END_B - STORY GROUND,RunPeriod: RUN PERIOD 1,1.9243865760E-015,2.7093890417E-015,Pass,Pass,0.1256260289,8.5118853559E-002,Pass,Pass
+ Warmup Convergence Information,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C  - STORY GROUND,RunPeriod: RUN PERIOD 1,3.5527136788E-015,2.2932668186E-015,Pass,Pass,8.8531119601E-002,6.6719861305E-002,Pass,Pass
+ Warmup Convergence Information,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_A - STORY GROUND,RunPeriod: RUN PERIOD 1,2.3684757859E-015,2.2155062299E-015,Pass,Pass,0.1101787954,7.6213090923E-002,Pass,Pass
+ Warmup Convergence Information,ZONE OFFICE WHOLEBUILDING - SM OFFICE 2 C END_B - STORY GROUND,RunPeriod: RUN PERIOD 1,3.2566542056E-015,2.8856307994E-015,Pass,Pass,0.1057001894,8.0013011285E-002,Pass,Pass
+! <Program Control Information:Threads/Parallel Sims>, Threading Supported,Maximum Number of Threads, Env Set Threads (OMP_NUM_THREADS), EP Env Set Threads (EP_OMP_NUM_THREADS), IDF Set Threads, Number of Threads Used (Interior Radiant Exchange), Number Nominal Surfaces, Number Parallel Sims
+Program Control:Threads/Parallel Sims, No,1, N/A, N/A, N/A, N/A, N/A, N/A
+End of Data
